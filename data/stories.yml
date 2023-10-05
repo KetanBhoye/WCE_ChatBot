@@ -1,0 +1,87 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: college details
+  steps:
+  - intent: clg_name
+  - action: utter_clg_name
+  - intent: clg_degrees
+  - action: utter_clg_degrees
+  - intent: clg_academic
+  - action: utter_clg_academic
+
+- story: college_info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_college
+  - action: utter_response_about_college
+
+- story: college_founders
+  steps:
+  - intent: ask_about_founders
+  - action: utter_response_about_college_founders
+
+- story: how_to_reach
+  steps:
+  - intent: College_reach_options
+  - action: utter_response_college_reach
+
+- story: CSE_info
+  steps:
+  - intent: CSE_Dept
+  - action: utter_response_CSE_Dept
+
+- story: CSE_programs_offered
+  steps:
+  - intent: CSE_programs
+  - action: utter_response_CSE_programs
+
+- story: CSE_vision_mission_story
+  steps:
+    - intent: CSE_vision_mission
+    - action: utter_response_CSE_vision_mission
+
+- story: CSE_Syllabus_story
+  steps:
+    - intent: CSE_syllabus
+    - action: utter_response_CSE_syllabus
+
+- story: CSE_faculty_story
+  steps:
+    - intent: CSE_faculty
+    - action: utter_response_CSE_faculty
+
+- story: CSE_hod_story
+  steps:
+    - intent: CSE_hod
+    - action: utter_response_CSE_hod
+

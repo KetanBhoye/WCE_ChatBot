@@ -1,0 +1,170 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: clg_name
+  examples: |
+    - what is college name?
+    - Can you tell me the name of the college?
+    - What's the college called?
+
+- intent: clg_degrees
+  examples: |
+    - Tell me details about educational degrees in college 
+    - How many degrees are typically offered at a college?
+    - What degree programs does this college offer?
+    - What are the options for degrees at this institution?
+    - Could you list the different degree types offered by this college?
+
+- intent: clg_academic
+  examples: |
+    - Can you provide college academic details?
+    - Could you share your college academic information?
+    - Are you able to share your college academic records?
+
+- intent: ask_about_college
+  examples: |
+    - Tell me about Walchand College of Engineering.
+    - WCE
+    - What can you tell me about this college?
+    - Describe the college.
+
+- intent: ask_about_founders
+  examples: |
+    - Who founded the college?
+    - Tell me about the founders.
+    - Who are the college's founders?
+
+- intent: College_reach_options
+  examples: |
+    - how to reach college?
+    - ways to reach college
+    - what are travelling options to reach college.
+
+- intent: CSE_Dept
+  examples: |
+    -CSE Department?
+    -Tell me about CSE department?
+    -information about CSE department?
+
+
+- intent: CSE_programs
+  examples: |
+    -what programs offered by CSE Department
+    -programs offered by cse department
+
+
+- intent: CSE_vision_mission
+  examples: |
+    -Vision and mission of CSE department
+    -Vision and mission of CSE
+    -What is CSE department's vision
+    -What is CSE Department's mission
+
+- intent: CSE_syllabus
+  examples: |
+    - where is the cse syllabus.
+    - CSE syllabus.
+    - CSE curriculum
+    - Computer Science and Engineering Syllabus or curriculum
+
+- intent: CSE_faculty
+  examples: |
+    - who are cse faculties
+    - CSE faculties
+    - CSE Faculty
+
+- intent: CSE_hod
+  examples: |
+    - who is hod of cse?
+    - cse hod
+    - contact of cse hod
+    - contact cse hod

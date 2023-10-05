@@ -1,0 +1,103 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - clg_name
+  - clg_degrees
+  - clg_academic
+  - ask_about_college
+  - ask_about_founders
+  - College_reach_options
+  - CSE_Dept
+  - CSE_programs
+  - CSE_vision_mission
+  - CSE_syllabus
+  - CSE_faculty
+  - CSE_hod
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_clg_name:
+  - text: "The college name is Walchand College of Engineering, Sangli, and it is commonly referred to as WCE for short."
+
+  utter_clg_degrees:
+  - text: "The college provides courses at three levels: diploma, undergraduate and postgraduate courses. WCE Sangli course list consists of 4 diploma, 6 UG and 10 PG programmes.
+  The college offers Bachelor of Technology (B.Tech) and Master of Technology (M.Tech.) programmes in 4 and 10 specialisations respectively. The duration of Walchand College of Engineering Sangli courses ranges from 2 years to 4 years. "
+
+  utter_clg_academic:
+  - text: "For acadamic details you can visit at - https://www.walchandsangli.ac.in/academics2324.asp"
+
+  utter_response_about_college:
+    - text: "Walchand College of Engineering (WCE), situated in Sangli, Maharashtra, India, was established in 1947. It offers a wide range of undergraduate and postgraduate engineering programs in branches such as Civil Engineering, Computer Science and Engineering, Electrical Engineering, Electronics Engineering, Information Technology, and Mechanical Engineering. With a sprawling 90-acre campus known for its greenery and wildlife, modern facilities, and notable alumni, WCE continues to be a leading institution dedicated to delivering quality engineering education.
+    For more info, you can visit [here](https://en.wikipedia.org/wiki/Walchand_College_of_Engineering,_Sangli)."
+
+  utter_response_about_college_founders:
+    - text: "Walchand College of Engineering in Sangli, Maharashtra, was founded by three distinguished individuals: Walchand Hirachand, a renowned industrialist; Dhondumama Sathe, a freedom fighter and education advocate; and A. K. Dani, a dedicated leader. Their shared vision of promoting education and technical skills led to the establishment of the college in 1947. Today, the institution continues to honor their legacy by providing high-quality education and contributing to the advancement of technical education in India."
+
+  utter_response_college_reach:
+    - text: "By Road: Sangli has good road connections with nearby cities, making it accessible by private vehicles, taxis, or cabs.
+    By Train: The nearest major railway station is Sangli Railway Station, offering connections to major cities. After arriving, you can hire a taxi or use local transport to reach the college.
+    By Air: The nearest airport is Kolhapur Airport (around 60 kilometers away), with limited domestic flights. Pune International Airport (about 230 kilometers) is another option, reachable by taxi or other transportation means.
+    By Bus: Sangli has a well-connected bus station with state-run and private buses. From Sangli, you can use local transport or taxis to reach the college campus in Vishrambag."
+
+
+  utter_response_CSE_Dept:
+    - text: "The Department of Computer Science and Engineering, established in 1986, offers undergraduate and postgraduate programs with an intake of 120 and 18 students, respectively. It has a history of producing accomplished engineers, recognized for their contributions to society. The department boasts well-equipped labs, experienced faculty, and accreditation from the National Board of Accreditation. Additionally, it serves as a recognized research center for doctoral programs and has received grants from government agencies such as AICTE, DST, and DRDO since 1986.
+    You can visit the website for more info [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering)."
+
+  utter_response_CSE_programs:
+    - text: "The Department of Computer Science and Engineering at Walchand College of Engineering offers two main programs: a Bachelor of Technology (B. Tech) in Computer Science and Engineering and a Master of Technology (M. Tech) in Computer Science and Engineering. These programs provide students with a strong foundation in computer science and engineering, catering to both undergraduate and postgraduate levels of education."
+
+  utter_response_CSE_vision_mission:
+    - text: "Vision: To produce capable computer science & engineering graduates with an aptitude for research and leadership.
+    Mission:
+    1. To promote excellence in CSE education through relevant academic curricula and innovative teaching-learning processes.
+    2. To offer different opportunities to the students for the development of professional skills.
+    3. To nurture critical thinking and creativity in the students.
+    4. To inculcate in the students a lifelong learning attitude and sensitivity towards society and the environment."
+
+  utter_response_CSE_syllabus:
+    - text: "Syllabus of CSE: Third Year B.Tech. Computer Science and Engineering [here](https://images.dreamkasper.com/walchandsangli/documents/Computer%20Sc1679307350555.pdf)"
+
+  utter_response_CSE_faculty:
+    - text: "The Department of Computer Science and Engineering at Walchand College of Engineering comprises a dedicated faculty team with diverse qualifications and research expertise.
+    Dr. N. L. Gavankar (Assistant Professor) Qualifications: Ph.D., M.E. in CSE Research Area: Specializes in Image Processing, Remote Sensing, and GIS.
+    Dr. B.F. Momin (Associate Professor) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Specializes in Pattern Recognition, Soft Computing, Data Mining, AI & Machine Learning, and IoT.
+    Mr. A.R. Surve (Assistant Professor) Qualifications: Pursuing Ph.D. in CSE, M.E. in CSE Research Area: Focuses on IoT-enabled Context-Aware Smart Computing.
+    Mr. M. K. Chavan (Assistant Professor) Qualifications: M.E. in CSE Research Area: Focused on Cryptography and Network Security, as well as Computer Network.
+    Ms. P. D. Mundada (Assistant Professor) Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE Research Area: Research interests include Image Processing, AI, Machine Learning, and Deep Learning.
+    Mr. S. D. Pujari (Assistant Professor) Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE Research Area: Focuses on Data Mining and Machine Learning.
+    Dr. M. A. Shah (H.O.D. CSE) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking."
+
+  utter_response_CSE_hod:
+    - text: "Dr. Medha A. Shah serves as the Head of the Department of Computer Science and Engineering at Walchand College of Engineering, Sangli. You can contact her at 9423872296 or via email at medha.shah@walchandsangli.ac.in. Her leadership plays a crucial role in the department's academic and research endeavors, and you can find more information on the department's website at Department of Computer Science and Engineering. Her office can be reached at 0233-2303115."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
