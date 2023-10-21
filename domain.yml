@@ -36,6 +36,7 @@ intents:
 
   - ETC_info
   - ETC_hod
+  - ETC_Faculty
   - ETC_programs
   - ETC_visions
   - ETC_missions
@@ -44,6 +45,7 @@ intents:
 
   - ELE_info
   - ELE_hod
+  - ELE_Faculty
   - ELE_programs
   - ELE_visions
   - ELE_missions
@@ -52,6 +54,7 @@ intents:
 
   - CE_info
   - CE_hod
+  - CE_Faculty
   - CE_programs
   - CE_visions
   - CE_missions
@@ -59,6 +62,7 @@ intents:
 
   - ME_info
   - ME_hod
+  - ME_Faculty
   - ME_programs
   - ME_visions
   - ME_missions
@@ -403,7 +407,96 @@ responses:
           - Email: ramchandra.hasbe@walchandsangli.ac.in
           - Website: [https://images.dreamkasper.com:8087/pages/el_rps](https://images.dreamkasper.com:8087/pages/el_rps)
           - Office: 0233-2300933
-        * You can visit [here](https://project-wce.dreamkasper.com/pages/el_rph)."
+        * You can visit [here](https://project-wce.dreamkasper.com/pages/el_rph).
+
+  utter_response_ELE_Faculty:
+    - text: |
+        * Dr. D. S. More
+          - Title: Associate Professor
+          - Degrees: M. E. Electrical (Control System), Ph. D
+          - Research Area: Power Electronics & Drives, PM Machines, Renewable Energy & Smart Grid
+        
+        * Dr. A. P. Vaidya
+          - Title: Professor
+          - Degrees: M.E. (Power Systems), Ph.D. (High Voltage Engineering)
+          - Research Area: Power System Operation, Analysis & Protection
+        
+        * Mr. A. B. Patil
+          - Title: Associate Professor
+          - Degrees: M.E. Electrical (Control System)
+          - Research Area: Signal Processing, Soft Computing for Control Systems
+        
+        * Mr. N. V. Patel
+          - Title: Associate Professor
+          - Degrees: M.Tech Electrical (Control System)
+          - Research Area: Linear Control System Engineering
+        
+        * Dr. M. M. Waware
+          - Title: Associate Professor
+          - Degrees: M.E. Electrical, Ph.D. (IIT Roorkee)
+          - Research Area: Multilevel Inverter, Power Electronic Converters, Power Electronic, and Power Quality
+        
+        * Mrs. S. L. Shaikh
+          - Title: Assistant Professor
+          - Degrees: M.E. Power Systems
+          - Research Area: Power System Dynamics
+        
+        * Dr. R. P. Hasabe
+          - Title: HOD and Assistant Professor
+          - Degrees: Ph.D. (Electrical), M.E. (Electrical)
+          - Research Area: Power System, Power System Protection, ANN Applications to Power System
+        
+        * Mrs. S. P. Diwan
+          - Title: Assistant Professor
+          - Degrees: M.Tech. Power Systems
+          - Research Area: Power Quality, Applications of Power Electronics in Power Systems, Industrial Drives
+        
+        * Mr. S. S. Karvekar
+          - Title: Assistant Professor
+          - Degrees: M.Tech Electrical (Control Systems)
+          - Research Area: Embedded Systems, Control Systems
+        
+        * Mr. V. P. Mohale
+          - Title: Assistant Professor
+          - Degrees: M.E. Electrical Power System
+          - Research Area: Power System
+        
+        * Adhoc Faculty
+        
+        * Dr. D. R. Patil
+          - Title: Professor
+          - Degrees: B.E., M.E., Ph.D.
+          - Research Area: Control Systems and Power System, Digital Control
+        
+        * Mr. K. A. Mhaskar
+          - Title: Assistant Professor
+          - Degrees: M.E. Electrical (Power System), BE Electrical
+          - Research Area: Power System Studies, Electrical Machines, Power Electronics, and Automation
+        
+        * Mrs. A. S. Karvekar
+          - Title: Assistant Professor
+          - Degrees: B. Tech. (Electrical), M. Tech (Control Systems)
+          - Research Area: Sliding Mode Control, DC to DC Converters, More Electric Aircrafts
+        
+        * Mrs. A. A. Dhamangaonkar
+          - Title: Assistant Professor
+          - Degrees: B. E. (Electrical), M.E. (Power System)
+          - Research Area: Power Quality
+        
+        * Mr. R. G. Datar
+          - Title: Assistant Professor
+          - Degrees: B. Tech. (Electrical Engineering), M. Tech. (Control System)
+          - Research Area: Solar and Wind Power Generation, Process Control, System Identification, Optimal Control, Automation
+        
+        * Ms. M. M. Tahmankar
+          - Title: Assistant Professor
+          - Degrees: M.Tech. Control System
+          - Research Area: Model Predictive Control, System Identification, Internal Model Control
+        
+        * Mr. M. S. Mahagaonkar
+          - Title: Assistant Professor
+          - Degrees: M.Tech. (Power System)
+          - Research Area: Electrical Machines, Renewable Energy
 
   utter_response_ELE_programs:
     - text: |
@@ -454,13 +547,12 @@ responses:
 
   utter_response_CE_hod:
       - text: |
-          * Dr. Arunkumar B. Biradar is the Head of the Department.
-          * He is an Associate Professor and has a Ph.D. in Environmental Engineering.
-          * Dr. Biradar is actively involved in research and academics in the field of civil engineering.
-          * His contact details:
-            - Phone: 9421747951
-            - Email: arunkumar.biradar@walchandsangli.ac.in
-          * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-abba)."
+            name: Prof. (Dr.) S. N. Tande
+            designation: Professor & Head of Civil Engineering Department, Walchand College of Engineering, Sangli
+            landline: 0233-2304475
+            fax: 0233-2300831
+            mobile: +91-9422613886
+            email: hod.civil@walchandsangli.ac.in
 
   utter_response_CE_programs:
       - text: |
@@ -472,97 +564,61 @@ responses:
           * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering)."
 
   utter_response_CE_Faculty:
-      - text: |
-          * Dr. S. B. Bagal
-            - Title: Associate Professor
-            - Degrees: Ph.D.(Environmental Engg.)
-            - Research Area: Environmental Engineering
+    - text: |
+        * Dr. P. G. Sonavane
+          - Title: Professor
+          - Degrees: Ph.D.
+          - Research Area: Civil (Environmental) Engineering
         
-          * Dr. V. S. Sant
-            - Title: Associate Professor
-            - Degrees: Ph.D.
-            - Research Area: Geotechnical Engineering
-          
-          * Dr. Arunkumar B. Biradar
-            - Title: Assistant Professor
-            - Degrees: Ph.D.
-            - Research Area: Environmental Engineering
-          
-          * Mr. N. A. Karlekar
-            - Title: Associate Professor
-            - Degrees: M.E. (Geotechnical Engg.)
-            - Research Area: Geotechnical Engineering
+        * Dr. S. N. Tande
+          - Title: Professor & HoD
+          - Degrees: Ph.D. (Civil Engineering)
+          - Research Area: Structural Engineering, Structural Dynamics, Finite Element Analysis, Earthquake Engineering, Design Optimization
         
-          * Dr. D. S. Bormane
-            - Title: Associate Professor
-            - Degrees: Ph.D.
-            - Research Area: Geotechnical Engineering
-          
-          * Dr. S. B. Jadhav
-            - Title: Associate Professor
-            - Degrees: Ph.D.
-            - Research Area: Environmental Engineering
+        * Dr. V. D. Salkar
+          - Title: Professor
+          - Degrees: Ph.D.
+          - Research Area: Building Materials, Environmental Engineering
         
-          * Mr. P. A. Pawar
-            - Title: Assistant Professor
-            - Degrees: M.E. (Environmental Engg.)
-            - Research Area: Environmental Engineering
-          
-          * Dr. R. M. Ingle
-            - Title: Associate Professor
-            - Degrees: Ph.D.
-            - Research Area: Environmental Engineering
+        * Dr. G. R. Munavalli
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Environmental Engineering
         
-          * Dr. S. S. Kamble
-            - Title: Assistant Professor
-            - Degrees: Ph.D.
-            - Research Area: Environmental Engineering
-          
-          * Dr. S. V. Patil
-            - Title: Assistant Professor
-            - Degrees: Ph.D.
-            - Research Area: Environmental Engineering
-          
-          * Dr. T. G. Sevekari
-            - Title: Associate Professor
-            - Degrees: Ph.D.
-            - Research Area: Geotechnical Engineering
-          
-          * Dr. D. K. Choudhari
-            - Title: Associate Professor
-            - Degrees: Ph.D.
-            - Research Area: Environmental Engineering
+        * Dr. K. S. Gumaste
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Energy and Buildings, Structural Masonry
         
-          * Dr. A. P. Savadatti
-            - Title: Associate Professor
-            - Degrees: Ph.D.
-            - Research Area: Structural Engineering
-          
-          * Mr. D. S. Patil
-            - Title: Associate Professor
-            - Degrees: M.E. (Geotechnical Engg.)
-            - Research Area: Geotechnical Engineering
-          
-          * Dr. G. K. Jadhav
-            - Title: Associate Professor
-            - Degrees: Ph.D.
-            - Research Area: Environmental Engineering
-          
-          * Mr. S. R. Chougale
-            - Title: Associate Professor
-            - Degrees: M.E. (Construction Management)
-            - Research Area: Structural Engineering
-          
-          * Dr. V. B. Patil
-            - Title: Associate Professor
-            - Degrees: Ph.D.
-            - Research Area: Environmental Engineering
+        * Dr. S. B. Kadam
+          - Title: Associate Professor
+          - Degrees: Ph.D. (Structural Dynamics)
+          - Research Area: Structural Dynamics, Earthquake Engineering, Finite Element Analysis for Composites, Non-linear Material Modeling, Seismic Evaluation and Retrofitting of Structures
         
-          * Mr. A. M. Pansare
-            - Title: Assistant Professor
-            - Degrees: M.E. (Structural Engineering)
-            - Research Area: Structural Engineering
-          * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering).
+        * Dr. C. B. Pol
+          - Title: Assistant Professor
+          - Degrees: Ph.D. (Structural)
+          - Research Area: Structural Health Monitoring of Structures, Composites and Smart Materials, Finite Element Analysis, Steel Structures
+        
+        * Mr. P. K. Deshpande
+          - Title: Associate Professor
+          - Degrees: M. Sc. (Geology), M. A. (English)
+          - Research Area: Geology and Remote Sensing
+        
+        * Mr. C. H. Wagh
+          - Title: Associate Professor
+          - Degrees: M. Tech (Civil - Env. Engineering)
+          - Research Area: Environmental Engineering, Water Resources Engineering, Hydraulics
+        
+        * Mr. A. K. Mali
+          - Title: Assistant Professor
+          - Degrees: B. E. (Civil), M. Tech. (Civil), Ph.D. (Pursuing)
+          - Research Area: Pozzolanic Materials in Cement Concrete, High Strength Concrete
+        
+        * Mr. A. K. Kokane
+          - Title: Assistant Professor
+          - Degrees: M. Tech (Civil)
+          - Research Area: Geotechnical Engineering, Ground Improvement, Geomechanics
 
   utter_response_CE_missions:
     - text: |
@@ -620,96 +676,112 @@ responses:
 
   utter_response_ME_Faculty:
     - text: |
-        * Dr. S. B. Bagal
+        * Dr. B. S. Gavali
+          - Title: Professor
+          - Degrees: Ph.D. (Mechanical)
+          - Research Area: Heat Transfer, Fluid Dynamics, Refrigeration and Air Conditioning, CFD
+
+        * Dr. U. A. Dabade
+          - Title: Professor
+          - Degrees: Ph.D. (Mechanical)
+          - Research Area: Machining of difficult to cut and Composite Materials, Micromachining, Non Conventional Machining Processes, Precision Engineering
+
+        * Dr. K. H. Inamdar
           - Title: Associate Professor
-          - Degrees: Ph.D.(Environmental Engg.)
-          - Research Area: Environmental Engineering
-        
-        * Dr. V. S. Sant
-          - Title: Associate Professor
-          - Degrees: Ph.D.
-          - Research Area: Geotechnical Engineering
-        
-        * Dr. Arunkumar B. Biradar
+          - Degrees: Ph.D. (Mechanical)
+          - Research Area: Quality control, Mechatronics, Additive Manufacturing, Image Processing, Automation, Robotics, PLC, Welding, Casting
+
+        * Dr. S. U. Sapkal
+          - Title: Associate Professor & Head of the Department
+          - Degrees: Ph.D. (Mechanical)
+          - Research Area: Manufacturing and Industrial Engineering
+
+        * Mr. B. N. Naik
           - Title: Assistant Professor
-          - Degrees: Ph.D.
-          - Research Area: Environmental Engineering
-        
-        * Mr. N. A. Karlekar
-          - Title: Associate Professor
-          - Degrees: M.E. (Geotechnical Engg.)
-          - Research Area: Geotechnical Engineering
-        
-        * Dr. D. S. Bormane
-          - Title: Associate Professor
-          - Degrees: Ph.D.
-          - Research Area: Geotechnical Engineering
-        
-        * Dr. S. B. Jadhav
-          - Title: Associate Professor
-          - Degrees: Ph.D.
-          - Research Area: Environmental Engineering
-        
-        * Mr. P. A. Pawar
+          - Degrees: M.Tech (Mechanical- Heat Power)
+          - Research Area: Heat Transfer
+
+        * Mr. S. V. Gaikwad
           - Title: Assistant Professor
-          - Degrees: M.E. (Environmental Engg.)
-          - Research Area: Environmental Engineering
-        
-        * Dr. R. M. Ingle
-          - Title: Associate Professor
-          - Degrees: Ph.D.
-          - Research Area: Environmental Engineering
-        
-        * Dr. S. S. Kamble
+          - Degrees: Ph.D. (Mechanical)
+          - Research Area: Conventional and non-conventional machining, Quality Engineering, Industrial Engineering
+
+        * Mr. J. M. Dabir
+          - Title: Assistant Professor [Workshop-Superintendent]
+          - Degrees: M.Tech. (Mechanical- Production)
+          - Research Area: Detailed area
+
+        * Dr. M. M. Khot
           - Title: Assistant Professor
-          - Degrees: Ph.D.
-          - Research Area: Environmental Engineering
-        
-        * Dr. S. V. Patil
+          - Degrees: Ph.D. (Mechanical)
+          - Research Area: Design Engineering, FE analysis, Bearings and cryogenics
+
+        * Mr. A. B. Admuthe
           - Title: Assistant Professor
-          - Degrees: Ph.D.
-          - Research Area: Environmental Engineering
-        
-        * Dr. T. G. Sevekari
-          - Title: Associate Professor
-          - Degrees: Ph.D.
-          - Research Area: Geotechnical Engineering
-        
-        * Dr. D. K. Choudhari
-          - Title: Associate Professor
-          - Degrees: Ph.D.
-          - Research Area: Environmental Engineering
-        
-        * Dr. A. P. Savadatti
-          - Title: Associate Professor
-          - Degrees: Ph.D.
-          - Research Area: Structural Engineering
-        
-        * Mr. D. S. Patil
-          - Title: Associate Professor
-          - Degrees: M.E. (Geotechnical Engg.)
-          - Research Area: Geotechnical Engineering
-        
-        * Dr. G. K. Jadhav
-          - Title: Associate Professor
-          - Degrees: Ph.D.
-          - Research Area: Environmental Engineering
-        
-        * Mr. S. R. Chougale
-          - Title: Associate Professor
-          - Degrees: M.E. (Construction Management)
-          - Research Area: Structural Engineering
-        
-        * Dr. V. B. Patil
-          - Title: Associate Professor
-          - Degrees: Ph.D.
-          - Research Area: Environmental Engineering
-        
-        * Mr. A. M. Pansare
+          - Degrees: M.Tech (Metallurgy)
+          - Research Area: Metallurgy and Materials, Heat treatment etc.
+
+        * Mr. P. A. Mane
           - Title: Assistant Professor
-          - Degrees: M.E. (Structural Engineering)
-          - Research Area: Structural Engineering
-        * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering).
+          - Degrees: M.E. (Mechanical- Heat Power)
+          - Research Area: Turbomachines, CFD, Cryogenics
+
+        * Prof. V. B. Swami
+          - Title: Assistant Professor
+          - Degrees: M.E. (Mechanical- Heat Power)
+          - Research Area: Heat and Mass Transfer
+
+        * Mr. A. P. Patil
+          - Title: Assistant Professor
+          - Degrees: M.E. (Mechanical- Design)
+          - Research Area: Vibration, Bearing Dynamics, Acoustic Emission
+
+        * Prof. R. M. Chanmanwar
+          - Title: Assistant Professor
+          - Degrees: B.Tech., M.Tech.
+          - Research Area: Photochemical Machining, Micro-Machining
+
+        * Mr. S. D. Jagtap
+          - Title: Assistant Professor
+          - Degrees: M.Tech. (Mechanical- Heat Power)
+          - Research Area: Internal Combustion Engines, Heat Transfer, Renewable Energy
+
+        * Adhoc Faculty
+
+        * Prof. P. D. Maskar
+          - Title: Assistant Professor
+          - Degrees: M.E. (Mechanical-Design)
+          - Research Area: Vibration Analysis, Finite Element Analysis
+
+        * Prof. A. S. Bhandare
+          - Title: Assistant Professor
+          - Degrees: M.Tech (Mechanical-Production)
+          - Research Area: Non-conventional Machining, Micromachining, Mechatronics and Automation
+
+        * Prof. S. M. Arali
+          - Title: Assistant Professor
+          - Degrees: M.E. (CAD/CAM/CAE), Ph.D. (Pursuing)
+          - Research Area: Machine Design, Alternative Fuels
+
+        * Prof. G. R. Undale
+          - Title: Assistant Professor
+          - Degrees: M.Tech. (Mechanical)
+          - Research Area: Dual fuel, Alternate fuel
+
+        * Ms. N. S. Nagmoti
+          - Title: Assistant Professor
+          - Degrees: M. Tech. (Mechanical- Design)
+          - Research Area: Mechanical Vibration, Composite & Smart Materials, Finite Element Analysis
+
+        * Prof. D. B. Pawar
+          - Title: Assistant Professor
+          - Degrees: M. E. (Mechanical)
+          - Research Area: Product Development
+
+        * Prof. A. S. Patil
+          - Title: Assistant Professor
+          - Degrees: M.Tech. (Mechanical)
+          - Research Area: Heat transfer
 
   utter_response_ME_missions:
     - text: |

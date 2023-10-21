@@ -342,6 +342,15 @@ nlu:
     - electrical hod
     - contact of electrical hod
     - contact electrical hod
+- intent: ELE_Faculty
+  examples: |
+    - who are electrical faculty
+    - electrical faculty
+    - ele faculty
+    - ele teachers
+    - electrical teachers
+    - info about electrical faculty
+    - ele faculty info
 
 - intent: ELE_programs
   examples: |
@@ -406,6 +415,16 @@ nlu:
     - contact of civil hod
     - contact civil hod
 
+- intent: CE_Faculty
+  examples: |
+    - give information about CE faculty
+    - Civil Faculty
+    - information about Civil faculty
+    - Civil faculty information
+    - who are mechanical Civil faculty
+    - civil faculty
+    - ce faculty
+
 - intent: CE_programs
   examples: |
     - what programs offered by ce Department
@@ -469,6 +488,14 @@ nlu:
     - contact of mechanical hod
     - contact mechanical hod
 
+- intent: ME_Faculty
+  examples: |
+    - give information about ME faculty
+    - Mechanical Faculty
+    - information about Mech faculty
+    - Mech faculty information
+    - who are mechanical falculty
+    - mech faculty
 - intent: ME_programs
   examples: |
     - what programs offered by me Department
