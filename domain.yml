@@ -14,6 +14,8 @@ intents:
   - ask_about_college
   - ask_about_founders
   - College_reach_options
+  - college_missions
+  - college_visions
 
 
   - CSE_Dept
@@ -561,6 +563,7 @@ responses:
             - Degrees: M.E. (Structural Engineering)
             - Research Area: Structural Engineering
           * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering).
+
   utter_response_CE_missions:
     - text: |
         1. Adopting vibrant academic curricula and implementing innovative teaching learning processes.

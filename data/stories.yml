@@ -45,6 +45,11 @@ stories:
   - action: utter_greet
   - intent: ask_about_college
   - action: utter_response_about_college
+  - intent: college_visions
+  - action: utter_response_college_visions
+  - intent: college_missions
+  - action: utter_response_college_missions
+
 
 - story: college_founders
   steps:

@@ -118,6 +118,23 @@ nlu:
     - What can you tell me about this college?
     - Describe the college.
 
+- intent: college_visions
+  examples: |
+    - Tell me about Walchand College of Engineering visions.
+    - WCE visions
+    - What can you tell me about visions of this college?
+    - visions the college.
+    - wce vison
+
+- intent: college_missions
+  examples: |
+    - Tell me about Walchand College of Engineering missions.
+    - WCE missions
+    - What can you tell me about missions of this college?
+    - missions the college.
+    - wce missons
+
+
 - intent: ask_about_founders
   examples: |
     - Who founded the college?
