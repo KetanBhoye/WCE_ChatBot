@@ -75,10 +75,47 @@ stories:
     - intent: CSE_syllabus
     - action: utter_response_CSE_syllabus
 
+
+#CSE Faculty Section.
+
 - story: CSE_faculty_story
   steps:
     - intent: CSE_faculty
     - action: utter_response_CSE_faculty
+
+#CSE Faculty Section.
+
+- story: CSE_faculty_story
+  steps:
+    - intent: CSE_faculty
+    - action: utter_response_CSE_faculty
+
+- story: CSE_faculty_BF_Momin_story
+  steps:
+    - intent: CSE_faculty_BF_Momin
+    - action: utter_response_CSE_faculty_BF_Momin
+
+- story: CSE_faculty_AR_Surve_story
+  steps:
+    - intent: CSE_faculty_AR_Surve
+    - action: utter_response_CSE_faculty_AR_Surve
+
+
+- story: CSE_Faculty_MA_Shah_story
+  steps:
+    - intent: CSE_Faculty_MA_Shah
+    - action: utter_response_CSE_Faculty_MA_Shah
+
+
+- story: CSE_Faculty_NL_Gavankar_story
+  steps:
+    - intent: CSE_Faculty_NL_Gavankar
+    - action: utter_response_CSE_Faculty_NL_Gavankar
+
+- story: CSE_Faculty_MK_Chavan_story
+  steps:
+    - intent: CSE_Faculty_MK_Chavan
+    - action: utter_response_CSE_Faculty_MK_Chavan
 
 - story: CSE_hod_story
   steps:

@@ -156,11 +156,49 @@ nlu:
     - CSE curriculum
     - Computer Science and Engineering Syllabus or curriculum
 
+
+#CSE Faculty Section.
+
 - intent: CSE_faculty
   examples: |
     - who are cse faculties
     - CSE faculties
     - CSE Faculty
+
+
+- intent: CSE_faculty_BF_Momin
+  examples: |
+    - Who is B.F Momin
+    - B.F Momin
+    - Who is Dr B.F Momin
+
+- intent: CSE_faculty_AR_Surve
+  examples: |
+    - Who is A.R Surve
+    - A.R surve
+    - who is AR Surve
+    - who is Mr A.R Surve
+
+- intent: CSE_Faculty_MA_Shah
+  examples: |
+    - Who is M.A Shah
+    - Who is Dr M.A Shah
+    - M.A Shah
+
+- intent: CSE_Faculty_NL_Gavankar
+  examples: |
+    - Who is N.L Gavankar
+    - Who is Dr N.L Gavankar
+    - N.L Gavankar
+    - CSE Academics Head
+
+- intent: CSE_Faculty_MK_Chavan
+  examples: |
+    - Who is M.K Chavan
+    - M.K Chavan
+    - Who is Mr. M.K Chavan
+
+
 
 - intent: CSE_hod
   examples: |

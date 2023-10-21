@@ -20,6 +20,12 @@ intents:
   - CSE_syllabus
   - CSE_faculty
   - CSE_hod
+  - CSE_faculty_BF_Momin
+  - CSE_faculty_AR_Surve
+  - CSE_Faculty_MA_Shah
+  - CSE_Faculty_NL_Gavankar
+  - CSE_Faculty_MK_Chavan
+
 
 
 responses:
@@ -85,18 +91,33 @@ responses:
     - text: "Syllabus of CSE: Third Year B.Tech. Computer Science and Engineering [here](https://images.dreamkasper.com/walchandsangli/documents/Computer%20Sc1679307350555.pdf)"
 
   utter_response_CSE_faculty:
-    - text: "The Department of Computer Science and Engineering at Walchand College of Engineering comprises a dedicated faculty team with diverse qualifications and research expertise.
-    Dr. N. L. Gavankar (Assistant Professor) Qualifications: Ph.D., M.E. in CSE Research Area: Specializes in Image Processing, Remote Sensing, and GIS.
-    Dr. B.F. Momin (Associate Professor) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Specializes in Pattern Recognition, Soft Computing, Data Mining, AI & Machine Learning, and IoT.
-    Mr. A.R. Surve (Assistant Professor) Qualifications: Pursuing Ph.D. in CSE, M.E. in CSE Research Area: Focuses on IoT-enabled Context-Aware Smart Computing.
-    Mr. M. K. Chavan (Assistant Professor) Qualifications: M.E. in CSE Research Area: Focused on Cryptography and Network Security, as well as Computer Network.
-    Ms. P. D. Mundada (Assistant Professor) Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE Research Area: Research interests include Image Processing, AI, Machine Learning, and Deep Learning.
-    Mr. S. D. Pujari (Assistant Professor) Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE Research Area: Focuses on Data Mining and Machine Learning.
-    Dr. M. A. Shah (H.O.D. CSE) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking."
+    - text: "\n The Department of Computer Science and Engineering at Walchand College of Engineering comprises a dedicated faculty team with diverse qualifications and research expertise.
+    \n Dr. N. L. Gavankar (Assistant Professor) Qualifications: Ph.D., M.E. in CSE Research Area: Specializes in Image Processing, Remote Sensing, and GIS.
+    \n Dr. B.F. Momin (Associate Professor) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Specializes in Pattern Recognition, Soft Computing, Data Mining, AI & Machine Learning, and IoT.
+    \n Mr. A.R. Surve (Assistant Professor) Qualifications: Pursuing Ph.D. in CSE, M.E. in CSE Research Area: Focuses on IoT-enabled Context-Aware Smart Computing.
+    \n Mr. M. K. Chavan (Assistant Professor) Qualifications: M.E. in CSE Research Area: Focused on Cryptography and Network Security, as well as Computer Network.
+    \n Ms. P. D. Mundada (Assistant Professor) Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE Research Area: Research interests include Image Processing, AI, Machine Learning, and Deep Learning.
+    \n Mr. S. D. Pujari (Assistant Professor) Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE Research Area: Focuses on Data Mining and Machine Learning.
+    \n Dr. M. A. Shah (H.O.D. CSE) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking."
+
 
   utter_response_CSE_hod:
-    - text: "Dr. Medha A. Shah serves as the Head of the Department of Computer Science and Engineering at Walchand College of Engineering, Sangli. You can contact her at 9423872296 or via email at medha.shah@walchandsangli.ac.in. Her leadership plays a crucial role in the department's academic and research endeavors, and you can find more information on the department's website at Department of Computer Science and Engineering. Her office can be reached at 0233-2303115."
+    - text: "Dr. Medha A. Shah serves as the Head of the Department of Computer Science and Engineering at Walchand College of Engineering, Sangli. \n You can contact her at 9423872296 or via email at medha.shah@walchandsangli.ac.in. \n Her leadership plays a crucial role in the department's academic and research endeavors, and you can find more information on the department's website at Department of Computer Science and Engineering. Her office can be reached at 0233-2303115."
 
+  utter_response_CSE_faculty_BF_Momin:
+    - text: "Dr. B.F. Momin (Associate Professor) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Specializes in Pattern Recognition, Soft Computing, Data Mining, AI & Machine Learning, and IoT."
+
+  utter_response_CSE_faculty_AR_Surve:
+    - text: " Mr. A.R. Surve (Assistant Professor) Qualifications: Pursuing Ph.D. in CSE, M.E. in CSE Research Area: Focuses on IoT-enabled Context-Aware Smart Computing."
+
+  utter_response_CSE_Faculty_MA_Shah:
+    - text: " Dr. M. A. Shah (H.O.D. CSE) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking."
+
+  utter_response_CSE_Faculty_NL_Gavankar:
+    - text: "Dr. N. L. Gavankar (Assistant Professor) Qualifications: Ph.D., M.E. in CSE Research Area: Specializes in Image Processing, Remote Sensing, and GIS."
+
+  utter_response_CSE_Faculty_MK_Chavan:
+    - text: " Mr. M. K. Chavan (Assistant Professor) Qualifications: M.E. in CSE Research Area: Focused on Cryptography and Network Security, as well as Computer Network."
 
 session_config:
   session_expiration_time: 60
