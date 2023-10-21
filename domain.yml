@@ -35,17 +35,33 @@ intents:
   - ETC_info
   - ETC_hod
   - ETC_programs
+  - ETC_visions
+  - ETC_missions
   - ETC_labs
 
 
   - ELE_info
   - ELE_hod
   - ELE_programs
+  - ELE_visions
+  - ELE_missions
   - ELE_labs
 
 
   - CE_info
   - CE_hod
+  - CE_programs
+  - CE_visions
+  - CE_missions
+  - CE_labs
+
+  - ME_info
+  - ME_hod
+  - ME_programs
+  - ME_visions
+  - ME_missions
+  - ME_labs
+
 
 responses:
   utter_greet:
@@ -318,6 +334,17 @@ responses:
           - Degrees: M. Tech.(Electronics-Digital System)
           - Research Area: Computer Vision, Deep Learning
 
+  utter_response_ETC_missions:
+      - text: |
+          1. To adopt vibrant academic curricula and implement innovative teaching learning processes.
+          2. To provide opportunities to the students for the development of professional skills.
+          3. To nurture critical thinking and creativity in students.
+          4. To inculcate in students the life-long learning attitude and sensitivity towards society & environment.
+
+  utter_response_ETC_visions:
+    - text: "To be an Electronics Engineering programme of the first choice by the aspiring students and prospective employers by implementing world class education practices."
+
+
   utter_response_ETC_labs:
     - text: |
         1 Electronics Design and Automation Lab 	
@@ -369,6 +396,16 @@ responses:
           - Intake - 30
         * You can visit [here](https://project-wce.dreamkasper.com/pages/electrical-engineering)."
 
+  utter_response_ELE_missions:
+    - text: |
+        1. Adopting dynamic academic curricula, implementing innovative teaching-learning processes and research practices.
+        2. Providing opportunities to the students for the development of professional skills.
+        3. Nurturing critical thinking and creativity in the students.
+        4. Inculcating in the students lifelong learning attitude with sensitivity towards society and environment.
+
+  utter_response_ELE_visions:
+    - text: " To be an Electrical Engineering Department of the first choice by the aspiring students and prospective employers by implementing world-class education and research practices."
+
   utter_response_ELE_labs:
     - text: |
        UG - 1 Electrical Machines Lab	
@@ -386,7 +423,6 @@ responses:
             
             You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
 
-#Electronics Department
 
   #Civil Dept
 
@@ -510,6 +546,14 @@ responses:
             - Degrees: M.E. (Structural Engineering)
             - Research Area: Structural Engineering
           * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering).
+  utter_response_CE_missions:
+    - text: |
+        1. Adopting vibrant academic curricula and implementing innovative teaching learning processes.
+        2. Providing opportunities to the students for the development of professional skills.
+        3. Nurturing critical thinking and creativity in students.
+        4. Inculcating in students the life-long learning attitude and sensitivity towards society & environment.
+  utter_response_CE_visions:
+    - text: " To be a Civil Engineering programme of the first choice by the aspiring students and Prospective employers by implementing world class education practices."
 
   utter_response_CE_labs:
       - text: |
@@ -523,6 +567,160 @@ responses:
           8 Computational Laboratory
           9 Model Making and Concrete Technology Laboratory
           You can visit [here](https://project-wce.dreamkasper.com/pages/civil-lab).
+
+
+  #Mechanical Dept
+
+  utter_response_ME_info:
+    - text: |
+        * The Mechanical Engineering Department of Walchand College of Engineering was founded in 1955 with an intake of 60 students.
+        * The department currently runs three PG programs as well as Ph.D. in respective streams.
+        * The department has been selected for the AICTE’s National Doctoral Fellowship (NDF) Scheme.
+        * The department has modern infrastructure with well-equipped laboratories and computational facilities with up-to-date hardware and software resources.
+        * The undergraduate program of Mechanical Engineering Department is NBA accredited up to 2022.
+
+  utter_response_ME_hod:
+    - text: |
+        * Dr. S. U. Sapkal
+        * Position - Associate Professor & Head of the Department
+        * Academic Qualification - Ph.D. (Mechanical)
+        * Research Area -
+             Manufacturing and Industrial Engineering
+
+  utter_response_ME_programs:
+    - text: |
+        * 1. Undergraduate Program:
+           - Programme Title: Mechanical Engineering (B. Tech)
+           - Student Intake: 60
+        * 2. Postgraduate Programs:
+          - Programme Title: Mechanical - Design (M. Tech)
+          - Student Intake: 30
+          - Programme Title: Mechanical - Heat Power (M. Tech)
+          - Student Intake: 18
+          - Programme Title: Mechanical - Production (M. Tech)
+          - Student Intake: 30
+
+  utter_response_ME_Faculty:
+    - text: |
+        * Dr. S. B. Bagal
+          - Title: Associate Professor
+          - Degrees: Ph.D.(Environmental Engg.)
+          - Research Area: Environmental Engineering
+        
+        * Dr. V. S. Sant
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Geotechnical Engineering
+        
+        * Dr. Arunkumar B. Biradar
+          - Title: Assistant Professor
+          - Degrees: Ph.D.
+          - Research Area: Environmental Engineering
+        
+        * Mr. N. A. Karlekar
+          - Title: Associate Professor
+          - Degrees: M.E. (Geotechnical Engg.)
+          - Research Area: Geotechnical Engineering
+        
+        * Dr. D. S. Bormane
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Geotechnical Engineering
+        
+        * Dr. S. B. Jadhav
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Environmental Engineering
+        
+        * Mr. P. A. Pawar
+          - Title: Assistant Professor
+          - Degrees: M.E. (Environmental Engg.)
+          - Research Area: Environmental Engineering
+        
+        * Dr. R. M. Ingle
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Environmental Engineering
+        
+        * Dr. S. S. Kamble
+          - Title: Assistant Professor
+          - Degrees: Ph.D.
+          - Research Area: Environmental Engineering
+        
+        * Dr. S. V. Patil
+          - Title: Assistant Professor
+          - Degrees: Ph.D.
+          - Research Area: Environmental Engineering
+        
+        * Dr. T. G. Sevekari
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Geotechnical Engineering
+        
+        * Dr. D. K. Choudhari
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Environmental Engineering
+        
+        * Dr. A. P. Savadatti
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Structural Engineering
+        
+        * Mr. D. S. Patil
+          - Title: Associate Professor
+          - Degrees: M.E. (Geotechnical Engg.)
+          - Research Area: Geotechnical Engineering
+        
+        * Dr. G. K. Jadhav
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Environmental Engineering
+        
+        * Mr. S. R. Chougale
+          - Title: Associate Professor
+          - Degrees: M.E. (Construction Management)
+          - Research Area: Structural Engineering
+        
+        * Dr. V. B. Patil
+          - Title: Associate Professor
+          - Degrees: Ph.D.
+          - Research Area: Environmental Engineering
+        
+        * Mr. A. M. Pansare
+          - Title: Assistant Professor
+          - Degrees: M.E. (Structural Engineering)
+          - Research Area: Structural Engineering
+        * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering).
+
+  utter_response_ME_missions:
+    - text: |
+        1. To adopt vibrant academic curricula and implementing innovative teaching learning processes.
+        2. To provide opportunities to the students for the development of professional skills.
+        3. To Nurture critical thinking and creativity in students.
+        4. To Inculcate in students the life-long learning attitude and sensitivity towards society and environment
+  utter_response_ME_visions:
+    - text: "To be a Mechanical Engineering Program of the first choice by the aspiring students and prospective employers by implementing world class education practices."
+
+  utter_response_ME_labs:
+    - text: |
+        1 Automobile Engineering Laboratory
+        2 CAD/CAM/CAE Laboratory
+        3 Metallurgy Laboratory
+        4 Theory of Machines Laboratory
+        5 Advanced Manufacturing Laboratory (AML)/CNC Laboratory
+        6 Refrigeration and Air Conditioning Laboratory
+        7 Steam Power and Thermodynamics Laboratory
+        8 Metrology and Quality Control Laboratory
+        9 Heat Transfer Laboratory
+        10 Fluid Mechanics Laboratory
+        11 Mechatronics Laboratory
+        12 Dynamics of Machines Laboratory
+        13 Internal Combustion Engine Laboratory
+        14 Hydraulics and Pneumatics Laboratory
+        15 Measurement and Control Laboratory
+        You can visit [here](https://project-wce.dreamkasper.com/pages/civil-lab).
+
 
 session_config:
   session_expiration_time: 60

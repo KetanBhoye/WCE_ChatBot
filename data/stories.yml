@@ -151,6 +151,10 @@ stories:
     - action: utter_response_ETC_programs
     - intent: ETC_Faculty
     - action: utter_ETC_Faculty
+    - intent: ETC_visions
+    - action: utter_response_ETC_visions
+    - intent: ETC_missions
+    - action: utter_response_ETC_missions
     - intent: ETC_labs
     - action: utter_response_ETC_labs
 
@@ -163,6 +167,10 @@ stories:
     - action: utter_response_ELE_hod
     - intent: ELE_programs
     - action: utter_response_ELE_programs
+    - intent: ELE_visions
+    - action: utter_response_ELE_visions
+    - intent: ELE_missions
+    - action: utter_response_ELE_missions
     - intent: ELE_labs
     - action: utter_response_ELE_labs
 
@@ -173,9 +181,30 @@ stories:
     - action: utter_response_CE_info
     - intent: CE_hod
     - action: utter_response_CE_hod
-#    - intent: CE_programs
-#    - action: utter_response_CE_programs
-#    - intent: CE_labs
-#    - action: utter_response_CE_labs
+    - intent: CE_programs
+    - action: utter_response_CE_programs
+    - intent: CE_visions
+    - action: utter_response_CE_visions
+    - intent: CE_missions
+    - action: utter_response_CE_missions
+    - intent: CE_labs
+    - action: utter_response_CE_labs
+
+  # Mechanical dept
+- story: ME_DEPT
+  steps:
+    - intent: ME_info
+    - action: utter_response_ME_info
+    - intent: ME_hod
+    - action: utter_response_ME_hod
+    - intent: ME_programs
+    - action: utter_response_ME_programs
+    - intent: ME_visions
+    - action: utter_response_ME_visions
+    - intent: ME_missions
+    - action: utter_response_ME_missions
+    - intent: ME_labs
+    - action: utter_response_ME_labs
+
 
 

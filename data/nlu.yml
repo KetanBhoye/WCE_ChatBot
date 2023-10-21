@@ -196,6 +196,8 @@ nlu:
 - intent: CSE_hod
   examples: |
     - who is hod of cse?
+    - who is head if department of cse dept?
+    - who is head if department of computer science and engineering dept?
     - cse hod
     - contact of cse hod
     - contact cse hod
@@ -244,6 +246,8 @@ nlu:
 - intent: ETC_hod
   examples: |
     - who is hod of etc dept?
+    - who is head if department of etc dept?
+    - who is head if department of electronics dept?
     - entc hod
     - contact of etc hod
     - contact etc hod
@@ -256,7 +260,7 @@ nlu:
   examples: |
     - what programs offered by ETC Department
     - programs offered by etc department
-    - Can you list the different degree programs available within the department?
+    - Can you list the different degree programs available within the etc department?
     - Could you provide examples of specific specializations available within the ETC Department?
     - How long is the typical duration of the programs in the ETC Department?
 
@@ -267,6 +271,24 @@ nlu:
     - electronics faculty
     - extc faculty
     - etc faculty
+
+- intent: ETC_missions
+  examples: |
+    - what are missions of etc?
+    - etc missions
+    - electronics missions
+    - etc mission
+    - missions of etc dept
+    - missions of etc department
+
+- intent: ETC_visions
+  examples: |
+    - what are visions of etc?
+    - etc visions
+    - visions of etc dept
+    - visions of etc department
+    - electronics visions
+    - etc vision
 
 - intent: ETC_labs
   examples: |
@@ -294,6 +316,8 @@ nlu:
 - intent: ELE_hod
   examples: |
     - who is hod of ele dept?
+    - who is head if department of ele dept?
+    - who is head if department of electrical dept?
     - ele hod
     - contact of ele hod
     - contact ele hod
@@ -306,9 +330,27 @@ nlu:
   examples: |
     - what programs offered by ele Department
     - programs offered by ele department
-    - Can you list the different degree programs available within the department?
+    - Can you list the different degree programs available within the ele department?
     - Could you provide examples of specific specializations available within the electrical Department?
     - How long is the typical duration of the programs in the electrical Department?
+
+- intent: ELE_missions
+  examples: |
+    - what are missions of ele?
+    - ele missions
+    - electrical missions
+    - ele mission
+    - missions of ele dept
+    - missions of ele department
+
+- intent: ELE_visions
+  examples: |
+    - what are visions of ele?
+    - ele visions
+    - visions of ele dept
+    - visions of ele department
+    - electrical visions
+    - ele vision
 
 - intent: ELE_labs
   examples: |
@@ -337,6 +379,8 @@ nlu:
 - intent: CE_hod
   examples: |
     - who is hod of ce dept?
+    - who is head if department of Ce dept?
+    - who is head if department of civil dept?
     - ce hod
     - contact of ce hod
     - contact ce hod
@@ -344,6 +388,111 @@ nlu:
     - civil hod
     - contact of civil hod
     - contact civil hod
+
+- intent: CE_programs
+  examples: |
+    - what programs offered by ce Department
+    - programs offered by ce department
+    - Can you list the different degree programs available within the ce department?
+    - Could you provide examples of specific specializations available within the civil Department?
+    - How long is the typical duration of the programs in the civil Department?
+
+- intent: CE_missions
+  examples: |
+    - what are missions of ce?
+    - ce missions
+    - civil missions
+    - ce mission
+    - missions of ce dept
+    - missions of ce department
+
+- intent: CE_visions
+  examples: |
+    - what are visions of ce?
+    - ce visions
+    - visions of ce dept
+    - visions of ce department
+    - civil visions
+    - ce vision
+
+- intent: CE_labs
+  examples: |
+    - what are labs of ce?
+    - ce labs
+    - laboratories of ce dept
+    - laborateries of ce department
+    - how many labs in ce dept
+    - what are labs of civil?
+    - civil labs
+    - laboratories of civil dept
+    - laborateries of civil department
+    - how many labs in civil dept
+    
+
+  # Mechanical Dept
+- intent: ME_info
+  examples: |
+    - What is the mission and vision of the mechanical department?
+    - mechanical dept in wce
+    - Tell me about mechanical dept
+    - info about mechanical dept
+    - me dept
+    - me dept info
+
+- intent: ME_hod
+  examples: |
+    - who is hod of me dept?
+    - who is head if department of me dept?
+    - who is head if department of mechanical dept?
+    - me hod
+    - contact of me hod
+    - contact me hod
+    - who is hod of mechanical dept?
+    - mechanical hod
+    - contact of mechanical hod
+    - contact mechanical hod
+
+- intent: ME_programs
+  examples: |
+    - what programs offered by me Department
+    - programs offered by me department
+    - Can you list the different degree programs available within the me department?
+    - Could you provide examples of specific specializations available within the mechanical Department?
+    - How long is the typical duration of the programs in the mechanical Department?
+
+- intent: ME_missions
+  examples: |
+    - what are missions of me?
+    - me missions
+    - mechanical missions
+    - me mission
+    - missions of me dept
+    - missions of me department
+
+- intent: ME_visions
+  examples: |
+    - what are visions of me?
+    - me visions
+    - visions of me dept
+    - visions of me department
+    - mechanical visions
+    - me vision
+
+- intent: ME_labs
+  examples: |
+    - what are labs of me?
+    - me labs
+    - laboratories of me dept
+    - laborateries of me department
+    - how many labs in me dept
+    - what are labs of mechanical?
+    - mechanical labs
+    - laboratories of mechanical dept
+    - laborateries of mechanical department
+    - how many labs in mechanical dept
+    
+
+
 
   
 
