@@ -140,7 +140,8 @@ responses:
             6 Advanced Software Engineering Laboratory	 	 
             7 Programming Laboratory
             8 PG Computing Laboratory
-            9 PG Research Laboratory"
+            9 PG Research Laboratory
+            You can visit [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering)"
 
 
   utter_response_ETC_info:
@@ -151,7 +152,8 @@ responses:
             Department is recognized as a Ph. D. research centre for the following schemes: AICTE's National Doctoral Fellowship Scheme, Govt. of India's 
             Quality Improvement Program and Shivaji University, Kolhapur. Department is accredited by the National Board of Accreditation, New Delhi.
             The Electronics Engineering Department has a well qualified faculty, having expertise in various Electronics Engineering streams like Communication
-            and Signal Processing, Embedded Systems and VLSI, Instrumentation and Control Systems."
+            and Signal Processing, Embedded Systems and VLSI, Instrumentation and Control Systems.
+            You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
 
   utter_response_ETC_hod:
     - text: "Dr.S. D. Ruikar (HOD & Associate Professor)  Ph.D. (Electronics Engineering)/n
@@ -168,23 +170,27 @@ responses:
             ruikarsachin@gmail.com
             Website: http://www.walchandsangli.ac.in
             Office: 0233 2300383
+            You can visit [here](https://project-wce.dreamkasper.com/pages/en_sdr)
             "
   utter_response_ETC_programs:
     - text: "B. Tech(Electronics) (1986) Intake - 60
-             M. Tech(Electronics) (1986) Intake - 30"
+             M. Tech(Electronics) (1986) Intake - 30
+             You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
+
   utter_response_ETC_labs:
     - text: "1 Electronics Design and Automation Lab 	
-2 Embedded System & Microcontroller Lab 	
-3 Digital Design Lab	Click here
-4 Industrial Electronics Lab 	
-5 Instrumentation & Control Lab	
-6 Applied Electronics Lab
-7 Basic Electronics Lab 	
-8 Communication Laboratory	
-9 PG Lab	
-10 PG Research Lab	
-11 John Deere Research Lab	
-12 Seminar Room "
+            2 Embedded System & Microcontroller Lab 	
+            3 Digital Design Lab	Click here
+            4 Industrial Electronics Lab 	
+            5 Instrumentation & Control Lab	
+            6 Applied Electronics Lab
+            7 Basic Electronics Lab 	
+            8 Communication Laboratory	
+            9 PG Lab	
+            10 PG Research Lab	
+            11 John Deere Research Lab	
+            12 Seminar Room 
+            You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
 
 
 session_config:
