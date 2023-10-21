@@ -103,6 +103,21 @@ responses:
         * With a sprawling 90-acre campus known for its greenery and wildlife, modern facilities, and notable alumni, WCE continues to be a leading institution dedicated to delivering quality engineering education.
         * For more info, you can visit [here](https://en.wikipedia.org/wiki/Walchand_College_of_Engineering,_Sangli).
 
+  utter_response_college_missions:
+    - text: |
+        1. Imparting quality education through demanding academic programs.
+        2. Enhancing career opportunities for students through exposure to the industry.
+        3. Promoting excellence by encouraging creativity, critical thinking, and discipline.
+        4. Inculcating sensitivity towards society and fostering respect for the environment.
+        * [here](https://project-wce.dreamkasper.com/pages/vision,-mission,-quality-policy)
+        
+
+  utter_response_college_visions:
+      - text: |
+          * To produce capable graduate engineers with an aptitude for research and leadership
+          * [here](https://project-wce.dreamkasper.com/pages/vision,-mission,-quality-policy)
+          
+
   utter_response_about_college_founders:
     - text: |
         * Walchand College of Engineering in Sangli, Maharashtra, was founded by three distinguished individuals:
