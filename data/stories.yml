@@ -38,6 +38,7 @@ stories:
   - intent: clg_academic
   - action: utter_clg_academic
 
+
 - story: college_info
   steps:
   - intent: greet
@@ -65,10 +66,7 @@ stories:
   - intent: CSE_programs
   - action: utter_response_CSE_programs
 
-- story: CSE_vision_mission_story
-  steps:
-    - intent: CSE_vision_mission
-    - action: utter_response_CSE_vision_mission
+
 
 - story: CSE_Syllabus_story
   steps:
@@ -84,4 +82,35 @@ stories:
   steps:
     - intent: CSE_hod
     - action: utter_response_CSE_hod
+
+
+
+
+
+- story: CSE_MISSIONS_story
+  steps:
+    - intent: CSE_missions
+    - action: utter_response_CSE_missions
+
+- story: CSE_VISIONS_story
+  steps:
+    - intent: CSE_visions
+    - action: utter_response_CSE_visions
+
+- story: CSE_labs_story
+  steps:
+    - intent: CSE_labs
+    - action: utter_response_CSE_labs
+
+
+- story: ETC_DEPT
+  steps:
+    - intent: ETC_info
+    - action: utter_response_ETC_info
+    - intent: ETC_hod
+    - action: utter_response_ETC_hod
+    - intent: ETC_programs
+    - action: utter_response_ETC_programs
+    - intent: ETC_labs
+    - action: utter_response_ETC_labs
 

@@ -93,6 +93,7 @@ nlu:
 - intent: clg_name
   examples: |
     - what is college name?
+    - what is college nm?
     - Can you tell me the name of the college?
     - What's the college called?
 
@@ -142,12 +143,6 @@ nlu:
     -programs offered by cse department
 
 
-- intent: CSE_vision_mission
-  examples: |
-    -Vision and mission of CSE department
-    -Vision and mission of CSE
-    -What is CSE department's vision
-    -What is CSE Department's mission
 
 - intent: CSE_syllabus
   examples: |
@@ -168,3 +163,78 @@ nlu:
     - cse hod
     - contact of cse hod
     - contact cse hod
+    
+    
+
+
+
+- intent: CSE_missions
+  examples: |
+    - what are missions of cse?
+    - cse missions
+    - computer science and engineering missions
+    - cse mission
+    - missions of cse dept
+    - missions of cse department
+
+- intent: CSE_visions
+  examples: |
+    - what are visions of cse?
+    - cse visions
+    - visions of cse dept
+    - visions of cse department
+    - computer science and engineering visions
+    - cse vision
+
+- intent: CSE_labs
+  examples: |
+    - what are labs of cse?
+    - cse labs
+    - laboratories of cse dept
+    - laborateries of cse department
+    - how many labs in cse dept
+  
+
+
+- intent: ETC_info
+  examples: |
+    - What is the mission and vision of the electronics department?
+    - Electronics dept in wce
+    - Tell me about electronics dept
+    - info about electronics dept
+    - Entc dept
+    - Electronics department info
+
+- intent: ETC_hod
+  examples: |
+    - who is hod of etc dept?
+    - entc hod
+    - contact of etc hod
+    - contact etc hod
+    - who is hod of electronics dept?
+    - electronics hod
+    - contact of electronics hod
+    - contact entc hod
+
+- intent: ETC_programs
+  examples: |
+    - what programs offered by ETC Department
+    - programs offered by etc department
+    - Can you list the different degree programs available within the department?
+    - Could you provide examples of specific specializations available within the ETC Department?
+    - How long is the typical duration of the programs in the ETC Department?
+
+- intent: ETC_labs
+  examples: |
+    - what are labs of etc?
+    - etc labs
+    - laboratories of etc dept
+    - laborateries of etc department
+    - how many labs in etc dept
+    - what are labs of electronics?
+    - electronics labs
+    - laboratories of electronics dept
+    - laborateries of electronics department
+    - how many labs in electronics dept
+  
+

@@ -16,10 +16,16 @@ intents:
   - College_reach_options
   - CSE_Dept
   - CSE_programs
-  - CSE_vision_mission
   - CSE_syllabus
   - CSE_faculty
   - CSE_hod
+  - CSE_missions
+  - CSE_visions
+  - CSE_labs
+  - ETC_info
+  - ETC_hod
+  - ETC_programs
+  - ETC_labs
 
 
 responses:
@@ -73,13 +79,7 @@ responses:
   utter_response_CSE_programs:
     - text: "The Department of Computer Science and Engineering at Walchand College of Engineering offers two main programs: a Bachelor of Technology (B. Tech) in Computer Science and Engineering and a Master of Technology (M. Tech) in Computer Science and Engineering. These programs provide students with a strong foundation in computer science and engineering, catering to both undergraduate and postgraduate levels of education."
 
-  utter_response_CSE_vision_mission:
-    - text: "Vision: To produce capable computer science & engineering graduates with an aptitude for research and leadership.
-    Mission:
-    1. To promote excellence in CSE education through relevant academic curricula and innovative teaching-learning processes.
-    2. To offer different opportunities to the students for the development of professional skills.
-    3. To nurture critical thinking and creativity in the students.
-    4. To inculcate in the students a lifelong learning attitude and sensitivity towards society and the environment."
+
 
   utter_response_CSE_syllabus:
     - text: "Syllabus of CSE: Third Year B.Tech. Computer Science and Engineering [here](https://images.dreamkasper.com/walchandsangli/documents/Computer%20Sc1679307350555.pdf)"
@@ -94,8 +94,75 @@ responses:
     Mr. S. D. Pujari (Assistant Professor) Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE Research Area: Focuses on Data Mining and Machine Learning.
     Dr. M. A. Shah (H.O.D. CSE) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking."
 
+
   utter_response_CSE_hod:
     - text: "Dr. Medha A. Shah serves as the Head of the Department of Computer Science and Engineering at Walchand College of Engineering, Sangli. You can contact her at 9423872296 or via email at medha.shah@walchandsangli.ac.in. Her leadership plays a crucial role in the department's academic and research endeavors, and you can find more information on the department's website at Department of Computer Science and Engineering. Her office can be reached at 0233-2303115."
+
+
+
+  utter_response_CSE_missions:
+    - text: " 1. To promote excellence in CSE education through relevant academic curricula and innovative teaching learning processes./n
+              2. To offer different opportunities to the students for development of professional skills.\n
+              3. To nurture critical thinking and creativity in the students./n
+              4. To inculcate in the students life-long learning attitude and sensitivity towards society & environment."
+
+  utter_response_CSE_visions:
+    - text: " To produce capable computer science & engineering graduates with an aptitude for research and leadership."
+
+  utter_response_CSE_labs:
+    - text: "1 Innovation and Project Laboratory (CCF Phase - I)
+            2 Networking and IoT Laboratory
+            3 Artificial Intelligence and Machine Learning Laboratory (CCF Phase - I)
+            4 Database Engineering Laboratory	 	 
+            5 Image Processing and Computer Vision Laboratory	 	 
+            6 Advanced Software Engineering Laboratory	 	 
+            7 Programming Laboratory
+            8 PG Computing Laboratory
+            9 PG Research Laboratory"
+
+
+  utter_response_ETC_info:
+    - text: "The Department of Electronics Engineering was established in 1986 to offer both graduate and 
+             post graduate programs at Walchand College of Engineering, Sangli. Its Curriculum is developed in such
+             a way that it will nurture critical thinking, creativity and professional skills in students.
+                The Electronics Engineering Department runs programs of Diploma (Industrial Electronics), B. Tech. (Electronics) and M. Tech (Electronics). 
+            Department is recognized as a Ph. D. research centre for the following schemes: AICTE's National Doctoral Fellowship Scheme, Govt. of India's 
+            Quality Improvement Program and Shivaji University, Kolhapur. Department is accredited by the National Board of Accreditation, New Delhi.
+            The Electronics Engineering Department has a well qualified faculty, having expertise in various Electronics Engineering streams like Communication
+            and Signal Processing, Embedded Systems and VLSI, Instrumentation and Control Systems."
+
+  utter_response_ETC_hod:
+    - text: "Dr.S. D. Ruikar (HOD & Associate Professor)  Ph.D. (Electronics Engineering)/n
+              He has completed PhD in Electronics under Shri Guru Gobind Singh Institute of
+            Engineering Technology, SRTMU Nanded, in 2013. He has received postgraduate degree in
+            Electronics and Telecommunication Engineering from Government Engineering College,
+            Pune University, India in 2001. He has received Graduate degree in Electronics and
+            Telecommunication from Government Engineering College, Aurangabad, under the aegis
+            of Dr. B. A. M. U., Aurangabad, in 1998.
+            
+            Contact:
+            Phone: 9422542119
+            Email: sachin.ruikar@walchandsangli.ac.in
+            ruikarsachin@gmail.com
+            Website: http://www.walchandsangli.ac.in
+            Office: 0233 2300383
+            "
+  utter_response_ETC_programs:
+    - text: "B. Tech(Electronics) (1986) Intake - 60
+             M. Tech(Electronics) (1986) Intake - 30"
+  utter_response_ETC_labs:
+    - text: "1 Electronics Design and Automation Lab 	
+2 Embedded System & Microcontroller Lab 	
+3 Digital Design Lab	Click here
+4 Industrial Electronics Lab 	
+5 Instrumentation & Control Lab	
+6 Applied Electronics Lab
+7 Basic Electronics Lab 	
+8 Communication Laboratory	
+9 PG Lab	
+10 PG Research Lab	
+11 John Deere Research Lab	
+12 Seminar Room "
 
 
 session_config:
