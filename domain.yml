@@ -14,6 +14,8 @@ intents:
   - ask_about_college
   - ask_about_founders
   - College_reach_options
+
+
   - CSE_Dept
   - CSE_programs
   - CSE_vision_mission
@@ -25,211 +27,347 @@ intents:
   - CSE_Faculty_MA_Shah
   - CSE_Faculty_NL_Gavankar
   - CSE_Faculty_MK_Chavan
-
   - CSE_missions
   - CSE_visions
   - CSE_labs
+
+
   - ETC_info
   - ETC_hod
   - ETC_programs
   - ETC_labs
+
 
   - ELE_info
   - ELE_hod
   - ELE_programs
   - ELE_labs
 
+
   - CE_info
   - CE_hod
-#  - ETC_programs
-#  - ETC_labs
-
-
-
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hey! How are you?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
 
   utter_clg_name:
-  - text: "The college name is Walchand College of Engineering, Sangli, and it is commonly referred to as WCE for short."
+    - text: "The college name is Walchand College of Engineering, Sangli, and it is commonly referred to as WCE for short."
 
   utter_clg_degrees:
-  - text: "The college provides courses at three levels: diploma, undergraduate and postgraduate courses. WCE Sangli course list consists of 4 diploma, 6 UG and 10 PG programmes.
-  The college offers Bachelor of Technology (B.Tech) and Master of Technology (M.Tech.) programmes in 4 and 10 specialisations respectively. The duration of Walchand College of Engineering Sangli courses ranges from 2 years to 4 years. "
+    - text: |
+        * The college provides courses at three levels: diploma, undergraduate, and postgraduate.
+        * WCE Sangli offers a course list that consists of 4 diploma, 6 UG, and 10 PG programs.
+        * The college offers Bachelor of Technology (B.Tech) and Master of Technology (M.Tech.) programs in 4 and 10 specializations, respectively.
+        * The duration of Walchand College of Engineering Sangli courses ranges from 2 years to 4 years.
 
   utter_clg_academic:
-  - text: "For acadamic details you can visit at - https://www.walchandsangli.ac.in/academics2324.asp"
+    - text: "For academic details, you can visit [here](https://www.walchandsangli.ac.in/academics2324.asp)."
 
   utter_response_about_college:
-    - text: "Walchand College of Engineering (WCE), situated in Sangli, Maharashtra, India, was established in 1947. It offers a wide range of undergraduate and postgraduate engineering programs in branches such as Civil Engineering, Computer Science and Engineering, Electrical Engineering, Electronics Engineering, Information Technology, and Mechanical Engineering. With a sprawling 90-acre campus known for its greenery and wildlife, modern facilities, and notable alumni, WCE continues to be a leading institution dedicated to delivering quality engineering education.
-    For more info, you can visit [here](https://en.wikipedia.org/wiki/Walchand_College_of_Engineering,_Sangli)."
+    - text: |
+        * Walchand College of Engineering (WCE), situated in Sangli, Maharashtra, India, was established in 1947.
+        * It offers a wide range of undergraduate and postgraduate engineering programs in branches such as Civil Engineering, Computer Science and Engineering, Electrical Engineering, Electronics Engineering, Information Technology, and Mechanical Engineering.
+        * With a sprawling 90-acre campus known for its greenery and wildlife, modern facilities, and notable alumni, WCE continues to be a leading institution dedicated to delivering quality engineering education.
+        * For more info, you can visit [here](https://en.wikipedia.org/wiki/Walchand_College_of_Engineering,_Sangli).
 
   utter_response_about_college_founders:
-    - text: "Walchand College of Engineering in Sangli, Maharashtra, was founded by three distinguished individuals: Walchand Hirachand, a renowned industrialist; Dhondumama Sathe, a freedom fighter and education advocate; and A. K. Dani, a dedicated leader. Their shared vision of promoting education and technical skills led to the establishment of the college in 1947. Today, the institution continues to honor their legacy by providing high-quality education and contributing to the advancement of technical education in India."
+    - text: |
+        * Walchand College of Engineering in Sangli, Maharashtra, was founded by three distinguished individuals:
+          - Walchand Hirachand, a renowned industrialist
+          - Dhondumama Sathe, a freedom fighter and education advocate
+          - A. K. Dani, a dedicated leader
+        * Their shared vision of promoting education and technical skills led to the establishment of the college in 1947.
+        * Today, the institution continues to honor their legacy by providing high-quality education and contributing to the advancement of technical education in India.
 
   utter_response_college_reach:
-    - text: "By Road: Sangli has good road connections with nearby cities, making it accessible by private vehicles, taxis, or cabs.
-    By Train: The nearest major railway station is Sangli Railway Station, offering connections to major cities. After arriving, you can hire a taxi or use local transport to reach the college.
-    By Air: The nearest airport is Kolhapur Airport (around 60 kilometers away), with limited domestic flights. Pune International Airport (about 230 kilometers) is another option, reachable by taxi or other transportation means.
-    By Bus: Sangli has a well-connected bus station with state-run and private buses. From Sangli, you can use local transport or taxis to reach the college campus in Vishrambag."
+    - text: |
+        * By Road: Sangli has good road connections with nearby cities, making it accessible by private vehicles, taxis, or cabs.
+        * By Train: The nearest major railway station is Sangli Railway Station, offering connections to major cities. After arriving, you can hire a taxi or use local transport to reach the college.
+        * By Air: The nearest airport is Kolhapur Airport (around 60 kilometers away), with limited domestic flights. Pune International Airport (about 230 kilometers) is another option, reachable by taxi or other transportation means.
+        * By Bus: Sangli has a well-connected bus station with state-run and private buses. From Sangli, you can use local transport or taxis to reach the college campus in Vishrambag.
 
-
+#CSE Department:
   utter_response_CSE_Dept:
-    - text: "The Department of Computer Science and Engineering, established in 1986, offers undergraduate and postgraduate programs with an intake of 120 and 18 students, respectively. It has a history of producing accomplished engineers, recognized for their contributions to society. The department boasts well-equipped labs, experienced faculty, and accreditation from the National Board of Accreditation. Additionally, it serves as a recognized research center for doctoral programs and has received grants from government agencies such as AICTE, DST, and DRDO since 1986.
-    You can visit the website for more info [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering)."
+    - text: |
+        * The Department of Computer Science and Engineering, established in 1986, offers undergraduate and postgraduate programs with an intake of 120 and 18 students, respectively.
+        * It has a history of producing accomplished engineers, recognized for their contributions to society.
+        * The department boasts well-equipped labs, experienced faculty, and accreditation from the National Board of Accreditation.
+        * Additionally, it serves as a recognized research center for doctoral programs and has received grants from government agencies such as AICTE, DST, and DRDO since 1986.
+        * You can visit the website for more info [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering).
 
   utter_response_CSE_programs:
-    - text: "The Department of Computer Science and Engineering at Walchand College of Engineering offers two main programs: a Bachelor of Technology (B. Tech) in Computer Science and Engineering and a Master of Technology (M. Tech) in Computer Science and Engineering. These programs provide students with a strong foundation in computer science and engineering, catering to both undergraduate and postgraduate levels of education."
-
-
+    - text: |
+        * The Department of Computer Science and Engineering at Walchand College of Engineering offers two main programs:
+          - Bachelor of Technology (B. Tech) in Computer Science and Engineering
+          - Master of Technology (M. Tech) in Computer Science and Engineering
+        * These programs provide students with a strong foundation in computer science and engineering, catering to both undergraduate and postgraduate levels of education.
 
   utter_response_CSE_syllabus:
-    - text: "Syllabus of CSE: Third Year B.Tech. Computer Science and Engineering [here](https://images.dreamkasper.com/walchandsangli/documents/Computer%20Sc1679307350555.pdf)"
+    - text: | 
+        Syllabus of CSE: Third Year B.Tech. Computer Science and Engineering 
+        * [here](https://images.dreamkasper.com/walchandsangli/documents/Computer%20Sc1679307350555.pdf)
 
   utter_response_CSE_faculty:
-    - text: "\n The Department of Computer Science and Engineering at Walchand College of Engineering comprises a dedicated faculty team with diverse qualifications and research expertise.
-    \n Dr. N. L. Gavankar (Assistant Professor) Qualifications: Ph.D., M.E. in CSE Research Area: Specializes in Image Processing, Remote Sensing, and GIS.
-    \n Dr. B.F. Momin (Associate Professor) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Specializes in Pattern Recognition, Soft Computing, Data Mining, AI & Machine Learning, and IoT.
-    \n Mr. A.R. Surve (Assistant Professor) Qualifications: Pursuing Ph.D. in CSE, M.E. in CSE Research Area: Focuses on IoT-enabled Context-Aware Smart Computing.
-    \n Mr. M. K. Chavan (Assistant Professor) Qualifications: M.E. in CSE Research Area: Focused on Cryptography and Network Security, as well as Computer Network.
-    \n Ms. P. D. Mundada (Assistant Professor) Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE Research Area: Research interests include Image Processing, AI, Machine Learning, and Deep Learning.
-    \n Mr. S. D. Pujari (Assistant Professor) Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE Research Area: Focuses on Data Mining and Machine Learning.
-    \n Dr. M. A. Shah (H.O.D. CSE) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking."
-
-
+    - text: |
+        * The Department of Computer Science and Engineering at Walchand College of Engineering comprises a dedicated faculty team with diverse qualifications and research expertise.
+        * Dr. N. L. Gavankar (Assistant Professor)
+          - Qualifications: Ph.D., M.E. in CSE
+          - Research Area: Specializes in Image Processing, Remote Sensing, and GIS.
+        * Dr. B.F. Momin (Associate Professor)
+          - Qualifications: Ph.D. in CSE, M.E. in CSE
+          - Research Area: Specializes in Pattern Recognition, Soft Computing, Data Mining, AI & Machine Learning, and IoT.
+        * Mr. A.R. Surve (Assistant Professor)
+          - Qualifications: Pursuing Ph.D. in CSE, M.E. in CSE
+          - Research Area: Focuses on IoT-enabled Context-Aware Smart Computing.
+        * Mr. M. K. Chavan (Assistant Professor)
+          - Qualifications: M.E. in CSE
+          - Research Area: Focused on Cryptography and Network Security, as well as Computer Network.
+        * Ms. P. D. Mundada (Assistant Professor)
+          - Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE
+          - Research Area: Research interests include Image Processing, AI, Machine Learning, and Deep Learning.
+        * Mr. S. D. Pujari (Assistant Professor)
+          - Qualifications: M.Tech in CSE, Pursuing Ph.D. in CSE
+          - Research Area: Focuses on Data Mining and Machine Learning.
+        * Dr. M. A. Shah (H.O.D. CSE)
+          - Qualifications: Ph.D. in CSE, M.E. in CSE
+          - Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking.
 
   utter_response_CSE_hod:
-    - text: "Dr. Medha A. Shah serves as the Head of the Department of Computer Science and Engineering at Walchand College of Engineering, Sangli. \n You can contact her at 9423872296 or via email at medha.shah@walchandsangli.ac.in. \n Her leadership plays a crucial role in the department's academic and research endeavors, and you can find more information on the department's website at Department of Computer Science and Engineering. Her office can be reached at 0233-2303115."
+    - text: |
+        * Dr. Medha A. Shah serves as the Head of the Department of Computer Science and Engineering at Walchand College of Engineering, Sangli.
+        * Contact: 9423872296
+        * Email: medha.shah@walchandsangli.ac.in
+        * Her leadership plays a crucial role in the department's academic and research endeavors.
+        * Office: 0233-2303115
+        * More information can be found on the department's website at Department of Computer Science and Engineering.
 
   utter_response_CSE_faculty_BF_Momin:
-    - text: "Dr. B.F. Momin (Associate Professor) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Specializes in Pattern Recognition, Soft Computing, Data Mining, AI & Machine Learning, and IoT."
+    - text: |
+        * Dr. B.F. Momin (Associate Professor)
+          - Qualifications: Ph.D. in CSE, M.E. in CSE
+          - Research Area: Pattern Recognition, Soft Computing, Data Mining, AI & Machine Learning, IoT.
 
   utter_response_CSE_faculty_AR_Surve:
-    - text: " Mr. A.R. Surve (Assistant Professor) Qualifications: Pursuing Ph.D. in CSE, M.E. in CSE Research Area: Focuses on IoT-enabled Context-Aware Smart Computing."
+    - text: |
+        * Mr. A.R. Surve (Assistant Professor)
+          - Qualifications: Pursuing Ph.D. in CSE, M.E. in CSE
+          - Research Area: Focuses on IoT-enabled Context-Aware Smart Computing.
 
   utter_response_CSE_Faculty_MA_Shah:
-    - text: " Dr. M. A. Shah (H.O.D. CSE) Qualifications: Ph.D. in CSE, M.E. in CSE Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking."
+    - text: |
+        * Dr. M. A. Shah (H.O.D. CSE)
+          - Qualifications: Ph.D. in CSE, M.E. in CSE
+          - Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking.
 
   utter_response_CSE_Faculty_NL_Gavankar:
-    - text: "Dr. N. L. Gavankar (Assistant Professor) Qualifications: Ph.D., M.E. in CSE Research Area: Specializes in Image Processing, Remote Sensing, and GIS."
+    - text: |
+        * Dr. N. L. Gavankar (Assistant Professor)
+          - Qualifications: Ph.D., M.E. in CSE
+          - Research Area: Specializes in Image Processing, Remote Sensing, and GIS.
 
   utter_response_CSE_Faculty_MK_Chavan:
-    - text: " Mr. M. K. Chavan (Assistant Professor) Qualifications: M.E. in CSE Research Area: Focused on Cryptography and Network Security, as well as Computer Network."
-
+    - text: |
+        * Mr. M. K. Chavan (Assistant Professor)
+          - Qualifications: M.E. in CSE
+          - Research Area: Focused on Cryptography and Network Security, as well as Computer Network.
 
   utter_response_CSE_missions:
-    - text: " 1. To promote excellence in CSE education through relevant academic curricula and innovative teaching learning processes./n
-              2. To offer different opportunities to the students for development of professional skills.\n
-              3. To nurture critical thinking and creativity in the students./n
-              4. To inculcate in the students life-long learning attitude and sensitivity towards society & environment."
+    - text: |
+        1. To promote excellence in CSE education through relevant academic curricula and innovative teaching learning processes.
+        2. To offer different opportunities to the students for development of professional skills.
+        3. To nurture critical thinking and creativity in the students.
+        4. To inculcate in the students life-long learning attitude and sensitivity towards society & environment.
 
   utter_response_CSE_visions:
-    - text: " To produce capable computer science & engineering graduates with an aptitude for research and leadership."
+    - text: "To produce capable computer science & engineering graduates with an aptitude for research and leadership."
 
   utter_response_CSE_labs:
-    - text: "1 Innovation and Project Laboratory (CCF Phase - I)
-            2 Networking and IoT Laboratory
-            3 Artificial Intelligence and Machine Learning Laboratory (CCF Phase - I)
-            4 Database Engineering Laboratory	 	 
-            5 Image Processing and Computer Vision Laboratory	 	 
-            6 Advanced Software Engineering Laboratory	 	 
-            7 Programming Laboratory
-            8 PG Computing Laboratory
-            9 PG Research Laboratory
-            You can visit [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering)"
+    - text:  | 
+        1 Innovation and Project Laboratory (CCF Phase - I)
+        2 Networking and IoT Laboratory
+        3 Artificial Intelligence and Machine Learning Laboratory (CCF Phase - I)
+        4 Database Engineering Laboratory
+        5 Image Processing and Computer Vision Laboratory
+        6 Advanced Software Engineering Laboratory
+        7 Programming Laboratory
+        8 PG Computing Laboratory
+        9 PG Research Laboratory
+        * You can visit [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering)"
 
 #Electronics Dept
   utter_response_ETC_info:
-    - text: "The Department of Electronics Engineering was established in 1986 to offer both graduate and 
-             post graduate programs at Walchand College of Engineering, Sangli. Its Curriculum is developed in such
-             a way that it will nurture critical thinking, creativity and professional skills in students.
-                The Electronics Engineering Department runs programs of Diploma (Industrial Electronics), B. Tech. (Electronics) and M. Tech (Electronics). 
-            Department is recognized as a Ph. D. research centre for the following schemes: AICTE's National Doctoral Fellowship Scheme, Govt. of India's 
-            Quality Improvement Program and Shivaji University, Kolhapur. Department is accredited by the National Board of Accreditation, New Delhi.
-            The Electronics Engineering Department has a well qualified faculty, having expertise in various Electronics Engineering streams like Communication
-            and Signal Processing, Embedded Systems and VLSI, Instrumentation and Control Systems.
-            You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
+    - text: | 
+        The Department of Electronics Engineering was established in 1986 to offer both graduate and 
+        post graduate programs at Walchand College of Engineering, Sangli. 
+        Its Curriculum is developed in such a way that it will nurture critical thinking, creativity and professional skills in students.
+        
+        The Electronics Engineering Department runs programs of Diploma (Industrial Electronics), B. Tech. (Electronics) and M. Tech (Electronics). 
+        Department is recognized as a Ph. D. research centre for the following schemes: AICTE's National Doctoral Fellowship Scheme, Govt. of India's 
+        Quality Improvement Program and Shivaji University, Kolhapur. Department is accredited by the National Board of Accreditation, New Delhi.
+        The Electronics Engineering Department has a well qualified faculty, having expertise in various Electronics Engineering streams like Communication
+        and Signal Processing, Embedded Systems and VLSI, Instrumentation and Control Systems.
+        
+        * You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)
 
   utter_response_ETC_hod:
-    - text: "Dr.S. D. Ruikar (HOD & Associate Professor)  Ph.D. (Electronics Engineering)/n
-              He has completed PhD in Electronics under Shri Guru Gobind Singh Institute of
-            Engineering Technology, SRTMU Nanded, in 2013. He has received postgraduate degree in
-            Electronics and Telecommunication Engineering from Government Engineering College,
-            Pune University, India in 2001. He has received Graduate degree in Electronics and
-            Telecommunication from Government Engineering College, Aurangabad, under the aegis
-            of Dr. B. A. M. U., Aurangabad, in 1998.
+    - text: | 
+        * Dr.S. D. Ruikar (HOD & Associate Professor)  Ph.D. (Electronics Engineering).
+        
+        He has completed PhD in Electronics under Shri Guru Gobind Singh Institute of
+        Engineering Technology, SRTMU Nanded, in 2013. He has received postgraduate degree in
+        Electronics and Telecommunication Engineering from Government Engineering College,
+        Pune University, India in 2001. He has received Graduate degree in Electronics and
+        Telecommunication from Government Engineering College, Aurangabad, under the aegis
+        of Dr. B. A. M. U., Aurangabad, in 1998.
             
-            Contact:
-            Phone: 9422542119
-            Email: sachin.ruikar@walchandsangli.ac.in
-            ruikarsachin@gmail.com
-            Website: http://www.walchandsangli.ac.in
-            Office: 0233 2300383
-            You can visit [here](https://project-wce.dreamkasper.com/pages/en_sdr)
-            "
+        Contact:
+        Phone: 9422542119
+        Email: sachin.ruikar@walchandsangli.ac.in
+        ruikarsachin@gmail.com
+        Website: http://www.walchandsangli.ac.in
+        Office: 0233 2300383
+        You can visit [here](https://project-wce.dreamkasper.com/pages/en_sdr)
+
   utter_response_ETC_programs:
-    - text: "B. Tech(Electronics) (1986) Intake - 60
-             M. Tech(Electronics) (1986) Intake - 30
-             You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
+    - text: |
+         B. Tech(Electronics) (1986) Intake - 60
+         M. Tech(Electronics) (1986) Intake - 30
+         You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
+
+  utter_ETC_Faculty:
+    - text: |
+        * Dr. B. G. Patil
+          - Title: Associate Professor
+          - Degrees: M.E.(Electronics), Ph.D.(Electronics)
+          - Research Area: Digital Image processing, Biomedical Signal Processing
+        
+        * Mr. S. B. Dhaigude
+          - Title: Associate Professor
+          - Degrees: M.E.(Electronics)
+          - Research Area: Image Processing
+        
+        * Mr. N. V. Marathe
+          - Title: Associate Professor
+          - Degrees: M.E.(Electronics)
+          - Research Area: Scheduling in Wireless Networks, Signals and Systems
+        
+        * Dr. Mrs. A. A. Agashe
+          - Title: Associate Professor
+          - Degrees: M.E.(Electronics), Ph.D.(Electronics)
+          - Research Area: Wireless Sensor Networks
+        
+        * Mr. S. K. Parchandekar
+          - Title: Associate Professor
+          - Degrees: M.E.(Electronics)
+          - Research Area: VLSI Design and Power Electronics
+        
+        * Dr. S. D. Ruikar
+          - Title: Associate Professor
+          - Degrees: M.E.(E&TC), Ph.D.(Electronics)
+          - Research Area: Image processing, Signal Processing, Machine Vision
+        
+        * Dr. S. G. Tamhankar
+          - Title: Assistant Professor
+          - Degrees: M.E.(Electronics), Ph.D.(Electronics)
+          - Research Area: Computer Networks, Cyber Physical systems, IoT
+        
+        * Mr. R. G. Mevekari
+          - Title: Assistant Professor
+          - Degrees: M.E.(Electronics)
+          - Research Area: Digital VLSI, Embedded System
+        
+        * Dr. Mrs. M. M. Patil
+          - Title: Associate Professor
+          - Degrees: M.E.(Electronics), Ph.D.(Electronics)
+          - Research Area: Biomedical Image Processing, Embedded Systems
+        
+        * Mrs. M. R. Khare
+          - Title: Assistant Professor
+          - Degrees: M. Tech.(Electronics)
+          - Research Area: Biomedical Image Processing, Wireless Sensor Network
+        
+        * Ms. S. U. Patil
+          - Title: Assistant Professor
+          - Degrees: M. Tech.(Electronics)
+          - Research Area: Pattern Recognition and image analysis, Reinforcement Learning
+        
+        * Mr. S. R. Khedkar
+          - Title: Assistant Professor
+          - Degrees: M. Tech.(Electronics)
+          - Research Area: Embedded System Design, Digital Electronics
+        
+        * Mrs. N. S. Babar
+          - Title: Assistant Professor
+          - Degrees: M. Tech.(Electronics-Digital System)
+          - Research Area: Computer Vision, Deep Learning
 
   utter_response_ETC_labs:
-    - text: "1 Electronics Design and Automation Lab 	
-            2 Embedded System & Microcontroller Lab 	
-            3 Digital Design Lab	
-            4 Industrial Electronics Lab 	
-            5 Instrumentation & Control Lab	
-            6 Applied Electronics Lab
-            7 Basic Electronics Lab 	
-            8 Communication Laboratory	
-            9 PG Lab	
-            10 PG Research Lab	
-            11 John Deere Research Lab	
-            12 Seminar Room 
-            You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
+    - text: |
+        1 Electronics Design and Automation Lab 	
+        2 Embedded System & Microcontroller Lab 	
+        3 Digital Design Lab	
+        4 Industrial Electronics Lab 	
+        5 Instrumentation & Control Lab	
+        6 Applied Electronics Lab
+        7 Basic Electronics Lab 	
+        8 Communication Laboratory	
+        9 PG Lab	
+        10 PG Research Lab	
+        11 John Deere Research Lab	
+        12 Seminar Room 
+        You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
 
 #Electrical Dept
 
   utter_response_ELE_info:
-    - text: "The Electrical Engineering Department of Walchand College of Engineering, Sangli was established in 1955, running the UG program since 1955 and PG programs in Power Systems and Control Systems since 1962. It has 65 years of a long history of technical education. Electrical engineers produced by this department have contributed to industrial development over the last 60 years at the national and international levels. The Department has a team of 17 faculty members and well-qualified staff.
-             The department presently has well-equipped laboratories and excellent computational facilities. World-class software like MATLAB, LabVIEW, TIA, Mi-Power, OPAL-RT, ANSYS, Proteus, etc. are available in the department to work on projects in various areas of electrical engineering. The indigenously developed laboratory setups are attracting the attention of various institutes nearby.
-             The department is always enthusiastic about conducting various courses and workshops for the faculty and students to permeate advances in technology. All undergraduate, postgraduate and Ph.D. students thereby get full opportunity to participate in co-curricular and extra-curricular activities leading to holistic personality development.
-             You can visit [here](https://project-wce.dreamkasper.com/pages/electrical-engineering)"
+    - text: |
+        * The Electrical Engineering Department of Walchand College of Engineering, Sangli was established in 1955, running the UG program since 1955 and PG programs in Power Systems and Control Systems since 1962.
+        * It has 65 years of a long history of technical education. Electrical engineers produced by this department have contributed to industrial development over the last 60 years at the national and international levels.
+        * The Department has a team of 17 faculty members and well-qualified staff.
+        * The department presently has well-equipped laboratories and excellent computational facilities. World-class software like MATLAB, LabVIEW, TIA, Mi-Power, OPAL-RT, ANSYS, Proteus, etc. are available in the department to work on projects in various areas of electrical engineering.
+        * The indigenously developed laboratory setups are attracting the attention of various institutes nearby.
+        * The department is always enthusiastic about conducting various courses and workshops for the faculty and students to permeate advances in technology. All undergraduate, postgraduate, and Ph.D. students thereby get a full opportunity to participate in co-curricular and extra-curricular activities leading to holistic personality development.
+        * You can visit [here](https://project-wce.dreamkasper.com/pages/electrical-engineering)."
 
   utter_response_ELE_hod:
-    - text: "Dr. Ramchandra P. Hasbe
-              Head of Electrical Department
-              Assistant Professor
-              Ph.D. 
-              R. P. Hasabe received the B.E. degree in electrical engineering and the M.E. degree in electrical power systems from Shivaji University, Kolhapur, India in 2001 and 2006, respectively. And also completed Ph.D. degree in Electrical engineering from Shivaji University Kolhapur in 2017. Currently, he is an Assistant Professor in the Department of Electrical Engineering, Walchand College of Engineering, Sangli. His research interests include power system protection, planning and design, system modeling, and simulation.
-              
-              Contact: 
-              Phone: 9422614878
-              Email: ramchandra.hasbe@walchandsangli.ac.in
-              Website: https://images.dreamkasper.com:8087/pages/el_rps
-              Office: 0233-2300933  
-              You can visit [here](https://project-wce.dreamkasper.com/pages/el_rph)"
+    - text: |
+        * Dr. Ramchandra P. Hasbe
+          - Head of Electrical Department
+          - Assistant Professor
+          - Ph.D.
+        * R. P. Hasabe received the B.E. degree in electrical engineering and the M.E. degree in electrical power systems from Shivaji University, Kolhapur, India in 2001 and 2006, respectively. He also completed a Ph.D. degree in Electrical engineering from Shivaji University Kolhapur in 2017.
+        * Currently, he is an Assistant Professor in the Department of Electrical Engineering, Walchand College of Engineering, Sangli. His research interests include power system protection, planning, and design, system modeling, and simulation.
+        * Contact:
+          - Phone: 9422614878
+          - Email: ramchandra.hasbe@walchandsangli.ac.in
+          - Website: [https://images.dreamkasper.com:8087/pages/el_rps](https://images.dreamkasper.com:8087/pages/el_rps)
+          - Office: 0233-2300933
+        * You can visit [here](https://project-wce.dreamkasper.com/pages/el_rph)."
 
   utter_response_ELE_programs:
-    - text: "B. Tech(Electronics) (1986) Intake - 60
-             M. Tech(Electronics) (1986) Intake - 30
-            You can visit [here](https://project-wce.dreamkasper.com/pages/electrical-engineering)"
+    - text: |
+        * B. Tech(Electronics) (1986)
+          - Intake - 60
+        * M. Tech(Electronics) (1986)
+          - Intake - 30
+        * You can visit [here](https://project-wce.dreamkasper.com/pages/electrical-engineering)."
 
   utter_response_ELE_labs:
     - text: |
@@ -246,32 +384,145 @@ responses:
             3 Power Quality and Harmonics Lab
             4 Siemens Automation and Drives Lab
             
-            You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)
+            You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
 
+#Electronics Department
 
   #Civil Dept
 
   utter_response_CE_info:
-    - text: |
-            The Department of Civil Engineering was the first inchoative discipline at Walchand College of Engineering, Sangli and the
-            oldest in Southern Maharashtra region. Starting its journey in 1947, the department has contributed in producing several 
-            eminent engineers who are in key positions of the Government organizations, public sector and infrastructure companies and 
-            have brought in significant contributions in the planning and execution of Civil Engineering projects in various regions of India.
-            The Department offers a four-year programme leading to the Bachelor’s Degree in Civil Engineering (B. Tech.) and a two-year programme
-            leading to Master’s degree (M.Tech.) in Civil engineering with specialization in Environmental  Engineering and Structural Engineering.
-            You can visit [here](https://project-wce.dreamkasper.com/pages/civil-environmental-engineering)
+      - text: |
+          * The Department of Civil Engineering was the first inchoative discipline at Walchand College of Engineering, Sangli, and the oldest in Southern Maharashtra region.
+          * Starting its journey in 1947, the department has established itself as a pioneering institution for civil engineering education.
+          * It offers a four-year B.Tech degree and two-year M.Tech degree programs, along with a Ph.D. research center. It has also gained recognition from organizations like AICTE and DST.
+          * Faculty members of the department are dedicated to imparting the knowledge and skills necessary for students to become accomplished civil engineers.
+          * As a result, the department has become a cradle for engineers in South Maharashtra, providing industry-ready graduates.
+          * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering)."
 
   utter_response_CE_hod:
-    - text: |
-            Dr. S. N. Tande
-            Position - Professor & Head of Department (HoD)
-            Academic Qualification - Ph.D. in Civil Engineering
-            Research Areas -
-              Structural Engineering
-              Structural Dynamics
-              Finite Element Analysis
-              Earthquake Engineering
-              Design Optimization
+      - text: |
+          * Dr. Arunkumar B. Biradar is the Head of the Department.
+          * He is an Associate Professor and has a Ph.D. in Environmental Engineering.
+          * Dr. Biradar is actively involved in research and academics in the field of civil engineering.
+          * His contact details:
+            - Phone: 9421747951
+            - Email: arunkumar.biradar@walchandsangli.ac.in
+          * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-abba)."
+
+  utter_response_CE_programs:
+      - text: |
+          * B. Tech(Civil) (1947)
+            - Intake - 60
+          * M. Tech(Civil) (1975)
+            - Intake - 24
+          * Ph. D.
+          * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering)."
+
+  utter_response_CE_Faculty:
+      - text: |
+          * Dr. S. B. Bagal
+            - Title: Associate Professor
+            - Degrees: Ph.D.(Environmental Engg.)
+            - Research Area: Environmental Engineering
+        
+          * Dr. V. S. Sant
+            - Title: Associate Professor
+            - Degrees: Ph.D.
+            - Research Area: Geotechnical Engineering
+          
+          * Dr. Arunkumar B. Biradar
+            - Title: Assistant Professor
+            - Degrees: Ph.D.
+            - Research Area: Environmental Engineering
+          
+          * Mr. N. A. Karlekar
+            - Title: Associate Professor
+            - Degrees: M.E. (Geotechnical Engg.)
+            - Research Area: Geotechnical Engineering
+        
+          * Dr. D. S. Bormane
+            - Title: Associate Professor
+            - Degrees: Ph.D.
+            - Research Area: Geotechnical Engineering
+          
+          * Dr. S. B. Jadhav
+            - Title: Associate Professor
+            - Degrees: Ph.D.
+            - Research Area: Environmental Engineering
+        
+          * Mr. P. A. Pawar
+            - Title: Assistant Professor
+            - Degrees: M.E. (Environmental Engg.)
+            - Research Area: Environmental Engineering
+          
+          * Dr. R. M. Ingle
+            - Title: Associate Professor
+            - Degrees: Ph.D.
+            - Research Area: Environmental Engineering
+        
+          * Dr. S. S. Kamble
+            - Title: Assistant Professor
+            - Degrees: Ph.D.
+            - Research Area: Environmental Engineering
+          
+          * Dr. S. V. Patil
+            - Title: Assistant Professor
+            - Degrees: Ph.D.
+            - Research Area: Environmental Engineering
+          
+          * Dr. T. G. Sevekari
+            - Title: Associate Professor
+            - Degrees: Ph.D.
+            - Research Area: Geotechnical Engineering
+          
+          * Dr. D. K. Choudhari
+            - Title: Associate Professor
+            - Degrees: Ph.D.
+            - Research Area: Environmental Engineering
+        
+          * Dr. A. P. Savadatti
+            - Title: Associate Professor
+            - Degrees: Ph.D.
+            - Research Area: Structural Engineering
+          
+          * Mr. D. S. Patil
+            - Title: Associate Professor
+            - Degrees: M.E. (Geotechnical Engg.)
+            - Research Area: Geotechnical Engineering
+          
+          * Dr. G. K. Jadhav
+            - Title: Associate Professor
+            - Degrees: Ph.D.
+            - Research Area: Environmental Engineering
+          
+          * Mr. S. R. Chougale
+            - Title: Associate Professor
+            - Degrees: M.E. (Construction Management)
+            - Research Area: Structural Engineering
+          
+          * Dr. V. B. Patil
+            - Title: Associate Professor
+            - Degrees: Ph.D.
+            - Research Area: Environmental Engineering
+        
+          * Mr. A. M. Pansare
+            - Title: Assistant Professor
+            - Degrees: M.E. (Structural Engineering)
+            - Research Area: Structural Engineering
+          * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering).
+
+  utter_response_CE_labs:
+      - text: |
+          1 Material Testing Laboratory
+          2 Geotechnical Engineering Laboratory
+          3 Structural Analysis Laboratory
+          4 Surveying Laboratory
+          5 Transportation Engineering Laboratory
+          6 Environmental Engineering Laboratory
+          7 Fluid Mechanics Laboratory
+          8 Computational Laboratory
+          9 Model Making and Concrete Technology Laboratory
+          You can visit [here](https://project-wce.dreamkasper.com/pages/civil-lab).
 
 session_config:
   session_expiration_time: 60

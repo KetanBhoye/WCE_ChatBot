@@ -142,8 +142,6 @@ nlu:
     -what programs offered by CSE Department
     -programs offered by cse department
 
-
-
 - intent: CSE_syllabus
   examples: |
     - where is the cse syllabus.
@@ -233,7 +231,7 @@ nlu:
     - how many labs in cse dept
   
 
-
+#Electronics Department.
 - intent: ETC_info
   examples: |
     - What is the mission and vision of the electronics department?
@@ -261,6 +259,14 @@ nlu:
     - Can you list the different degree programs available within the department?
     - Could you provide examples of specific specializations available within the ETC Department?
     - How long is the typical duration of the programs in the ETC Department?
+
+- intent: ETC_Faculty
+  examples: |
+    - give information about electronics faculty
+    - information about electronics faculty
+    - electronics faculty
+    - extc faculty
+    - etc faculty
 
 - intent: ETC_labs
   examples: |

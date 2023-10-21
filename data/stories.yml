@@ -140,6 +140,7 @@ stories:
     - action: utter_response_CSE_labs
 
 
+
 - story: ETC_DEPT
   steps:
     - intent: ETC_info
@@ -148,6 +149,8 @@ stories:
     - action: utter_response_ETC_hod
     - intent: ETC_programs
     - action: utter_response_ETC_programs
+    - intent: ETC_Faculty
+    - action: utter_ETC_Faculty
     - intent: ETC_labs
     - action: utter_response_ETC_labs
 
