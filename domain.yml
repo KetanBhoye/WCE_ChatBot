@@ -16,7 +16,6 @@ intents:
   - College_reach_options
   - CSE_Dept
   - CSE_programs
-  - CSE_vision_mission
   - CSE_syllabus
   - CSE_faculty
   - CSE_hod
@@ -79,13 +78,6 @@ responses:
   utter_response_CSE_programs:
     - text: "The Department of Computer Science and Engineering at Walchand College of Engineering offers two main programs: a Bachelor of Technology (B. Tech) in Computer Science and Engineering and a Master of Technology (M. Tech) in Computer Science and Engineering. These programs provide students with a strong foundation in computer science and engineering, catering to both undergraduate and postgraduate levels of education."
 
-  utter_response_CSE_vision_mission:
-    - text: "Vision: To produce capable computer science & engineering graduates with an aptitude for research and leadership.
-    Mission:
-    1. To promote excellence in CSE education through relevant academic curricula and innovative teaching-learning processes.
-    2. To offer different opportunities to the students for the development of professional skills.
-    3. To nurture critical thinking and creativity in the students.
-    4. To inculcate in the students a lifelong learning attitude and sensitivity towards society and the environment."
 
   utter_response_CSE_syllabus:
     - text: "Syllabus of CSE: Third Year B.Tech. Computer Science and Engineering [here](https://images.dreamkasper.com/walchandsangli/documents/Computer%20Sc1679307350555.pdf)"

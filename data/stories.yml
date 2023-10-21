@@ -65,10 +65,6 @@ stories:
   - intent: CSE_programs
   - action: utter_response_CSE_programs
 
-- story: CSE_vision_mission_story
-  steps:
-    - intent: CSE_vision_mission
-    - action: utter_response_CSE_vision_mission
 
 - story: CSE_Syllabus_story
   steps:
@@ -83,7 +79,7 @@ stories:
     - intent: CSE_faculty
     - action: utter_response_CSE_faculty
 
-#CSE Faculty Section.
+
 
 - story: CSE_faculty_story
   steps:

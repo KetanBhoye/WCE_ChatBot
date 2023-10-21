@@ -142,12 +142,6 @@ nlu:
     -programs offered by cse department
 
 
-- intent: CSE_vision_mission
-  examples: |
-    -Vision and mission of CSE department
-    -Vision and mission of CSE
-    -What is CSE department's vision
-    -What is CSE Department's mission
 
 - intent: CSE_syllabus
   examples: |
