@@ -151,3 +151,28 @@ stories:
     - intent: ETC_labs
     - action: utter_response_ETC_labs
 
+# electrical dept
+- story: ELE_DEPT
+  steps:
+    - intent: ELE_info
+    - action: utter_response_ELE_info
+    - intent: ELE_hod
+    - action: utter_response_ELE_hod
+    - intent: ELE_programs
+    - action: utter_response_ELE_programs
+    - intent: ELE_labs
+    - action: utter_response_ELE_labs
+
+  # Civil dept
+- story: CE_DEPT
+  steps:
+    - intent: CE_info
+    - action: utter_response_CE_info
+    - intent: CE_hod
+    - action: utter_response_CE_hod
+#    - intent: CE_programs
+#    - action: utter_response_CE_programs
+#    - intent: CE_labs
+#    - action: utter_response_CE_labs
+
+

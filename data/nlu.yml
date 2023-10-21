@@ -274,5 +274,70 @@ nlu:
     - laboratories of electronics dept
     - laborateries of electronics department
     - how many labs in electronics dept
+
+# Electrical Dept
+- intent: ELE_info
+  examples: |
+    - What is the mission and vision of the electrical department?
+    - electrical dept in wce
+    - Tell me about electrical dept
+    - info about electrical dept
+    - ele dept
+    - electrical dept info
+
+- intent: ELE_hod
+  examples: |
+    - who is hod of ele dept?
+    - ele hod
+    - contact of ele hod
+    - contact ele hod
+    - who is hod of electrical dept?
+    - electrical hod
+    - contact of electrical hod
+    - contact electrical hod
+
+- intent: ELE_programs
+  examples: |
+    - what programs offered by ele Department
+    - programs offered by ele department
+    - Can you list the different degree programs available within the department?
+    - Could you provide examples of specific specializations available within the electrical Department?
+    - How long is the typical duration of the programs in the electrical Department?
+
+- intent: ELE_labs
+  examples: |
+    - what are labs of ele?
+    - ele labs
+    - laboratories of ele dept
+    - laborateries of ele department
+    - how many labs in ele dept
+    - what are labs of electrical?
+    - electrical labs
+    - laboratories of electrical dept
+    - laborateries of electrical department
+    - how many labs in electrical dept
+
+
+  # Civil Dept
+- intent: CE_info
+  examples: |
+    - What is the mission and vision of the civil department?
+    - civil dept in wce
+    - Tell me about civil dept
+    - info about civil dept
+    - ce dept
+    - ce dept info
+
+- intent: CE_hod
+  examples: |
+    - who is hod of ce dept?
+    - ce hod
+    - contact of ce hod
+    - contact ce hod
+    - who is hod of civil dept?
+    - civil hod
+    - contact of civil hod
+    - contact civil hod
+
   
 

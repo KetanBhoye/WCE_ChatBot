@@ -34,6 +34,18 @@ intents:
   - ETC_programs
   - ETC_labs
 
+  - ELE_info
+  - ELE_hod
+  - ELE_programs
+  - ELE_labs
+
+  - CE_info
+  - CE_hod
+#  - ETC_programs
+#  - ETC_labs
+
+
+
 
 responses:
   utter_greet:
@@ -143,7 +155,7 @@ responses:
             9 PG Research Laboratory
             You can visit [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering)"
 
-
+#Electronics Dept
   utter_response_ETC_info:
     - text: "The Department of Electronics Engineering was established in 1986 to offer both graduate and 
              post graduate programs at Walchand College of Engineering, Sangli. Its Curriculum is developed in such
@@ -180,7 +192,7 @@ responses:
   utter_response_ETC_labs:
     - text: "1 Electronics Design and Automation Lab 	
             2 Embedded System & Microcontroller Lab 	
-            3 Digital Design Lab	Click here
+            3 Digital Design Lab	
             4 Industrial Electronics Lab 	
             5 Instrumentation & Control Lab	
             6 Applied Electronics Lab
@@ -192,6 +204,74 @@ responses:
             12 Seminar Room 
             You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
 
+#Electrical Dept
+
+  utter_response_ELE_info:
+    - text: "The Electrical Engineering Department of Walchand College of Engineering, Sangli was established in 1955, running the UG program since 1955 and PG programs in Power Systems and Control Systems since 1962. It has 65 years of a long history of technical education. Electrical engineers produced by this department have contributed to industrial development over the last 60 years at the national and international levels. The Department has a team of 17 faculty members and well-qualified staff.
+             The department presently has well-equipped laboratories and excellent computational facilities. World-class software like MATLAB, LabVIEW, TIA, Mi-Power, OPAL-RT, ANSYS, Proteus, etc. are available in the department to work on projects in various areas of electrical engineering. The indigenously developed laboratory setups are attracting the attention of various institutes nearby.
+             The department is always enthusiastic about conducting various courses and workshops for the faculty and students to permeate advances in technology. All undergraduate, postgraduate and Ph.D. students thereby get full opportunity to participate in co-curricular and extra-curricular activities leading to holistic personality development.
+             You can visit [here](https://project-wce.dreamkasper.com/pages/electrical-engineering)"
+
+  utter_response_ELE_hod:
+    - text: "Dr. Ramchandra P. Hasbe
+              Head of Electrical Department
+              Assistant Professor
+              Ph.D. 
+              R. P. Hasabe received the B.E. degree in electrical engineering and the M.E. degree in electrical power systems from Shivaji University, Kolhapur, India in 2001 and 2006, respectively. And also completed Ph.D. degree in Electrical engineering from Shivaji University Kolhapur in 2017. Currently, he is an Assistant Professor in the Department of Electrical Engineering, Walchand College of Engineering, Sangli. His research interests include power system protection, planning and design, system modeling, and simulation.
+              
+              Contact: 
+              Phone: 9422614878
+              Email: ramchandra.hasbe@walchandsangli.ac.in
+              Website: https://images.dreamkasper.com:8087/pages/el_rps
+              Office: 0233-2300933  
+              You can visit [here](https://project-wce.dreamkasper.com/pages/el_rph)"
+
+  utter_response_ELE_programs:
+    - text: "B. Tech(Electronics) (1986) Intake - 60
+             M. Tech(Electronics) (1986) Intake - 30
+            You can visit [here](https://project-wce.dreamkasper.com/pages/electrical-engineering)"
+
+  utter_response_ELE_labs:
+    - text: |
+       UG - 1 Electrical Machines Lab	
+            2 Basic Electrical and Measurement Lab	
+            3 Microprocessor and Microcontroller Lab
+            4 Electrical and Electronics Circuit Lab
+            5 Computer Lab
+            6 Instrumentation and Process Control Lab
+            7 Power Electronics and Drives Lab
+
+       PG - 1 PG Power Systems Lab	
+            2 PG Control Systems Lab	
+            3 Power Quality and Harmonics Lab
+            4 Siemens Automation and Drives Lab
+            
+            You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)
+
+
+  #Civil Dept
+
+  utter_response_CE_info:
+    - text: |
+            The Department of Civil Engineering was the first inchoative discipline at Walchand College of Engineering, Sangli and the
+            oldest in Southern Maharashtra region. Starting its journey in 1947, the department has contributed in producing several 
+            eminent engineers who are in key positions of the Government organizations, public sector and infrastructure companies and 
+            have brought in significant contributions in the planning and execution of Civil Engineering projects in various regions of India.
+            The Department offers a four-year programme leading to the Bachelor’s Degree in Civil Engineering (B. Tech.) and a two-year programme
+            leading to Master’s degree (M.Tech.) in Civil engineering with specialization in Environmental  Engineering and Structural Engineering.
+            You can visit [here](https://project-wce.dreamkasper.com/pages/civil-environmental-engineering)
+
+  utter_response_CE_hod:
+    - text: |
+            Dr. S. N. Tande
+            Position - Professor & Head of Department (HoD)
+            Academic Qualification - Ph.D. in Civil Engineering
+            Research Areas -
+              Structural Engineering
+              Structural Dynamics
+              Finite Element Analysis
+              Earthquake Engineering
+              Design Optimization
 
 session_config:
   session_expiration_time: 60
