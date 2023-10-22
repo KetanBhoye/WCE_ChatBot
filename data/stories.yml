@@ -145,6 +145,26 @@ stories:
     - action: utter_response_CSE_labs
 
 
+#IT Department.
+- story: IT_DEPT
+  steps:
+    - intent: IT_info
+    - action: utter_response_IT_info
+    - intent: IT_Hod
+    - action: utter_response_IT_Hod
+    - intent: IT_programs
+    - action: utter_response_IT_programs
+    - intent: IT_Faculty
+    - action: utter_response_IT_Faculty
+    - intent: IT_Mission
+    - intent: utter_response_IT_Mission
+    - intent: IT_Vision
+    - action: utter_response_IT_Vision
+    - intent: IT_Labs
+    - action: utter_response_IT_Labs
+
+
+
 
 - story: ETC_DEPT
   steps:
@@ -170,6 +190,8 @@ stories:
     - action: utter_response_ELE_info
     - intent: ELE_hod
     - action: utter_response_ELE_hod
+    - intent: ELE_Faculty
+    - action: utter_response_ELE_Faculty
     - intent: ELE_programs
     - action: utter_response_ELE_programs
     - intent: ELE_visions
@@ -186,6 +208,8 @@ stories:
     - action: utter_response_CE_info
     - intent: CE_hod
     - action: utter_response_CE_hod
+    - intent: CE_Faculty
+    - action: utter_response_CE_Faculty
     - intent: CE_programs
     - action: utter_response_CE_programs
     - intent: CE_visions
@@ -202,6 +226,8 @@ stories:
     - action: utter_response_ME_info
     - intent: ME_hod
     - action: utter_response_ME_hod
+    - intent: ME_Faculty
+    - action: utter_response_ME_Faculty
     - intent: ME_programs
     - action: utter_response_ME_programs
     - intent: ME_visions
