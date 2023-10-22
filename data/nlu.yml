@@ -507,8 +507,71 @@ nlu:
     - laboratories of mechanical dept
     - laborateries of mechanical department
     - how many labs in mechanical dept
-    
 
+- intent: Admission_UG_info
+  examples: |
+    - how to take ug admission in wce?
+    - wce admissions ug
+    - admissions under graduate in wce 
+    - college admissions ug
+    - admissions of undergraduate college
+    - clg admission details of ug
+
+- intent: Admission_PG_info
+  examples: |
+    - how to take pg admission in wce?
+    - wce admissions pg
+    - admissions post graduate in wce 
+    - college admissions ug
+    - admissions of postgraduate college
+    - clg admission details of pg
+
+- intent: Admission_fee_structure
+  examples: |
+    - Fee Structure of Walchand College of Engineering?
+    - Where I can get the Fee Structure?
+    - How to get the Fee Structure of Walchand?
+    - [Ff]ee [Ss]tructure.
+    - fee structure of walchand college of engineering?
+    - how to get the fee structure of walchand?
+    - where I can find the fee structure?
+    - where i can find the fee structure?
+
+- intent: Admission_process_date
+  examples: |
+    - When admission process is going to start?
+    - Admission dates?
+    - Dates of admission?
+    - On which date admission are starting in the walchand?
+    - Where can we get the admission dates?
+    - when admission process is going to start?
+    - admission dates?
+    - admiss. dates?
+    - dates of admission?
+  
+- intent: Admission_document
+  examples: |
+    - What are the documents are required for admission?
+    - What are required documents?
+    - Documents required?
+    - Which documents are required for the admission?
+    - Documents for the admission
+    - Admission document
+    - Admission doc
+    - Doc for admission
+
+- intent: Admission_location
+  examples: |
+    - Admission location?
+    - Where admissions are going on?
+    - Are the admission are going on in tilak hall?
+    - Where is admission process going on?
+    - admission location?
+    - where admission are going on?
+    - are the admission are going on in tilak hall?
+    - where is admission process going on?
+    - [Aa]dmission [Rr]oom[?|.]
+    - [Aa]dmission [Vv]enue[?|.]
 
 
   

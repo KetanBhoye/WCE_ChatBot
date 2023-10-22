@@ -212,4 +212,34 @@ stories:
     - action: utter_response_ME_labs
 
 
+  # College Admissions
+- story: College_Admissions
+  steps:
+    - intent: Admission_UG_info
+    - action: utter_response_Admission_UG_info
+    - intent: Admission_PG_info
+    - action: utter_response_Admission_PG_info
+    - intent: Admission_fee_structure
+    - action: utter_response_Admission_fee_structure
+    - intent: Admission_process_date
+    - action: utter_admission_process_date
+    - intent: Admission_document
+    - action: utter_admission_document
+    - intent: Admission_location
+    - action: utter_admission_location
+
+#    - intent: ME_hod
+#    - action: utter_response_ME_hod
+#    - intent: ME_programs
+#    - action: utter_response_ME_programs
+#    - intent: ME_visions
+#    - action: utter_response_ME_visions
+#    - intent: ME_missions
+#    - action: utter_response_ME_missions
+#    - intent: ME_labs
+#    - action: utter_response_ME_labs
+
+
+
+
 

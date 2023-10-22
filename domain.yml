@@ -64,6 +64,12 @@ intents:
   - ME_missions
   - ME_labs
 
+  - Admission_UG_info
+  - Admission_PG_info
+  - Admission_fee_structure
+  - Admission_location
+  - Admission_document
+
 
 responses:
   utter_greet:
@@ -738,6 +744,96 @@ responses:
         14 Hydraulics and Pneumatics Laboratory
         15 Measurement and Control Laboratory
         You can visit [here](https://project-wce.dreamkasper.com/pages/civil-lab).
+
+#Admission Info
+  utter_response_Admission_UG_info:
+    - text: |
+        Undergraduate Programs:
+  
+        Admissions for the academic year 2022-2023 at WCE, Sangli, are based on merit, and the process is conducted online 
+        through the centralized admission process following the guidelines of the Government of Maharashtra. The competent 
+        authority responsible for admissions is the Commissioner of State CET, Maharashtra.
+        
+        Available Seats for Admission:
+        
+        Course Name: Civil
+        Sanctioned Intake (State Level Seats): 60
+        Additional Seats: Five seats for Seth Walchand Hirachand Memorial Trust and two seats for D.D. Daruwala Memorial Trust.
+        
+        Course Name: Computer Science and Engineering (CSE)
+        Sanctioned Intake (State Level Seats): 90
+        Additional Seats: Five seats for Seth Walchand Hirachand Memorial Trust and two seats for D.D. Daruwala Memorial Trust.
+        
+        Course Name: Information Technology (IT)
+        Sanctioned Intake (State Level Seats): 60
+        Additional Seats: Five seats for Seth Walchand Hirachand Memorial Trust and two seats for D.D. Daruwala Memorial Trust.
+        
+        Course Name: Electrical Engineering
+        Sanctioned Intake (State Level Seats): 60
+        Additional Seats: Five seats for Seth Walchand Hirachand Memorial Trust and two seats for D.D. Daruwala Memorial Trust.
+        
+        Course Name: Electronics Engineering
+        Sanctioned Intake (State Level Seats): 60
+        Additional Seats: Five seats for Seth Walchand Hirachand Memorial Trust and two seats for D.D. Daruwala Memorial Trust.
+        
+        Course Name: Mechanical Engineering
+        Sanctioned Intake (State Level Seats): 60
+        Additional Seats: Five seats for Seth Walchand Hirachand Memorial Trust and two seats for D.D. Daruwala Memorial Trust.
+                
+  utter_response_Admission_PG_info:
+      - text: |
+          Postgraduate Programs:
+  
+          The admission procedure for Postgraduate Programs for the academic year 2022-2023 at WCE, Sangli, is conducted through
+          the Central Admission Process (CAP). It's important to note that there is no Trust quota for First Year M.Tech. admission.
+          
+          Available Seats for Admission:
+          
+          Course Name: Civil - Structural Engineering
+          Sanctioned Intake: 30
+          
+          Course Name: Civil - Environmental Engineering
+          Sanctioned Intake: 18
+          
+          Course Name: Computer Science and Engineering
+          Sanctioned Intake: 30
+          
+          Course Name: Electrical - Power System Engineering
+          Sanctioned Intake: 18
+          
+          Course Name: Electrical - Control System Engineering
+          Sanctioned Intake: 18
+          
+          Course Name: Electronics Engineering
+          Sanctioned Intake: 30
+          
+          Course Name: Mechanical - Heat Power Engineering
+          Sanctioned Intake: 18
+          
+          Course Name: Mechanical - Production Engineering
+          Sanctioned Intake: 30
+          
+          Course Name: Mechanical - Design Engineering
+          Sanctioned Intake: 30
+          
+          Course Name: Computer Science and Information Technology
+          Sanctioned Intake: 18
+
+
+  utter_response_Admission_fee_structure:
+        - text: "Fee structure of the college."
+          image: "https://i.imgur.com/2O69xJK.jpg"
+
+  utter_admission_document:
+    - text: "You want admission documents "
+
+  utter_admission_process_date:
+    - text: "Admission is going to be from  dd/mm/yyyy to dd/mm/yyyy in college campus."
+
+  utter_admission_location:
+    - text: The admission is going on in tilak hall. If you want to know the location click on the below google map link
+        (https://www.google.com/maps/place/16.844411100312666,74.60121807395183)
+
 
 
 session_config:
