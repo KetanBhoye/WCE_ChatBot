@@ -145,6 +145,26 @@ stories:
     - action: utter_response_CSE_labs
 
 
+#IT Department.
+- story: IT_DEPT
+  steps:
+    - intent: IT_info
+    - action: utter_response_IT_info
+    - intent: IT_Hod
+    - action: utter_response_IT_Hod
+    - intent: IT_programs
+    - action: utter_response_IT_programs
+    - intent: IT_Faculty
+    - action: utter_response_IT_Faculty
+    - intent: IT_Mission
+    - intent: utter_response_IT_Mission
+    - intent: IT_Vision
+    - action: utter_response_IT_Vision
+    - intent: IT_Labs
+    - action: utter_response_IT_Labs
+
+
+
 
 - story: ETC_DEPT
   steps:

@@ -104,6 +104,8 @@ nlu:
     - What degree programs does this college offer?
     - What are the options for degrees at this institution?
     - Could you list the different degree types offered by this college?
+    - cse programs
+    - cse courses
 
 - intent: clg_academic
   examples: |
@@ -149,9 +151,12 @@ nlu:
 
 - intent: CSE_Dept
   examples: |
-    -CSE Department?
-    -Tell me about CSE department?
-    -information about CSE department?
+    - CSE Department?
+    - Tell me about CSE department?
+    - information about CSE department?
+    - cse info
+    - tell me about cse dept
+    
 
 
 - intent: CSE_programs
@@ -249,6 +254,90 @@ nlu:
     - laborateries of cse department
     - how many labs in cse dept
   
+#IT Department.
+
+- intent: IT_info
+  examples: |
+    -Tell me about IT department.
+    - IT dept
+    - IT
+    - Information Technology dept
+    - give information about it dept
+    - Tell me about the IT Department at Walchand College of Engineering, Sangli.
+    - What is the mission of the IT Department?
+    - Explain the vision of the IT Department.
+    - What are the Programme Educational Objectives of the IT Department?
+    - Can you tell me about the IT program at Walchand College of Engineering?
+    - What is the IT department?
+    - Tell me about the IT program.
+    - Explain the vision of the IT department.
+    - What are the Programme Educational Objectives of the IT department?
+
+- intent: IT_Hod
+  examples: |
+    - who is head of department of information technology department?
+    - who is hod of IT.
+    - IT Hod.
+    - give information about it hod
+    - it hod
+    -  head of department of Information Technology.
+
+- intent: IT_programs
+  examples: |
+    - what programs offered by IT Department
+    - programs offered by IT department
+    - Can you list the different degree programs available within the IT department?
+    - Could you provide examples of specific specializations available within the IT Department?
+    - How long is the typical duration of the programs in the IT Department?
+    - B.tech in IT
+    - M.tech in IT
+    - IT programs
+    - Information Technology programs
+
+- intent: IT_Faculty
+  examples: |
+    - give information about IT faculty
+    - information about it faculty
+    - information about Information Technology faculty
+    - List of faculties in IT Department
+    - IT Department faculties
+    - Who are the professors in IT Department
+    - Tell me about IT Department faculty
+    - Can you provide information about IT Department professors
+
+- intent: IT_Mission
+  examples: |
+    - what is IT Mission?
+    - what is IT department's mission?
+    - what is information technology department's mission?
+    - What is the mission of the IT Department?
+    - Tell me the department's mission statement.
+    - Explain the department's mission.
+    - What is the mission of the IT department?
+    - it mission
+    - IT mission
+    - Information Technology Mission
+
+- intent: IT_Vision
+  examples: |
+    - what is IT Vision?
+    - what is IT department's Vision?
+    - what is information technology department's Vision?
+    - What is the vision of the IT Department?
+    - Tell me the department's vision statement?
+    - Explain the department's vision?
+    - What is the vision of the IT department?
+    - vision of IT department
+    - information technology vision
+
+- intent: IT_Labs
+  examples: |
+    - Tell me about the IT department labs
+    - What labs are available in the IT department?
+    - List IT department labs
+    - labs in IT department
+    - labs in information technology department
+    - IT labs
 
 #Electronics Department.
 - intent: ETC_info
@@ -258,6 +347,7 @@ nlu:
     - Tell me about electronics dept
     - info about electronics dept
     - Entc dept
+    - ETC
     - Electronics department info
 
 - intent: ETC_hod

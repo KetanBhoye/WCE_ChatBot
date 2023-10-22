@@ -34,6 +34,16 @@ intents:
   - CSE_labs
 
 
+  - IT_info
+  - IT_Hod
+  - IT_Labs
+  - IT_Vision
+  - IT_Mission
+  - IT_Faculty
+  - IT_programs
+
+
+
   - ETC_info
   - ETC_hod
   - ETC_Faculty
@@ -247,6 +257,111 @@ responses:
         8 PG Computing Laboratory
         9 PG Research Laboratory
         * You can visit [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering)"
+
+#IT Department
+  utter_response_IT_info:
+    - text: |
+        * Department of Information Technology (IT)
+          - Year of Establishment: 2001-02
+          - Undergraduate (UG) Programme: B.Tech. (Information Technology) with an intake of 60
+          - Year of Extension: 2012-13
+          - Postgraduate (PG) Programme: M.Tech. (Computer Science and Information Technology) with an intake of 18
+          - Academic Autonomy: Granted in 2007-08
+          - NBA Accreditation: UG (3 + 3 years) and PG (5 years)
+          - Offered Degrees: B.Tech. (Information Technology) and M.Tech (Computer Science and Information Technology)
+          - Laboratories: Data Structure, Computer Network, Computer Vision, Software Engineering, Database System, Parallel Programming, FOSS, Microprocessor, Internet of Things Lab, etc.
+          - WCE Data Centre: Manages computational facilities for academic programs.
+          - Research Projects: Received from National/International agencies like DRDO, AICTE, DST, Nvidia, etc.
+          - Focus Areas: Internet of Things, Data Science, Internet Technology, Web Technology, Mobile Technology, Blockchain, Cloud Computing, Virtualization, and Machine Learning.
+          - Syllabi Updates: Regular updates based on industry trends. Curriculum reviewed by Board of Studies (BOS) with input from various stakeholders.
+          - Honor Courses: IT System and Management (ITSM), Blockchain Technology (BCT), and Software Product Management (SPM)
+          - Minor Courses: Artificial Intelligence – Machine Learning (AI-ML) and Web Development (WD)
+          - for more info visit [here](https://project-wce.dreamkasper.com/pages/information-engineering)
+
+  utter_response_IT_Labs:
+    - text: |
+        * Laboratories: 
+          1. Data Structure & Programming Lab
+          2. Computer Network & Web Technology Lab
+          3. Free & Open Source Software Lab
+          4. Microprocessor & IoT Lab
+          5. Data Science Lab
+          6. Project Lab
+          7. Software Engineering Lab
+          8. Post Graduate Lab 1
+          9. Post Graduate Lab 2 (Research Lab)
+
+  utter_response_IT_Faculty:
+    - text: |
+        * Faculty Members in the IT Department:
+        1. Dr. Kulkarni Dinesh Balkrushna - Professor
+        2. Dr. Sonavane Shefali Pratap - Associate Professor
+        3. Dr. Umbarkar Anantkumar Janardan - Assistant Professor
+        4. Dr. Rathod Ravindra Ramkishan - Assistant Professor
+        5. Dr. Chavan Umesh Balkrushna - Assistant Professor
+        6. Mrs. Shirodkar Bharati Devidas - Assistant Professor
+        7. Dr. Kharat Prashant Krishnarao - Assistant Professor
+        8. Mr. Narnaware Manish Balaji - Assistant Professor
+        9. Mr. Mayur G Rathi - Assistant Professor (Contract)
+        10. Mrs. Manisha.S. Dabade - Assistant Professor (Contract)
+
+  utter_response_IT_programs:
+    - text: |
+        * Programmes Offered:
+        1. UG - IT
+           - Intake: 60
+           - Commencement of Programme: 
+             - BE-IT: 2001 to 2010
+             - BTECH-IT: 2011 Onwards
+        2. PG - IT
+           - Intake: 18
+           - Commencement of Programme: MTECH-2012 Onwards
+        
+        * NBA Accreditation:
+           1. UG - IT
+               - Accreditation: NBA
+               - Duration: 2016 to 2019 and 2019-2022 (3 years)
+           2. PG - IT
+               - Accreditation: NBA
+               - Duration: 2016-22 (5 years)
+
+  utter_response_IT_Hod:
+    - text: |
+        * Faculty Profile
+          1. Name of Faculty: Dr. Ravindra R. Rathod
+          2. Designation: Head of Department (HoD) & Assistant Professor
+          3. Qualification: Ph.D.
+          4. Professional Experience (Years):
+             - Teaching: 16
+             - Industrial: Nil
+          5. Email Id: ravindra.rathod@walchandsangli.ac.in
+          6. Contact Number/Mobile: 9890788484
+          7. Research Area/Area of Interest: Data Mining, Business Intelligence, Geographic Information Systems.
+         
+          8. Google Scholar Link:
+             - [Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=F-04494AAAAJ)
+             - [Vidwan Profile](https://vidwan.inflibnet.ac.in/profile/139348)
+          9. Bio-sketch:
+             - Dr. Ravindra R. Rathod: Head of IT Department with 16 years UG, 6 years PG teaching experience, 1 patent, 6 research papers, and active in international journal and conference roles.
+
+
+  utter_response_IT_Mission:
+    - text: |
+        Mission:
+        - To adopt vibrant academic curricula and implement innovative teaching and learning processes.
+        - To provide opportunities to students for the development of professional skills.
+        - To nurture critical thinking and creativity in students.
+        - To inculcate in students a lifelong learning attitude and sensitivity towards society and the environment.
+
+  utter_response_IT_Vision:
+    - text: |
+        Vision:
+        To be an Information Technology program as the first choice for aspiring students and prospective employers by implementing world-class educational practices.
+        
+
+
+
+
 
 #Electronics Dept
   utter_response_ETC_info:
