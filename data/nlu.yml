@@ -690,7 +690,13 @@ nlu:
     - [Aa]dmission [Rr]oom[?|.]
     - [Aa]dmission [Vv]enue[?|.]
 
-
+- intent: Scholarships
+  examples: |
+    - Scholarship?
+    - Is there any scholarship provided by the college?
+    - are there any private scholarships in the college?
+    - Scholarships in the walchand college of engineering?
+    - Does college provide anyt scholarship for the student?
 
 # Library Info
 - intent: Library_info

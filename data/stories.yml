@@ -253,6 +253,8 @@ stories:
     - action: utter_admission_document
     - intent: Admission_location
     - action: utter_admission_location
+    - intent: Scholarships
+    - action: utter_scholarships
 
   # Library Info
 - story: Library_Details

@@ -83,6 +83,7 @@ intents:
   - Admission_fee_structure
   - Admission_location
   - Admission_document
+  - Scholarships
 
   - Library_info
   - Library_librarian
@@ -1027,6 +1028,8 @@ responses:
   utter_admission_location:
     - text: The admission is going on in tilak hall. If you want to know the location click on the below google map link
         (https://www.google.com/maps/place/16.844411100312666,74.60121807395183)
+  utter_scholarships:
+    - text: For more info visit (https://project-wce.dreamkasper.com/pages/scholarships)
 
   utter_Library_info:
     - text: A New state of art Library worth 4,680 sq.mt. Constructed is a generous donation received from “Walchand Hirachand Memorial Trust”
