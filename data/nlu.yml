@@ -691,5 +691,41 @@ nlu:
     - [Aa]dmission [Vv]enue[?|.]
 
 
-  
 
+# Library Info
+- intent: Library_info
+  examples: |
+    - ajit gulabchand library
+    - agc library
+    - wce library
+    - library info
+    - Library data
+    - wce book library
+    
+- intent: Library_librarian
+  examples: |
+    - who is librarian of wce
+    - agc librarian
+    - librarian of library
+    - librarian info
+    - Librarian data
+    - wce book librarian info
+
+- intent: Library_facilities
+  examples: |
+    - what are library facilities
+    - agc library facilities
+    - facilities of library
+    - facilities info of library
+    - Library facility data
+    - which facilities are provied by wce library
+
+
+- intent: Library_holdings
+  examples: |
+    - what are library holdings
+    - agc library holdings
+    - holdings of library
+    - holdings info of library
+    - Library holdings data
+    - which are holdings of library

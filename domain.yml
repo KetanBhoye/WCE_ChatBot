@@ -84,6 +84,11 @@ intents:
   - Admission_location
   - Admission_document
 
+  - Library_info
+  - Library_librarian
+  - Library_facilities
+  - Library_holdings
+
 
 responses:
   utter_greet:
@@ -343,7 +348,6 @@ responses:
           5. Email Id: ravindra.rathod@walchandsangli.ac.in
           6. Contact Number/Mobile: 9890788484
           7. Research Area/Area of Interest: Data Mining, Business Intelligence, Geographic Information Systems.
-         
           8. Google Scholar Link:
              - [Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=F-04494AAAAJ)
              - [Vidwan Profile](https://vidwan.inflibnet.ac.in/profile/139348)
@@ -966,6 +970,8 @@ responses:
         Course Name: Mechanical Engineering
         Sanctioned Intake (State Level Seats): 60
         Additional Seats: Five seats for Seth Walchand Hirachand Memorial Trust and two seats for D.D. Daruwala Memorial Trust.
+        
+        Visit for more info (https://project-wce.dreamkasper.com/pages/ug_admission)
                 
   utter_response_Admission_PG_info:
       - text: |
@@ -1005,23 +1011,82 @@ responses:
           
           Course Name: Computer Science and Information Technology
           Sanctioned Intake: 18
-
+          
+          Visit for more info (https://project-wce.dreamkasper.com/pages/ug_admission)
 
   utter_response_Admission_fee_structure:
-        - text: "Fee structure of the college."
-          image: "https://i.imgur.com/2O69xJK.jpg"
+        - text: |
+            Visit for more info (https://project-wce.dreamkasper.com/pages/ug_admission#)
 
   utter_admission_document:
-    - text: "You want admission documents "
+    - text: "Visit for more info (https://project-wce.dreamkasper.com/pages/ug_admission)"
 
   utter_admission_process_date:
-    - text: "Admission is going to be from  dd/mm/yyyy to dd/mm/yyyy in college campus."
+    - text: "Visit for more info (https://project-wce.dreamkasper.com/pages/ug_admission)"
 
   utter_admission_location:
     - text: The admission is going on in tilak hall. If you want to know the location click on the below google map link
         (https://www.google.com/maps/place/16.844411100312666,74.60121807395183)
 
+  utter_Library_info:
+    - text: A New state of art Library worth 4,680 sq.mt. Constructed is a generous donation received from “Walchand Hirachand Memorial Trust”
+            Mumbai and renamed as “Ajit Gulabchand Central Library”. The spacious library of the college holds the total collection of reading
+            material 107859 including 56383 Books, 13064 Bound Volumes of Technical / Non-Technical Journals, Magazines, 38412 Book Bank Books
+            accumulated over last six decades. It subscribes to 90 Technical, 8 Science and 7 General Journal / Magazines. This library is member
+            of INDEST under which we receive 36390  Online journals including IEEE(464), IEEE Conference(19407),  ASCE(36), ASME (30), Science Direct(275)
+            and  nlist.inflibnet.ac.in (6000) and 2325 e-books and nlist.inflibnet.ac.in (3135000).
 
+  utter_Library_librarian:
+    - text: Mr. S. B. Agawane
+
+  utter_Library_facilities:
+    - text: |
+        Facilities :
+        1. Ajit Gulabchand Central Library is RFID enabled/fully automated with KOHA LMS.
+        2. Open Access to All Users.
+        3. The Teaching Faculty can borrow 10 books for 180 days.
+        4. All Post Graduate Students  can borrow 4 Books  for 15 days.
+        5. All Graduate  Students can borrow 2 Books  for 15 days.
+        6. All  Polytechnic Students  can borrow 3 Book for 15 days.
+        7. Online Public Access Catalogue Facility (OPAC) Camp wide connectivity on Intranet.
+        8. Book Bank Facility to More than 1200 Students.
+        9. Free Book Bank Facility is available to Students.
+        10. Information Retrieval Lab (Internet) facility to all Readers.
+        11. Reference Service, Current Awareness Service.
+        12. E-Journal & E-Books facility to all readers on Intranet.
+        13. Audio/Video Facility available in the library.
+        14. Inter-Library Loan Facility through DELNET.
+        15. DELNET Membership for Document Delivery Facility
+        16. N-List Inflibnet membership for e-journal & e-books
+
+  utter_Library_holdings:
+      - text: |
+          ** Library Information **
+          
+          Total Area of Library: 4,680 sq.mt.
+          Library Staff: 7
+          Total Number of Readers: 3,471
+          Total Number of Books: 56,383
+          Total Book Bank Books: 38,412 
+          Total Number of Titles: 43,143 
+          Total Bound Volumes of Periodicals: 13,064
+          Proceedings: 322
+          Total No. of M.E. Dissertations: 3,013
+          Educational Video Cassettes: 77  
+          CDs: 3,412  
+          DVDs: 577   
+          Floppies: 419  
+          Total No. of Transparencies: 130  
+          Microfiches: 1,700   
+          E-books: 2,325 
+          
+          ** Library Equipment  **  
+          Personal Computers with Internet Connectivity: 60    
+          Printers: 3    
+          Xerox Machines: 2      
+          Scanner: 2         
+          Micro Film Reader: 1       
+          Multimedia Center/ Discussion Room: Equipped with LCD Facility, TV, VCE, DVD player, etc. : 1
 
 session_config:
   session_expiration_time: 60

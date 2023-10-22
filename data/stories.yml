@@ -254,18 +254,14 @@ stories:
     - intent: Admission_location
     - action: utter_admission_location
 
-#    - intent: ME_hod
-#    - action: utter_response_ME_hod
-#    - intent: ME_programs
-#    - action: utter_response_ME_programs
-#    - intent: ME_visions
-#    - action: utter_response_ME_visions
-#    - intent: ME_missions
-#    - action: utter_response_ME_missions
-#    - intent: ME_labs
-#    - action: utter_response_ME_labs
-
-
-
-
-
+  # Library Info
+- story: Library_Details
+  steps:
+    - intent: Library_info
+    - action: utter_Library_info
+    - intent: Library_librarian
+    - action: utter_Library_librarian
+    - intent: Library_facilities
+    - action: utter_Library_facilities
+    - intent: Library_holdings
+    - action: utter_Library_holdings
