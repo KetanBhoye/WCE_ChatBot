@@ -307,16 +307,13 @@ nlu:
 
 - intent: IT_Mission
   examples: |
-    - what is IT Mission?
-    - what is IT department's mission?
-    - what is information technology department's mission?
-    - What is the mission of the IT Department?
-    - Tell me the department's mission statement.
-    - Explain the department's mission.
-    - What is the mission of the IT department?
     - it mission
-    - IT mission
+    - tell me about it missions
+    - IT Mission
     - Information Technology Mission
+    - Mission of IT Dept
+    - IT dept mission
+    - it dept mission
 
 - intent: IT_Vision
   examples: |
@@ -324,8 +321,8 @@ nlu:
     - what is IT department's Vision?
     - what is information technology department's Vision?
     - What is the vision of the IT Department?
-    - Tell me the department's vision statement?
-    - Explain the department's vision?
+    - Tell me the IT department's vision statement?
+    - Explain the  IT department's vision?
     - What is the vision of the IT department?
     - vision of IT department
     - information technology vision
@@ -698,6 +695,16 @@ nlu:
     - Scholarships in the walchand college of engineering?
     - Does college provide anyt scholarship for the student?
 
+#Examination Section
+- intent: Examination_Section
+  examples: |
+    - give information about examination section
+    - where is exam section
+    - exam section
+    - examination section
+    - exam cell
+  
+
 # Library Info
 - intent: Library_info
   examples: |
@@ -707,7 +714,7 @@ nlu:
     - library info
     - Library data
     - wce book library
-    
+
 - intent: Library_librarian
   examples: |
     - who is librarian of wce

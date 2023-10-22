@@ -157,7 +157,7 @@ stories:
     - intent: IT_Faculty
     - action: utter_response_IT_Faculty
     - intent: IT_Mission
-    - intent: utter_response_IT_Mission
+    - action: utter_response_IT_Mission
     - intent: IT_Vision
     - action: utter_response_IT_Vision
     - intent: IT_Labs
@@ -255,6 +255,15 @@ stories:
     - action: utter_admission_location
     - intent: Scholarships
     - action: utter_scholarships
+
+- story: Examination_Section
+  steps:
+    - intent: Examination_Section
+    - action: utter_Examination_Section
+
+
+
+
 
   # Library Info
 - story: Library_Details

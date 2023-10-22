@@ -90,6 +90,7 @@ intents:
   - Library_facilities
   - Library_holdings
 
+  - Examination_Section
 
 responses:
   utter_greet:
@@ -356,6 +357,11 @@ responses:
              - Dr. Ravindra R. Rathod: Head of IT Department with 16 years UG, 6 years PG teaching experience, 1 patent, 6 research papers, and active in international journal and conference roles.
 
 
+  utter_response_IT_Vision:
+    - text: |
+        Vision:
+        To be an Information Technology program as the first choice for aspiring students and prospective employers by implementing world-class educational practices.
+        
   utter_response_IT_Mission:
     - text: |
         Mission:
@@ -364,14 +370,16 @@ responses:
         - To nurture critical thinking and creativity in students.
         - To inculcate in students a lifelong learning attitude and sensitivity towards society and the environment.
 
-  utter_response_IT_Vision:
+
+#Examination section:
+  utter_Examination_Section:
     - text: |
-        Vision:
-        To be an Information Technology program as the first choice for aspiring students and prospective employers by implementing world-class educational practices.
+          In an Autonomous College, the Examination Section, led by the Controller of Examination, ensures fair and organized exams.
+          The college conducts 2 internal exams and 1 semester-ending exam.
+          Various assessment methods are used to discourage rote learning.
+          The aim is to continuously improve the examination system with transparency and innovation.
+          * for more information about exam section visit (https://project-wce.dreamkasper.com/pages/exam-cell)
         
-
-
-
 
 
 #Electronics Dept
