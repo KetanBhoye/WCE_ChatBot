@@ -95,6 +95,13 @@ intents:
   - Placement_2021
   - Placement_2020
 
+  - Examination_Section
+
+  - Entreprenureship_info
+
+  - Director_info
+  - Organogram_Chart
+
 
   - Examination_Section
  ##IT faculty
@@ -1396,6 +1403,14 @@ responses:
           Micro Film Reader: 1       
           Multimedia Center/ Discussion Room: Equipped with LCD Facility, TV, VCE, DVD player, etc. : 1
 
+# Examination
+  utter_Examination_Section:
+    - text: |
+        Autonomous College shall have an Examination Section headed by Controller of Examination who will be a permanent faculty nominated by the Principal on the basis of potential of the person. The Director/Principal/Dean Academics of the college shall be the Chief Controller, Examinations.
+        The Controller of Examination will create his/her own team with the approval of the Principal of the College. The team shall consist of Deputy Controllers, Office Assistants, Computer Programmers, Data Entry Operators and other helpers in the Autonomous Examination Cell. Examination Cell will have appropriate printing unit also for printing of question papers and other relevant confidential material.
+        There shall be continuous, comprehensive evaluation of students through internal and external examination. At least 2 internal examinations per semester and 1 semester ending examination shall be conducted. In order to motivate students to be free of rot learning, various mechanism of internal evaluation shall be adopted such as group discussion, paper reading, home assignments and viva voce.
+        A course teacher shall show the evaluated answer books after ISE, MSE and ESE examination to the students before finalization of the grades.
+        The Examination Section is established with the aim of establishing and enhancing the examination systems, so as to ensure the conduct of all examinations with fairness, sanctity, transparency, and with a systematic approach. The Examination Section shall ensure, smooth and organized conduct of examinations and related activities. Controller of Examinations will head the Examination Section and propose examination reforms and innovative assessment methods as and when needed so as to improve the examination system.
 
 # Placements
 
@@ -1419,9 +1434,20 @@ responses:
         Placements details are as follows :
         (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
 
+  utter_Entreprenureship_info:
+    - text: |
+        Walchand College of Engineering College has IEEE cell for Entreprenureship oportunities for students.
 
 
+# Institution Details
 
+  utter_Director_info:
+    - text: |
+        Prof. Dr. Uday A. Dabade (Click Here)(https://project-wce.dreamkasper.com/pages/Director)
+
+  utter_Organogram_Chart:
+    - text: |
+        Here is the Organogram Chart(Click)(https://project-wce.dreamkasper.com/pages/wce-organogram)
 
 session_config:
   session_expiration_time: 60

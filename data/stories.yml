@@ -439,7 +439,22 @@ stories:
     - action: utter_Placement_2021
     - intent: Placement_2020
     - action: utter_Placement_2020
-#    - intent: Library_facilities
-#    - action: utter_Library_facilities
+
+# Entreprenureship
+
+- story: Entreprenureship_details
+  steps:
+    - intent: Entreprenureship_info
+    - action: utter_Entreprenureship_info
 #    - intent: Library_holdings
 #    - action: utter_Library_holdings
+
+
+# Institute Details
+
+- story: Institute_Details
+  steps:
+    - intent: Director_info
+    - action: utter_Director_info
+    - intent: Organogram_Chart
+    - action: utter_Organogram_Chart
