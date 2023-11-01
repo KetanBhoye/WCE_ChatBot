@@ -90,6 +90,12 @@ intents:
   - Library_facilities
   - Library_holdings
 
+  - Placement_2023
+  - Placement_2022
+  - Placement_2021
+  - Placement_2020
+
+
 
 responses:
   utter_greet:
@@ -1090,6 +1096,33 @@ responses:
           Scanner: 2         
           Micro Film Reader: 1       
           Multimedia Center/ Discussion Room: Equipped with LCD Facility, TV, VCE, DVD player, etc. : 1
+
+
+# Placements
+
+  utter_Placement_2023:
+    - text: |
+        Placements details are as follows :
+        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+
+  utter_Placement_2022:
+    - text: |
+        Placements details are as follows :
+        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+
+  utter_Placement_2021:
+    - text: |
+        Placements details are as follows :
+        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pdf)
+
+  utter_Placement_2020:
+    - text: |
+        Placements details are as follows :
+        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
+
+
+
+
 
 session_config:
   session_expiration_time: 60
