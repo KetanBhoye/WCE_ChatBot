@@ -800,6 +800,12 @@ nlu:
     
 - intent: Placement_2021
   examples: |
+    - Placement record of 2021
+    - Placements of the 2021 batch
+    - Placement info for the academic year 2021
+    - Placement record for 2021
+    - Placement details for 2021
+    - placement record of 2021
     - Tell me about the placement statistics for 2021.
     - How did the placements go in 2021?
     - Can you provide an overview of the placement results in 2021?
@@ -818,12 +824,7 @@ nlu:
     - Describe the resources and guidance available to students during the 2021 placement season.
     - Were there any unique or distinctive recruitment activities in 2021?
     - What is placements of 2021?
-    - Placement record of 2021
-    - Placements of the 2021 batch
-    - Placement info for the academic year 2021
-    - Placement record for 2021
-    - Placement details for 2021
-    - placement record of 2021
+    
     
     
 - intent: Placement_2020
@@ -857,3 +858,38 @@ nlu:
     - Placements in 2020?
     - Any notable placements in 2020?
     - What can you tell me about 2020 placements?
+     
+
+#  Entreprenureship
+
+- intent: Entreprenureship_info
+  examples: |
+    - Student Entreprenureship details 
+    - Entreprenureship details 
+    - Entreprenureship info
+    - IEEE cell ?
+    - Incubation cell ?
+    - startups for students ?
+    - start ups 
+    - incubation and entreprenurreship details
+
+# Institute Management
+- intent: Director_info
+  examples: |
+    - Who is director of wce?
+    - director of walchand college of sangli
+    - director of wce
+    - director name of wce
+    - wce director
+    
+
+- intent: Organogram_Chart
+  examples: |
+    - What is Organogram Chart of wce?
+    - Organogram Chart of walchand college of sangli
+    - Organogram Chart of wce
+    - Organogram Chart name of wce
+    - wce Organogram Chart
+    - Organization chart
+    - org chart
+    - authority chart
