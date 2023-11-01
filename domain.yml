@@ -90,6 +90,12 @@ intents:
   - Library_facilities
   - Library_holdings
 
+  - Placement_2023
+  - Placement_2022
+  - Placement_2021
+  - Placement_2020
+
+
   - Examination_Section
  ##IT faculty
   - IT_faculty_Dr_Kulkarni_Dinesh
@@ -454,11 +460,6 @@ responses:
              - Dr. Ravindra R. Rathod: Head of IT Department with 16 years UG, 6 years PG teaching experience, 1 patent, 6 research papers, and active in international journal and conference roles.
 
 
-  utter_response_IT_Vision:
-    - text: |
-        Vision:
-        To be an Information Technology program as the first choice for aspiring students and prospective employers by implementing world-class educational practices.
-        
   utter_response_IT_Mission:
     - text: |
         Mission:
@@ -467,16 +468,14 @@ responses:
         - To nurture critical thinking and creativity in students.
         - To inculcate in students a lifelong learning attitude and sensitivity towards society and the environment.
 
-
-#Examination section:
-  utter_Examination_Section:
+  utter_response_IT_Vision:
     - text: |
-          In an Autonomous College, the Examination Section, led by the Controller of Examination, ensures fair and organized exams.
-          The college conducts 2 internal exams and 1 semester-ending exam.
-          Various assessment methods are used to discourage rote learning.
-          The aim is to continuously improve the examination system with transparency and innovation.
-          * for more information about exam section visit (https://project-wce.dreamkasper.com/pages/exam-cell)
+        Vision:
+        To be an Information Technology program as the first choice for aspiring students and prospective employers by implementing world-class educational practices.
         
+
+
+
 
 
 #Electronics Dept
@@ -1273,6 +1272,33 @@ responses:
           Scanner: 2         
           Micro Film Reader: 1       
           Multimedia Center/ Discussion Room: Equipped with LCD Facility, TV, VCE, DVD player, etc. : 1
+
+
+# Placements
+
+  utter_Placement_2023:
+    - text: |
+        Placements details are as follows :
+        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+
+  utter_Placement_2022:
+    - text: |
+        Placements details are as follows :
+        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+
+  utter_Placement_2021:
+    - text: |
+        Placements details are as follows :
+        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pdf)
+
+  utter_Placement_2020:
+    - text: |
+        Placements details are as follows :
+        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
+
+
+
+
 
 session_config:
   session_expiration_time: 60

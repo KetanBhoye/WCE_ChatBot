@@ -1205,3 +1205,118 @@ nlu:
     - holdings info of library
     - Library holdings data
     - which are holdings of library
+    
+
+#  Placements
+
+
+- intent: Placement_2023
+  examples: |
+    - what is placements of 2023
+    - placement record of 22-23
+    - placements of 22 23 batch
+    - placement info of academic year 2023
+    - placement record 
+    - placement details 2023
+    - placement details 22 23
+    - How was the overall placement rate in 2023?
+    - Could you provide data on the top companies that hired in 2023?
+    - In 2023, did the placement rate differ from the previous year?
+    - What were the salary packages like for different programs in 2023?
+    - Were there any significant modifications to the placement process in 2023?
+    - Can you share any inspiring stories of students placed in 2023?
+    - What support and services were available to students during the 2023 placement season?
+    - Please describe any noteworthy campus recruitment events from 2023.
+    - How many students secured placements in 2023?
+    - Which companies were the top recruiters in 2023?
+    - What was the average salary for placements in 2023?
+    - Were there any changes to the placement process for 2023?
+    - Could you highlight a student's success story from 2023?
+    - In 2023, what kinds of support and assistance did students receive during placements?
+    - Were there any special job recruitment events in 2023?
+
+
+- intent: Placement_2022
+  examples: |
+    - what is placements of 2022
+    - placement record of 2022
+    - placement record 2022
+    - placements of the 2022 batch
+    - placement info for the academic year 2022
+    - placement record for 2022
+    - placement details for 2022
+    - What was the overall placement rate in 2022?
+    - Can you provide statistics on the top hiring companies in 2022?
+    - How did the placement rate in 2022 compare to the previous year?
+    - What were the average salary packages for different programs in 2022?
+    - Were there any notable changes in the placement process for 2022?
+    - Can you share success stories of students placed in 2022?
+    - What support services were offered to students during the placement season in 2022?
+    - Tell me about the campus recruitment events held in 2022.
+    - How many students were placed in 2022?
+    - Which companies recruited the most in 2022?
+    - What was the average salary for 2022 placements?
+    - Were there any changes in the placement process for 2022?
+    - Can you share a student success story from 2022?
+    - What kind of support did students receive during placements in 2022?
+    - Were there any special job recruitment events in 2022?
+    
+- intent: Placement_2021
+  examples: |
+    - Tell me about the placement statistics for 2021.
+    - How did the placements go in 2021?
+    - Can you provide an overview of the placement results in 2021?
+    - In 2021, how many students secured placements?
+    - Which companies were prominent in hiring during 2021?
+    - Were there any remarkable changes in the placement process for 2021?
+    - What were the salary packages like for graduates in 2021?
+    - Any success stories of students placed in 2021?
+    - What kind of support and assistance were given to students during the 2021 placement season?
+    - Can you describe any special recruitment events that took place in 2021?
+    - What was the overall placement rate for 2021?
+    - How do the 2021 placements compare to the previous year?
+    - Were there any alterations in the placement procedure for 2021?
+    - Share some insights into the most sought-after positions in 2021.
+    - Can you highlight a student's journey from campus to career success in 2021?
+    - Describe the resources and guidance available to students during the 2021 placement season.
+    - Were there any unique or distinctive recruitment activities in 2021?
+    - What is placements of 2021?
+    - Placement record of 2021
+    - Placements of the 2021 batch
+    - Placement info for the academic year 2021
+    - Placement record for 2021
+    - Placement details for 2021
+    - placement record of 2021
+    
+    
+- intent: Placement_2020
+  examples: |
+    - How were the 2020 placements?
+    - Share 2020 placement stats.
+    - 2020 placement rate?
+    - Top hiring firms in 2020?
+    - Notable 2020 placement changes?
+    - Student success stories in 2020?
+    - Support during 2020 placements?
+    - Special 2020 recruitment events?
+    - What was the 2020 overall placement rate?
+    - Compare 2020 placements to the previous year.
+    - Any adjustments in the 2020 placement process?
+    - Popular 2020 job positions?
+    - Resources for students in 2020 placements?
+    - Unique 2020 recruitment activities?
+    - Placements 2020
+    - How did students fare in 2020 placements?
+    - What were the top recruiting companies in 2020?
+    - Any major changes in 2020 placement procedures?
+    - Tell me about successful stories from 2020 placements.
+    - What assistance was available to students during 2020 placements?
+    - Were there any unique placement events in 2020?
+    - Can you provide 2020 placement data?
+    - How did 2020's placement rate compare to previous years?
+    - Highlight any standout career paths from 2020.
+    - Describe the 2020 placement support system.
+    - Share insights into 2020's popular job roles.
+    - Placements in 2020?
+    - Any notable placements in 2020?
+    - What can you tell me about 2020 placements?

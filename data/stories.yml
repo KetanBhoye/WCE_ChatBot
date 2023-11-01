@@ -391,3 +391,21 @@ stories:
     - action: utter_Library_facilities
     - intent: Library_holdings
     - action: utter_Library_holdings
+
+
+# Placements
+
+- story: Placements_Details
+  steps:
+    - intent: Placement_2023
+    - action: utter_Placement_2023
+    - intent: Placement_2022
+    - action: utter_Placement_2022
+    - intent: Placement_2021
+    - action: utter_Placement_2021
+    - intent: Placement_2020
+    - action: utter_Placement_2020
+#    - intent: Library_facilities
+#    - action: utter_Library_facilities
+#    - intent: Library_holdings
+#    - action: utter_Library_holdings
