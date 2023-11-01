@@ -294,6 +294,246 @@ nlu:
     - IT programs
     - Information Technology programs
 
+
+##Testing
+- intent: IT_faculty_Dr_Kulkarni_Dinesh
+  examples: |
+    - Who is Dr. Kulkarni Dinesh Balkrushna
+    - Tell me about Dr. Kulkarni Dinesh Balkrushna
+    - Dr. Kulkarni Dinesh Balkrushna
+    - Who is Dr. Kulkarni Dinesh
+    - Can you provide information on Dr. Kulkarni Dinesh Balkrushna
+    - Explain Dr. Kulkarni Dinesh Balkrushna to me
+    - What can you tell me about Dr. Kulkarni Dinesh Balkrushna
+    - Dr. Kulkarni Dinesh Balkrushna's background
+    - Please give me details about Dr. Kulkarni Dinesh Balkrushna
+    - About Dr. Kulkarni Dinesh Balkrushna
+    - Dr. Kulkarni Dinesh Balkrushna's profile
+    - Who is the professor named Dr. Kulkarni Dinesh Balkrushna
+    - Introduce me to Dr. Kulkarni Dinesh Balkrushna
+    - Who teaches as Dr. Kulkarni Dinesh Balkrushna
+    - Dr. Kulkarni Dinesh Balkrushna's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Kulkarni Dinesh Balkrushna
+    - kulkarni dinesh
+    - Dinesh Balkrushna
+    - Dinesh Kulkarni
+
+- intent: IT_faculty_Dr_Sonavane_Shefali
+  examples: |
+    - Who is Dr. Sonavane Shefali Pratap
+    - Tell me about Dr. Sonavane Shefali Pratap
+    - Dr. Sonavane Shefali Pratap
+    - Who is Dr. Sonavane Shefali
+    - Can you provide information on Dr. Sonavane Shefali Pratap
+    - Explain Dr. Sonavane Shefali Pratap to me
+    - What can you tell me about Dr. Sonavane Shefali Pratap
+    - Dr. Sonavane Shefali Pratap's background
+    - Please give me details about Dr. Sonavane Shefali Pratap
+    - About Dr. Sonavane Shefali Pratap
+    - Dr. Sonavane Shefali Pratap's profile
+    - Who is the professor named Dr. Sonavane Shefali Pratap
+    - Introduce me to Dr. Sonavane Shefali Pratap
+    - Who teaches as Dr. Sonavane Shefali Pratap
+    - Dr. Sonavane Shefali Pratap's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Sonavane Shefali Pratap
+    - sonavane shefali
+    - Shefali Pratap
+    - Shefali Sonavane
+
+- intent: IT_faculty_Dr_Umbarkar_Anantkumar
+  examples: |
+    - Who is Dr. Umbarkar Anantkumar Janardan
+    - Tell me about Dr. Umbarkar Anantkumar Janardan
+    - Dr. Umbarkar Anantkumar Janardan
+    - Who is Dr. Umbarkar Anantkumar
+    - Can you provide information on Dr. Umbarkar Anantkumar Janardan
+    - Explain Dr. Umbarkar Anantkumar Janardan to me
+    - What can you tell me about Dr. Umbarkar Anantkumar Janardan
+    - Dr. Umbarkar Anantkumar Janardan's background
+    - Please give me details about Dr. Umbarkar Anantkumar Janardan
+    - About Dr. Umbarkar Anantkumar Janardan
+    - Dr. Umbarkar Anantkumar Janardan's profile
+    - Who is the professor named Dr. Umbarkar Anantkumar Janardan
+    - Introduce me to Dr. Umbarkar Anantkumar Janardan
+    - Who teaches as Dr. Umbarkar Anantkumar Janardan
+    - Dr. Umbarkar Anantkumar Janardan's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Umbarkar Anantkumar Janardan
+    - umbarkar anantkumar
+    - Anantkumar Janardan
+    - Anantkumar Umbarkar
+
+- intent: IT_faculty_Dr_Rathod_Ravindra
+  examples: |
+    - Who is Dr. Rathod Ravindra Ramkishan
+    - Tell me about Dr. Rathod Ravindra Ramkishan
+    - Dr. Rathod Ravindra Ramkishan
+    - Who is Dr. Rathod Ravindra
+    - Can you provide information on Dr. Rathod Ravindra Ramkishan
+    - Explain Dr. Rathod Ravindra Ramkishan to me
+    - What can you tell me about Dr. Rathod Ravindra Ramkishan
+    - Dr. Rathod Ravindra Ramkishan's background
+    - Please give me details about Dr. Rathod Ravindra Ramkishan
+    - About Dr. Rathod Ravindra Ramkishan
+    - Dr. Rathod Ravindra Ramkishan's profile
+    - Who is the professor named Dr. Rathod Ravindra Ramkishan
+    - Introduce me to Dr. Rathod Ravindra Ramkishan
+    - Who teaches as Dr. Rathod Ravindra Ramkishan
+    - Dr. Rathod Ravindra Ramkishan's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Rathod Ravindra Ramkishan
+    - rathod ravindra
+    - Ravindra Ramkishan
+    - Ravindra Rathod
+    - rathod sir 
+    - who is ravindra rathos
+
+- intent: IT_faculty_Dr_Chavan_Umesh
+  examples: |
+    - Who is Dr. Chavan Umesh Balkrushna
+    - Tell me about Dr. Chavan Umesh Balkrushna
+    - Dr. Chavan Umesh Balkrushna
+    - Who is Dr. Chavan Umesh
+    - Can you provide information on Dr. Chavan Umesh Balkrushna
+    - Explain Dr. Chavan Umesh Balkrushna to me
+    - What can you tell me about Dr. Chavan Umesh Balkrushna
+    - Dr. Chavan Umesh Balkrushna's background
+    - Please give me details about Dr. Chavan Umesh Balkrushna
+    - About Dr. Chavan Umesh Balkrushna
+    - Dr. Chavan Umesh Balkrushna's profile
+    - Who is the professor named Dr. Chavan Umesh Balkrushna
+    - Introduce me to Dr. Chavan Umesh Balkrushna
+    - Who teaches as Dr. Chavan Umesh Balkrushna
+    - Dr. Chavan Umesh Balkrushna's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Chavan Umesh Balkrushna
+    - chavan umesh
+    - Umesh Balkrushna
+    - Umesh Chavan
+    - who is umesh chavan
+
+- intent: IT_faculty_Shirodkar_Bharati
+  examples: |
+    - Who is Mrs. Shirodkar Bharati Devidas
+    - Tell me about Mrs. Shirodkar Bharati Devidas
+    - Mrs. Shirodkar Bharati Devidas
+    - Who is Mrs. Shirodkar Bharati
+    - Can you provide information on Mrs. Shirodkar Bharati Devidas
+    - Explain Mrs. Shirodkar Bharati Devidas to me
+    - What can you tell me about Mrs. Shirodkar Bharati Devidas
+    - Mrs. Shirodkar Bharati Devidas's background
+    - Please give me details about Mrs. Shirodkar Bharati Devidas
+    - About Mrs. Shirodkar Bharati Devidas
+    - Mrs. Shirodkar Bharati Devidas's profile
+    - Who is the professor named Mrs. Shirodkar Bharati Devidas
+    - Introduce me to Mrs. Shirodkar Bharati Devidas
+    - Who teaches as Mrs. Shirodkar Bharati Devidas
+    - Mrs. Shirodkar Bharati Devidas's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Shirodkar Bharati Devidas
+    - shirodkar bharati
+    - Bharati Devidas
+    - Bharati Shirodkar
+    - who is bharati shirodkar
+- intent: IT_faculty_Dr_Kharat_Prashant
+  examples: |
+    - Who is Dr. Kharat Prashant Krishnarao
+    - Tell me about Dr. Kharat Prashant Krishnarao
+    - Dr. Kharat Prashant Krishnarao
+    - Who is Dr. Kharat Prashant
+    - Can you provide information on Dr. Kharat Prashant Krishnarao
+    - Explain Dr. Kharat Prashant Krishnarao to me
+    - What can you tell me about Dr. Kharat Prashant Krishnarao
+    - Dr. Kharat Prashant Krishnarao's background
+    - Please give me details about Dr. Kharat Prashant Krishnarao
+    - About Dr. Kharat Prashant Krishnarao
+    - Dr. Kharat Prashant Krishnarao's profile
+    - Who is the professor named Dr. Kharat Prashant Krishnarao
+    - Introduce me to Dr. Kharat Prashant Krishnarao
+    - Who teaches as Dr. Kharat Prashant Krishnarao
+    - Dr. Kharat Prashant Krishnarao's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Kharat Prashant Krishnarao
+    - kharat prashant
+    - Prashant Krishnarao
+    - Prashant Kharat
+    - who is prashant kharat
+
+- intent: IT_faculty_Mr_Narnaware_Manish
+  examples: |
+    - Who is Mr. Narnaware Manish Balaji
+    - Tell me about Mr. Narnaware Manish Balaji
+    - Mr. Narnaware Manish Balaji
+    - Who is Mr. Narnaware Manish
+    - Can you provide information on Mr. Narnaware Manish Balaji
+    - Explain Mr. Narnaware Manish Balaji to me
+    - What can you tell me about Mr. Narnaware Manish Balaji
+    - Mr. Narnaware Manish Balaji's background
+    - Please give me details about Mr. Narnaware Manish Balaji
+    - About Mr. Narnaware Manish Balaji
+    - Mr. Narnaware Manish Balaji's profile
+    - Who is the professor named Mr. Narnaware Manish Balaji
+    - Introduce me to Mr. Narnaware Manish Balaji
+    - Who teaches as Mr. Narnaware Manish Balaji
+    - Mr. Narnaware Manish Balaji's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Narnaware Manish Balaji
+    - narnaware manish
+    - Manish Balaji
+    - Manish Narnaware
+    - who is manish balaji
+
+- intent: IT_faculty_Mr_Mayur_Rathi
+  examples: |
+    - Who is Mr. Mayur G Rathi
+    - Tell me about Mr. Mayur G Rathi
+    - Mr. Mayur G Rathi
+    - Who is Mr. Mayur Rathi
+    - Can you provide information on Mr. Mayur G Rathi
+    - Explain Mr. Mayur G Rathi to me
+    - What can you tell me about Mr. Mayur G Rathi
+    - Mr. Mayur G Rathi's background
+    - Please give me details about Mr. Mayur G Rathi
+    - About Mr. Mayur G Rathi
+    - Mr. Mayur G Rathi's profile
+    - Who is the professor named Mr. Mayur G Rathi
+    - Introduce me to Mr. Mayur G Rathi
+    - Who teaches as Mr. Mayur G Rathi
+    - Mr. Mayur G Rathi's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Mayur G Rathi
+    - mayur rathi
+    - Mayur Rathi
+    - Mayur G
+    - who is mayur rathi
+- intent: IT_faculty_Mrs_Manisha_Dabade
+  examples: |
+    - Who is Mrs. Manisha.S. Dabade
+    - Tell me about Mrs. Manisha.S. Dabade
+    - Mrs. Manisha.S. Dabade
+    - Who is Mrs. Manisha Dabade
+    - Can you provide information on Mrs. Manisha.S. Dabade
+    - Explain Mrs. Manisha.S. Dabade to me
+    - What can you tell me about Mrs. Manisha.S. Dabade
+    - Mrs. Manisha.S. Dabade's background
+    - Please give me details about Mrs. Manisha.S. Dabade
+    - About Mrs. Manisha.S. Dabade
+    - Mrs. Manisha.S. Dabade's profile
+    - Who is the professor named Mrs. Manisha.S. Dabade
+    - Introduce me to Mrs. Manisha.S. Dabade
+    - Who teaches as Mrs. Manisha.S. Dabade
+    - Mrs. Manisha.S. Dabade's expertise
+    # Add variations without prefix, in lowercase, and using first/last name
+    - Manisha.S. Dabade
+    - manisha dabade
+    - Manisha Dabade
+    - Manisha.S.
+    - who is manisha dabade
+  # Continue with intents for other faculty members here
+
+
 - intent: IT_Faculty
   examples: |
     - give information about IT faculty
@@ -367,6 +607,229 @@ nlu:
     - Can you list the different degree programs available within the etc department?
     - Could you provide examples of specific specializations available within the ETC Department?
     - How long is the typical duration of the programs in the ETC Department?
+
+##Testing
+
+- intent: Electronics_faculty_Dr_BG_Patil
+  examples: |
+    - Who is Dr. B. G. Patil?
+    - Tell me about Dr. B. G. Patil.
+    - What can you tell me about Dr. B. G. Patil?
+    - Dr. Patil's research area.
+    - What are Dr. Patil's degrees?
+    - B. G. Patil biography.
+    - Give me information about Dr. Patil in electronics faculty.
+    - Share details on Dr. B. G. Patil's academic background.
+    - What has Dr. B. G. Patil contributed to the field of electronics?
+    - bg patil
+    - bg patil profile
+    - b g patil
+    - dr bg patil details
+    - bg patil's work
+
+- intent: Electronics_faculty_Mr_SB_Dhaigude
+  examples: |
+    - Who is Mr. S. B. Dhaigude?
+    - Tell me about Mr. S. B. Dhaigude.
+    - What can you tell me about Mr. S. B. Dhaigude?
+    - Mr. Dhaigude's research interests.
+    - What are Mr. Dhaigude's qualifications?
+    - S. B. Dhaigude biography.
+    - Give me information about Mr. Dhaigude in electronics faculty.
+    - Share details on Mr. S. B. Dhaigude's academic background.
+    - What has Mr. S. B. Dhaigude contributed to the field of electronics?
+    - sb dhaigude
+    - sb dhaigude profile
+    - s b dhaigude
+    - mr dhaigude details
+    - sb dhaigude's work
+
+- intent: Electronics_faculty_Mr_NV_Marathe
+  examples: |
+    - Who is Mr. N. V. Marathe?
+    - Tell me about Mr. N. V. Marathe.
+    - What can you tell me about Mr. N. V. Marathe?
+    - Mr. Marathe's area of expertise.
+    - What are Mr. Marathe's qualifications?
+    - N. V. Marathe biography.
+    - Give me information about Mr. Marathe in electronics faculty.
+    - Share details on Mr. N. V. Marathe's academic background.
+    - What has Mr. N. V. Marathe contributed to the field of electronics?
+    - nv marathe
+    - nv marathe profile
+    - n v marathe
+    - mr marathe details
+    - nv marathe's work
+
+- intent: Electronics_faculty_Dr_Mrs_AA_Agashe
+  examples: |
+    - Who is Dr. Mrs. A. A. Agashe?
+    - Tell me about Dr. Mrs. A. A. Agashe.
+    - What can you tell me about Dr. Mrs. A. A. Agashe?
+    - Dr. Agashe's research interests.
+    - What are Dr. Agashe's degrees?
+    - A. A. Agashe biography.
+    - Give me information about Dr. Mrs. A. A. Agashe in electronics faculty.
+    - Share details on Dr. A. A. Agashe's academic background.
+    - What has Dr. Mrs. A. A. Agashe contributed to the field of electronics?
+    - aa agashe
+    - aa agashe profile
+    - a a agashe
+    - dr aa agashe details
+    - aa agashe's work
+
+- intent: Electronics_faculty_Mr_SK_Parchandekar
+  examples: |
+    - Who is Mr. S. K. Parchandekar?
+    - Tell me about Mr. S. K. Parchandekar.
+    - What can you tell me about Mr. S. K. Parchandekar?
+    - Mr. Parchandekar's area of expertise.
+    - What are Mr. Parchandekar's qualifications?
+    - S. K. Parchandekar biography.
+    - Give me information about Mr. S. K. Parchandekar in electronics faculty.
+    - Share details on Mr. S. K. Parchandekar's academic background.
+    - What has Mr. S. K. Parchandekar contributed to the field of electronics?
+    - sk parchandekar
+    - sk parchandekar profile
+    - s k parchandekar
+    - mr parchandekar details
+    - sk parchandekar's work
+
+- intent: Electronics_faculty_Dr_SD_Ruikar
+  examples: |
+    - Who is Dr. S. D. Ruikar?
+    - Tell me about Dr. S. D. Ruikar.
+    - What can you tell me about Dr. S. D. Ruikar?
+    - Dr. Ruikar's research interests.
+    - What are Dr. Ruikar's degrees?
+    - S. D. Ruikar biography.
+    - Give me information about Dr. S. D. Ruikar in electronics faculty.
+    - Share details on Dr. S. D. Ruikar's academic background.
+    - What has Dr. S. D. Ruikar contributed to the field of electronics?
+    - sd ruikar
+    - sd ruikar profile
+    - s d ruikar
+    - dr sd ruikar details
+    - sd ruikar's work
+
+- intent: Electronics_faculty_Dr_SG_Tamhankar
+  examples: |
+    - Who is Dr. S. G. Tamhankar?
+    - Tell me about Dr. S. G. Tamhankar.
+    - What can you tell me about Dr. S. G. Tamhankar?
+    - Dr. Tamhankar's area of expertise.
+    - What are Dr. Tamhankar's qualifications?
+    - S. G. Tamhankar biography.
+    - Give me information about Dr. S. G. Tamhankar in electronics faculty.
+    - Share details on Dr. S. G. Tamhankar's academic background.
+    - What has Dr. S. G. Tamhankar contributed to the field of electronics?
+    - sg tamhankar
+    - sg tamhankar profile
+    - s g tamhankar
+    - dr sg tamhankar details
+    - sg tamhankar's work
+
+- intent: Electronics_faculty_Mr_RG_Mevekari
+  examples: |
+    - Who is Mr. R. G. Mevekari?
+    - Tell me about Mr. R. G. Mevekari.
+    - What can you tell me about Mr. R. G. Mevekari?
+    - Mr. Mevekari's area of expertise.
+    - What are Mr. Mevekari's qualifications?
+    - R. G. Mevekari biography.
+    - Give me information about Mr. R. G. Mevekari in electronics faculty.
+    - Share details on Mr. R. G. Mevekari's academic background.
+    - What has Mr. R. G. Mevekari contributed to the field of electronics?
+    - rg mevekari
+    - rg mevekari profile
+    - r g mevekari
+    - mr mevekari details
+    - rg mevekari's work
+
+- intent: Electronics_faculty_Dr_Mrs_MM_Patil
+  examples: |
+    - Who is Dr. Mrs. M. M. Patil?
+    - Tell me about Dr. Mrs. M. M. Patil.
+    - What can you tell me about Dr. Mrs. M. M. Patil?
+    - Dr. Patil's research interests.
+    - What are Dr. Patil's degrees?
+    - M. M. Patil biography.
+    - Give me information about Dr. Mrs. M. M. Patil in electronics faculty.
+    - Share details on Dr. Mrs. M. M. Patil's academic background.
+    - What has Dr. Mrs. M. M. Patil contributed to the field of electronics?
+    - mm patil
+    - mm patil profile
+    - m m patil
+    - dr mm patil details
+    - mm patil's work
+
+- intent: Electronics_faculty_Mrs_MR_Khare
+  examples: |
+    - Who is Mrs. M. R. Khare?
+    - Tell me about Mrs. M. R. Khare.
+    - What can you tell me about Mrs. M. R. Khare?
+    - Mrs. Khare's area of expertise.
+    - What are Mrs. Khare's qualifications?
+    - M. R. Khare biography.
+    - Give me information about Mrs. M. R. Khare in electronics faculty.
+    - Share details on Mrs. M. R. Khare's academic background.
+    - What has Mrs. M. R. Khare contributed to the field of electronics?
+    - mr khare
+    - mr khare profile
+    - m r khare
+    - mrs khare details
+    - mr khare's work
+
+- intent: Electronics_faculty_Ms_SU_Patil
+  examples: |
+    - Who is Ms. S. U. Patil?
+    - Tell me about Ms. S. U. Patil.
+    - What can you tell me about Ms. S. U. Patil?
+    - Ms. Patil's area of expertise.
+    - What are Ms. Patil's qualifications?
+    - S. U. Patil biography.
+    - Give me information about Ms. S. U. Patil in electronics faculty.
+    - Share details on Ms. S. U. Patil's academic background.
+    - What has Ms. S. U. Patil contributed to the field of electronics?
+    - su patil
+    - su patil profile
+    - s u patil
+    - ms patil details
+    - su patil's work
+
+- intent: Electronics_faculty_Mr_SR_Khedkar
+  examples: |
+    - Who is Mr. S. R. Khedkar?
+    - Tell me about Mr. S. R. Khedkar.
+    - What can you tell me about Mr. S. R. Khedkar?
+    - Mr. Khedkar's area of expertise.
+    - What are Mr. Khedkar's qualifications?
+    - S. R. Khedkar biography.
+    - Give me information about Mr. S. R. Khedkar in electronics faculty.
+    - Share details on Mr. S. R. Khedkar's academic background.
+    - What has Mr. S. R. Khedkar contributed to the field of electronics?
+    - sr khedkar
+    - sr khedkar profile
+    - s r khedkar
+    - mr khedkar details
+    - sr khedkar's work
+
+- intent: Electronics_faculty_Mrs_NS_Babar
+  examples: |
+    - Who is Mrs. N. S. Babar?
+    - Tell me about Mrs. N. S. Babar.
+    - What can you tell me about Mrs. N. S. Babar?
+    - Mrs. Babar's area of expertise.
+    - What are Mrs. Babar's qualifications?
+    - N. S. Babar biography.
+    - Give me information about Mrs. N. S. Babar in electronics faculty.
+    - Share details on Mrs. N. S. Babar's academic background.
+    - What has Mrs. N. S. Babar contributed to the field of electronics?
+    - ns babar
+    - ns babar profile
+    - n s babar
+    - mrs babar details
+    - ns babar's work
 
 - intent: ETC_Faculty
   examples: |
