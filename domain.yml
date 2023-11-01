@@ -109,7 +109,7 @@ intents:
   - IT_faculty_Mr_Mayur_Rathi
   - IT_faculty_Mrs_Manisha_Dabade
 
-##Testing
+##Electronics faculty
   - Electronics_faculty_Mr_SB_Dhaigude
   - Electronics_faculty_Dr_BG_Patil
   - Electronics_faculty_Mr_NV_Marathe
@@ -123,6 +123,24 @@ intents:
   - Electronics_faculty_Ms_SU_Patil
   - Electronics_faculty_Mr_SR_Khedkar
   - Electronics_faculty_Mrs_NS_Babar
+##Testing
+  - Electrical_faculty_Dr_DS_More
+  - Electrical_faculty_Dr_AP_Vaidya
+  - Electrical_faculty_Mr_AB_Patil
+  - Electrical_faculty_Mr_NV_Patel
+  - Electrical_faculty_Dr_MM_Waware
+  - Electrical_faculty_Mrs_SL_Shaikh
+  - Electrical_faculty_Dr_RP_Hasabe
+  - Electrical_faculty_Mrs_SP_Diwan
+  - Electrical_faculty_Mr_SS_Karvekar
+  - Electrical_faculty_Mr_VP_Mohale
+  - Electrical_faculty_Dr_DR_Patil
+  - Electrical_faculty_Mr_KA_Mhaskar
+  - Electrical_faculty_Mrs_AS_Karvekar
+  - Electrical_faculty_Mrs_AA_Dhamangaonkar
+  - Electrical_faculty_Mr_RG_Datar
+  - Electrical_faculty_Ms_MM_Tahmankar
+  - Electrical_faculty_Mr_MS_Mahagaonkar
 responses:
   utter_greet:
     - text: "Hey! How are you?"
@@ -716,6 +734,111 @@ responses:
           - Website: [https://images.dreamkasper.com:8087/pages/el_rps](https://images.dreamkasper.com:8087/pages/el_rps)
           - Office: 0233-2300933
         * You can visit [here](https://project-wce.dreamkasper.com/pages/el_rph).
+
+##Faculty
+
+  utter_about_faculty_Dr_DS_More:
+    - text: >
+          Dr. D. S. More is an Associate Professor in Electrical Engineering.
+          His degrees include M. E. Electrical (Control System) and Ph. D.
+          His research area includes Power Electronics & Drives, PM Machines, Renewable Energy & Smart Grid.
+
+  utter_about_faculty_Dr_AP_Vaidya:
+    - text: >
+          Dr. A. P. Vaidya is a Professor in Electrical Engineering.
+          His degrees include M.E. in Power Systems and Ph.D. in High Voltage Engineering.
+          His research area focuses on Power System Operation, Analysis & Protection.
+
+  utter_about_faculty_Mr_AB_Patil:
+    - text: >
+          Mr. A. B. Patil is an Associate Professor in Electrical Engineering.
+          He holds a degree in M.E. Electrical (Control System).
+          His research area includes Signal Processing and Soft Computing for Control Systems.
+
+  utter_about_faculty_Mr_NV_Patel:
+    - text: >
+          Mr. N. V. Patel is an Associate Professor in Electrical Engineering.
+          He holds a degree in M.Tech Electrical (Control System).
+          His research area is focused on Linear Control System Engineering.
+
+  utter_about_faculty_Dr_MM_Waware:
+    - text: >
+          Dr. M. M. Waware is an Associate Professor in Electrical Engineering.
+          Her degrees include M.E. in Electrical and Ph.D. from IIT Roorkee.
+          Her research area encompasses Multilevel Inverter, Power Electronic Converters, and Power Quality.
+
+  utter_about_faculty_Mrs_SL_Shaikh:
+    - text: >
+          Mrs. S. L. Shaikh is an Assistant Professor in Electrical Engineering.
+          She holds a degree in M.E. Power Systems.
+          Her research area is focused on Power System Dynamics.
+
+  utter_about_faculty_Dr_RP_Hasabe:
+    - text: >
+          Dr. R. P. Hasabe is the HOD and Assistant Professor in Electrical Engineering.
+          His degrees include Ph.D. (Electrical) and M.E. (Electrical).
+          His research area covers Power System, Power System Protection, and ANN Applications to Power System.
+
+  utter_about_faculty_Mrs_SP_Diwan:
+    - text: >
+          Mrs. S. P. Diwan is an Assistant Professor in Electrical Engineering.
+          She holds a degree in M.Tech. Power Systems.
+          Her research interests include Power Quality, Applications of Power Electronics in Power Systems, and Industrial Drives.
+
+  utter_about_faculty_Mr_SS_Karvekar:
+    - text: >
+          Mr. S. S. Karvekar is an Assistant Professor in Electrical Engineering.
+          He holds a degree in M.Tech Electrical (Control Systems).
+          His research area includes Embedded Systems and Control Systems.
+
+  utter_about_faculty_Mr_VP_Mohale:
+    - text: >
+          Mr. V. P. Mohale is an Assistant Professor in Electrical Engineering.
+          He holds a degree in M.E. Electrical Power System.
+          His research area is focused on Power Systems.
+
+  utter_about_faculty_Dr_DR_Patil:
+    - text: >
+          Dr. D. R. Patil is a Professor in Electrical Engineering.
+          His degrees include B.E., M.E., and Ph.D.
+          His research area covers Control Systems and Power System, with a focus on Digital Control.
+
+  utter_about_faculty_Mr_KA_Mhaskar:
+    - text: >
+          Mr. K. A. Mhaskar is an Assistant Professor in Electrical Engineering.
+          His degrees include M.E. Electrical (Power System) and BE Electrical.
+          His research interests include Power System Studies, Electrical Machines, Power Electronics, and Automation.
+
+  utter_about_faculty_Mrs_AS_Karvekar:
+    - text: >
+          Mrs. A. S. Karvekar is an Assistant Professor in Electrical Engineering.
+          Her degrees include B. Tech. (Electrical) and M. Tech (Control Systems).
+          Her research area encompasses Sliding Mode Control, DC to DC Converters, and More Electric Aircrafts.
+
+  utter_about_faculty_Mrs_AA_Dhamangaonkar:
+    - text: >
+          Mrs. A. A. Dhamangaonkar is an Assistant Professor in Electrical Engineering.
+          Her degrees include B. E. (Electrical) and M.E. (Power System).
+          Her research area focuses on Power Quality.
+
+  utter_about_faculty_Mr_RG_Datar:
+    - text: >
+          Mr. R. G. Datar is an Assistant Professor in Electrical Engineering.
+          His degrees include B. Tech. (Electrical Engineering) and M. Tech. (Control System).
+          His research area includes Solar and Wind Power Generation, Process Control, System Identification, Optimal Control, and Automation.
+
+  utter_about_faculty_Ms_MM_Tahmankar:
+    - text: >
+          Ms. M. M. Tahmankar is an Assistant Professor in Electrical Engineering.
+          She holds a degree in M.Tech. Control System.
+          Her research area includes Model Predictive Control, System Identification, and Internal Model Control.
+
+  utter_about_faculty_Mr_MS_Mahagaonkar:
+    - text: >
+          Mr. M. S. Mahagaonkar is an Assistant Professor in Electrical Engineering.
+          He holds a degree in M.Tech. (Power System).
+          His research area covers Electrical Machines and Renewable Energy
+
 
   utter_response_ELE_Faculty:
     - text: |

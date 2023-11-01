@@ -892,6 +892,297 @@ nlu:
     - electrical hod
     - contact of electrical hod
     - contact electrical hod
+
+##Testing
+
+- intent: Electrical_faculty_Dr_DS_More
+  examples: |
+    - Who is Dr. D. S. More?
+    - Tell me about Dr. D. S. More.
+    - What can you tell me about Dr. D. S. More?
+    - Dr. More's research area.
+    - What are Dr. More's degrees?
+    - D. S. More biography.
+    - Give me information about Dr. D. S. More in electrical faculty.
+    - Share details on Dr. D. S. More's academic background.
+    - What has Dr. D. S. More contributed to the field of electrical engineering?
+    - ds more
+    - ds more profile
+    - d s more
+    - dr ds more details
+    - ds more's work
+
+- intent: Electrical_faculty_Dr_AP_Vaidya
+  examples: |
+    - Who is Dr. A. P. Vaidya?
+    - Tell me about Dr. A. P. Vaidya.
+    - What can you tell me about Dr. A. P. Vaidya?
+    - Dr. Vaidya's research area.
+    - What are Dr. Vaidya's degrees?
+    - A. P. Vaidya biography.
+    - Give me information about Dr. A. P. Vaidya in electrical faculty.
+    - Share details on Dr. A. P. Vaidya's academic background.
+    - What has Dr. A. P. Vaidya contributed to the field of electrical engineering?
+    - ap vaidya
+    - ap vaidya profile
+    - a p vaidya
+    - dr ap vaidya details
+    - ap vaidya's work
+
+- intent: Electrical_faculty_Mr_AB_Patil
+  examples: |
+    - Who is Mr. A. B. Patil?
+    - Tell me about Mr. A. B. Patil.
+    - What can you tell me about Mr. A. B. Patil?
+    - Mr. Patil's research area.
+    - What are Mr. Patil's qualifications?
+    - A. B. Patil biography.
+    - Give me information about Mr. A. B. Patil in electrical faculty.
+    - Share details on Mr. A. B. Patil's academic background.
+    - What has Mr. A. B. Patil contributed to the field of electrical engineering?
+    - ab patil
+    - ab patil profile
+    - a b patil
+    - mr patil details
+    - ab patil's work
+
+- intent: Electrical_faculty_Mr_NV_Patel
+  examples: |
+    - Who is Mr. N. V. Patel?
+    - Tell me about Mr. N. V. Patel.
+    - What can you tell me about Mr. N. V. Patel?
+    - Mr. Patel's research area.
+    - What are Mr. Patel's qualifications?
+    - N. V. Patel biography.
+    - Give me information about Mr. N. V. Patel in electrical faculty.
+    - Share details on Mr. N. V. Patel's academic background.
+    - What has Mr. N. V. Patel contributed to the field of electrical engineering?
+    - nv patel
+    - nv patel profile
+    - n v patel
+    - mr patel details
+    - nv patel's work
+
+- intent: Electrical_faculty_Dr_MM_Waware
+  examples: |
+    - Who is Dr. M. M. Waware?
+    - Tell me about Dr. M. M. Waware.
+    - What can you tell me about Dr. M. M. Waware?
+    - Dr. Waware's research area.
+    - What are Dr. Waware's degrees?
+    - M. M. Waware biography.
+    - Give me information about Dr. M. M. Waware in electrical faculty.
+    - Share details on Dr. M. M. Waware's academic background.
+    - What has Dr. M. M. Waware contributed to the field of electrical engineering?
+    - mm waware
+    - mm waware profile
+    - m m waware
+    - dr mm waware details
+    - mm waware's work
+
+- intent: Electrical_faculty_Mrs_SL_Shaikh
+  examples: |
+    - Who is Mrs. S. L. Shaikh?
+    - Tell me about Mrs. S. L. Shaikh.
+    - What can you tell me about Mrs. S. L. Shaikh?
+    - Mrs. Shaikh's research area.
+    - What are Mrs. Shaikh's qualifications?
+    - S. L. Shaikh biography.
+    - Give me information about Mrs. S. L. Shaikh in electrical faculty.
+    - Share details on Mrs. S. L. Shaikh's academic background.
+    - What has Mrs. S. L. Shaikh contributed to the field of electrical engineering?
+    - sl shaikh
+    - sl shaikh profile
+    - s l shaikh
+    - mrs shaikh details
+    - sl shaikh's work
+
+- intent: Electrical_faculty_Dr_RP_Hasabe
+  examples: |
+    - Who is Dr. R. P. Hasabe?
+    - Tell me about Dr. R. P. Hasabe.
+    - What can you tell me about Dr. R. P. Hasabe?
+    - Dr. Hasabe's research area.
+    - What are Dr. Hasabe's degrees?
+    - R. P. Hasabe biography.
+    - Give me information about Dr. R. P. Hasabe in electrical faculty.
+    - Share details on Dr. R. P. Hasabe's academic background.
+    - What has Dr. R. P. Hasabe contributed to the field of electrical engineering?
+    - rp hasabe
+    - rp hasabe profile
+    - r p hasabe
+    - dr rp hasabe details
+    - rp hasabe's work
+
+- intent: Electrical_faculty_Mrs_SP_Diwan
+  examples: |
+    - Who is Mrs. S. P. Diwan?
+    - Tell me about Mrs. S. P. Diwan.
+    - What can you tell me about Mrs. S. P. Diwan?
+    - Mrs. Diwan's research area.
+    - What are Mrs. Diwan's qualifications?
+    - S. P. Diwan biography.
+    - Give me information about Mrs. S. P. Diwan in electrical faculty.
+    - Share details on Mrs. S. P. Diwan's academic background.
+    - What has Mrs. S. P. Diwan contributed to the field of electrical engineering?
+    - sp diwan
+    - sp diwan profile
+    - s p diwan
+    - mrs diwan details
+    - sp diwan's work
+
+- intent: Electrical_faculty_Mr_SS_Karvekar
+  examples: |
+    - Who is Mr. S. S. Karvekar?
+    - Tell me about Mr. S. S. Karvekar.
+    - What can you tell me about Mr. S. S. Karvekar?
+    - Mr. Karvekar's research area.
+    - What are Mr. Karvekar's qualifications?
+    - S. S. Karvekar biography.
+    - Give me information about Mr. S. S. Karvekar in electrical faculty.
+    - Share details on Mr. S. S. Karvekar's academic background.
+    - What has Mr. S. S. Karvekar contributed to the field of electrical engineering?
+    - ss karvekar
+    - ss karvekar profile
+    - s s karvekar
+    - mr karvekar details
+    - ss karvekar's work
+
+- intent: Electrical_faculty_Mr_VP_Mohale
+  examples: |
+    - Who is Mr. V. P. Mohale?
+    - Tell me about Mr. V. P. Mohale.
+    - What can you tell me about Mr. V. P. Mohale?
+    - Mr. Mohale's research area.
+    - What are Mr. Mohale's qualifications?
+    - V. P. Mohale biography.
+    - Give me information about Mr. V. P. Mohale in electrical faculty.
+    - Share details on Mr. V. P. Mohale's academic background.
+    - What has Mr. V. P. Mohale contributed to the field of electrical engineering?
+    - vp mohale
+    - vp mohale profile
+    - v p mohale
+    - mr mohale details
+    - vp mohale's work
+
+- intent: Electrical_faculty_Dr_DR_Patil
+  examples: |
+    - Who is Dr. D. R. Patil?
+    - Tell me about Dr. D. R. Patil.
+    - What can you tell me about Dr. D. R. Patil?
+    - Dr. Patil's research area.
+    - What are Dr. Patil's degrees?
+    - D. R. Patil biography.
+    - Give me information about Dr. D. R. Patil in electrical faculty.
+    - Share details on Dr. D. R. Patil's academic background.
+    - What has Dr. D. R. Patil contributed to the field of electrical engineering?
+    - dr patil
+    - dr patil profile
+    - d r patil
+    - dr d r patil details
+    - dr patil's work
+- intent: Electrical_faculty_Mr_KA_Mhaskar
+  examples: |
+    - Who is Mr. K. A. Mhaskar?
+    - Tell me about Mr. K. A. Mhaskar.
+    - What can you tell me about Mr. K. A. Mhaskar?
+    - Mr. Mhaskar's research area.
+    - What are Mr. Mhaskar's qualifications?
+    - K. A. Mhaskar biography.
+    - Give me information about Mr. K. A. Mhaskar in electrical faculty.
+    - Share details on Mr. K. A. Mhaskar's academic background.
+    - What has Mr. K. A. Mhaskar contributed to the field of electrical engineering?
+    - ka mhaskar
+    - ka mhaskar profile
+    - k a mhaskar
+    - mr mhaskar details
+    - ka mhaskar's work
+
+- intent: Electrical_faculty_Mrs_AS_Karvekar
+  examples: |
+    - Who is Mrs. A. S. Karvekar?
+    - Tell me about Mrs. A. S. Karvekar.
+    - What can you tell me about Mrs. A. S. Karvekar?
+    - Mrs. Karvekar's research area.
+    - What are Mrs. Karvekar's qualifications?
+    - A. S. Karvekar biography.
+    - Give me information about Mrs. A. S. Karvekar in electrical faculty.
+    - Share details on Mrs. A. S. Karvekar's academic background.
+    - What has Mrs. A. S. Karvekar contributed to the field of electrical engineering?
+    - as karvekar
+    - as karvekar profile
+    - a s karvekar
+    - mrs karvekar details
+    - as karvekar's work
+
+- intent: Electrical_faculty_Mrs_AA_Dhamangaonkar
+  examples: |
+    - Who is Mrs. A. A. Dhamangaonkar?
+    - Tell me about Mrs. A. A. Dhamangaonkar.
+    - What can you tell me about Mrs. A. A. Dhamangaonkar?
+    - Mrs. Dhamangaonkar's research area.
+    - What are Mrs. Dhamangaonkar's qualifications?
+    - A. A. Dhamangaonkar biography.
+    - Give me information about Mrs. A. A. Dhamangaonkar in electrical faculty.
+    - Share details on Mrs. A. A. Dhamangaonkar's academic background.
+    - What has Mrs. A. A. Dhamangaonkar contributed to the field of electrical engineering?
+    - aa dhamangaonkar
+    - aa dhamangaonkar profile
+    - a a dhamangaonkar
+    - mrs dhamangaonkar details
+    - aa dhamangaonkar's work
+
+- intent: Electrical_faculty_Mr_RG_Datar
+  examples: |
+    - Who is Mr. R. G. Datar?
+    - Tell me about Mr. R. G. Datar.
+    - What can you tell me about Mr. R. G. Datar?
+    - Mr. Datar's research area.
+    - What are Mr. Datar's qualifications?
+    - R. G. Datar biography.
+    - Give me information about Mr. R. G. Datar in electrical faculty.
+    - Share details on Mr. R. G. Datar's academic background.
+    - What has Mr. R. G. Datar contributed to the field of electrical engineering?
+    - rg datar
+    - rg datar profile
+    - r g datar
+    - mr datar details
+    - rg datar's work
+
+- intent: Electrical_faculty_Ms_MM_Tahmankar
+  examples: |
+    - Who is Ms. M. M. Tahmankar?
+    - Tell me about Ms. M. M. Tahmankar.
+    - What can you tell me about Ms. M. M. Tahmankar?
+    - Ms. Tahmankar's research area.
+    - What are Ms. Tahmankar's qualifications?
+    - M. M. Tahmankar biography.
+    - Give me information about Ms. M. M. Tahmankar in electrical faculty.
+    - Share details on Ms. M. M. Tahmankar's academic background.
+    - What has Ms. M. M. Tahmankar contributed to the field of electrical engineering?
+    - mm tahmankar
+    - mm tahmankar profile
+    - m m tahmankar
+    - ms tahmankar details
+    - mm tahmankar's work
+
+- intent: Electrical_faculty_Mr_MS_Mahagaonkar
+  examples: |
+    - Who is Mr. M. S. Mahagaonkar?
+    - Tell me about Mr. M. S. Mahagaonkar.
+    - What can you tell me about Mr. M. S. Mahagaonkar?
+    - Mr. Mahagaonkar's research area.
+    - What are Mr. Mahagaonkar's qualifications?
+    - M. S. Mahagaonkar biography.
+    - Give me information about Mr. M. S. Mahagaonkar in electrical faculty.
+    - Share details on Mr. M. S. Mahagaonkar's academic background.
+    - What has Mr. M. S. Mahagaonkar contributed to the field of electrical engineering?
+    - ms mahagaonkar
+    - ms mahagaonkar profile
+    - m s mahagaonkar
+    - mr mahagaonkar details
+    - ms mahagaonkar's work
+
 - intent: ELE_Faculty
   examples: |
     - who are electrical faculty

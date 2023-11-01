@@ -299,6 +299,40 @@ stories:
 # Add more stories for other faculty members as needed
 
 # electrical dept
+
+##Testing
+- story: Electrical_faculty_Mr_KA_Mhaskar
+  steps:
+  - intent: Electrical_faculty_Mr_KA_Mhaskar
+  - action: action_provide_faculty_info
+
+- story: Electrical_faculty_Mrs_AS_Karvekar
+  steps:
+  - intent: Electrical_faculty_Mrs_AS_Karvekar
+  - action: action_provide_faculty_info
+
+- story: Electrical_faculty_Mrs_AA_Dhamangaonkar
+  steps:
+  - intent: Electrical_faculty_Mrs_AA_Dhamangaonkar
+  - action: action_provide_faculty_info
+
+- story: Electrical_faculty_Mr_RG_Datar
+  steps:
+  - intent: Electrical_faculty_Mr_RG_Datar
+  - action: action_provide_faculty_info
+
+- story: Electrical_faculty_Ms_MM_Tahmankar
+  steps:
+  - intent: Electrical_faculty_Ms_MM_Tahmankar
+  - action: action_provide_faculty_info
+
+- story: Electrical_faculty_Mr_MS_Mahagaonkar
+  steps:
+  - intent: Electrical_faculty_Mr_MS_Mahagaonkar
+  - action: action_provide_faculty_info
+
+
+
 - story: ELE_DEPT
   steps:
     - intent: ELE_info
