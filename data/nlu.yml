@@ -1,1640 +1,2285 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-
-- intent: clg_name
-  examples: |
-    - what is college name?
-    - what is college nm?
-    - Can you tell me the name of the college?
-    - What's the college called?
-
-- intent: clg_degrees
-  examples: |
-    - Tell me details about educational degrees in college 
-    - How many degrees are typically offered at a college?
-    - What degree programs does this college offer?
-    - What are the options for degrees at this institution?
-    - Could you list the different degree types offered by this college?
-    - cse programs
-    - cse courses
-
-- intent: clg_academic
-  examples: |
-    - Can you provide college academic details?
-    - Could you share your college academic information?
-    - Are you able to share your college academic records?
-
-- intent: ask_about_college
-  examples: |
-    - Tell me about Walchand College of Engineering.
-    - WCE
-    - What can you tell me about this college?
-    - Describe the college.
-
-- intent: college_visions
-  examples: |
-    - Tell me about Walchand College of Engineering visions.
-    - WCE visions
-    - What can you tell me about visions of this college?
-    - visions the college.
-    - wce vison
-
-- intent: college_missions
-  examples: |
-    - Tell me about Walchand College of Engineering missions.
-    - WCE missions
-    - What can you tell me about missions of this college?
-    - missions the college.
-    - wce missons
-
-
-- intent: ask_about_founders
-  examples: |
-    - Who founded the college?
-    - Tell me about the founders.
-    - Who are the college's founders?
-
-- intent: College_reach_options
-  examples: |
-    - how to reach college?
-    - ways to reach college
-    - what are travelling options to reach college.
-
-- intent: CSE_Dept
-  examples: |
-    - CSE Department?
-    - Tell me about CSE department?
-    - information about CSE department?
-    - cse info
-    - tell me about cse dept
-    
-
-
-- intent: CSE_programs
-  examples: |
-    -what programs offered by CSE Department
-    -programs offered by cse department
-
-- intent: CSE_syllabus
-  examples: |
-    - where is the cse syllabus.
-    - CSE syllabus.
-    - CSE curriculum
-    - Computer Science and Engineering Syllabus or curriculum
-
-
-#CSE Faculty Section.
-
-- intent: CSE_faculty
-  examples: |
-    - who are cse faculties
-    - CSE faculties
-    - CSE Faculty
-
-
-- intent: CSE_faculty_BF_Momin
-  examples: |
-    - Who is B.F Momin
-    - B.F Momin
-    - Who is Dr B.F Momin
-
-- intent: CSE_faculty_AR_Surve
-  examples: |
-    - Who is A.R Surve
-    - A.R surve
-    - who is AR Surve
-    - who is Mr A.R Surve
-
-- intent: CSE_Faculty_MA_Shah
-  examples: |
-    - Who is M.A Shah
-    - Who is Dr M.A Shah
-    - M.A Shah
-
-- intent: CSE_Faculty_NL_Gavankar
-  examples: |
-    - Who is N.L Gavankar
-    - Who is Dr N.L Gavankar
-    - N.L Gavankar
-    - CSE Academics Head
-
-- intent: CSE_Faculty_MK_Chavan
-  examples: |
-    - Who is M.K Chavan
-    - M.K Chavan
-    - Who is Mr. M.K Chavan
-
-
-
-- intent: CSE_hod
-  examples: |
-    - who is hod of cse?
-    - who is head if department of cse dept?
-    - who is head if department of computer science and engineering dept?
-    - cse hod
-    - contact of cse hod
-    - contact cse hod
-    
-    
-
-
-
-- intent: CSE_missions
-  examples: |
-    - what are missions of cse?
-    - cse missions
-    - computer science and engineering missions
-    - cse mission
-    - missions of cse dept
-    - missions of cse department
-
-- intent: CSE_visions
-  examples: |
-    - what are visions of cse?
-    - cse visions
-    - visions of cse dept
-    - visions of cse department
-    - computer science and engineering visions
-    - cse vision
-
-- intent: CSE_labs
-  examples: |
-    - what are labs of cse?
-    - cse labs
-    - laboratories of cse dept
-    - laborateries of cse department
-    - how many labs in cse dept
-  
-#IT Department.
-
-- intent: IT_info
-  examples: |
-    -Tell me about IT department.
-    - IT dept
-    - IT
-    - Information Technology dept
-    - give information about it dept
-    - Tell me about the IT Department at Walchand College of Engineering, Sangli.
-    - What is the mission of the IT Department?
-    - Explain the vision of the IT Department.
-    - What are the Programme Educational Objectives of the IT Department?
-    - Can you tell me about the IT program at Walchand College of Engineering?
-    - What is the IT department?
-    - Tell me about the IT program.
-    - Explain the vision of the IT department.
-    - What are the Programme Educational Objectives of the IT department?
-
-- intent: IT_Hod
-  examples: |
-    - who is head of department of information technology department?
-    - who is hod of IT.
-    - IT Hod.
-    - give information about it hod
-    - it hod
-    -  head of department of Information Technology.
-
-- intent: IT_programs
-  examples: |
-    - what programs offered by IT Department
-    - programs offered by IT department
-    - Can you list the different degree programs available within the IT department?
-    - Could you provide examples of specific specializations available within the IT Department?
-    - How long is the typical duration of the programs in the IT Department?
-    - B.tech in IT
-    - M.tech in IT
-    - IT programs
-    - Information Technology programs
-
-
-##Testing
-- intent: IT_faculty_Dr_Kulkarni_Dinesh
-  examples: |
-    - Who is Dr. Kulkarni Dinesh Balkrushna
-    - Tell me about Dr. Kulkarni Dinesh Balkrushna
-    - Dr. Kulkarni Dinesh Balkrushna
-    - Who is Dr. Kulkarni Dinesh
-    - Can you provide information on Dr. Kulkarni Dinesh Balkrushna
-    - Explain Dr. Kulkarni Dinesh Balkrushna to me
-    - What can you tell me about Dr. Kulkarni Dinesh Balkrushna
-    - Dr. Kulkarni Dinesh Balkrushna's background
-    - Please give me details about Dr. Kulkarni Dinesh Balkrushna
-    - About Dr. Kulkarni Dinesh Balkrushna
-    - Dr. Kulkarni Dinesh Balkrushna's profile
-    - Who is the professor named Dr. Kulkarni Dinesh Balkrushna
-    - Introduce me to Dr. Kulkarni Dinesh Balkrushna
-    - Who teaches as Dr. Kulkarni Dinesh Balkrushna
-    - Dr. Kulkarni Dinesh Balkrushna's expertise
-    - Kulkarni Dinesh Balkrushna
-    - kulkarni dinesh
-    - Dinesh Balkrushna
-    - Dinesh Kulkarni
-
-- intent: IT_faculty_Dr_Sonavane_Shefali
-  examples: |
-    - Who is Dr. Sonavane Shefali Pratap
-    - Tell me about Dr. Sonavane Shefali Pratap
-    - Dr. Sonavane Shefali Pratap
-    - Who is Dr. Sonavane Shefali
-    - Can you provide information on Dr. Sonavane Shefali Pratap
-    - Explain Dr. Sonavane Shefali Pratap to me
-    - What can you tell me about Dr. Sonavane Shefali Pratap
-    - Dr. Sonavane Shefali Pratap's background
-    - Please give me details about Dr. Sonavane Shefali Pratap
-    - About Dr. Sonavane Shefali Pratap
-    - Dr. Sonavane Shefali Pratap's profile
-    - Who is the professor named Dr. Sonavane Shefali Pratap
-    - Introduce me to Dr. Sonavane Shefali Pratap
-    - Who teaches as Dr. Sonavane Shefali Pratap
-    - Dr. Sonavane Shefali Pratap's expertise
-    - Sonavane Shefali Pratap
-    - sonavane shefali
-    - Shefali Pratap
-    - Shefali Sonavane
-
-- intent: IT_faculty_Dr_Umbarkar_Anantkumar
-  examples: |
-    - Who is Dr. Umbarkar Anantkumar Janardan
-    - Tell me about Dr. Umbarkar Anantkumar Janardan
-    - Dr. Umbarkar Anantkumar Janardan
-    - Who is Dr. Umbarkar Anantkumar
-    - Can you provide information on Dr. Umbarkar Anantkumar Janardan
-    - Explain Dr. Umbarkar Anantkumar Janardan to me
-    - What can you tell me about Dr. Umbarkar Anantkumar Janardan
-    - Dr. Umbarkar Anantkumar Janardan's background
-    - Please give me details about Dr. Umbarkar Anantkumar Janardan
-    - About Dr. Umbarkar Anantkumar Janardan
-    - Dr. Umbarkar Anantkumar Janardan's profile
-    - Who is the professor named Dr. Umbarkar Anantkumar Janardan
-    - Introduce me to Dr. Umbarkar Anantkumar Janardan
-    - Who teaches as Dr. Umbarkar Anantkumar Janardan
-    - Dr. Umbarkar Anantkumar Janardan's expertise
-    - Umbarkar Anantkumar Janardan
-    - umbarkar anantkumar
-    - Anantkumar Janardan
-    - Anantkumar Umbarkar
-
-- intent: IT_faculty_Dr_Rathod_Ravindra
-  examples: |
-    - Who is Dr. Rathod Ravindra Ramkishan
-    - Tell me about Dr. Rathod Ravindra Ramkishan
-    - Dr. Rathod Ravindra Ramkishan
-    - Who is Dr. Rathod Ravindra
-    - Can you provide information on Dr. Rathod Ravindra Ramkishan
-    - Explain Dr. Rathod Ravindra Ramkishan to me
-    - What can you tell me about Dr. Rathod Ravindra Ramkishan
-    - Dr. Rathod Ravindra Ramkishan's background
-    - Please give me details about Dr. Rathod Ravindra Ramkishan
-    - About Dr. Rathod Ravindra Ramkishan
-    - Dr. Rathod Ravindra Ramkishan's profile
-    - Who is the professor named Dr. Rathod Ravindra Ramkishan
-    - Introduce me to Dr. Rathod Ravindra Ramkishan
-    - Who teaches as Dr. Rathod Ravindra Ramkishan
-    - Dr. Rathod Ravindra Ramkishan's expertise
-    - Rathod Ravindra Ramkishan
-    - rathod ravindra
-    - Ravindra Ramkishan
-    - Ravindra Rathod
-    - rathod sir 
-    - who is ravindra rathos
-
-- intent: IT_faculty_Dr_Chavan_Umesh
-  examples: |
-    - Who is Dr. Chavan Umesh Balkrushna
-    - Tell me about Dr. Chavan Umesh Balkrushna
-    - Dr. Chavan Umesh Balkrushna
-    - Who is Dr. Chavan Umesh
-    - Can you provide information on Dr. Chavan Umesh Balkrushna
-    - Explain Dr. Chavan Umesh Balkrushna to me
-    - What can you tell me about Dr. Chavan Umesh Balkrushna
-    - Dr. Chavan Umesh Balkrushna's background
-    - Please give me details about Dr. Chavan Umesh Balkrushna
-    - About Dr. Chavan Umesh Balkrushna
-    - Dr. Chavan Umesh Balkrushna's profile
-    - Who is the professor named Dr. Chavan Umesh Balkrushna
-    - Introduce me to Dr. Chavan Umesh Balkrushna
-    - Who teaches as Dr. Chavan Umesh Balkrushna
-    - Dr. Chavan Umesh Balkrushna's expertise
-    - Chavan Umesh Balkrushna
-    - chavan umesh
-    - Umesh Balkrushna
-    - Umesh Chavan
-    - who is umesh chavan
-
-- intent: IT_faculty_Shirodkar_Bharati
-  examples: |
-    - Who is Mrs. Shirodkar Bharati Devidasr
-    - Tell me about Mrs. Shirodkar Bharati Devidas
-    - Mrs. Shirodkar Bharati Devidas
-    - Who is Mrs. Shirodkar Bharati
-    - Can you provide information on Mrs. Shirodkar Bharati Devidas
-    - Explain Mrs. Shirodkar Bharati Devidas to me
-    - What can you tell me about Mrs. Shirodkar Bharati Devidas
-    - Mrs. Shirodkar Bharati Devidas's background
-    - Please give me details about Mrs. Shirodkar Bharati Devidas
-    - About Mrs. Shirodkar Bharati Devidas
-    - Mrs. Shirodkar Bharati Devidas's profile
-    - Who is the professor named Mrs. Shirodkar Bharati Devidas
-    - Introduce me to Mrs. Shirodkar Bharati Devidas
-    - Who teaches as Mrs. Shirodkar Bharati Devidas
-    - Mrs. Shirodkar Bharati Devidas's expertise
-    - Shirodkar Bharati Devidas
-    - shirodkar bharati
-    - Bharati Devidas
-    - Bharati Shirodkar
-    - who is bharati shirodkar
-- intent: IT_faculty_Dr_Kharat_Prashant
-  examples: |
-    - Who is Dr. Kharat Prashant Krishnarao
-    - Tell me about Dr. Kharat Prashant Krishnarao
-    - Dr. Kharat Prashant Krishnarao
-    - Who is Dr. Kharat Prashant
-    - Can you provide information on Dr. Kharat Prashant Krishnarao
-    - Explain Dr. Kharat Prashant Krishnarao to me
-    - What can you tell me about Dr. Kharat Prashant Krishnarao
-    - Dr. Kharat Prashant Krishnarao's background
-    - Please give me details about Dr. Kharat Prashant Krishnarao
-    - About Dr. Kharat Prashant Krishnarao
-    - Dr. Kharat Prashant Krishnarao's profile
-    - Who is the professor named Dr. Kharat Prashant Krishnarao
-    - Introduce me to Dr. Kharat Prashant Krishnarao
-    - Who teaches as Dr. Kharat Prashant Krishnarao
-    - Dr. Kharat Prashant Krishnarao's expertise
-    - Kharat Prashant Krishnarao
-    - kharat prashant
-    - Prashant Krishnarao
-    - Prashant Kharat
-    - who is prashant kharat
-
-- intent: IT_faculty_Mr_Narnaware_Manish
-  examples: |
-    - Who is Mr. Narnaware Manish Balaji
-    - Tell me about Mr. Narnaware Manish Balaji
-    - Mr. Narnaware Manish Balaji
-    - Who is Mr. Narnaware Manish
-    - Can you provide information on Mr. Narnaware Manish Balaji
-    - Explain Mr. Narnaware Manish Balaji to me
-    - What can you tell me about Mr. Narnaware Manish Balaji
-    - Mr. Narnaware Manish Balaji's background
-    - Please give me details about Mr. Narnaware Manish Balaji
-    - About Mr. Narnaware Manish Balaji
-    - Mr. Narnaware Manish Balaji's profile
-    - Who is the professor named Mr. Narnaware Manish Balaji
-    - Introduce me to Mr. Narnaware Manish Balaji
-    - Who teaches as Mr. Narnaware Manish Balaji
-    - Mr. Narnaware Manish Balaji's expertise
-    - Narnaware Manish Balaji
-    - narnaware manish
-    - Manish Balaji
-    - Manish Narnaware
-    - who is manish balaji
-
-- intent: IT_faculty_Mr_Mayur_Rathi
-  examples: |
-    - Who is Mr. Mayur G Rathi
-    - Tell me about Mr. Mayur G Rathi
-    - Mr. Mayur G Rathi
-    - Who is Mr. Mayur Rathi
-    - Can you provide information on Mr. Mayur G Rathi
-    - Explain Mr. Mayur G Rathi to me
-    - What can you tell me about Mr. Mayur G Rathi
-    - Mr. Mayur G Rathi's background
-    - Please give me details about Mr. Mayur G Rathi
-    - About Mr. Mayur G Rathi
-    - Mr. Mayur G Rathi's profile
-    - Who is the professor named Mr. Mayur G Rathi
-    - Introduce me to Mr. Mayur G Rathi
-    - Who teaches as Mr. Mayur G Rathi
-    - Mr. Mayur G Rathi's expertise
-    - Mayur G Rathi
-    - mayur rathi
-    - Mayur Rathi
-    - Mayur G
-    - who is mayur rathi
-- intent: IT_faculty_Mrs_Manisha_Dabade
-  examples: |
-    - Who is Mrs. Manisha.S. Dabade
-    - Tell me about Mrs. Manisha.S. Dabade
-    - Mrs. Manisha.S. Dabade
-    - Who is Mrs. Manisha Dabade
-    - Can you provide information on Mrs. Manisha.S. Dabade
-    - Explain Mrs. Manisha.S. Dabade to me
-    - What can you tell me about Mrs. Manisha.S. Dabade
-    - Mrs. Manisha.S. Dabade's background
-    - Please give me details about Mrs. Manisha.S. Dabade
-    - About Mrs. Manisha.S. Dabade
-    - Mrs. Manisha.S. Dabade's profile
-    - Who is the professor named Mrs. Manisha.S. Dabade
-    - Introduce me to Mrs. Manisha.S. Dabade
-    - Who teaches as Mrs. Manisha.S. Dabade
-    - Mrs. Manisha.S. Dabade's expertise
-    - Manisha.S. Dabade
-    - manisha dabade
-    - Manisha Dabade
-    - Manisha.S.
-    - who is manisha dabade
-  # Continue with intents for other faculty members here
-
-
-- intent: IT_Faculty
-  examples: |
-    - give information about IT faculty
-    - information about it faculty
-    - information about Information Technology faculty
-    - List of faculties in IT Department
-    - IT Department faculties
-    - Who are the professors in IT Department
-    - Tell me about IT Department faculty
-    - Can you provide information about IT Department professors
-
-- intent: IT_Mission
-  examples: |
-    - it mission
-    - tell me about it missions
-    - IT Mission
-    - Information Technology Mission
-    - Mission of IT Dept
-    - IT dept mission
-    - it dept mission
-
-- intent: IT_Vision
-  examples: |
-    - what is IT Vision?
-    - what is IT department's Vision?
-    - what is information technology department's Vision?
-    - What is the vision of the IT Department?
-    - Tell me the IT department's vision statement?
-    - Explain the  IT department's vision?
-    - What is the vision of the IT department?
-    - vision of IT department
-    - information technology vision
-
-- intent: IT_Labs
-  examples: |
-    - Tell me about the IT department labs
-    - What labs are available in the IT department?
-    - List IT department labs
-    - labs in IT department
-    - labs in information technology department
-    - IT labs
-
-#Electronics Department.
-- intent: ETC_info
-  examples: |
-    - What is the mission and vision of the electronics department?
-    - Electronics dept in wce
-    - Tell me about electronics dept
-    - info about electronics dept
-    - Entc dept
-    - ETC
-    - Electronics department info
-
-- intent: ETC_hod
-  examples: |
-    - who is hod of etc dept?
-    - who is head if department of etc dept?
-    - who is head if department of electronics dept?
-    - entc hod
-    - contact of etc hod
-    - contact etc hod
-    - who is hod of electronics dept?
-    - electronics hod
-    - contact of electronics hod
-    - contact entc hod
-
-- intent: ETC_programs
-  examples: |
-    - what programs offered by ETC Department
-    - programs offered by etc department
-    - Can you list the different degree programs available within the etc department?
-    - Could you provide examples of specific specializations available within the ETC Department?
-    - How long is the typical duration of the programs in the ETC Department?
-
-##Testing
-
-- intent: Electronics_faculty_Dr_BG_Patil
-  examples: |
-    - Who is Dr. B. G. Patil?
-    - Tell me about Dr. B. G. Patil.
-    - What can you tell me about Dr. B. G. Patil?
-    - Dr. Patil's research area.
-    - What are Dr. BG Patil's degrees?
-    - B. G. Patil biography.
-    - Give me information about Dr. Patil in electronics faculty.
-    - Share details on Dr. B. G. Patil's academic background.
-    - What has Dr. B. G. Patil contributed to the field of electronics?
-    - bg patil
-    - bg patil profile
-    - b g patil
-    - dr bg patil details
-    - bg patil's work
-
-- intent: Electronics_faculty_Mr_SB_Dhaigude
-  examples: |
-    - Who is Mr. S. B. Dhaigude?
-    - Tell me about Mr. S. B. Dhaigude.
-    - What can you tell me about Mr. S. B. Dhaigude?
-    - Mr. Dhaigude's research interests.
-    - What are Mr. Dhaigude's qualifications?
-    - S. B. Dhaigude biography.
-    - Give me information about Mr. Dhaigude in electronics faculty.
-    - Share details on Mr. S. B. Dhaigude's academic background.
-    - What has Mr. S. B. Dhaigude contributed to the field of electronics?
-    - sb dhaigude
-    - sb dhaigude profile
-    - s b dhaigude
-    - mr dhaigude details
-    - sb dhaigude's work
-
-- intent: Electronics_faculty_Mr_NV_Marathe
-  examples: |
-    - Who is Mr. N. V. Marathe?
-    - Tell me about Mr. N. V. Marathe.
-    - What can you tell me about Mr. N. V. Marathe?
-    - Mr. Marathe's area of expertise.
-    - What are Mr. Marathe's qualifications?
-    - N. V. Marathe biography.
-    - Give me information about Mr. Marathe in electronics faculty.
-    - Share details on Mr. N. V. Marathe's academic background.
-    - What has Mr. N. V. Marathe contributed to the field of electronics?
-    - nv marathe
-    - nv marathe profile
-    - n v marathe
-    - mr marathe details
-    - nv marathe's work
-
-- intent: Electronics_faculty_Dr_Mrs_AA_Agashe
-  examples: |
-    - Who is Dr. Mrs. A. A. Agashe?
-    - Tell me about Dr. Mrs. A. A. Agashe.
-    - What can you tell me about Dr. Mrs. A. A. Agashe?
-    - Dr. Agashe's research interests.
-    - What are Dr. Agashe's degrees?
-    - A. A. Agashe biography.
-    - Give me information about Dr. Mrs. A. A. Agashe in electronics faculty.
-    - Share details on Dr. A. A. Agashe's academic background.
-    - What has Dr. Mrs. A. A. Agashe contributed to the field of electronics?
-    - aa agashe
-    - aa agashe profile
-    - a a agashe
-    - dr aa agashe details
-    - aa agashe's work
-
-- intent: Electronics_faculty_Mr_SK_Parchandekar
-  examples: |
-    - Who is Mr. S. K. Parchandekar?
-    - Tell me about Mr. S. K. Parchandekar.
-    - What can you tell me about Mr. S. K. Parchandekar?
-    - Mr. Parchandekar's area of expertise.
-    - What are Mr. Parchandekar's qualifications?
-    - S. K. Parchandekar biography.
-    - Give me information about Mr. S. K. Parchandekar in electronics faculty.
-    - Share details on Mr. S. K. Parchandekar's academic background.
-    - What has Mr. S. K. Parchandekar contributed to the field of electronics?
-    - sk parchandekar
-    - sk parchandekar profile
-    - s k parchandekar
-    - mr parchandekar details
-    - sk parchandekar's work
-
-- intent: Electronics_faculty_Dr_SD_Ruikar
-  examples: |
-    - Who is Dr. S. D. Ruikar?
-    - Tell me about Dr. S. D. Ruikar.
-    - What can you tell me about Dr. S. D. Ruikar?
-    - Dr. Ruikar's research interests.
-    - What are Dr. Ruikar's degrees?
-    - S. D. Ruikar biography.
-    - Give me information about Dr. S. D. Ruikar in electronics faculty.
-    - Share details on Dr. S. D. Ruikar's academic background.
-    - What has Dr. S. D. Ruikar contributed to the field of electronics?
-    - sd ruikar
-    - sd ruikar profile
-    - s d ruikar
-    - dr sd ruikar details
-    - sd ruikar's work
-
-- intent: Electronics_faculty_Dr_SG_Tamhankar
-  examples: |
-    - Who is Dr. S. G. Tamhankar?
-    - Tell me about Dr. S. G. Tamhankar.
-    - What can you tell me about Dr. S. G. Tamhankar?
-    - Dr. Tamhankar's area of expertise.
-    - What are Dr. Tamhankar's qualifications?
-    - S. G. Tamhankar biography.
-    - Give me information about Dr. S. G. Tamhankar in electronics faculty.
-    - Share details on Dr. S. G. Tamhankar's academic background.
-    - What has Dr. S. G. Tamhankar contributed to the field of electronics?
-    - sg tamhankar
-    - sg tamhankar profile
-    - s g tamhankar
-    - dr sg tamhankar details
-    - sg tamhankar's work
-
-- intent: Electronics_faculty_Mr_RG_Mevekari
-  examples: |
-    - Who is Mr. R. G. Mevekari?
-    - Tell me about Mr. R. G. Mevekari.
-    - What can you tell me about Mr. R. G. Mevekari?
-    - Mr. Mevekari's area of expertise.
-    - What are Mr. Mevekari's qualifications?
-    - R. G. Mevekari biography.
-    - Give me information about Mr. R. G. Mevekari in electronics faculty.
-    - Share details on Mr. R. G. Mevekari's academic background.
-    - What has Mr. R. G. Mevekari contributed to the field of electronics?
-    - rg mevekari
-    - rg mevekari profile
-    - r g mevekari
-    - mr mevekari details
-    - rg mevekari's work
-
-- intent: Electronics_faculty_Dr_Mrs_MM_Patil
-  examples: |
-    - Who is Dr. Mrs. M. M. Patil?
-    - Tell me about Dr. Mrs. M. M. Patil.
-    - What can you tell me about Dr. Mrs. M. M. Patil?
-    - Dr. Patil's research interests.
-    - What are Dr. MM Patil's degrees?
-    - M. M. Patil biography.
-    - Give me information about Dr. Mrs. M. M. Patil in electronics faculty.
-    - Share details on Dr. Mrs. M. M. Patil's academic background.
-    - What has Dr. Mrs. M. M. Patil contributed to the field of electronics?
-    - mm patil
-    - mm patil profile
-    - m m patil
-    - dr mm patil details
-    - mm patil's work
-
-- intent: Electronics_faculty_Mrs_MR_Khare
-  examples: |
-    - Who is Mrs. M. R. Khare?
-    - Tell me about Mrs. M. R. Khare.
-    - What can you tell me about Mrs. M. R. Khare?
-    - Mrs. Khare's area of expertise.
-    - What are Mrs. Khare's qualifications?
-    - M. R. Khare biography.
-    - Give me information about Mrs. M. R. Khare in electronics faculty.
-    - Share details on Mrs. M. R. Khare's academic background.
-    - What has Mrs. M. R. Khare contributed to the field of electronics?
-    - mr khare
-    - mr khare profile
-    - m r khare
-    - mrs khare details
-    - mr khare's work
-
-- intent: Electronics_faculty_Ms_SU_Patil
-  examples: |
-    - Who is Ms. S. U. Patil?
-    - Tell me about Ms. S. U. Patil.
-    - What can you tell me about Ms. S. U. Patil?
-    - Ms. Patil's area of expertise.
-    - What are Ms. Patil's qualifications?
-    - S. U. Patil biography.
-    - Give me information about Ms. S. U. Patil in electronics faculty.
-    - Share details on Ms. S. U. Patil's academic background.
-    - What has Ms. S. U. Patil contributed to the field of electronics?
-    - su patil
-    - su patil profile
-    - s u patil
-    - ms patil details
-    - su patil's work
-
-- intent: Electronics_faculty_Mr_SR_Khedkar
-  examples: |
-    - Who is Mr. S. R. Khedkar?
-    - Tell me about Mr. S. R. Khedkar.
-    - What can you tell me about Mr. S. R. Khedkar?
-    - Mr. Khedkar's area of expertise.
-    - What are Mr. Khedkar's qualifications?
-    - S. R. Khedkar biography.
-    - Give me information about Mr. S. R. Khedkar in electronics faculty.
-    - Share details on Mr. S. R. Khedkar's academic background.
-    - What has Mr. S. R. Khedkar contributed to the field of electronics?
-    - sr khedkar
-    - sr khedkar profile
-    - s r khedkar
-    - mr khedkar details
-    - sr khedkar's work
-
-- intent: Electronics_faculty_Mrs_NS_Babar
-  examples: |
-    - Who is Mrs. N. S. Babar?
-    - Tell me about Mrs. N. S. Babar.
-    - What can you tell me about Mrs. N. S. Babar?
-    - Mrs. Babar's area of expertise.
-    - What are Mrs. Babar's qualifications?
-    - N. S. Babar biography.
-    - Give me information about Mrs. N. S. Babar in electronics faculty.
-    - Share details on Mrs. N. S. Babar's academic background.
-    - What has Mrs. N. S. Babar contributed to the field of electronics?
-    - ns babar
-    - ns babar profile
-    - n s babar
-    - mrs babar details
-    - ns babar's work
-
-- intent: ETC_Faculty
-  examples: |
-    - give information about electronics faculty
-    - information about electronics faculty
-    - electronics faculty
-    - extc faculty
-    - etc faculty
-
-- intent: ETC_missions
-  examples: |
-    - what are missions of etc?
-    - etc missions
-    - electronics missions
-    - etc mission
-    - missions of etc dept
-    - missions of etc department
-
-- intent: ETC_visions
-  examples: |
-    - what are visions of etc?
-    - etc visions
-    - visions of etc dept
-    - visions of etc department
-    - electronics visions
-    - etc vision
-
-- intent: ETC_labs
-  examples: |
-    - what are labs of etc?
-    - etc labs
-    - laboratories of etc dept
-    - laborateries of etc department
-    - how many labs in etc dept
-    - what are labs of electronics?
-    - electronics labs
-    - laboratories of electronics dept
-    - laborateries of electronics department
-    - how many labs in electronics dept
-
-# Electrical Dept
-- intent: ELE_info
-  examples: |
-    - What is the mission and vision of the electrical department?
-    - electrical dept in wce
-    - Tell me about electrical dept
-    - info about electrical dept
-    - ele dept
-    - electrical dept info
-
-- intent: ELE_hod
-  examples: |
-    - who is hod of ele dept?
-    - who is head if department of ele dept?
-    - who is head if department of electrical dept?
-    - ele hod
-    - contact of ele hod
-    - contact ele hod
-    - who is hod of electrical dept?
-    - electrical hod
-    - contact of electrical hod
-    - contact electrical hod
-
-##Testing
-
-- intent: Electrical_faculty_Dr_DS_More
-  examples: |
-    - Who is Dr. D. S. More?
-    - Tell me about Dr. D. S. More.
-    - What can you tell me about Dr. D. S. More?
-    - Dr. More's research area.
-    - What are Dr. More's degrees?
-    - D. S. More biography.
-    - Give me information about Dr. D. S. More in electrical faculty.
-    - Share details on Dr. D. S. More's academic background.
-    - What has Dr. D. S. More contributed to the field of electrical engineering?
-    - ds more
-    - ds more profile
-    - d s more
-    - dr ds more details
-    - ds more's work
-
-- intent: Electrical_faculty_Dr_AP_Vaidya
-  examples: |
-    - Who is Dr. A. P. Vaidya?
-    - Tell me about Dr. A. P. Vaidya.
-    - What can you tell me about Dr. A. P. Vaidya?
-    - Dr. Vaidya's research area.
-    - What are Dr. Vaidya's degrees?
-    - A. P. Vaidya biography.
-    - Give me information about Dr. A. P. Vaidya in electrical faculty.
-    - Share details on Dr. A. P. Vaidya's academic background.
-    - What has Dr. A. P. Vaidya contributed to the field of electrical engineering?
-    - ap vaidya
-    - ap vaidya profile
-    - a p vaidya
-    - dr ap vaidya details
-    - ap vaidya's work
-
-- intent: Electrical_faculty_Mr_AB_Patil
-  examples: |
-    - Who is Mr. A. B. Patil?
-    - Tell me about Mr. A. B. Patil.
-    - What can you tell me about Mr. A. B. Patil?
-    - Mr. Patil's research area.
-    - What are Mr. Patil's qualifications?
-    - A. B. Patil biography.
-    - Give me information about Mr. A. B. Patil in electrical faculty.
-    - Share details on Mr. A. B. Patil's academic background.
-    - What has Mr. A. B. Patil contributed to the field of electrical engineering?
-    - ab patil
-    - ab patil profile
-    - a b patil
-    - mr patil details
-    - ab patil's work
-
-- intent: Electrical_faculty_Mr_NV_Patel
-  examples: |
-    - Who is Mr. N. V. Patel?
-    - Tell me about Mr. N. V. Patel.
-    - What can you tell me about Mr. N. V. Patel?
-    - Mr. Patel's research area.
-    - What are Mr. Patel's qualifications?
-    - N. V. Patel biography.
-    - Give me information about Mr. N. V. Patel in electrical faculty.
-    - Share details on Mr. N. V. Patel's academic background.
-    - What has Mr. N. V. Patel contributed to the field of electrical engineering?
-    - nv patel
-    - nv patel profile
-    - n v patel
-    - mr patel details
-    - nv patel's work
-
-- intent: Electrical_faculty_Dr_MM_Waware
-  examples: |
-    - Who is Dr. M. M. Waware?
-    - Tell me about Dr. M. M. Waware.
-    - What can you tell me about Dr. M. M. Waware?
-    - Dr. Waware's research area.
-    - What are Dr. Waware's degrees?
-    - M. M. Waware biography.
-    - Give me information about Dr. M. M. Waware in electrical faculty.
-    - Share details on Dr. M. M. Waware's academic background.
-    - What has Dr. M. M. Waware contributed to the field of electrical engineering?
-    - mm waware
-    - mm waware profile
-    - m m waware
-    - dr mm waware details
-    - mm waware's work
-
-- intent: Electrical_faculty_Mrs_SL_Shaikh
-  examples: |
-    - Who is Mrs. S. L. Shaikh?
-    - Tell me about Mrs. S. L. Shaikh.
-    - What can you tell me about Mrs. S. L. Shaikh?
-    - Mrs. Shaikh's research area.
-    - What are Mrs. Shaikh's qualifications?
-    - S. L. Shaikh biography.
-    - Give me information about Mrs. S. L. Shaikh in electrical faculty.
-    - Share details on Mrs. S. L. Shaikh's academic background.
-    - What has Mrs. S. L. Shaikh contributed to the field of electrical engineering?
-    - sl shaikh
-    - sl shaikh profile
-    - s l shaikh
-    - mrs shaikh details
-    - sl shaikh's work
-
-- intent: Electrical_faculty_Dr_RP_Hasabe
-  examples: |
-    - Who is Dr. R. P. Hasabe?
-    - Tell me about Dr. R. P. Hasabe.
-    - What can you tell me about Dr. R. P. Hasabe?
-    - Dr. Hasabe's research area.
-    - What are Dr. Hasabe's degrees?
-    - R. P. Hasabe biography.
-    - Give me information about Dr. R. P. Hasabe in electrical faculty.
-    - Share details on Dr. R. P. Hasabe's academic background.
-    - What has Dr. R. P. Hasabe contributed to the field of electrical engineering?
-    - rp hasabe
-    - rp hasabe profile
-    - r p hasabe
-    - dr rp hasabe details
-    - rp hasabe's work
-
-- intent: Electrical_faculty_Mrs_SP_Diwan
-  examples: |
-    - Who is Mrs. S. P. Diwan?
-    - Tell me about Mrs. S. P. Diwan.
-    - What can you tell me about Mrs. S. P. Diwan?
-    - Mrs. Diwan's research area.
-    - What are Mrs. Diwan's qualifications?
-    - S. P. Diwan biography.
-    - Give me information about Mrs. S. P. Diwan in electrical faculty.
-    - Share details on Mrs. S. P. Diwan's academic background.
-    - What has Mrs. S. P. Diwan contributed to the field of electrical engineering?
-    - sp diwan
-    - sp diwan profile
-    - s p diwan
-    - mrs diwan details
-    - sp diwan's work
-
-- intent: Electrical_faculty_Mr_SS_Karvekar
-  examples: |
-    - Who is Mr. S. S. Karvekar?
-    - Tell me about Mr. S. S. Karvekar.
-    - What can you tell me about Mr. S. S. Karvekar?
-    - Mr. Karvekar's research area.
-    - What are Mr. Karvekar's qualifications?
-    - S. S. Karvekar biography.
-    - Give me information about Mr. S. S. Karvekar in electrical faculty.
-    - Share details on Mr. S. S. Karvekar's academic background.
-    - What has Mr. S. S. Karvekar contributed to the field of electrical engineering?
-    - ss karvekar
-    - ss karvekar profile
-    - s s karvekar
-    - mr karvekar details
-    - ss karvekar's work
-
-- intent: Electrical_faculty_Mr_VP_Mohale
-  examples: |
-    - Who is Mr. V. P. Mohale?
-    - Tell me about Mr. V. P. Mohale.
-    - What can you tell me about Mr. V. P. Mohale?
-    - Mr. Mohale's research area.
-    - What are Mr. Mohale's qualifications?
-    - V. P. Mohale biography.
-    - Give me information about Mr. V. P. Mohale in electrical faculty.
-    - Share details on Mr. V. P. Mohale's academic background.
-    - What has Mr. V. P. Mohale contributed to the field of electrical engineering?
-    - vp mohale
-    - vp mohale profile
-    - v p mohale
-    - mr mohale details
-    - vp mohale's work
-
-- intent: Electrical_faculty_Dr_DR_Patil
-  examples: |
-    - Who is Dr. D. R. Patil?
-    - Tell me about Dr. D. R. Patil.
-    - What can you tell me about Dr. D. R. Patil?
-    - Dr. DR Patil's research area.
-    - What are Dr. DR Patil's degrees?
-    - D. R. Patil biography.
-    - Give me information about Dr. D. R. Patil in electrical faculty.
-    - Share details on Dr. D. R. Patil's academic background.
-    - What has Dr. D. R. Patil contributed to the field of electrical engineering?
-    - dr patil
-    - dr patil profile
-    - d r patil
-    - dr d r patil details
-    - dr patil's work
-- intent: Electrical_faculty_Mr_KA_Mhaskar
-  examples: |
-    - Who is Mr. K. A. Mhaskar?
-    - Tell me about Mr. K. A. Mhaskar.
-    - What can you tell me about Mr. K. A. Mhaskar?
-    - Mr. Mhaskar's research area.
-    - What are Mr. Mhaskar's qualifications?
-    - K. A. Mhaskar biography.
-    - Give me information about Mr. K. A. Mhaskar in electrical faculty.
-    - Share details on Mr. K. A. Mhaskar's academic background.
-    - What has Mr. K. A. Mhaskar contributed to the field of electrical engineering?
-    - ka mhaskar
-    - ka mhaskar profile
-    - k a mhaskar
-    - mr mhaskar details
-    - ka mhaskar's work
-
-- intent: Electrical_faculty_Mrs_AS_Karvekar
-  examples: |
-    - Who is Mrs. A. S. Karvekar?
-    - Tell me about Mrs. A. S. Karvekar.
-    - What can you tell me about Mrs. A. S. Karvekar?
-    - Mrs. Karvekar's research area.
-    - What are Mrs. Karvekar's qualifications?
-    - A. S. Karvekar biography.
-    - Give me information about Mrs. A. S. Karvekar in electrical faculty.
-    - Share details on Mrs. A. S. Karvekar's academic background.
-    - What has Mrs. A. S. Karvekar contributed to the field of electrical engineering?
-    - as karvekar
-    - as karvekar profile
-    - a s karvekar
-    - mrs karvekar details
-    - as karvekar's work
-
-- intent: Electrical_faculty_Mrs_AA_Dhamangaonkar
-  examples: |
-    - Who is Mrs. A. A. Dhamangaonkar?
-    - Tell me about Mrs. A. A. Dhamangaonkar.
-    - What can you tell me about Mrs. A. A. Dhamangaonkar?
-    - Mrs. Dhamangaonkar's research area.
-    - What are Mrs. Dhamangaonkar's qualifications?
-    - A. A. Dhamangaonkar biography.
-    - Give me information about Mrs. A. A. Dhamangaonkar in electrical faculty.
-    - Share details on Mrs. A. A. Dhamangaonkar's academic background.
-    - What has Mrs. A. A. Dhamangaonkar contributed to the field of electrical engineering?
-    - aa dhamangaonkar
-    - aa dhamangaonkar profile
-    - a a dhamangaonkar
-    - mrs dhamangaonkar details
-    - aa dhamangaonkar's work
-
-- intent: Electrical_faculty_Mr_RG_Datar
-  examples: |
-    - Who is Mr. R. G. Datar?
-    - Tell me about Mr. R. G. Datar.
-    - What can you tell me about Mr. R. G. Datar?
-    - Mr. Datar's research area.
-    - What are Mr. Datar's qualifications?
-    - R. G. Datar biography.
-    - Give me information about Mr. R. G. Datar in electrical faculty.
-    - Share details on Mr. R. G. Datar's academic background.
-    - What has Mr. R. G. Datar contributed to the field of electrical engineering?
-    - rg datar
-    - rg datar profile
-    - r g datar
-    - mr datar details
-    - rg datar's work
-
-- intent: Electrical_faculty_Ms_MM_Tahmankar
-  examples: |
-    - Who is Ms. M. M. Tahmankar?
-    - Tell me about Ms. M. M. Tahmankar.
-    - What can you tell me about Ms. M. M. Tahmankar?
-    - Ms. Tahmankar's research area.
-    - What are Ms. Tahmankar's qualifications?
-    - M. M. Tahmankar biography.
-    - Give me information about Ms. M. M. Tahmankar in electrical faculty.
-    - Share details on Ms. M. M. Tahmankar's academic background.
-    - What has Ms. M. M. Tahmankar contributed to the field of electrical engineering?
-    - mm tahmankar
-    - mm tahmankar profile
-    - m m tahmankar
-    - ms tahmankar details
-    - mm tahmankar's work
-
-- intent: Electrical_faculty_Mr_MS_Mahagaonkar
-  examples: |
-    - Who is Mr. M. S. Mahagaonkar?
-    - Tell me about Mr. M. S. Mahagaonkar.
-    - What can you tell me about Mr. M. S. Mahagaonkar?
-    - Mr. Mahagaonkar's research area.
-    - What are Mr. Mahagaonkar's qualifications?
-    - M. S. Mahagaonkar biography.
-    - Give me information about Mr. M. S. Mahagaonkar in electrical faculty.
-    - Share details on Mr. M. S. Mahagaonkar's academic background.
-    - What has Mr. M. S. Mahagaonkar contributed to the field of electrical engineering?
-    - ms mahagaonkar
-    - ms mahagaonkar profile
-    - m s mahagaonkar
-    - mr mahagaonkar details
-    - ms mahagaonkar's work
-
-- intent: ELE_Faculty
-  examples: |
-    - who are electrical faculty
-    - electrical faculty
-    - ele faculty
-    - ele teachers
-    - electrical teachers
-    - info about electrical faculty
-    - ele faculty info
-
-- intent: ELE_programs
-  examples: |
-    - what programs offered by ele Department
-    - programs offered by ele department
-    - Can you list the different degree programs available within the ele department?
-    - Could you provide examples of specific specializations available within the electrical Department?
-    - How long is the typical duration of the programs in the electrical Department?
-
-- intent: ELE_missions
-  examples: |
-    - what are missions of ele?
-    - ele missions
-    - electrical missions
-    - ele mission
-    - missions of ele dept
-    - missions of ele department
-
-- intent: ELE_visions
-  examples: |
-    - what are visions of ele?
-    - ele visions
-    - visions of ele dept
-    - visions of ele department
-    - electrical visions
-    - ele vision
-
-- intent: ELE_labs
-  examples: |
-    - what are labs of ele?
-    - ele labs
-    - laboratories of ele dept
-    - laborateries of ele department
-    - how many labs in ele dept
-    - what are labs of electrical?
-    - electrical labs
-    - laboratories of electrical dept
-    - laborateries of electrical department
-    - how many labs in electrical dept
-
-
-  # Civil Dept
-- intent: CE_info
-  examples: |
-    - What is the mission and vision of the civil department?
-    - civil dept in wce
-    - Tell me about civil dept
-    - info about civil dept
-    - ce dept
-    - ce dept info
-
-- intent: CE_hod
-  examples: |
-    - who is hod of ce dept?
-    - who is head if department of Ce dept?
-    - who is head if department of civil dept?
-    - ce hod
-    - contact of ce hod
-    - contact ce hod
-    - who is hod of civil dept?
-    - civil hod
-    - contact of civil hod
-    - contact civil hod
-
-- intent: CE_Faculty
-  examples: |
-    - give information about CE faculty
-    - Civil Faculty
-    - information about Civil faculty
-    - Civil faculty information
-    - who are mechanical Civil faculty
-    - civil faculty
-    - ce faculty
-
-- intent: CE_programs
-  examples: |
-    - what programs offered by ce Department
-    - programs offered by ce department
-    - Can you list the different degree programs available within the ce department?
-    - Could you provide examples of specific specializations available within the civil Department?
-    - How long is the typical duration of the programs in the civil Department?
-
-- intent: CE_missions
-  examples: |
-    - what are missions of ce?
-    - ce missions
-    - civil missions
-    - ce mission
-    - missions of ce dept
-    - missions of ce department
-
-- intent: CE_visions
-  examples: |
-    - what are visions of ce?
-    - ce visions
-    - visions of ce dept
-    - visions of ce department
-    - civil visions
-    - ce vision
-
-- intent: CE_labs
-  examples: |
-    - what are labs of ce?
-    - ce labs
-    - laboratories of ce dept
-    - laborateries of ce department
-    - how many labs in ce dept
-    - what are labs of civil?
-    - civil labs
-    - laboratories of civil dept
-    - laborateries of civil department
-    - how many labs in civil dept
-    
-
-  # Mechanical Dept
-- intent: ME_info
-  examples: |
-    - What is the mission and vision of the mechanical department?
-    - mechanical dept in wce
-    - Tell me about mechanical dept
-    - info about mechanical dept
-    - me dept
-    - me dept info
-
-- intent: ME_hod
-  examples: |
-    - who is hod of me dept?
-    - who is head if department of me dept?
-    - who is head if department of mechanical dept?
-    - me hod
-    - contact of me hod
-    - contact me hod
-    - who is hod of mechanical dept?
-    - mechanical hod
-    - contact of mechanical hod
-    - contact mechanical hod
-
-- intent: ME_Faculty
-  examples: |
-    - give information about ME faculty
-    - Mechanical Faculty
-    - information about Mech faculty
-    - Mech faculty information
-    - who are mechanical falculty
-    - mech faculty
-- intent: ME_programs
-  examples: |
-    - what programs offered by me Department
-    - programs offered by me department
-    - Can you list the different degree programs available within the me department?
-    - Could you provide examples of specific specializations available within the mechanical Department?
-    - How long is the typical duration of the programs in the mechanical Department?
-
-- intent: ME_missions
-  examples: |
-    - what are missions of me?
-    - me missions
-    - mechanical missions
-    - me mission
-    - missions of me dept
-    - missions of me department
-
-- intent: ME_visions
-  examples: |
-    - what are visions of me?
-    - me visions
-    - visions of me dept
-    - visions of me department
-    - mechanical visions
-    - me vision
-
-- intent: ME_labs
-  examples: |
-    - what are labs of me?
-    - me labs
-    - laboratories of me dept
-    - laborateries of me department
-    - how many labs in me dept
-    - what are labs of mechanical?
-    - mechanical labs
-    - laboratories of mechanical dept
-    - laborateries of mechanical department
-    - how many labs in mechanical dept
-
-- intent: Admission_UG_info
-  examples: |
-    - how to take ug admission in wce?
-    - wce admissions ug
-    - admissions under graduate in wce 
-    - college admissions ug
-    - admissions of undergraduate college
-    - clg admission details of ug
-
-- intent: Admission_PG_info
-  examples: |
-    - how to take pg admission in wce?
-    - wce admissions pg
-    - admissions post graduate in wce 
-    - college admissions PG
-    - admission pg
-    - admissions of postgraduate college
-    - clg admission details of pg
-
-- intent: Admission_fee_structure
-  examples: |
-    - Fee Structure of Walchand College of Engineering?
-    - Where I can get the Fee Structure?
-    - How to get the Fee Structure of Walchand?
-    - [Ff]ee [Ss]tructure.
-    - fee structure of walchand college of engineering?
-    - how to get the fee structure of walchand?
-    - where I can find the fee structure?
-    - where i can find the fee structure?
-
-- intent: Admission_process_date
-  examples: |
-    - When admission process is going to start?
-    - Admission dates?
-    - Dates of admission?
-    - On which date admission are starting in the walchand?
-    - Where can we get the admission dates?
-    - when admission process is going to start?
-    - admission dates?
-    - admiss. dates?
-    - dates of admission?
-  
-- intent: Admission_document
-  examples: |
-    - What are the documents are required for admission?
-    - What are required documents?
-    - Documents required?
-    - Which documents are required for the admission?
-    - Documents for the admission
-    - Admission document
-    - Admission doc
-    - Doc for admission
-
-- intent: Admission_location
-  examples: |
-    - Admission location?
-    - Where admissions are going on?
-    - Are the admission are going on in tilak hall?
-    - Where is admission process going on?
-    - admission location?
-    - where admission are going on?
-    - are the admission are going on in tilak hall?
-    - where is admission process going on?
-    - [Aa]dmission [Rr]oom[?|.]
-    - [Aa]dmission [Vv]enue[?|.]
-
-- intent: Scholarships
-  examples: |
-    - Scholarship?
-    - Is there any scholarship provided by the college?
-    - are there any private scholarships in the college?
-    - Scholarships in the walchand college of engineering?
-    - Does college provide anyt scholarship for the student?
-
-#Examination Section
-- intent: Examination_Section
-  examples: |
-    - give information about examination section
-    - where is exam section
-    - exam section
-    - examination section
-    - exam cell
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: clg_name
+    examples: |
+      - what is college name?
+      - what is college nm?
+      - Can you tell me the name of the college?
+      - What's the college called?
+
+  - intent: clg_degrees
+    examples: |
+      - Tell me details about educational degrees in college 
+      - How many degrees are typically offered at a college?
+      - What degree programs does this college offer?
+      - What are the options for degrees at this institution?
+      - Could you list the different degree types offered by this college?
+      - cse programs
+      - cse courses
+
+  - intent: clg_academic
+    examples: |
+      - Can you provide college academic details?
+      - Could you share your college academic information?
+      - Are you able to share your college academic records?
+
+  - intent: ask_about_college
+    examples: |
+      - Tell me about Walchand College of Engineering.
+      - WCE
+      - What can you tell me about this college?
+      - Describe the college.
+
+  - intent: college_visions
+    examples: |
+      - Tell me about Walchand College of Engineering visions.
+      - WCE visions
+      - What can you tell me about visions of this college?
+      - visions the college.
+      - wce vison
+
+  - intent: college_missions
+    examples: |
+      - Tell me about Walchand College of Engineering missions.
+      - WCE missions
+      - What can you tell me about missions of this college?
+      - missions the college.
+      - wce missons
+
+
+  - intent: ask_about_founders
+    examples: |
+      - Who founded the college?
+      - Tell me about the founders.
+      - Who are the college's founders?
+
+  - intent: College_reach_options
+    examples: |
+      - how to reach college?
+      - ways to reach college
+      - what are travelling options to reach college.
+
+  - intent: CSE_Dept
+    examples: |
+      - CSE Department?
+      - Tell me about CSE department?
+      - information about CSE department?
+      - cse info
+      - tell me about cse dept
+
+
+
+  - intent: CSE_programs
+    examples: |
+      -what programs offered by CSE Department
+      -programs offered by cse department
+
+  - intent: CSE_syllabus
+    examples: |
+      - where is the cse syllabus.
+      - CSE syllabus.
+      - CSE curriculum
+      - Computer Science and Engineering Syllabus or curriculum
   
 
-# Library Info
-- intent: Library_info
-  examples: |
-    - ajit gulabchand library
-    - agc library
-    - wce library
-    - library info
-    - Library data
-    - wce book library
+  #CSE Faculty Section.
 
-- intent: Library_librarian
-  examples: |
-    - who is librarian of wce
-    - agc librarian
-    - librarian of library
-    - librarian info
-    - Librarian data
-    - wce book librarian info
-
-- intent: Library_facilities
-  examples: |
-    - what are library facilities
-    - agc library facilities
-    - facilities of library
-    - facilities info of library
-    - Library facility data
-    - which facilities are provied by wce library
+  - intent: CSE_faculty
+    examples: |
+      - who are cse faculties
+      - CSE faculties
+      - CSE Faculty
 
 
-- intent: Library_holdings
-  examples: |
-    - what are library holdings
-    - agc library holdings
-    - holdings of library
-    - holdings info of library
-    - Library holdings data
-    - which are holdings of library
+  - intent: CSE_faculty_BF_Momin
+    examples: |
+      - Who is B.F Momin
+      - B.F Momin
+      - Who is Dr B.F Momin
+
+  - intent: CSE_faculty_AR_Surve
+    examples: |
+      - Who is A.R Surve
+      - A.R surve
+      - who is AR Surve
+      - who is Mr A.R Surve
+
+  - intent: CSE_Faculty_MA_Shah
+    examples: |
+      - Who is M.A Shah
+      - Who is Dr M.A Shah
+      - M.A Shah
+
+  - intent: CSE_Faculty_NL_Gavankar
+    examples: |
+      - Who is N.L Gavankar
+      - Who is Dr N.L Gavankar
+      - N.L Gavankar
+      - CSE Academics Head
+
+  - intent: CSE_Faculty_MK_Chavan
+    examples: |
+      - Who is M.K Chavan
+      - M.K Chavan
+      - Who is Mr. M.K Chavan
+
+
+
+  - intent: CSE_hod
+    examples: |
+      - who is hod of cse?
+      - who is head if department of cse dept?
+      - who is head if department of computer science and engineering dept?
+      - cse hod
+      - contact of cse hod
+      - contact cse hod
+
+
+
+
+
+  - intent: CSE_missions
+    examples: |
+      - what are missions of cse?
+      - cse missions
+      - computer science and engineering missions
+      - cse mission
+      - missions of cse dept
+      - missions of cse department
+
+  - intent: CSE_visions
+    examples: |
+      - what are visions of cse?
+      - cse visions
+      - visions of cse dept
+      - visions of cse department
+      - computer science and engineering visions
+      - cse vision
+
+  - intent: CSE_labs
+    examples: |
+      - what are labs of cse?
+      - cse labs
+      - laboratories of cse dept
+      - laborateries of cse department
+      - how many labs in cse dept
+  
+  #IT Department.
+
+  - intent: IT_info
+    examples: |
+      -Tell me about IT department.
+      - IT dept
+      - IT
+      - Information Technology dept
+      - give information about it dept
+      - Tell me about the IT Department at Walchand College of Engineering, Sangli.
+      - What is the mission of the IT Department?
+      - Explain the vision of the IT Department.
+      - What are the Programme Educational Objectives of the IT Department?
+      - Can you tell me about the IT program at Walchand College of Engineering?
+      - What is the IT department?
+      - Tell me about the IT program.
+      - Explain the vision of the IT department.
+      - What are the Programme Educational Objectives of the IT department?
+
+  - intent: IT_Hod
+    examples: |
+      - who is head of department of information technology department?
+      - who is hod of IT.
+      - IT Hod.
+      - give information about it hod
+      - it hod
+      -  head of department of Information Technology.
+
+  - intent: IT_programs
+    examples: |
+      - what programs offered by IT Department
+      - programs offered by IT department
+      - Can you list the different degree programs available within the IT department?
+      - Could you provide examples of specific specializations available within the IT Department?
+      - How long is the typical duration of the programs in the IT Department?
+      - B.tech in IT
+      - M.tech in IT
+      - IT programs
+      - Information Technology programs
+  
+
+  ##Testing
+  - intent: IT_faculty_Dr_Kulkarni_Dinesh
+    examples: |
+      - Who is Dr. Kulkarni Dinesh Balkrushna
+      - Tell me about Dr. Kulkarni Dinesh Balkrushna
+      - Dr. Kulkarni Dinesh Balkrushna
+      - Who is Dr. Kulkarni Dinesh
+      - Can you provide information on Dr. Kulkarni Dinesh Balkrushna
+      - Explain Dr. Kulkarni Dinesh Balkrushna to me
+      - What can you tell me about Dr. Kulkarni Dinesh Balkrushna
+      - Dr. Kulkarni Dinesh Balkrushna's background
+      - Please give me details about Dr. Kulkarni Dinesh Balkrushna
+      - About Dr. Kulkarni Dinesh Balkrushna
+      - Dr. Kulkarni Dinesh Balkrushna's profile
+      - Who is the professor named Dr. Kulkarni Dinesh Balkrushna
+      - Introduce me to Dr. Kulkarni Dinesh Balkrushna
+      - Who teaches as Dr. Kulkarni Dinesh Balkrushna
+      - Dr. Kulkarni Dinesh Balkrushna's expertise
+      - Kulkarni Dinesh Balkrushna
+      - kulkarni dinesh
+      - Dinesh Balkrushna
+      - Dinesh Kulkarni
+
+  - intent: IT_faculty_Dr_Sonavane_Shefali
+    examples: |
+      - Who is Dr. Sonavane Shefali Pratap
+      - Tell me about Dr. Sonavane Shefali Pratap
+      - Dr. Sonavane Shefali Pratap
+      - Who is Dr. Sonavane Shefali
+      - Can you provide information on Dr. Sonavane Shefali Pratap
+      - Explain Dr. Sonavane Shefali Pratap to me
+      - What can you tell me about Dr. Sonavane Shefali Pratap
+      - Dr. Sonavane Shefali Pratap's background
+      - Please give me details about Dr. Sonavane Shefali Pratap
+      - About Dr. Sonavane Shefali Pratap
+      - Dr. Sonavane Shefali Pratap's profile
+      - Who is the professor named Dr. Sonavane Shefali Pratap
+      - Introduce me to Dr. Sonavane Shefali Pratap
+      - Who teaches as Dr. Sonavane Shefali Pratap
+      - Dr. Sonavane Shefali Pratap's expertise
+      - Sonavane Shefali Pratap
+      - sonavane shefali
+      - Shefali Pratap
+      - Shefali Sonavane
+
+  - intent: IT_faculty_Dr_Umbarkar_Anantkumar
+    examples: |
+      - Who is Dr. Umbarkar Anantkumar Janardan
+      - Tell me about Dr. Umbarkar Anantkumar Janardan
+      - Dr. Umbarkar Anantkumar Janardan
+      - Who is Dr. Umbarkar Anantkumar
+      - Can you provide information on Dr. Umbarkar Anantkumar Janardan
+      - Explain Dr. Umbarkar Anantkumar Janardan to me
+      - What can you tell me about Dr. Umbarkar Anantkumar Janardan
+      - Dr. Umbarkar Anantkumar Janardan's background
+      - Please give me details about Dr. Umbarkar Anantkumar Janardan
+      - About Dr. Umbarkar Anantkumar Janardan
+      - Dr. Umbarkar Anantkumar Janardan's profile
+      - Who is the professor named Dr. Umbarkar Anantkumar Janardan
+      - Introduce me to Dr. Umbarkar Anantkumar Janardan
+      - Who teaches as Dr. Umbarkar Anantkumar Janardan
+      - Dr. Umbarkar Anantkumar Janardan's expertise
+      - Umbarkar Anantkumar Janardan
+      - umbarkar anantkumar
+      - Anantkumar Janardan
+      - Anantkumar Umbarkar
+
+  - intent: IT_faculty_Dr_Rathod_Ravindra
+    examples: |
+      - Who is Dr. Rathod Ravindra Ramkishan
+      - Tell me about Dr. Rathod Ravindra Ramkishan
+      - Dr. Rathod Ravindra Ramkishan
+      - Who is Dr. Rathod Ravindra
+      - Can you provide information on Dr. Rathod Ravindra Ramkishan
+      - Explain Dr. Rathod Ravindra Ramkishan to me
+      - What can you tell me about Dr. Rathod Ravindra Ramkishan
+      - Dr. Rathod Ravindra Ramkishan's background
+      - Please give me details about Dr. Rathod Ravindra Ramkishan
+      - About Dr. Rathod Ravindra Ramkishan
+      - Dr. Rathod Ravindra Ramkishan's profile
+      - Who is the professor named Dr. Rathod Ravindra Ramkishan
+      - Introduce me to Dr. Rathod Ravindra Ramkishan
+      - Who teaches as Dr. Rathod Ravindra Ramkishan
+      - Dr. Rathod Ravindra Ramkishan's expertise
+      - Rathod Ravindra Ramkishan
+      - rathod ravindra
+      - Ravindra Ramkishan
+      - Ravindra Rathod
+      - rathod sir 
+      - who is ravindra rathos
+
+  - intent: IT_faculty_Dr_Chavan_Umesh
+    examples: |
+      - Who is Dr. Chavan Umesh Balkrushna
+      - Tell me about Dr. Chavan Umesh Balkrushna
+      - Dr. Chavan Umesh Balkrushna
+      - Who is Dr. Chavan Umesh
+      - Can you provide information on Dr. Chavan Umesh Balkrushna
+      - Explain Dr. Chavan Umesh Balkrushna to me
+      - What can you tell me about Dr. Chavan Umesh Balkrushna
+      - Dr. Chavan Umesh Balkrushna's background
+      - Please give me details about Dr. Chavan Umesh Balkrushna
+      - About Dr. Chavan Umesh Balkrushna
+      - Dr. Chavan Umesh Balkrushna's profile
+      - Who is the professor named Dr. Chavan Umesh Balkrushna
+      - Introduce me to Dr. Chavan Umesh Balkrushna
+      - Who teaches as Dr. Chavan Umesh Balkrushna
+      - Dr. Chavan Umesh Balkrushna's expertise
+      - Chavan Umesh Balkrushna
+      - chavan umesh
+      - Umesh Balkrushna
+      - Umesh Chavan
+      - who is umesh chavan
+
+  - intent: IT_faculty_Shirodkar_Bharati
+    examples: |
+      - Who is Mrs. Shirodkar Bharati Devidasr
+      - Tell me about Mrs. Shirodkar Bharati Devidas
+      - Mrs. Shirodkar Bharati Devidas
+      - Who is Mrs. Shirodkar Bharati
+      - Can you provide information on Mrs. Shirodkar Bharati Devidas
+      - Explain Mrs. Shirodkar Bharati Devidas to me
+      - What can you tell me about Mrs. Shirodkar Bharati Devidas
+      - Mrs. Shirodkar Bharati Devidas's background
+      - Please give me details about Mrs. Shirodkar Bharati Devidas
+      - About Mrs. Shirodkar Bharati Devidas
+      - Mrs. Shirodkar Bharati Devidas's profile
+      - Who is the professor named Mrs. Shirodkar Bharati Devidas
+      - Introduce me to Mrs. Shirodkar Bharati Devidas
+      - Who teaches as Mrs. Shirodkar Bharati Devidas
+      - Mrs. Shirodkar Bharati Devidas's expertise
+      - Shirodkar Bharati Devidas
+      - shirodkar bharati
+      - Bharati Devidas
+      - Bharati Shirodkar
+      - who is bharati shirodkar
+  - intent: IT_faculty_Dr_Kharat_Prashant
+    examples: |
+      - Who is Dr. Kharat Prashant Krishnarao
+      - Tell me about Dr. Kharat Prashant Krishnarao
+      - Dr. Kharat Prashant Krishnarao
+      - Who is Dr. Kharat Prashant
+      - Can you provide information on Dr. Kharat Prashant Krishnarao
+      - Explain Dr. Kharat Prashant Krishnarao to me
+      - What can you tell me about Dr. Kharat Prashant Krishnarao
+      - Dr. Kharat Prashant Krishnarao's background
+      - Please give me details about Dr. Kharat Prashant Krishnarao
+      - About Dr. Kharat Prashant Krishnarao
+      - Dr. Kharat Prashant Krishnarao's profile
+      - Who is the professor named Dr. Kharat Prashant Krishnarao
+      - Introduce me to Dr. Kharat Prashant Krishnarao
+      - Who teaches as Dr. Kharat Prashant Krishnarao
+      - Dr. Kharat Prashant Krishnarao's expertise
+      - Kharat Prashant Krishnarao
+      - kharat prashant
+      - Prashant Krishnarao
+      - Prashant Kharat
+      - who is prashant kharat
+
+  - intent: IT_faculty_Mr_Narnaware_Manish
+    examples: |
+      - Who is Mr. Narnaware Manish Balaji
+      - Tell me about Mr. Narnaware Manish Balaji
+      - Mr. Narnaware Manish Balaji
+      - Who is Mr. Narnaware Manish
+      - Can you provide information on Mr. Narnaware Manish Balaji
+      - Explain Mr. Narnaware Manish Balaji to me
+      - What can you tell me about Mr. Narnaware Manish Balaji
+      - Mr. Narnaware Manish Balaji's background
+      - Please give me details about Mr. Narnaware Manish Balaji
+      - About Mr. Narnaware Manish Balaji
+      - Mr. Narnaware Manish Balaji's profile
+      - Who is the professor named Mr. Narnaware Manish Balaji
+      - Introduce me to Mr. Narnaware Manish Balaji
+      - Who teaches as Mr. Narnaware Manish Balaji
+      - Mr. Narnaware Manish Balaji's expertise
+      - Narnaware Manish Balaji
+      - narnaware manish
+      - Manish Balaji
+      - Manish Narnaware
+      - who is manish balaji
+
+  - intent: IT_faculty_Mr_Mayur_Rathi
+    examples: |
+      - Who is Mr. Mayur G Rathi
+      - Tell me about Mr. Mayur G Rathi
+      - Mr. Mayur G Rathi
+      - Who is Mr. Mayur Rathi
+      - Can you provide information on Mr. Mayur G Rathi
+      - Explain Mr. Mayur G Rathi to me
+      - What can you tell me about Mr. Mayur G Rathi
+      - Mr. Mayur G Rathi's background
+      - Please give me details about Mr. Mayur G Rathi
+      - About Mr. Mayur G Rathi
+      - Mr. Mayur G Rathi's profile
+      - Who is the professor named Mr. Mayur G Rathi
+      - Introduce me to Mr. Mayur G Rathi
+      - Who teaches as Mr. Mayur G Rathi
+      - Mr. Mayur G Rathi's expertise
+      - Mayur G Rathi
+      - mayur rathi
+      - Mayur Rathi
+      - Mayur G
+      - who is mayur rathi
+  - intent: IT_faculty_Mrs_Manisha_Dabade
+    examples: |
+      - Who is Mrs. Manisha.S. Dabade
+      - Tell me about Mrs. Manisha.S. Dabade
+      - Mrs. Manisha.S. Dabade
+      - Who is Mrs. Manisha Dabade
+      - Can you provide information on Mrs. Manisha.S. Dabade
+      - Explain Mrs. Manisha.S. Dabade to me
+      - What can you tell me about Mrs. Manisha.S. Dabade
+      - Mrs. Manisha.S. Dabade's background
+      - Please give me details about Mrs. Manisha.S. Dabade
+      - About Mrs. Manisha.S. Dabade
+      - Mrs. Manisha.S. Dabade's profile
+      - Who is the professor named Mrs. Manisha.S. Dabade
+      - Introduce me to Mrs. Manisha.S. Dabade
+      - Who teaches as Mrs. Manisha.S. Dabade
+      - Mrs. Manisha.S. Dabade's expertise
+      - Manisha.S. Dabade
+      - manisha dabade
+      - Manisha Dabade
+      - Manisha.S.
+      - who is manisha dabade
+    # Continue with intents for other faculty members here
+
+
+  - intent: IT_Faculty
+    examples: |
+      - give information about IT faculty
+      - information about it faculty
+      - information about Information Technology faculty
+      - List of faculties in IT Department
+      - IT Department faculties
+      - Who are the professors in IT Department
+      - Tell me about IT Department faculty
+      - Can you provide information about IT Department professors
+
+  - intent: IT_Mission
+    examples: |
+      - it mission
+      - tell me about it missions
+      - IT Mission
+      - Information Technology Mission
+      - Mission of IT Dept
+      - IT dept mission
+      - it dept mission
+
+  - intent: IT_Vision
+    examples: |
+      - what is IT Vision?
+      - what is IT department's Vision?
+      - what is information technology department's Vision?
+      - What is the vision of the IT Department?
+      - Tell me the IT department's vision statement?
+      - Explain the  IT department's vision?
+      - What is the vision of the IT department?
+      - vision of IT department
+      - information technology vision
+
+  - intent: IT_Labs
+    examples: |
+      - Tell me about the IT department labs
+      - What labs are available in the IT department?
+      - List IT department labs
+      - labs in IT department
+      - labs in information technology department
+      - IT labs
+
+  #Electronics Department.
+  - intent: ETC_info
+    examples: |
+      - What is the mission and vision of the electronics department?
+      - Electronics dept in wce
+      - Tell me about electronics dept
+      - info about electronics dept
+      - Entc dept
+      - ETC
+      - Electronics department info
+
+  - intent: ETC_hod
+    examples: |
+      - who is hod of etc dept?
+      - who is head if department of etc dept?
+      - who is head if department of electronics dept?
+      - entc hod
+      - contact of etc hod
+      - contact etc hod
+      - who is hod of electronics dept?
+      - electronics hod
+      - contact of electronics hod
+      - contact entc hod
+
+  - intent: ETC_programs
+    examples: |
+      - what programs offered by ETC Department
+      - programs offered by etc department
+      - Can you list the different degree programs available within the etc department?
+      - Could you provide examples of specific specializations available within the ETC Department?
+      - How long is the typical duration of the programs in the ETC Department?
+
+  ##Testing
+
+  - intent: Electronics_faculty_Dr_BG_Patil
+    examples: |
+      - Who is Dr. B. G. Patil?
+      - Tell me about Dr. B. G. Patil.
+      - What can you tell me about Dr. B. G. Patil?
+      - Dr. Patil's research area.
+      - What are Dr. BG Patil's degrees?
+      - B. G. Patil biography.
+      - Give me information about Dr. Patil in electronics faculty.
+      - Share details on Dr. B. G. Patil's academic background.
+      - What has Dr. B. G. Patil contributed to the field of electronics?
+      - bg patil
+      - bg patil profile
+      - b g patil
+      - dr bg patil details
+      - bg patil's work
+
+  - intent: Electronics_faculty_Mr_SB_Dhaigude
+    examples: |
+      - Who is Mr. S. B. Dhaigude?
+      - Tell me about Mr. S. B. Dhaigude.
+      - What can you tell me about Mr. S. B. Dhaigude?
+      - Mr. Dhaigude's research interests.
+      - What are Mr. Dhaigude's qualifications?
+      - S. B. Dhaigude biography.
+      - Give me information about Mr. Dhaigude in electronics faculty.
+      - Share details on Mr. S. B. Dhaigude's academic background.
+      - What has Mr. S. B. Dhaigude contributed to the field of electronics?
+      - sb dhaigude
+      - sb dhaigude profile
+      - s b dhaigude
+      - mr dhaigude details
+      - sb dhaigude's work
+
+  - intent: Electronics_faculty_Mr_NV_Marathe
+    examples: |
+      - Who is Mr. N. V. Marathe?
+      - Tell me about Mr. N. V. Marathe.
+      - What can you tell me about Mr. N. V. Marathe?
+      - Mr. Marathe's area of expertise.
+      - What are Mr. Marathe's qualifications?
+      - N. V. Marathe biography.
+      - Give me information about Mr. Marathe in electronics faculty.
+      - Share details on Mr. N. V. Marathe's academic background.
+      - What has Mr. N. V. Marathe contributed to the field of electronics?
+      - nv marathe
+      - nv marathe profile
+      - n v marathe
+      - mr marathe details
+      - nv marathe's work
+
+  - intent: Electronics_faculty_Dr_Mrs_AA_Agashe
+    examples: |
+      - Who is Dr. Mrs. A. A. Agashe?
+      - Tell me about Dr. Mrs. A. A. Agashe.
+      - What can you tell me about Dr. Mrs. A. A. Agashe?
+      - Dr. Agashe's research interests.
+      - What are Dr. Agashe's degrees?
+      - A. A. Agashe biography.
+      - Give me information about Dr. Mrs. A. A. Agashe in electronics faculty.
+      - Share details on Dr. A. A. Agashe's academic background.
+      - What has Dr. Mrs. A. A. Agashe contributed to the field of electronics?
+      - aa agashe
+      - aa agashe profile
+      - a a agashe
+      - dr aa agashe details
+      - aa agashe's work
+
+  - intent: Electronics_faculty_Mr_SK_Parchandekar
+    examples: |
+      - Who is Mr. S. K. Parchandekar?
+      - Tell me about Mr. S. K. Parchandekar.
+      - What can you tell me about Mr. S. K. Parchandekar?
+      - Mr. Parchandekar's area of expertise.
+      - What are Mr. Parchandekar's qualifications?
+      - S. K. Parchandekar biography.
+      - Give me information about Mr. S. K. Parchandekar in electronics faculty.
+      - Share details on Mr. S. K. Parchandekar's academic background.
+      - What has Mr. S. K. Parchandekar contributed to the field of electronics?
+      - sk parchandekar
+      - sk parchandekar profile
+      - s k parchandekar
+      - mr parchandekar details
+      - sk parchandekar's work
+
+  - intent: Electronics_faculty_Dr_SD_Ruikar
+    examples: |
+      - Who is Dr. S. D. Ruikar?
+      - Tell me about Dr. S. D. Ruikar.
+      - What can you tell me about Dr. S. D. Ruikar?
+      - Dr. Ruikar's research interests.
+      - What are Dr. Ruikar's degrees?
+      - S. D. Ruikar biography.
+      - Give me information about Dr. S. D. Ruikar in electronics faculty.
+      - Share details on Dr. S. D. Ruikar's academic background.
+      - What has Dr. S. D. Ruikar contributed to the field of electronics?
+      - sd ruikar
+      - sd ruikar profile
+      - s d ruikar
+      - dr sd ruikar details
+      - sd ruikar's work
+
+  - intent: Electronics_faculty_Dr_SG_Tamhankar
+    examples: |
+      - Who is Dr. S. G. Tamhankar?
+      - Tell me about Dr. S. G. Tamhankar.
+      - What can you tell me about Dr. S. G. Tamhankar?
+      - Dr. Tamhankar's area of expertise.
+      - What are Dr. Tamhankar's qualifications?
+      - S. G. Tamhankar biography.
+      - Give me information about Dr. S. G. Tamhankar in electronics faculty.
+      - Share details on Dr. S. G. Tamhankar's academic background.
+      - What has Dr. S. G. Tamhankar contributed to the field of electronics?
+      - sg tamhankar
+      - sg tamhankar profile
+      - s g tamhankar
+      - dr sg tamhankar details
+      - sg tamhankar's work
+
+  - intent: Electronics_faculty_Mr_RG_Mevekari
+    examples: |
+      - Who is Mr. R. G. Mevekari?
+      - Tell me about Mr. R. G. Mevekari.
+      - What can you tell me about Mr. R. G. Mevekari?
+      - Mr. Mevekari's area of expertise.
+      - What are Mr. Mevekari's qualifications?
+      - R. G. Mevekari biography.
+      - Give me information about Mr. R. G. Mevekari in electronics faculty.
+      - Share details on Mr. R. G. Mevekari's academic background.
+      - What has Mr. R. G. Mevekari contributed to the field of electronics?
+      - rg mevekari
+      - rg mevekari profile
+      - r g mevekari
+      - mr mevekari details
+      - rg mevekari's work
+
+  - intent: Electronics_faculty_Dr_Mrs_MM_Patil
+    examples: |
+      - Who is Dr. Mrs. M. M. Patil?
+      - Tell me about Dr. Mrs. M. M. Patil.
+      - What can you tell me about Dr. Mrs. M. M. Patil?
+      - Dr. Patil's research interests.
+      - What are Dr. MM Patil's degrees?
+      - M. M. Patil biography.
+      - Give me information about Dr. Mrs. M. M. Patil in electronics faculty.
+      - Share details on Dr. Mrs. M. M. Patil's academic background.
+      - What has Dr. Mrs. M. M. Patil contributed to the field of electronics?
+      - mm patil
+      - mm patil profile
+      - m m patil
+      - dr mm patil details
+      - mm patil's work
+
+  - intent: Electronics_faculty_Mrs_MR_Khare
+    examples: |
+      - Who is Mrs. M. R. Khare?
+      - Tell me about Mrs. M. R. Khare.
+      - What can you tell me about Mrs. M. R. Khare?
+      - Mrs. Khare's area of expertise.
+      - What are Mrs. Khare's qualifications?
+      - M. R. Khare biography.
+      - Give me information about Mrs. M. R. Khare in electronics faculty.
+      - Share details on Mrs. M. R. Khare's academic background.
+      - What has Mrs. M. R. Khare contributed to the field of electronics?
+      - mr khare
+      - mr khare profile
+      - m r khare
+      - mrs khare details
+      - mr khare's work
+
+  - intent: Electronics_faculty_Ms_SU_Patil
+    examples: |
+      - Who is Ms. S. U. Patil?
+      - Tell me about Ms. S. U. Patil.
+      - What can you tell me about Ms. S. U. Patil?
+      - Ms. Patil's area of expertise.
+      - What are Ms. Patil's qualifications?
+      - S. U. Patil biography.
+      - Give me information about Ms. S. U. Patil in electronics faculty.
+      - Share details on Ms. S. U. Patil's academic background.
+      - What has Ms. S. U. Patil contributed to the field of electronics?
+      - su patil
+      - su patil profile
+      - s u patil
+      - ms patil details
+      - su patil's work
+
+  - intent: Electronics_faculty_Mr_SR_Khedkar
+    examples: |
+      - Who is Mr. S. R. Khedkar?
+      - Tell me about Mr. S. R. Khedkar.
+      - What can you tell me about Mr. S. R. Khedkar?
+      - Mr. Khedkar's area of expertise.
+      - What are Mr. Khedkar's qualifications?
+      - S. R. Khedkar biography.
+      - Give me information about Mr. S. R. Khedkar in electronics faculty.
+      - Share details on Mr. S. R. Khedkar's academic background.
+      - What has Mr. S. R. Khedkar contributed to the field of electronics?
+      - sr khedkar
+      - sr khedkar profile
+      - s r khedkar
+      - mr khedkar details
+      - sr khedkar's work
+
+  - intent: Electronics_faculty_Mrs_NS_Babar
+    examples: |
+      - Who is Mrs. N. S. Babar?
+      - Tell me about Mrs. N. S. Babar.
+      - What can you tell me about Mrs. N. S. Babar?
+      - Mrs. Babar's area of expertise.
+      - What are Mrs. Babar's qualifications?
+      - N. S. Babar biography.
+      - Give me information about Mrs. N. S. Babar in electronics faculty.
+      - Share details on Mrs. N. S. Babar's academic background.
+      - What has Mrs. N. S. Babar contributed to the field of electronics?
+      - ns babar
+      - ns babar profile
+      - n s babar
+      - mrs babar details
+      - ns babar's work
+
+  - intent: ETC_Faculty
+    examples: |
+      - give information about electronics faculty
+      - information about electronics faculty
+      - electronics faculty
+      - extc faculty
+      - etc faculty
+
+  - intent: ETC_missions
+    examples: |
+      - what are missions of etc?
+      - etc missions
+      - electronics missions
+      - etc mission
+      - missions of etc dept
+      - missions of etc department
+
+  - intent: ETC_visions
+    examples: |
+      - what are visions of etc?
+      - etc visions
+      - visions of etc dept
+      - visions of etc department
+      - electronics visions
+      - etc vision
+
+  - intent: ETC_labs
+    examples: |
+      - what are labs of etc?
+      - etc labs
+      - laboratories of etc dept
+      - laborateries of etc department
+      - how many labs in etc dept
+      - what are labs of electronics?
+      - electronics labs
+      - laboratories of electronics dept
+      - laborateries of electronics department
+      - how many labs in electronics dept
+
+  # Electrical Dept
+  - intent: ELE_info
+    examples: |
+      - What is the mission and vision of the electrical department?
+      - electrical dept in wce
+      - Tell me about electrical dept
+      - info about electrical dept
+      - ele dept
+      - electrical dept info
+
+  - intent: ELE_hod
+    examples: |
+      - who is hod of ele dept?
+      - who is head if department of ele dept?
+      - who is head if department of electrical dept?
+      - ele hod
+      - contact of ele hod
+      - contact ele hod
+      - who is hod of electrical dept?
+      - electrical hod
+      - contact of electrical hod
+      - contact electrical hod
+
+  ##Testing
+
+  - intent: Electrical_faculty_Dr_DS_More
+    examples: |
+      - Who is Dr. D. S. More?
+      - Tell me about Dr. D. S. More.
+      - What can you tell me about Dr. D. S. More?
+      - Dr. More's research area.
+      - What are Dr. More's degrees?
+      - D. S. More biography.
+      - Give me information about Dr. D. S. More in electrical faculty.
+      - Share details on Dr. D. S. More's academic background.
+      - What has Dr. D. S. More contributed to the field of electrical engineering?
+      - ds more
+      - ds more profile
+      - d s more
+      - dr ds more details
+      - ds more's work
+
+  - intent: Electrical_faculty_Dr_AP_Vaidya
+    examples: |
+      - Who is Dr. A. P. Vaidya?
+      - Tell me about Dr. A. P. Vaidya.
+      - What can you tell me about Dr. A. P. Vaidya?
+      - Dr. Vaidya's research area.
+      - What are Dr. Vaidya's degrees?
+      - A. P. Vaidya biography.
+      - Give me information about Dr. A. P. Vaidya in electrical faculty.
+      - Share details on Dr. A. P. Vaidya's academic background.
+      - What has Dr. A. P. Vaidya contributed to the field of electrical engineering?
+      - ap vaidya
+      - ap vaidya profile
+      - a p vaidya
+      - dr ap vaidya details
+      - ap vaidya's work
+
+  - intent: Electrical_faculty_Mr_AB_Patil
+    examples: |
+      - Who is Mr. A. B. Patil?
+      - Tell me about Mr. A. B. Patil.
+      - What can you tell me about Mr. A. B. Patil?
+      - Mr. Patil's research area.
+      - What are Mr. Patil's qualifications?
+      - A. B. Patil biography.
+      - Give me information about Mr. A. B. Patil in electrical faculty.
+      - Share details on Mr. A. B. Patil's academic background.
+      - What has Mr. A. B. Patil contributed to the field of electrical engineering?
+      - ab patil
+      - ab patil profile
+      - a b patil
+      - mr patil details
+      - ab patil's work
+
+  - intent: Electrical_faculty_Mr_NV_Patel
+    examples: |
+      - Who is Mr. N. V. Patel?
+      - Tell me about Mr. N. V. Patel.
+      - What can you tell me about Mr. N. V. Patel?
+      - Mr. Patel's research area.
+      - What are Mr. Patel's qualifications?
+      - N. V. Patel biography.
+      - Give me information about Mr. N. V. Patel in electrical faculty.
+      - Share details on Mr. N. V. Patel's academic background.
+      - What has Mr. N. V. Patel contributed to the field of electrical engineering?
+      - nv patel
+      - nv patel profile
+      - n v patel
+      - mr patel details
+      - nv patel's work
+
+  - intent: Electrical_faculty_Dr_MM_Waware
+    examples: |
+      - Who is Dr. M. M. Waware?
+      - Tell me about Dr. M. M. Waware.
+      - What can you tell me about Dr. M. M. Waware?
+      - Dr. Waware's research area.
+      - What are Dr. Waware's degrees?
+      - M. M. Waware biography.
+      - Give me information about Dr. M. M. Waware in electrical faculty.
+      - Share details on Dr. M. M. Waware's academic background.
+      - What has Dr. M. M. Waware contributed to the field of electrical engineering?
+      - mm waware
+      - mm waware profile
+      - m m waware
+      - dr mm waware details
+      - mm waware's work
+
+  - intent: Electrical_faculty_Mrs_SL_Shaikh
+    examples: |
+      - Who is Mrs. S. L. Shaikh?
+      - Tell me about Mrs. S. L. Shaikh.
+      - What can you tell me about Mrs. S. L. Shaikh?
+      - Mrs. Shaikh's research area.
+      - What are Mrs. Shaikh's qualifications?
+      - S. L. Shaikh biography.
+      - Give me information about Mrs. S. L. Shaikh in electrical faculty.
+      - Share details on Mrs. S. L. Shaikh's academic background.
+      - What has Mrs. S. L. Shaikh contributed to the field of electrical engineering?
+      - sl shaikh
+      - sl shaikh profile
+      - s l shaikh
+      - mrs shaikh details
+      - sl shaikh's work
+
+  - intent: Electrical_faculty_Dr_RP_Hasabe
+    examples: |
+      - Who is Dr. R. P. Hasabe?
+      - Tell me about Dr. R. P. Hasabe.
+      - What can you tell me about Dr. R. P. Hasabe?
+      - Dr. Hasabe's research area.
+      - What are Dr. Hasabe's degrees?
+      - R. P. Hasabe biography.
+      - Give me information about Dr. R. P. Hasabe in electrical faculty.
+      - Share details on Dr. R. P. Hasabe's academic background.
+      - What has Dr. R. P. Hasabe contributed to the field of electrical engineering?
+      - rp hasabe
+      - rp hasabe profile
+      - r p hasabe
+      - dr rp hasabe details
+      - rp hasabe's work
+
+  - intent: Electrical_faculty_Mrs_SP_Diwan
+    examples: |
+      - Who is Mrs. S. P. Diwan?
+      - Tell me about Mrs. S. P. Diwan.
+      - What can you tell me about Mrs. S. P. Diwan?
+      - Mrs. Diwan's research area.
+      - What are Mrs. Diwan's qualifications?
+      - S. P. Diwan biography.
+      - Give me information about Mrs. S. P. Diwan in electrical faculty.
+      - Share details on Mrs. S. P. Diwan's academic background.
+      - What has Mrs. S. P. Diwan contributed to the field of electrical engineering?
+      - sp diwan
+      - sp diwan profile
+      - s p diwan
+      - mrs diwan details
+      - sp diwan's work
+
+  - intent: Electrical_faculty_Mr_SS_Karvekar
+    examples: |
+      - Who is Mr. S. S. Karvekar?
+      - Tell me about Mr. S. S. Karvekar.
+      - What can you tell me about Mr. S. S. Karvekar?
+      - Mr. Karvekar's research area.
+      - What are Mr. Karvekar's qualifications?
+      - S. S. Karvekar biography.
+      - Give me information about Mr. S. S. Karvekar in electrical faculty.
+      - Share details on Mr. S. S. Karvekar's academic background.
+      - What has Mr. S. S. Karvekar contributed to the field of electrical engineering?
+      - ss karvekar
+      - ss karvekar profile
+      - s s karvekar
+      - mr karvekar details
+      - ss karvekar's work
+
+  - intent: Electrical_faculty_Mr_VP_Mohale
+    examples: |
+      - Who is Mr. V. P. Mohale?
+      - Tell me about Mr. V. P. Mohale.
+      - What can you tell me about Mr. V. P. Mohale?
+      - Mr. Mohale's research area.
+      - What are Mr. Mohale's qualifications?
+      - V. P. Mohale biography.
+      - Give me information about Mr. V. P. Mohale in electrical faculty.
+      - Share details on Mr. V. P. Mohale's academic background.
+      - What has Mr. V. P. Mohale contributed to the field of electrical engineering?
+      - vp mohale
+      - vp mohale profile
+      - v p mohale
+      - mr mohale details
+      - vp mohale's work
+
+  - intent: Electrical_faculty_Dr_DR_Patil
+    examples: |
+      - Who is Dr. D. R. Patil?
+      - Tell me about Dr. D. R. Patil.
+      - What can you tell me about Dr. D. R. Patil?
+      - Dr. DR Patil's research area.
+      - What are Dr. DR Patil's degrees?
+      - D. R. Patil biography.
+      - Give me information about Dr. D. R. Patil in electrical faculty.
+      - Share details on Dr. D. R. Patil's academic background.
+      - What has Dr. D. R. Patil contributed to the field of electrical engineering?
+      - dr patil
+      - dr patil profile
+      - d r patil
+      - dr d r patil details
+      - dr patil's work
+  - intent: Electrical_faculty_Mr_KA_Mhaskar
+    examples: |
+      - Who is Mr. K. A. Mhaskar?
+      - Tell me about Mr. K. A. Mhaskar.
+      - What can you tell me about Mr. K. A. Mhaskar?
+      - Mr. Mhaskar's research area.
+      - What are Mr. Mhaskar's qualifications?
+      - K. A. Mhaskar biography.
+      - Give me information about Mr. K. A. Mhaskar in electrical faculty.
+      - Share details on Mr. K. A. Mhaskar's academic background.
+      - What has Mr. K. A. Mhaskar contributed to the field of electrical engineering?
+      - ka mhaskar
+      - ka mhaskar profile
+      - k a mhaskar
+      - mr mhaskar details
+      - ka mhaskar's work
+
+  - intent: Electrical_faculty_Mrs_AS_Karvekar
+    examples: |
+      - Who is Mrs. A. S. Karvekar?
+      - Tell me about Mrs. A. S. Karvekar.
+      - What can you tell me about Mrs. A. S. Karvekar?
+      - Mrs. Karvekar's research area.
+      - What are Mrs. Karvekar's qualifications?
+      - A. S. Karvekar biography.
+      - Give me information about Mrs. A. S. Karvekar in electrical faculty.
+      - Share details on Mrs. A. S. Karvekar's academic background.
+      - What has Mrs. A. S. Karvekar contributed to the field of electrical engineering?
+      - as karvekar
+      - as karvekar profile
+      - a s karvekar
+      - mrs karvekar details
+      - as karvekar's work
+
+  - intent: Electrical_faculty_Mrs_AA_Dhamangaonkar
+    examples: |
+      - Who is Mrs. A. A. Dhamangaonkar?
+      - Tell me about Mrs. A. A. Dhamangaonkar.
+      - What can you tell me about Mrs. A. A. Dhamangaonkar?
+      - Mrs. Dhamangaonkar's research area.
+      - What are Mrs. Dhamangaonkar's qualifications?
+      - A. A. Dhamangaonkar biography.
+      - Give me information about Mrs. A. A. Dhamangaonkar in electrical faculty.
+      - Share details on Mrs. A. A. Dhamangaonkar's academic background.
+      - What has Mrs. A. A. Dhamangaonkar contributed to the field of electrical engineering?
+      - aa dhamangaonkar
+      - aa dhamangaonkar profile
+      - a a dhamangaonkar
+      - mrs dhamangaonkar details
+      - aa dhamangaonkar's work
+
+  - intent: Electrical_faculty_Mr_RG_Datar
+    examples: |
+      - Who is Mr. R. G. Datar?
+      - Tell me about Mr. R. G. Datar.
+      - What can you tell me about Mr. R. G. Datar?
+      - Mr. Datar's research area.
+      - What are Mr. Datar's qualifications?
+      - R. G. Datar biography.
+      - Give me information about Mr. R. G. Datar in electrical faculty.
+      - Share details on Mr. R. G. Datar's academic background.
+      - What has Mr. R. G. Datar contributed to the field of electrical engineering?
+      - rg datar
+      - rg datar profile
+      - r g datar
+      - mr datar details
+      - rg datar's work
+
+  - intent: Electrical_faculty_Ms_MM_Tahmankar
+    examples: |
+      - Who is Ms. M. M. Tahmankar?
+      - Tell me about Ms. M. M. Tahmankar.
+      - What can you tell me about Ms. M. M. Tahmankar?
+      - Ms. Tahmankar's research area.
+      - What are Ms. Tahmankar's qualifications?
+      - M. M. Tahmankar biography.
+      - Give me information about Ms. M. M. Tahmankar in electrical faculty.
+      - Share details on Ms. M. M. Tahmankar's academic background.
+      - What has Ms. M. M. Tahmankar contributed to the field of electrical engineering?
+      - mm tahmankar
+      - mm tahmankar profile
+      - m m tahmankar
+      - ms tahmankar details
+      - mm tahmankar's work
+
+  - intent: Electrical_faculty_Mr_MS_Mahagaonkar
+    examples: |
+      - Who is Mr. M. S. Mahagaonkar?
+      - Tell me about Mr. M. S. Mahagaonkar.
+      - What can you tell me about Mr. M. S. Mahagaonkar?
+      - Mr. Mahagaonkar's research area.
+      - What are Mr. Mahagaonkar's qualifications?
+      - M. S. Mahagaonkar biography.
+      - Give me information about Mr. M. S. Mahagaonkar in electrical faculty.
+      - Share details on Mr. M. S. Mahagaonkar's academic background.
+      - What has Mr. M. S. Mahagaonkar contributed to the field of electrical engineering?
+      - ms mahagaonkar
+      - ms mahagaonkar profile
+      - m s mahagaonkar
+      - mr mahagaonkar details
+      - ms mahagaonkar's work
+
+  - intent: ELE_Faculty
+    examples: |
+      - who are electrical faculty
+      - electrical faculty
+      - ele faculty
+      - ele teachers
+      - electrical teachers
+      - info about electrical faculty
+      - ele faculty info
+
+  - intent: ELE_programs
+    examples: |
+      - what programs offered by ele Department
+      - programs offered by ele department
+      - Can you list the different degree programs available within the ele department?
+      - Could you provide examples of specific specializations available within the electrical Department?
+      - How long is the typical duration of the programs in the electrical Department?
+
+  - intent: ELE_missions
+    examples: |
+      - what are missions of ele?
+      - ele missions
+      - electrical missions
+      - ele mission
+      - missions of ele dept
+      - missions of ele department
+
+  - intent: ELE_visions
+    examples: |
+      - what are visions of ele?
+      - ele visions
+      - visions of ele dept
+      - visions of ele department
+      - electrical visions
+      - ele vision
+
+  - intent: ELE_labs
+    examples: |
+      - what are labs of ele?
+      - ele labs
+      - laboratories of ele dept
+      - laborateries of ele department
+      - how many labs in ele dept
+      - what are labs of electrical?
+      - electrical labs
+      - laboratories of electrical dept
+      - laborateries of electrical department
+      - how many labs in electrical dept
     
 
-#  Placements
+    # Civil Dept
+  - intent: CE_info
+    examples: |
+      - What is the mission and vision of the civil department?
+      - civil dept in wce
+      - Tell me about civil dept
+      - info about civil dept
+      - ce dept
+      - ce dept info
+
+  - intent: CE_hod
+    examples: |
+      - who is hod of ce dept?
+      - who is head if department of Ce dept?
+      - who is head if department of civil dept?
+      - ce hod
+      - contact of ce hod
+      - contact ce hod
+      - who is hod of civil dept?
+      - civil hod
+      - contact of civil hod
+      - contact civil hod
+  ##Testing
 
 
-- intent: Placement_2023
-  examples: |
-    - what is placements of 2023
-    - placement record of 22-23
-    - placements of 22 23 batch
-    - placement info of academic year 2023
-    - placement record 
-    - placement 2023
-    - placement details 2023
-    - placement details 22 23
-    - How was the overall placement rate in 2023?
-    - Could you provide data on the top companies that hired in 2023?
-    - In 2023, did the placement rate differ from the previous year?
-    - What were the salary packages like for different programs in 2023?
-    - Were there any significant modifications to the placement process in 2023?
-    - Can you share any inspiring stories of students placed in 2023?
-    - What support and services were available to students during the 2023 placement season?
-    - Please describe any noteworthy campus recruitment events from 2023.
-    - How many students secured placements in 2023?
-    - Which companies were the top recruiters in 2023?
-    - What was the average salary for placements in 2023?
-    - Were there any changes to the placement process for 2023?
-    - Could you highlight a student's success story from 2023?
-    - In 2023, what kinds of support and assistance did students receive during placements?
-    - Were there any special job recruitment events in 2023?
+  - intent: Civil_faculty_Dr_PG_Sonavane
+    examples: |
+      - Who is Dr. P. G. Sonavane
+      - Tell me about Dr. P. G. Sonavane
+      - Dr. P. G. Sonavane
+      - Who is Dr. Sonavane
+      - Can you provide information on Dr. P. G. Sonavane
+      - Explain Dr. P. G. Sonavane to me
+      - What can you tell me about Dr. P. G. Sonavane
+      - Dr. P. G. Sonavane's background
+      - Please give me details about Dr. P. G. Sonavane
+      - About Dr. P. G. Sonavane
+      - Dr. P. G. Sonavane's profile
+      - Who is the professor named Dr. P. G. Sonavane
+      - Introduce me to Dr. P. G. Sonavane
+      - Who teaches as Dr. P. G. Sonavane
+      - Dr. P. G. Sonavane's expertise
+      - P. G. Sonavane
+      - pg sonavane
 
+  - intent: Civil_faculty_Dr_SN_Tande
+    examples: |
+      - Who is Dr. S. N. Tande
+      - Tell me about Dr. S. N. Tande
+      - Dr. S. N. Tande
+      - Who is Dr. Tande
+      - Can you provide information on Dr. S. N. Tande
+      - Explain Dr. S. N. Tande to me
+      - What can you tell me about Dr. S. N. Tande
+      - Dr. S. N. Tande's background
+      - Please give me details about Dr. S. N. Tande
+      - About Dr. S. N. Tande
+      - Dr. S. N. Tande's profile
+      - Who is the professor named Dr. S. N. Tande
+      - Introduce me to Dr. S. N. Tande
+      - Who teaches as Dr. S. N. Tande
+      - Dr. S. N. Tande's expertise
+      - S. N. Tande
+      - sn tande
 
-- intent: Placement_2022
-  examples: |
-    - what is placements of 2022
-    - placement record of 2022
-    - placement record 2022
-    - placements of the 2022 batch
-    - placement info for the academic year 2022
-    - placement record for 2022
-    - placement details for 2022
-    - What was the overall placement rate in 2022?
-    - Can you provide statistics on the top hiring companies in 2022?
-    - How did the placement rate in 2022 compare to the previous year?
-    - What were the average salary packages for different programs in 2022?
-    - Were there any notable changes in the placement process for 2022?
-    - Can you share success stories of students placed in 2022?
-    - What support services were offered to students during the placement season in 2022?
-    - Tell me about the campus recruitment events held in 2022.
-    - How many students were placed in 2022?
-    - Which companies recruited the most in 2022?
-    - What was the average salary for 2022 placements?
-    - Were there any changes in the placement process for 2022?
-    - Can you share a student success story from 2022?
-    - What kind of support did students receive during placements in 2022?
-    - Were there any special job recruitment events in 2022?
+  - intent: Civil_faculty_Dr_VD_Salkar
+    examples: |
+      - Who is Dr. V. D. Salkar
+      - Tell me about Dr. V. D. Salkar
+      - Dr. V. D. Salkar
+      - Who is Dr. Salkar
+      - Can you provide information on Dr. V. D. Salkar
+      - Explain Dr. V. D. Salkar to me
+      - What can you tell me about Dr. V. D. Salkar
+      - Dr. V. D. Salkar's background
+      - Please give me details about Dr. V. D. Salkar
+      - About Dr. V. D. Salkar
+      - Dr. V. D. Salkar's profile
+      - Who is the professor named Dr. V. D. Salkar
+      - Introduce me to Dr. V. D. Salkar
+      - Who teaches as Dr. V. D. Salkar
+      - Dr. V. D. Salkar's expertise
+      - V. D. Salkar
+      - vd salkar
+
+  - intent: Civil_faculty_Dr_GR_Munavalli
+    examples: |
+      - Who is Dr. G. R. Munavalli
+      - Tell me about Dr. G. R. Munavalli
+      - Dr. G. R. Munavalli
+      - Who is Dr. Munavalli
+      - Can you provide information on Dr. G. R. Munavalli
+      - Explain Dr. G. R. Munavalli to me
+      - What can you tell me about Dr. G. R. Munavalli
+      - Dr. G. R. Munavalli's background
+      - Please give me details about Dr. G. R. Munavalli
+      - About Dr. G. R. Munavalli
+      - Dr. G. R. Munavalli's profile
+      - Who is the professor named Dr. G. R. Munavalli
+      - Introduce me to Dr. G. R. Munavalli
+      - Who teaches as Dr. G. R. Munavalli
+      - Dr. G. R. Munavalli's expertise
+      - G. R. Munavalli
+      - gr munavalli
+
+  - intent: Civil_faculty_Dr_KS_Gumaste
+    examples: |
+      - Who is Dr. K. S. Gumaste
+      - Tell me about Dr. K. S. Gumaste
+      - Dr. K. S. Gumaste
+      - Who is Dr. Gumaste
+      - Can you provide information on Dr. K. S. Gumaste
+      - Explain Dr. K. S. Gumaste to me
+      - What can you tell me about Dr. K. S. Gumaste
+      - Dr. K. S. Gumaste's background
+      - Please give me details about Dr. K. S. Gumaste
+      - About Dr. K. S. Gumaste
+      - Dr. K. S. Gumaste's profile
+      - Who is the professor named Dr. K. S. Gumaste
+      - Introduce me to Dr. K. S. Gumaste
+      - Who teaches as Dr. K. S. Gumaste
+      - Dr. K. S. Gumaste's expertise
+      - K. S. Gumaste
+      - ks gumaste
+
+  - intent: Civil_faculty_Dr_SB_Kadam
+    examples: |
+      - Who is Dr. S. B. Kadam
+      - Tell me about Dr. S. B. Kadam
+      - Dr. S. B. Kadam
+      - Who is Dr. Kadam
+      - Can you provide information on Dr. S. B. Kadam
+      - Explain Dr. S. B. Kadam to me
+      - What can you tell me about Dr. S. B. Kadam
+      - Dr. S. B. Kadam's background
+      - Please give me details about Dr. S. B. Kadam
+      - About Dr. S. B. Kadam
+      - Dr. S. B. Kadam's profile
+      - Who is the professor named Dr. S. B. Kadam
+      - Introduce me to Dr. S. B. Kadam
+      - Who teaches as Dr. S. B. Kadam
+      - Dr. S. B. Kadam's expertise
+      - S. B. Kadam
+      - sb kadam
+
+  - intent: Civil_faculty_Dr_CB_Pol
+    examples: |
+      - Who is Dr. C. B. Pol
+      - Tell me about Dr. C. B. Pol
+      - Dr. C. B. Pol
+      - Who is Dr. Pol
+      - Can you provide information on Dr. C. B. Pol
+      - Explain Dr. C. B. Pol to me
+      - What can you tell me about Dr. C. B. Pol
+      - Dr. C. B. Pol's background
+      - Please give me details about Dr. C. B. Pol
+      - About Dr. C. B. Pol
+      - Dr. C. B. Pol's profile
+      - Who is the professor named Dr. C. B. Pol
+      - Introduce me to Dr. C. B. Pol
+      - Who teaches as Dr. C. B. Pol
+      - Dr. C. B. Pol's expertise
+      - C. B. Pol
+      - cb pol
+
+  - intent: Civil_faculty_Mr_PK_Deshpande
+    examples: |
+      - Who is Mr. P. K. Deshpande
+      - Tell me about Mr. P. K. Deshpande
+      - Mr. P. K. Deshpande
+      - Who is Mr. Deshpande
+      - Can you provide information on Mr. P. K. Deshpande
+      - Explain Mr. P. K. Deshpande to me
+      - What can you tell me about Mr. P. K. Deshpande
+      - Mr. P. K. Deshpande's background
+      - Please give me details about Mr. P. K. Deshpande
+      - About Mr. P. K. Deshpande
+      - Mr. P. K. Deshpande's profile
+      - Who is the professor named Mr. P. K. Deshpande
+      - Introduce me to Mr. P. K. Deshpande
+      - Who teaches as Mr. P. K. Deshpande
+      - Mr. P. K. Deshpande's expertise
+      - P. K. Deshpande
+      - pk deshpande
+
+  - intent: Civil_faculty_Mr_CH_Wagh
+    examples: |
+      - Who is Mr. C. H. Wagh
+      - Tell me about Mr. C. H. Wagh
+      - Mr. C. H. Wagh
+      - Who is Mr. Wagh
+      - Can you provide information on Mr. C. H. Wagh
+      - Explain Mr. C. H. Wagh to me
+      - What can you tell me about Mr. C. H. Wagh
+      - Mr. C. H. Wagh's background
+      - Please give me details about Mr. C. H. Wagh
+      - About Mr. C. H. Wagh
+      - Mr. C. H. Wagh's profile
+      - Who is the professor named Mr. C. H. Wagh
+      - Introduce me to Mr. C. H. Wagh
+      - Who teaches as Mr. C. H. Wagh
+      - Mr. C. H. Wagh's expertise
+      - C. H. Wagh
+      - ch wagh
+
+  - intent: Civil_faculty_Mr_AK_Mali
+    examples: |
+      - Who is Mr. A. K. Mali
+      - Tell me about Mr. A. K. Mali
+      - Mr. A. K. Mali
+      - Who is Mr. Mali
+      - Can you provide information on Mr. A. K. Mali
+      - Explain Mr. A. K. Mali to me
+      - What can you tell me about Mr. A. K. Mali
+      - Mr. A. K. Mali's background
+      - Please give me details about Mr. A. K. Mali
+      - About Mr. A. K. Mali
+      - Mr. A. K. Mali's profile
+      - Who is the professor named Mr. A. K. Mali
+      - Introduce me to Mr. A. K. Mali
+      - Who teaches as Mr. A. K. Mali
+      - Mr. A. K. Mali's expertise
+      - A. K. Mali
+      - ak mali
+
+  - intent: Civil_faculty_Mr_AK_Kokane
+    examples: |
+      - Who is Mr. A. K. Kokane
+      - Tell me about Mr. A. K. Kokane
+      - Mr. A. K. Kokane
+      - Who is Mr. Kokane
+      - Can you provide information on Mr. A. K. Kokane
+      - Explain Mr. A. K. Kokane to me
+      - What can you tell me about Mr. A. K. Kokane
+      - Mr. A. K. Kokane's background
+      - Please give me details about Mr. A. K. Kokane
+      - About Mr. A. K. Kokane
+      - Mr. A. K. Kokane's profile
+      - Who is the professor named Mr. A. K. Kokane
+      - Introduce me to Mr. A. K. Kokane
+      - Who teaches as Mr. A. K. Kokane
+      - Mr. A. K. Kokane's expertise
+      - A. K. Kokane
+      - ak kokane
+
+  - intent: CE_Faculty
+    examples: |
+      - give information about CE faculty
+      - Civil Faculty
+      - information about Civil faculty
+      - Civil faculty information
+      - who are mechanical Civil faculty
+      - civil faculty
+      - ce faculty
+
+  - intent: CE_programs
+    examples: |
+      - what programs offered by ce Department
+      - programs offered by ce department
+      - Can you list the different degree programs available within the ce department?
+      - Could you provide examples of specific specializations available within the civil Department?
+      - How long is the typical duration of the programs in the civil Department?
+
+  - intent: CE_missions
+    examples: |
+      - what are missions of ce?
+      - ce missions
+      - civil missions
+      - ce mission
+      - missions of ce dept
+      - missions of ce department
+
+  - intent: CE_visions
+    examples: |
+      - what are visions of ce?
+      - ce visions
+      - visions of ce dept
+      - visions of ce department
+      - civil visions
+      - ce vision
+
+  - intent: CE_labs
+    examples: |
+      - what are labs of ce?
+      - ce labs
+      - laboratories of ce dept
+      - laborateries of ce department
+      - how many labs in ce dept
+      - what are labs of civil?
+      - civil labs
+      - laboratories of civil dept
+      - laborateries of civil department
+      - how many labs in civil dept
     
-- intent: Placement_2021
-  examples: |
-    - Placement record of 2021
-    - Placements of the 2021 batch
-    - Placement info for the academic year 2021
-    - Placement record for 2021
-    - Placement details for 2021
-    - placement record of 2021
-    - Tell me about the placement statistics for 2021.
-    - How did the placements go in 2021?
-    - Can you provide an overview of the placement results in 2021?
-    - In 2021, how many students secured placements?
-    - Which companies were prominent in hiring during 2021?
-    - Were there any remarkable changes in the placement process for 2021?
-    - What were the salary packages like for graduates in 2021?
-    - Any success stories of students placed in 2021?
-    - What kind of support and assistance were given to students during the 2021 placement season?
-    - Can you describe any special recruitment events that took place in 2021?
-    - What was the overall placement rate for 2021?
-    - How do the 2021 placements compare to the previous year?
-    - Were there any alterations in the placement procedure for 2021?
-    - Share some insights into the most sought-after positions in 2021.
-    - Can you highlight a student's journey from campus to career success in 2021?
-    - Describe the resources and guidance available to students during the 2021 placement season.
-    - Were there any unique or distinctive recruitment activities in 2021?
-    - What is placements of 2021?
-    
-    
-    
-- intent: Placement_2020
-  examples: |
-    - How were the 2020 placements?
-    - Share 2020 placement stats.
-    - 2020 placement rate?
-    - Top hiring firms in 2020?
-    - Notable 2020 placement changes?
-    - Student success stories in 2020?
-    - Support during 2020 placements?
-    - Special 2020 recruitment events?
-    - What was the 2020 overall placement rate?
-    - Compare 2020 placements to the previous year.
-    - Any adjustments in the 2020 placement process?
-    - Popular 2020 job positions?
-    - Resources for students in 2020 placements?
-    - Unique 2020 recruitment activities?
-    - Placements 2020
-    - How did students fare in 2020 placements?
-    - What were the top recruiting companies in 2020?
-    - Any major changes in 2020 placement procedures?
-    - Tell me about successful stories from 2020 placements.
-    - What assistance was available to students during 2020 placements?
-    - Were there any unique placement events in 2020?
-    - Can you provide 2020 placement data?
-    - How did 2020's placement rate compare to previous years?
-    - Highlight any standout career paths from 2020.
-    - Describe the 2020 placement support system.
-    - Share insights into 2020's popular job roles.
-    - Placements in 2020?
-    - Any notable placements in 2020?
-    - What can you tell me about 2020 placements?
 
-#  Entreprenureship
+    # Mechanical Dept
+  - intent: ME_info
+    examples: |
+      - What is the mission and vision of the mechanical department?
+      - mechanical dept in wce
+      - Tell me about mechanical dept
+      - info about mechanical dept
+      - me dept
+      - me dept info
 
-- intent: Entreprenureship_info
-  examples: |
-    - Student Entreprenureship details 
-    - Entreprenureship details 
-    - Entreprenureship info
-    - IEEE cell ?
-    - Incubation cell ?
-    - startups for students ?
-    - start ups 
-    - incubation and entreprenurreship details
+  - intent: ME_hod
+    examples: |
+      - who is hod of me dept?
+      - who is head if department of me dept?
+      - who is head if department of mechanical dept?
+      - me hod
+      - contact of me hod
+      - contact me hod
+      - who is hod of mechanical dept?
+      - mechanical hod
+      - contact of mechanical hod
+      - contact mechanical hod
+  
 
-# Institute Management
-- intent: Director_info
-  examples: |
-    - Who is director of wce?
-    - director of walchand college of sangli
-    - director of wce
-    - director name of wce
-    - wce director
-    
+  ##Testing
 
-- intent: Organogram_Chart
-  examples: |
-    - What is Organogram Chart of wce?
-    - Organogram Chart of walchand college of sangli
-    - Organogram Chart of wce
-    - Organogram Chart name of wce
-    - wce Organogram Chart
-    - Organization chart
-    - org chart
-    - authority chart
+  - intent: Mechanical_faculty_Dr_BS_Gavali
+    examples: |
+      - Who is Dr. B. S. Gavali
+      - Tell me about Dr. B. S. Gavali
+      - Dr. B. S. Gavali
+      - Who is Professor Gavali
+      - Can you provide information on Dr. B. S. Gavali
+      - Explain Dr. B. S. Gavali to me
+      - What can you tell me about Dr. B. S. Gavali
+      - Dr. B. S. Gavali's background
+      - Please give me details about Dr. B. S. Gavali
+      - About Dr. B. S. Gavali
+      - Dr. B. S. Gavali's profile
+      - Who is the professor named Dr. B. S. Gavali
+      - Introduce me to Dr. B. S. Gavali
+      - Who teaches as Dr. B. S. Gavali
+      - Dr. B. S. Gavali's expertise
+      - B. S. Gavali
+      - bs gavali
+
+  - intent: Mechanical_faculty_Dr_UA_Dabade
+    examples: |
+      - Who is Dr. U. A. Dabade
+      - Tell me about Dr. U. A. Dabade
+      - Dr. U. A. Dabade
+      - Who is Professor Dabade
+      - Can you provide information on Dr. U. A. Dabade
+      - Explain Dr. U. A. Dabade to me
+      - What can you tell me about Dr. U. A. Dabade
+      - Dr. U. A. Dabade's background
+      - Please give me details about Dr. U. A. Dabade
+      - About Dr. U. A. Dabade
+      - Dr. U. A. Dabade's profile
+      - Who is the professor named Dr. U. A. Dabade
+      - Introduce me to Dr. U. A. Dabade
+      - Who teaches as Dr. U. A. Dabade
+      - Dr. U. A. Dabade's expertise
+      - U. A. Dabade
+      - ua dabade
+
+  - intent: Mechanical_faculty_Dr_KH_Inamdar
+    examples: |
+      - Who is Dr. K. H. Inamdar
+      - Tell me about Dr. K. H. Inamdar
+      - Dr. K. H. Inamdar
+      - Who is Professor Inamdar
+      - Can you provide information on Dr. K. H. Inamdar
+      - Explain Dr. K. H. Inamdar to me
+      - What can you tell me about Dr. K. H. Inamdar
+      - Dr. K. H. Inamdar's background
+      - Please give me details about Dr. K. H. Inamdar
+      - About Dr. K. H. Inamdar
+      - Dr. K. H. Inamdar's profile
+      - Who is the professor named Dr. K. H. Inamdar
+      - Introduce me to Dr. K. H. Inamdar
+      - Who teaches as Dr. K. H. Inamdar
+      - Dr. K. H. Inamdar's expertise
+      - K. H. Inamdar
+      - kh inamdar
+
+  - intent: Mechanical_faculty_Dr_SU_Sapkal
+    examples: |
+          - Who is Dr. S. U. Sapkal
+          - Tell me about Dr. S. U. Sapkal
+          - Dr. S. U. Sapkal
+          - Who is Professor Sapkal
+          - Can you provide information on Dr. S. U. Sapkal
+          - Explain Dr. S. U. Sapkal to me
+          - What can you tell me about Dr. S. U. Sapkal
+          - Dr. S. U. Sapkal's background
+          - Please give me details about Dr. S. U. Sapkal
+          - About Dr. S. U. Sapkal
+          - Dr. S. U. Sapkal's profile
+          - Who is the professor named Dr. S. U. Sapkal
+          - Introduce me to Dr. S. U. Sapkal
+          - Who teaches as Dr. S. U. Sapkal
+          - Dr. S. U. Sapkal's expertise
+          - S. U. Sapkal
+          - su sapkal
+
+  - intent: Mechanical_faculty_Mr_BN_Naik
+    examples: |
+          - Who is Mr. B. N. Naik
+          - Tell me about Mr. B. N. Naik
+          - Mr. B. N. Naik
+          - Who is Professor Naik
+          - Can you provide information on Mr. B. N. Naik
+          - Explain Mr. B. N. Naik to me
+          - What can you tell me about Mr. B. N. Naik
+          - Mr. B. N. Naik's background
+          - Please give me details about Mr. B. N. Naik
+          - About Mr. B. N. Naik
+          - Mr. B. N. Naik's profile
+          - Who is the professor named Mr. B. N. Naik
+          - Introduce me to Mr. B. N. Naik
+          - Who teaches as Mr. B. N. Naik
+          - Mr. B. N. Naik's expertise
+          - B. N. Naik
+          - bn naik
+
+  - intent: Mechanical_faculty_Mr_SV_Gaikwad
+    examples: |
+          - Who is Mr. S. V. Gaikwad
+          - Tell me about Mr. S. V. Gaikwad
+          - Mr. S. V. Gaikwad
+          - Who is Professor Gaikwad
+          - Can you provide information on Mr. S. V. Gaikwad
+          - Explain Mr. S. V. Gaikwad to me
+          - What can you tell me about Mr. S. V. Gaikwad
+          - Mr. S. V. Gaikwad's background
+          - Please give me details about Mr. S. V. Gaikwad
+          - About Mr. S. V. Gaikwad
+          - Mr. S. V. Gaikwad's profile
+          - Who is the professor named Mr. S. V. Gaikwad
+          - Introduce me to Mr. S. V. Gaikwad
+          - Who teaches as Mr. S. V. Gaikwad
+          - Mr. S. V. Gaikwad's expertise
+          - S. V. Gaikwad
+          - sv gaikwad
+
+  - intent: Mechanical_faculty_Mr_JM_Dabir
+    examples: |
+          - Who is Mr. J. M. Dabir
+          - Tell me about Mr. J. M. Dabir
+          - Mr. J. M. Dabir
+          - Who is Professor Dabir
+          - Can you provide information on Mr. J. M. Dabir
+          - Explain Mr. J. M. Dabir to me
+          - What can you tell me about Mr. J. M. Dabir
+          - Mr. J. M. Dabir's background
+          - Please give me details about Mr. J. M. Dabir
+          - About Mr. J. M. Dabir
+          - Mr. J. M. Dabir's profile
+          - Who is the professor named Mr. J. M. Dabir
+          - Introduce me to Mr. J. M. Dabir
+          - Who teaches as Mr. J. M. Dabir
+          - Mr. J. M. Dabir's expertise
+          - J. M. Dabir
+          - jm dabir
+
+  - intent: Mechanical_faculty_Dr_MM_Khot
+    examples: |
+          - Who is Dr. M. M. Khot
+          - Tell me about Dr. M. M. Khot
+          - Dr. M. M. Khot
+          - Who is Professor Khot
+          - Can you provide information on Dr. M. M. Khot
+          - Explain Dr. M. M. Khot to me
+          - What can you tell me about Dr. M. M. Khot
+          - Dr. M. M. Khot's background
+          - Please give me details about Dr. M. M. Khot
+          - About Dr. M. M. Khot
+          - Dr. M. M. Khot's profile
+          - Who is the professor named Dr. M. M. Khot
+          - Introduce me to Dr. M. M. Khot
+          - Who teaches as Dr. M. M. Khot
+          - Dr. M. M. Khot's expertise
+          - M. M. Khot
+          - mm khot
+
+  - intent: Mechanical_faculty_Mr_AB_Admuthe
+    examples: |
+          - Who is Mr. A. B. Admuthe
+          - Tell me about Mr. A. B. Admuthe
+          - Mr. A. B. Admuthe
+          - Who is Professor Admuthe
+          - Can you provide information on Mr. A. B. Admuthe
+          - Explain Mr. A. B. Admuthe to me
+          - What can you tell me about Mr. A. B. Admuthe
+          - Mr. A. B. Admuthe's background
+          - Please give me details about Mr. A. B. Admuthe
+          - About Mr. A. B. Admuthe
+          - Mr. A. B. Admuthe's profile
+          - Who is the professor named Mr. A. B. Admuthe
+          - Introduce me to Mr. A. B. Admuthe
+          - Who teaches as Mr. A. B. Admuthe
+          - Mr. A. B. Admuthe's expertise
+          - A. B. Admuthe
+          - ab admuthe
+
+  - intent: Mechanical_faculty_Mr_PA_Mane
+    examples: |
+          - Who is Mr. P. A. Mane
+          - Tell me about Mr. P. A. Mane
+          - Mr. P. A. Mane
+          - Who is Professor Mane
+          - Can you provide information on Mr. P. A. Mane
+          - Explain Mr. P. A. Mane to me
+          - What can you tell me about Mr. P. A. Mane
+          - Mr. P. A. Mane's background
+          - Please give me details about Mr. P. A. Mane
+          - About Mr. P. A. Mane
+          - Mr. P. A. Mane's profile
+          - Who is the professor named Mr. P. A. Mane
+          - Introduce me to Mr. P. A. Mane
+          - Who teaches as Mr. P. A. Mane
+          - Mr. P. A. Mane's expertise
+          - P. A. Mane
+          - pa mane
+
+  - intent: Mechanical_faculty_Prof_VB_Swami
+    examples: |
+          - Who is Prof. V. B. Swami
+          - Tell me about Prof. V. B. Swami
+          - Prof. V. B. Swami
+          - Who is Professor Swami
+          - Can you provide information on Prof. V. B. Swami
+          - Explain Prof. V. B. Swami to me
+          - What can you tell me about Prof. V. B. Swami
+          - Prof. V. B. Swami's background
+          - Please give me details about Prof. V. B. Swami
+          - About Prof. V. B. Swami
+          - Prof. V. B. Swami's profile
+          - Who is the professor named Prof. V. B. Swami
+          - Introduce me to Prof. V. B. Swami
+          - Who teaches as Prof. V. B. Swami
+          - Prof. V. B. Swami's expertise
+          - V. B. Swami
+          - vb swami
+
+  - intent: Mechanical_faculty_Mr_AP_Patil
+    examples: |
+          - Who is Mr. A. P. Patil
+          - Tell me about Mr. A. P. Patil
+          - Mr. A. P. Patil
+          - Who is Professor AP Patil
+          - Can you provide information on Mr. A. P. Patil
+          - Explain Mr. A. P. Patil to me
+          - What can you tell me about Mr. A. P. Patil
+          - Mr. A. P. Patil's background
+          - Please give me details about Mr. A. P. Patil
+          - About Mr. A. P. Patil
+          - Mr. A. P. Patil's profile
+          - Who is the professor named Mr. A. P. Patil
+          - Introduce me to Mr. A. P. Patil
+          - Who teaches as Mr. A. P. Patil
+          - Mr. A. P. Patil's expertise
+          - A. P. Patil
+          - ap patil
+
+  - intent: Mechanical_faculty_Prof_RM_Chanmanwar
+    examples: |
+          - Who is Prof. R. M. Chanmanwar
+          - Tell me about Prof. R. M. Chanmanwar
+          - Prof. R. M. Chanmanwar
+          - Who is Professor Chanmanwar
+          - Can you provide information on Prof. R. M. Chanmanwar
+          - Explain Prof. R. M. Chanmanwar to me
+          - What can you tell me about Prof. R. M. Chanmanwar
+          - Prof. R. M. Chanmanwar's background
+          - Please give me details about Prof. R. M. Chanmanwar
+          - About Prof. R. M. Chanmanwar
+          - Prof. R. M. Chanmanwar's profile
+          - Who is the professor named Prof. R. M. Chanmanwar
+          - Introduce me to Prof. R. M. Chanmanwar
+          - Who teaches as Prof. R. M. Chanmanwar
+          - Prof. R. M. Chanmanwar's expertise
+          - R. M. Chanmanwar
+          - rm chanmanwar
+
+  - intent: Mechanical_faculty_Mr_SD_Jagtap
+    examples: |
+          - Who is Mr. S. D. Jagtap
+          - Tell me about Mr. S. D. Jagtap
+          - Mr. S. D. Jagtap
+          - Who is Professor Jagtap
+          - Can you provide information on Mr. S. D. Jagtap
+          - Explain Mr. S. D. Jagtap to me
+          - What can you tell me about Mr. S. D. Jagtap
+          - Mr. S. D. Jagtap's background
+          - Please give me details about Mr. S. D. Jagtap
+          - About Mr. S. D. Jagtap
+          - Mr. S. D. Jagtap's profile
+          - Who is the professor named Mr. S. D. Jagtap
+          - Introduce me to Mr. S. D. Jagtap
+          - Who teaches as Mr. S. D. Jagtap
+          - Mr. S. D. Jagtap's expertise
+          - S. D. Jagtap
+          - sd jagtap
+
+  - intent: Mechanical_faculty_Prof_PD_Maskar
+    examples: |
+          - Who is Prof. P. D. Maskar
+          - Tell me about Prof. P. D. Maskar
+          - Prof. P. D. Maskar
+          - Who is Professor Maskar
+          - Can you provide information on Prof. P. D. Maskar
+          - Explain Prof. P. D. Maskar to me
+          - What can you tell me about Prof. P. D. Maskar
+          - Prof. P. D. Maskar's background
+          - Please give me details about Prof. P. D. Maskar
+          - About Prof. P. D. Maskar
+          - Prof. P. D. Maskar's profile
+          - Who is the professor named Prof. P. D. Maskar
+          - Introduce me to Prof. P. D. Maskar
+          - Who teaches as Prof. P. D. Maskar
+          - Prof. P. D. Maskar's expertise
+          - P. D. Maskar
+          - pd maskar
+
+  - intent: Mechanical_faculty_Prof_AS_Bhandare
+    examples: |
+          - Who is Prof. A. S. Bhandare
+          - Tell me about Prof. A. S. Bhandare
+          - Prof. A. S. Bhandare
+          - Who is Professor Bhandare
+          - Can you provide information on Prof. A. S. Bhandare
+          - Explain Prof. A. S. Bhandare to me
+          - What can you tell me about Prof. A. S. Bhandare
+          - Prof. A. S. Bhandare's background
+          - Please give me details about Prof. A. S. Bhandare
+          - About Prof. A. S. Bhandare
+          - Prof. A. S. Bhandare's profile
+          - Who is the professor named Prof. A. S. Bhandare
+          - Introduce me to Prof. A. S. Bhandare
+          - Who teaches as Prof. A. S. Bhandare
+          - Prof. A. S. Bhandare's expertise
+          - A. S. Bhandare
+          - as bhandare
+
+  - intent: Mechanical_faculty_Prof_SM_Arali
+    examples: |
+          - Who is Prof. S. M. Arali
+          - Tell me about Prof. S. M. Arali
+          - Prof. S. M. Arali
+          - Who is Professor Arali
+          - Can you provide information on Prof. S. M. Arali
+          - Explain Prof. S. M. Arali to me
+          - What can you tell me about Prof. S. M. Arali
+          - Prof. S. M. Arali's background
+          - Please give me details about Prof. S. M. Arali
+          - About Prof. S. M. Arali
+          - Prof. S. M. Arali's profile
+          - Who is the professor named Prof. S. M. Arali
+          - Introduce me to Prof. S. M. Arali
+          - Who teaches as Prof. S. M. Arali
+          - Prof. S. M. Arali's expertise
+          - S. M. Arali
+          - sm arali
+
+  - intent: Mechanical_faculty_Prof_GR_Undale
+    examples: |
+          - Who is Prof. G. R. Undale
+          - Tell me about Prof. G. R. Undale
+          - Prof. G. R. Undale
+          - Who is Professor Undale
+          - Can you provide information on Prof. G. R. Undale
+          - Explain Prof. G. R. Undale to me
+          - What can you tell me about Prof. G. R. Undale
+          - Prof. G. R. Undale's background
+          - Please give me details about Prof. G. R. Undale
+          - About Prof. G. R. Undale
+          - Prof. G. R. Undale's profile
+          - Who is the professor named Prof. G. R. Undale
+          - Introduce me to Prof. G. R. Undale
+          - Who teaches as Prof. G. R. Undale
+          - Prof. G. R. Undale's expertise
+          - G. R. Undale
+          - gr undale
+
+  - intent: Mechanical_faculty_Ms_NS_Nagmoti
+    examples: |
+          - Who is Ms. N. S. Nagmoti
+          - Tell me about Ms. N. S. Nagmoti
+          - Ms. N. S. Nagmoti
+          - Who is Professor Nagmoti
+          - Can you provide information on Ms. N. S. Nagmoti
+          - Explain Ms. N. S. Nagmoti to me
+          - What can you tell me about Ms. N. S. Nagmoti
+          - Ms. N. S. Nagmoti's background
+          - Please give me details about Ms. N. S. Nagmoti
+          - About Ms. N. S. Nagmoti
+          - Ms. N. S. Nagmoti's profile
+          - Who is the professor named Ms. N. S. Nagmoti
+          - Introduce me to Ms. N. S. Nagmoti
+          - Who teaches as Ms. N. S. Nagmoti
+          - Ms. N. S. Nagmoti's expertise
+          - N. S. Nagmoti
+          - ns nagmoti
+
+  - intent: Mechanical_faculty_Prof_DB_Pawar
+    examples: |
+          - Who is Prof. D. B. Pawar
+          - Tell me about Prof. D. B. Pawar
+          - Prof. D. B. Pawar
+          - Who is Professor Pawar
+          - Can you provide information on Prof. D. B. Pawar
+          - Explain Prof. D. B. Pawar to me
+          - What can you tell me about Prof. D. B. Pawar
+          - Prof. D. B. Pawar's background
+          - Please give me details about Prof. D. B. Pawar
+          - About Prof. D. B. Pawar
+          - Prof. D. B. Pawar's profile
+          - Who is the professor named Prof. D. B. Pawar
+          - Introduce me to Prof. D. B. Pawar
+          - Who teaches as Prof. D. B. Pawar
+          - Prof. D. B. Pawar's expertise
+          - D. B. Pawar
+          - db pawar
+
+  - intent: Mechanical_faculty_Prof_AS_Patil
+    examples: |
+          - Who is Prof. A. S. Patil
+          - Tell me about Prof. A. S. Patil
+          - Prof. A. S. Patil
+          - Who is Professor Patil
+          - Can you provide information on Prof. A. S. Patil
+          - Explain Prof. A. S. Patil to me
+          - What can you tell me about Prof. A. S. Patil
+          - Prof. A. S. Patil's background
+          - Please give me details about Prof. A. S. Patil
+          - About Prof. A. S. Patil
+          - Prof. A. S. Patil's profile
+          - Who is the professor named Prof. A. S. Patil
+          - Introduce me to Prof. A. S. Patil
+          - Who teaches as Prof. A. S. Patil
+          - Prof. A. S. Patil's expertise
+          - A. S. Patil
+          - as patil
+
+  - intent: ME_Faculty
+    examples: |
+      - give information about ME faculty
+      - Mechanical Faculty
+      - information about Mech faculty
+      - Mech faculty information
+      - who are mechanical falculty
+      - mech faculty
+  - intent: ME_programs
+    examples: |
+      - what programs offered by me Department
+      - programs offered by me department
+      - Can you list the different degree programs available within the me department?
+      - Could you provide examples of specific specializations available within the mechanical Department?
+      - How long is the typical duration of the programs in the mechanical Department?
+
+  - intent: ME_missions
+    examples: |
+      - what are missions of me?
+      - me missions
+      - mechanical missions
+      - me mission
+      - missions of me dept
+      - missions of me department
+
+  - intent: ME_visions
+    examples: |
+      - what are visions of me?
+      - me visions
+      - visions of me dept
+      - visions of me department
+      - mechanical visions
+      - me vision
+
+  - intent: ME_labs
+    examples: |
+      - what are labs of me?
+      - me labs
+      - laboratories of me dept
+      - laborateries of me department
+      - how many labs in me dept
+      - what are labs of mechanical?
+      - mechanical labs
+      - laboratories of mechanical dept
+      - laborateries of mechanical department
+      - how many labs in mechanical dept
+
+  - intent: Admission_UG_info
+    examples: |
+      - how to take ug admission in wce?
+      - wce admissions ug
+      - admissions under graduate in wce 
+      - college admissions ug
+      - admissions of undergraduate college
+      - clg admission details of ug
+
+  - intent: Admission_PG_info
+    examples: |
+      - how to take pg admission in wce?
+      - wce admissions pg
+      - admissions post graduate in wce 
+      - college admissions PG
+      - admission pg
+      - admissions of postgraduate college
+      - clg admission details of pg
+
+  - intent: Admission_fee_structure
+    examples: |
+      - Fee Structure of Walchand College of Engineering?
+      - Where I can get the Fee Structure?
+      - How to get the Fee Structure of Walchand?
+      - [Ff]ee [Ss]tructure.
+      - fee structure of walchand college of engineering?
+      - how to get the fee structure of walchand?
+      - where I can find the fee structure?
+      - where i can find the fee structure?
+
+  - intent: Admission_process_date
+    examples: |
+      - When admission process is going to start?
+      - Admission dates?
+      - Dates of admission?
+      - On which date admission are starting in the walchand?
+      - Where can we get the admission dates?
+      - when admission process is going to start?
+      - admission dates?
+      - admiss. dates?
+      - dates of admission?
+
+  - intent: Admission_document
+    examples: |
+      - What are the documents are required for admission?
+      - What are required documents?
+      - Documents required?
+      - Which documents are required for the admission?
+      - Documents for the admission
+      - Admission document
+      - Admission doc
+      - Doc for admission
+
+  - intent: Admission_location
+    examples: |
+      - Admission location?
+      - Where admissions are going on?
+      - Are the admission are going on in tilak hall?
+      - Where is admission process going on?
+      - admission location?
+      - where admission are going on?
+      - are the admission are going on in tilak hall?
+      - where is admission process going on?
+      - [Aa]dmission [Rr]oom[?|.]
+      - [Aa]dmission [Vv]enue[?|.]
+
+  - intent: Scholarships
+    examples: |
+      - Scholarship?
+      - Is there any scholarship provided by the college?
+      - are there any private scholarships in the college?
+      - Scholarships in the walchand college of engineering?
+      - Does college provide anyt scholarship for the student?
+
+  #Examination Section
+  - intent: Examination_Section
+    examples: |
+      - give information about examination section
+      - where is exam section
+      - exam section
+      - examination section
+      - exam cell
+  
+
+  # Library Info
+  - intent: Library_info
+    examples: |
+      - ajit gulabchand library
+      - agc library
+      - wce library
+      - library info
+      - Library data
+      - wce book library
+
+  - intent: Library_librarian
+    examples: |
+      - who is librarian of wce
+      - agc librarian
+      - librarian of library
+      - librarian info
+      - Librarian data
+      - wce book librarian info
+
+  - intent: Library_facilities
+    examples: |
+      - what are library facilities
+      - agc library facilities
+      - facilities of library
+      - facilities info of library
+      - Library facility data
+      - which facilities are provied by wce library
+
+
+  - intent: Library_holdings
+    examples: |
+      - what are library holdings
+      - agc library holdings
+      - holdings of library
+      - holdings info of library
+      - Library holdings data
+      - which are holdings of library
+  
+
+  #  Placements
+
+
+  - intent: Placement_2023
+    examples: |
+      - what is placements of 2023
+      - placement record of 22-23
+      - placements of 22 23 batch
+      - placement info of academic year 2023
+      - placement record 
+      - placement 2023
+      - placement details 2023
+      - placement details 22 23
+      - How was the overall placement rate in 2023?
+      - Could you provide data on the top companies that hired in 2023?
+      - In 2023, did the placement rate differ from the previous year?
+      - What were the salary packages like for different programs in 2023?
+      - Were there any significant modifications to the placement process in 2023?
+      - Can you share any inspiring stories of students placed in 2023?
+      - What support and services were available to students during the 2023 placement season?
+      - Please describe any noteworthy campus recruitment events from 2023.
+      - How many students secured placements in 2023?
+      - Which companies were the top recruiters in 2023?
+      - What was the average salary for placements in 2023?
+      - Were there any changes to the placement process for 2023?
+      - Could you highlight a student's success story from 2023?
+      - In 2023, what kinds of support and assistance did students receive during placements?
+      - Were there any special job recruitment events in 2023?
+
+
+  - intent: Placement_2022
+    examples: |
+      - what is placements of 2022
+      - placement record of 2022
+      - placement record 2022
+      - placements of the 2022 batch
+      - placement info for the academic year 2022
+      - placement record for 2022
+      - placement details for 2022
+      - What was the overall placement rate in 2022?
+      - Can you provide statistics on the top hiring companies in 2022?
+      - How did the placement rate in 2022 compare to the previous year?
+      - What were the average salary packages for different programs in 2022?
+      - Were there any notable changes in the placement process for 2022?
+      - Can you share success stories of students placed in 2022?
+      - What support services were offered to students during the placement season in 2022?
+      - Tell me about the campus recruitment events held in 2022.
+      - How many students were placed in 2022?
+      - Which companies recruited the most in 2022?
+      - What was the average salary for 2022 placements?
+      - Were there any changes in the placement process for 2022?
+      - Can you share a student success story from 2022?
+      - What kind of support did students receive during placements in 2022?
+      - Were there any special job recruitment events in 2022?
+
+  - intent: Placement_2021
+    examples: |
+      - Placement record of 2021
+      - Placements of the 2021 batch
+      - Placement info for the academic year 2021
+      - Placement record for 2021
+      - Placement details for 2021
+      - placement record of 2021
+      - Tell me about the placement statistics for 2021.
+      - How did the placements go in 2021?
+      - Can you provide an overview of the placement results in 2021?
+      - In 2021, how many students secured placements?
+      - Which companies were prominent in hiring during 2021?
+      - Were there any remarkable changes in the placement process for 2021?
+      - What were the salary packages like for graduates in 2021?
+      - Any success stories of students placed in 2021?
+      - What kind of support and assistance were given to students during the 2021 placement season?
+      - Can you describe any special recruitment events that took place in 2021?
+      - What was the overall placement rate for 2021?
+      - How do the 2021 placements compare to the previous year?
+      - Were there any alterations in the placement procedure for 2021?
+      - Share some insights into the most sought-after positions in 2021.
+      - Can you highlight a student's journey from campus to career success in 2021?
+      - Describe the resources and guidance available to students during the 2021 placement season.
+      - Were there any unique or distinctive recruitment activities in 2021?
+      - What is placements of 2021?
+
+
+
+  - intent: Placement_2020
+    examples: |
+      - How were the 2020 placements?
+      - Share 2020 placement stats.
+      - 2020 placement rate?
+      - Top hiring firms in 2020?
+      - Notable 2020 placement changes?
+      - Student success stories in 2020?
+      - Support during 2020 placements?
+      - Special 2020 recruitment events?
+      - What was the 2020 overall placement rate?
+      - Compare 2020 placements to the previous year.
+      - Any adjustments in the 2020 placement process?
+      - Popular 2020 job positions?
+      - Resources for students in 2020 placements?
+      - Unique 2020 recruitment activities?
+      - Placements 2020
+      - How did students fare in 2020 placements?
+      - What were the top recruiting companies in 2020?
+      - Any major changes in 2020 placement procedures?
+      - Tell me about successful stories from 2020 placements.
+      - What assistance was available to students during 2020 placements?
+      - Were there any unique placement events in 2020?
+      - Can you provide 2020 placement data?
+      - How did 2020's placement rate compare to previous years?
+      - Highlight any standout career paths from 2020.
+      - Describe the 2020 placement support system.
+      - Share insights into 2020's popular job roles.
+      - Placements in 2020?
+      - Any notable placements in 2020?
+      - What can you tell me about 2020 placements?
+
+  #  Entreprenureship
+
+  - intent: Entreprenureship_info
+    examples: |
+      - Student Entreprenureship details 
+      - Entreprenureship details 
+      - Entreprenureship info
+      - IEEE cell ?
+      - Incubation cell ?
+      - startups for students ?
+      - start ups 
+      - incubation and entreprenurreship details
+
+  # Institute Management
+  - intent: Director_info
+    examples: |
+      - Who is director of wce?
+      - director of walchand college of sangli
+      - director of wce
+      - director name of wce
+      - wce director
+
+
+  - intent: Organogram_Chart
+    examples: |
+      - What is Organogram Chart of wce?
+      - Organogram Chart of walchand college of sangli
+      - Organogram Chart of wce
+      - Organogram Chart name of wce
+      - wce Organogram Chart
+      - Organization chart
+      - org chart
+      - authority chart

@@ -129,7 +129,7 @@ intents:
   - Electronics_faculty_Ms_SU_Patil
   - Electronics_faculty_Mr_SR_Khedkar
   - Electronics_faculty_Mrs_NS_Babar
-##Testing
+##Electrical Faculty
   - Electrical_faculty_Dr_DS_More
   - Electrical_faculty_Dr_AP_Vaidya
   - Electrical_faculty_Mr_AB_Patil
@@ -147,6 +147,43 @@ intents:
   - Electrical_faculty_Mr_RG_Datar
   - Electrical_faculty_Ms_MM_Tahmankar
   - Electrical_faculty_Mr_MS_Mahagaonkar
+##Civil Faculty
+  - Civil_faculty_Dr_PG_Sonavane
+  - Civil_faculty_Dr_SN_Tande
+  - Civil_faculty_Dr_VD_Salkar
+  - Civil_faculty_Dr_GR_Munavalli
+  - Civil_faculty_Dr_KS_Gumaste
+  - Civil_faculty_Dr_SB_Kadam
+  - Civil_faculty_Dr_CB_Pol
+  - Civil_faculty_Mr_PK_Deshpande
+  - Civil_faculty_Mr_CH_Wagh
+  - Civil_faculty_Mr_AK_Mali
+  - Civil_faculty_Mr_AK_Kokane
+
+##Mechanical Faculty
+  - Mechanical_faculty_Dr_BS_Gavali
+  - Mechanical_faculty_Dr_UA_Dabade
+  - Mechanical_faculty_Dr_KH_Inamdar
+  - Mechanical_faculty_Dr_SU_Sapkal
+  - Mechanical_faculty_Mr_BN_Naik
+  - Mechanical_faculty_Mr_SV_Gaikwad
+  - Mechanical_faculty_Mr_JM_Dabir
+  - Mechanical_faculty_Dr_MM_Khot
+  - Mechanical_faculty_Mr_AB_Admuthe
+  - Mechanical_faculty_Mr_PA_Mane
+  - Mechanical_faculty_Prof_VB_Swami
+  - Mechanical_faculty_Mr_AP_Patil
+  - Mechanical_faculty_Prof_RM_Chanmanwar
+  - Mechanical_faculty_Mr_SD_Jagtap
+  - Mechanical_faculty_Prof_PD_Maskar
+  - Mechanical_faculty_Prof_AS_Bhandare
+  - Mechanical_faculty_Prof_SM_Arali
+  - Mechanical_faculty_Prof_GR_Undale
+  - Mechanical_faculty_Ms_NS_Nagmoti
+  - Mechanical_faculty_Prof_DB_Pawar
+  - Mechanical_faculty_Prof_AS_Patil
+
+
 responses:
   utter_greet:
     - text: "Hey! How are you?"
@@ -1000,6 +1037,39 @@ responses:
           * Ph. D.
           * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering)."
 
+  utter_about_faculty_Dr_PG_Sonavane:
+    - text: "Dr. P. G. Sonavane is a Professor in Civil (Environmental) Engineering. He holds a Ph.D. degree and his research area is focused on Environmental Engineering."
+
+  utter_about_faculty_Dr_SN_Tande:
+    - text: "Dr. S. N. Tande is a Professor and Head of the Civil Engineering department. He holds a Ph.D. in Civil Engineering and specializes in Structural Engineering, Structural Dynamics, Finite Element Analysis, Earthquake Engineering, and Design Optimization."
+
+  utter_about_faculty_Dr_VD_Salkar:
+    - text: "Dr. V. D. Salkar is a Professor in Civil Engineering. He holds a Ph.D. degree and his research interests include Building Materials and Environmental Engineering."
+
+  utter_about_faculty_Dr_GR_Munavalli:
+    - text: "Dr. G. R. Munavalli is an Associate Professor in Civil Engineering. He holds a Ph.D. degree and specializes in Environmental Engineering."
+
+  utter_about_faculty_Dr_KS_Gumaste:
+    - text: "Dr. K. S. Gumaste is an Associate Professor in Civil Engineering. He holds a Ph.D. degree and his research areas include Energy and Buildings, as well as Structural Masonry."
+
+  utter_about_faculty_Dr_SB_Kadam:
+    - text: "Dr. S. B. Kadam is an Associate Professor in Civil Engineering with a Ph.D. in Structural Dynamics. His research focuses on Structural Dynamics, Earthquake Engineering, Finite Element Analysis for Composites, Non-linear Material Modeling, and Seismic Evaluation and Retrofitting of Structures."
+
+  utter_about_faculty_Dr_CB_Pol:
+    - text: "Dr. C. B. Pol is an Assistant Professor in Civil Engineering. He holds a Ph.D. degree with research interests in Structural Health Monitoring of Structures, Composites and Smart Materials, Finite Element Analysis, and Steel Structures."
+
+  utter_about_faculty_Mr_PK_Deshpande:
+    - text: "Mr. P. K. Deshpande is an Associate Professor in Civil Engineering. He holds degrees in M. Sc. (Geology) and M. A. (English) and is involved in research related to Geology and Remote Sensing."
+
+  utter_about_faculty_Mr_CH_Wagh:
+    - text: "Mr. C. H. Wagh is an Associate Professor in Civil Engineering with a degree in M. Tech (Civil - Environmental Engineering). His research areas encompass Environmental Engineering, Water Resources Engineering, and Hydraulics."
+
+  utter_about_faculty_Mr_AK_Mali:
+    - text: "Mr. A. K. Mali is an Assistant Professor in Civil Engineering. He holds degrees in B. E. (Civil) and M. Tech. (Civil) and is currently pursuing a Ph.D. His research area includes Pozzolanic Materials in Cement Concrete and High Strength Concrete."
+
+  utter_about_faculty_Mr_AK_Kokane:
+    - text: "Mr. A. K. Kokane is an Assistant Professor in Civil Engineering with a degree in M. Tech (Civil). His research areas encompass Geotechnical Engineering, Ground Improvement, and Geomechanics."
+
   utter_response_CE_Faculty:
     - text: |
         * Dr. P. G. Sonavane
@@ -1110,6 +1180,70 @@ responses:
           - Student Intake: 18
           - Programme Title: Mechanical - Production (M. Tech)
           - Student Intake: 30
+
+##Testing
+  utter_about_faculty_Dr_BS_Gavali:
+    - text: "Dr. B. S. Gavali is a Professor in the Mechanical Engineering department. He holds a Ph.D. in Mechanical Engineering and specializes in Heat Transfer, Fluid Dynamics, Refrigeration and Air Conditioning, and CFD."
+
+  utter_about_faculty_Dr_UA_Dabade:
+      - text: "Dr. U. A. Dabade is a Professor in the Mechanical Engineering department. He holds a Ph.D. in Mechanical Engineering and specializes in Machining of difficult to cut and Composite Materials, Micromachining, Non Conventional Machining Processes, and Precision Engineering."
+
+  utter_about_faculty_Dr_KH_Inamdar:
+      - text: "Dr. K. H. Inamdar is an Associate Professor in the Mechanical Engineering department. He holds a Ph.D. in Mechanical Engineering and specializes in Quality control, Mechatronics, Additive Manufacturing, Image Processing, Automation, Robotics, PLC, and Welding."
+
+  utter_about_faculty_Dr_SU_Sapkal:
+      - text: "Dr. S. U. Sapkal is an Associate Professor and Head of the Department in the Mechanical Engineering department. He holds a Ph.D. in Mechanical Engineering and specializes in Manufacturing and Industrial Engineering."
+
+  utter_about_faculty_Mr_BN_Naik:
+      - text: "Mr. B. N. Naik is an Assistant Professor in the Mechanical Engineering department. He holds a M.Tech in Mechanical- Heat Power and specializes in Heat Transfer."
+
+  utter_about_faculty_Mr_SV_Gaikwad:
+      - text: "Mr. S. V. Gaikwad is an Assistant Professor in the Mechanical Engineering department. He holds a Ph.D. in Mechanical Engineering and specializes in Conventional and non-conventional machining, Quality Engineering, and Industrial Engineering."
+
+  utter_about_faculty_Mr_JM_Dabir:
+      - text: "Mr. J. M. Dabir is an Assistant Professor [Workshop-Superintendent] in the Mechanical Engineering department. He holds a M.Tech. in Mechanical- Production."
+
+  utter_about_faculty_Dr_MM_Khot:
+      - text: "Dr. M. M. Khot is an Assistant Professor in the Mechanical Engineering department. He holds a Ph.D. in Mechanical Engineering and specializes in Design Engineering, FE analysis, Bearings, and cryogenics."
+
+  utter_about_faculty_Mr_AB_Admuthe:
+      - text: "Mr. A. B. Admuthe is an Assistant Professor in the Mechanical Engineering department. He holds a M.Tech in Metallurgy and specializes in Metallurgy and Materials, Heat treatment, etc."
+
+  utter_about_faculty_Mr_PA_Mane:
+      - text: "Mr. P. A. Mane is an Assistant Professor in the Mechanical Engineering department. He holds a M.E. in Mechanical- Heat Power and specializes in Turbomachines, CFD, and Cryogenics."
+
+  utter_about_faculty_Prof_VB_Swami:
+      - text: "Prof. V. B. Swami is an Assistant Professor in the Mechanical Engineering department. He holds a M.E. in Mechanical- Heat Power and specializes in Heat and Mass Transfer."
+
+  utter_about_faculty_Mr_AP_Patil:
+      - text: "Mr. A. P. Patil is an Assistant Professor in the Mechanical Engineering department. He holds a M.E. in Mechanical- Design and specializes in Vibration, Bearing Dynamics, and Acoustic Emission."
+
+  utter_about_faculty_Prof_RM_Chanmanwar:
+      - text: "Prof. R. M. Chanmanwar is an Assistant Professor in the Mechanical Engineering department. He holds B.Tech. and M.Tech. degrees and specializes in Photochemical Machining and Micro-Machining."
+
+  utter_about_faculty_Mr_SD_Jagtap:
+      - text: "Mr. S. D. Jagtap is an Assistant Professor in the Mechanical Engineering department. He holds a M.Tech. in Mechanical- Heat Power and specializes in Internal Combustion Engines, Heat Transfer, and Renewable Energy."
+
+  utter_about_faculty_Prof_PD_Maskar:
+      - text: "Prof. P. D. Maskar is an Assistant Professor in the Mechanical Engineering department. He holds a M.E. in Mechanical-Design and specializes in Vibration Analysis and Finite Element Analysis."
+
+  utter_about_faculty_Prof_AS_Bhandare:
+      - text: "Prof. A. S. Bhandare is an Assistant Professor in the Mechanical Engineering department. He holds a M.Tech in Mechanical-Production and specializes in Non-conventional Machining, Micromachining, Mechatronics, and Automation."
+
+  utter_about_faculty_Prof_SM_Arali:
+      - text: "Prof. S. M. Arali is an Assistant Professor in the Mechanical Engineering department. He holds a M.E. in CAD/CAM/CAE and is pursuing a Ph.D. He specializes in Machine Design and Alternative Fuels."
+
+  utter_about_faculty_Prof_GR_Undale:
+      - text: "Prof. G. R. Undale is an Assistant Professor in the Mechanical Engineering department. He holds a M.Tech. in Mechanical and specializes in Dual fuel and Alternate fuel."
+
+  utter_about_faculty_Ms_NS_Nagmoti:
+      - text: "Ms. N. S. Nagmoti is an Assistant Professor in the Mechanical Engineering department. She holds a M. Tech. in Mechanical- Design and specializes in Mechanical Vibration, Composite & Smart Materials, and Finite Element Analysis."
+
+  utter_about_faculty_Prof_DB_Pawar:
+      - text: "Prof. D. B. Pawar is an Assistant Professor in the Mechanical Engineering department. He holds a M. E. in Mechanical and specializes in Product Development."
+
+  utter_about_faculty_Prof_AS_Patil:
+      - text: "Prof. A. S. Patil is an Assistant Professor in the Mechanical Engineering department. He holds a M.Tech. in Mechanical and specializes in Heat transfer."
 
   utter_response_ME_Faculty:
     - text: |

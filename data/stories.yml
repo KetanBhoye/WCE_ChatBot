@@ -425,6 +425,62 @@ stories:
     - intent: CE_labs
     - action: utter_response_CE_labs
 
+##Testing
+- story: User asks about Dr. P. G. Sonavane
+  steps:
+    - intent: Civil_faculty_Dr_PG_Sonavane
+    - action: utter_about_faculty_Dr_PG_Sonavane
+
+- story: User asks about Dr. S. N. Tande
+  steps:
+    - intent: Civil_faculty_Dr_SN_Tande
+    - action: utter_about_faculty_Dr_SN_Tande
+
+- story: User asks about Dr. V. D. Salkar
+  steps:
+    - intent: Civil_faculty_Dr_VD_Salkar
+    - action: utter_about_faculty_Dr_VD_Salkar
+
+- story: User asks about Dr. G. R. Munavalli
+  steps:
+    - intent: Civil_faculty_Dr_GR_Munavalli
+    - action: utter_about_faculty_Dr_GR_Munavalli
+
+- story: User asks about Dr. K. S. Gumaste
+  steps:
+    - intent: Civil_faculty_Dr_KS_Gumaste
+    - action: utter_about_faculty_Dr_KS_Gumaste
+
+- story: User asks about Dr. S. B. Kadam
+  steps:
+    - intent: Civil_faculty_Dr_SB_Kadam
+    - action: utter_about_faculty_Dr_SB_Kadam
+
+- story: User asks about Dr. C. B. Pol
+  steps:
+    - intent: Civil_faculty_Dr_CB_Pol
+    - action: utter_about_faculty_Dr_CB_Pol
+
+- story: User asks about Mr. P. K. Deshpande
+  steps:
+    - intent: Civil_faculty_Mr_PK_Deshpande
+    - action: utter_about_faculty_Mr_PK_Deshpande
+
+- story: User asks about Mr. C. H. Wagh
+  steps:
+    - intent: Civil_faculty_Mr_CH_Wagh
+    - action: utter_about_faculty_Mr_CH_Wagh
+
+- story: User asks about Mr. A. K. Mali
+  steps:
+    - intent: Civil_faculty_Mr_AK_Mali
+    - action: utter_about_faculty_Mr_AK_Mali
+
+- story: User asks about Mr. A. K. Kokane
+  steps:
+    - intent: Civil_faculty_Mr_AK_Kokane
+    - action: utter_about_faculty_Mr_AK_Kokane
+
   # Mechanical dept
 - story: ME_DEPT
   steps:
@@ -442,6 +498,112 @@ stories:
     - action: utter_response_ME_missions
     - intent: ME_labs
     - action: utter_response_ME_labs
+##Testing
+- story: Mechanical Faculty - Dr. BS Gavali
+  steps:
+      - intent: Mechanical_faculty_Dr_BS_Gavali
+      - action: utter_about_faculty_Dr_BS_Gavali
+
+- story: Mechanical Faculty - Dr. UA Dabade
+  steps:
+      - intent: Mechanical_faculty_Dr_UA_Dabade
+      - action: utter_about_faculty_Dr_UA_Dabade
+
+- story: Mechanical Faculty - Dr. KH Inamdar
+  steps:
+      - intent: Mechanical_faculty_Dr_KH_Inamdar
+      - action: utter_about_faculty_Dr_KH_Inamdar
+
+- story: Mechanical Faculty - Dr. SU Sapkal
+  steps:
+      - intent: Mechanical_faculty_Dr_SU_Sapkal
+      - action: utter_about_faculty_Dr_SU_Sapkal
+
+- story: Mechanical Faculty - Mr. BN Naik
+  steps:
+      - intent: Mechanical_faculty_Mr_BN_Naik
+      - action: utter_about_faculty_Mr_BN_Naik
+
+- story: Mechanical Faculty - Mr. SV Gaikwad
+  steps:
+      - intent: Mechanical_faculty_Mr_SV_Gaikwad
+      - action: utter_about_faculty_Mr_SV_Gaikwad
+
+- story: Mechanical Faculty - Mr. JM Dabir
+  steps:
+      - intent: Mechanical_faculty_Mr_JM_Dabir
+      - action: utter_about_faculty_Mr_JM_Dabir
+
+- story: Mechanical Faculty - Dr. MM Khot
+  steps:
+      - intent: Mechanical_faculty_Dr_MM_Khot
+      - action: utter_about_faculty_Dr_MM_Khot
+
+- story: Mechanical Faculty - Mr. AB Admuthe
+  steps:
+      - intent: Mechanical_faculty_Mr_AB_Admuthe
+      - action: utter_about_faculty_Mr_AB_Admuthe
+
+- story: Mechanical Faculty - Mr. PA Mane
+  steps:
+      - intent: Mechanical_faculty_Mr_PA_Mane
+      - action: utter_about_faculty_Mr_PA_Mane
+
+- story: Mechanical Faculty - Prof. VB Swami
+  steps:
+      - intent: Mechanical_faculty_Prof_VB_Swami
+      - action: utter_about_faculty_Prof_VB_Swami
+
+- story: Mechanical Faculty - Mr. AP Patil
+  steps:
+      - intent: Mechanical_faculty_Mr_AP_Patil
+      - action: utter_about_faculty_Mr_AP_Patil
+
+- story: Mechanical Faculty - Prof. RM Chanmanwar
+  steps:
+      - intent: Mechanical_faculty_Prof_RM_Chanmanwar
+      - action: utter_about_faculty_Prof_RM_Chanmanwar
+
+- story: Mechanical Faculty - Mr. SD Jagtap
+  steps:
+      - intent: Mechanical_faculty_Mr_SD_Jagtap
+      - action: utter_about_faculty_Mr_SD_Jagtap
+
+- story: Mechanical Faculty - Prof. PD Maskar
+  steps:
+      - intent: Mechanical_faculty_Prof_PD_Maskar
+      - action: utter_about_faculty_Prof_PD_Maskar
+
+- story: Mechanical Faculty - Prof. AS Bhandare
+  steps:
+      - intent: Mechanical_faculty_Prof_AS_Bhandare
+      - action: utter_about_faculty_Prof_AS_Bhandare
+
+- story: Mechanical Faculty - Prof. SM Arali
+  steps:
+      - intent: Mechanical_faculty_Prof_SM_Arali
+      - action: utter_about_faculty_Prof_SM_Arali
+
+- story: Mechanical Faculty - Prof. GR Undale
+  steps:
+      - intent: Mechanical_faculty_Prof_GR_Undale
+      - action: utter_about_faculty_Prof_GR_Undale
+
+- story: Mechanical Faculty - Ms. NS Nagmoti
+  steps:
+      - intent: Mechanical_faculty_Ms_NS_Nagmoti
+      - action: utter_about_faculty_Ms_NS_Nagmoti
+
+- story: Mechanical Faculty - Prof. DB Pawar
+  steps:
+      - intent: Mechanical_faculty_Prof_DB_Pawar
+      - action: utter_about_faculty_Prof_DB_Pawar
+
+- story: Mechanical Faculty - Prof. AS Patil
+  steps:
+      - intent: Mechanical_faculty_Prof_AS_Patil
+      - action: utter_about_faculty_Prof_AS_Patil
+
 
 
   # College Admissions
