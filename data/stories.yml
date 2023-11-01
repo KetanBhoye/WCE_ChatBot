@@ -163,9 +163,55 @@ stories:
     - intent: IT_Labs
     - action: utter_response_IT_Labs
 
+##Testing
+- story: User asks about Dr. Kulkarni Dinesh Balkrushna
+  steps:
+      - intent: IT_faculty_Dr_Kulkarni_Dinesh
+      - action: utter_about_faculty_Dr_Kulkarni_Dinesh
 
+- story: User asks about Dr. Sonavane Shefali Pratap
+  steps:
+      - intent: IT_faculty_Dr_Sonavane_Shefali
+      - action: utter_about_faculty_Dr_Sonavane_Shefali
 
+- story: User asks about Dr. Umbarkar Anantkumar Janardan
+  steps:
+      - intent: IT_faculty_Dr_Umbarkar_Anantkumar
+      - action: utter_about_faculty_Dr_Umbarkar_Anantkumar
 
+- story: User asks about Dr. Rathod Ravindra Ramkishan
+  steps:
+      - intent: IT_faculty_Dr_Rathod_Ravindra
+      - action: utter_about_faculty_Dr_Rathod_Ravindra
+
+- story: User asks about Dr. Chavan Umesh Balkrushna
+  steps:
+      - intent: IT_faculty_Dr_Chavan_Umesh
+      - action: utter_about_faculty_Dr_Chavan_Umesh
+
+- story: User asks about Mrs. Shirodkar Bharati Devidas
+  steps:
+      - intent: IT_faculty_Shirodkar_Bharati
+      - action: utter_about_faculty_Shirodkar_Bharati
+- story: User asks about Mrs. Manisha.S. Dabade
+  steps:
+      - intent: IT_faculty_Mrs_Manisha_Dabade
+      - action: utter_about_faculty_Mrs_Manisha_Dabade
+
+- story: User asks about Mr. Mayur G Rathi
+  steps:
+      - intent: IT_faculty_Mr_Mayur_Rathi
+      - action: utter_about_faculty_Mr_Mayur_Rathi
+
+- story: User asks about Mr. Narnaware Manish Balaji
+  steps:
+      - intent: IT_faculty_Mr_Narnaware_Manish
+      - action: utter_about_faculty_Mr_Narnaware_Manish
+
+- story: User asks about Dr. Kharat Prashant Krishnarao
+  steps:
+      - intent: IT_faculty_Dr_Kharat_Prashant
+      - action: utter_about_faculty_Dr_Kharat_Prashant
 - story: ETC_DEPT
   steps:
     - intent: ETC_info
@@ -182,6 +228,75 @@ stories:
     - action: utter_response_ETC_missions
     - intent: ETC_labs
     - action: utter_response_ETC_labs
+##Testing
+
+
+- story: User asks about Dr. B. G. Patil
+  steps:
+      - intent: Electronics_faculty_Dr_BG_Patil
+      - action: utter_about_faculty_Dr_BG_Patil
+
+- story: User asks about Mr. S. B. Dhaigude
+  steps:
+      - intent: Electronics_faculty_Mr_SB_Dhaigude
+      - action: utter_about_faculty_Mr_SB_Dhaigude
+
+- story: User asks about Mr. N. V. Marathe
+  steps:
+      - intent: Electronics_faculty_Mr_NV_Marathe
+      - action: utter_about_faculty_Mr_NV_Marathe
+
+- story: User asks about Dr. Mrs. A. A. Agashe
+  steps:
+      - intent: Electronics_faculty_Dr_Mrs_AA_Agashe
+      - action: utter_about_faculty_Dr_Mrs_AA_Agashe
+
+- story: User asks about Mr. S. K. Parchandekar
+  steps:
+      - intent: Electronics_faculty_Mr_SK_Parchandekar
+      - action: utter_about_faculty_Mr_SK_Parchandekar
+
+- story: User asks about Dr. S. D. Ruikar
+  steps:
+      - intent: Electronics_faculty_Dr_SD_Ruikar
+      - action: utter_about_faculty_Dr_SD_Ruikar
+
+- story: User asks about Dr. S. G. Tamhankar
+  steps:
+      - intent: Electronics_faculty_Dr_SG_Tamhankar
+      - action: utter_about_faculty_Dr_SG_Tamhankar
+
+- story: User asks about Mr. R. G. Mevekari
+  steps:
+      - intent: Electronics_faculty_Mr_RG_Mevekari
+      - action: utter_about_faculty_Mr_RG_Mevekari
+
+- story: User asks about Dr. Mrs. M. M. Patil
+  steps:
+      - intent: Electronics_faculty_Dr_Mrs_MM_Patil
+      - action: utter_about_faculty_Dr_Mrs_MM_Patil
+
+- story: User asks about Mrs. M. R. Khare
+  steps:
+      - intent: Electronics_faculty_Mrs_MR_Khare
+      - action: utter_about_faculty_Mrs_MR_Khare
+
+- story: User asks about Ms. S. U. Patil
+  steps:
+      - intent: Electronics_faculty_Ms_SU_Patil
+      - action: utter_about_faculty_Ms_SU_Patil
+
+- story: User asks about Mr. S. R. Khedkar
+  steps:
+      - intent: Electronics_faculty_Mr_SR_Khedkar
+      - action: utter_about_faculty_Mr_SR_Khedkar
+
+- story: User asks about Mrs. N. S. Babar
+  steps:
+      - intent: Electronics_faculty_Mrs_NS_Babar
+      - action: utter_about_faculty_Mrs_NS_Babar
+
+# Add more stories for other faculty members as needed
 
 # electrical dept
 - story: ELE_DEPT

@@ -91,7 +91,32 @@ intents:
   - Library_holdings
 
   - Examination_Section
+ ##IT faculty
+  - IT_faculty_Dr_Kulkarni_Dinesh
+  - IT_faculty_Dr_Sonavane_Shefali
+  - IT_faculty_Dr_Umbarkar_Anantkumar
+  - IT_faculty_Dr_Rathod_Ravindra
+  - IT_faculty_Dr_Chavan_Umesh
+  - IT_faculty_Shirodkar_Bharati
+  - IT_faculty_Dr_Kharat_Prashant
+  - IT_faculty_Mr_Narnaware_Manish
+  - IT_faculty_Mr_Mayur_Rathi
+  - IT_faculty_Mrs_Manisha_Dabade
 
+##Testing
+  - Electronics_faculty_Mr_SB_Dhaigude
+  - Electronics_faculty_Dr_BG_Patil
+  - Electronics_faculty_Mr_NV_Marathe
+  - Electronics_faculty_Dr_Mrs_AA_Agashe
+  - Electronics_faculty_Mr_SK_Parchandekar
+  - Electronics_faculty_Dr_SD_Ruikar
+  - Electronics_faculty_Dr_SG_Tamhankar
+  - Electronics_faculty_Mr_RG_Mevekari
+  - Electronics_faculty_Dr_Mrs_MM_Patil
+  - Electronics_faculty_Mrs_MR_Khare
+  - Electronics_faculty_Ms_SU_Patil
+  - Electronics_faculty_Mr_SR_Khedkar
+  - Electronics_faculty_Mrs_NS_Babar
 responses:
   utter_greet:
     - text: "Hey! How are you?"
@@ -304,6 +329,78 @@ responses:
           8. Post Graduate Lab 1
           9. Post Graduate Lab 2 (Research Lab)
 
+
+##Testing
+
+  utter_about_faculty_Dr_Kulkarni_Dinesh:
+    - text: >
+          Dr. Kulkarni Dinesh Balkrushna is a Professor in the IT Department.
+          He specializes in High Performance Computing, Parallel Computing, and Cloud Computing.
+          He joined the department on 20th December 1989 and is a regular faculty member.
+
+  utter_about_faculty_Dr_Sonavane_Shefali:
+    - text: >
+          Dr. Sonavane Shefali Pratap is an Associate Professor in the IT Department.
+          Her areas of expertise include Information/Network Security, Computer Vision, Data Science,
+          Theoretical Computer Science, and Block Chain.
+          She started her tenure on 19th December 2001 and is a regular faculty member.
+
+  utter_about_faculty_Dr_Umbarkar_Anantkumar:
+    - text: >
+          Dr. Umbarkar Anantkumar Janardan is an Assistant Professor in the IT Department.
+          His research interests encompass Soft Computing, Parallel Computing, Data Science,
+          Distributed Computing, Engineering Optimization, and Free and open-source software.
+          He joined the department on 30th October 2004 and is a regular faculty member.
+
+  utter_about_faculty_Dr_Rathod_Ravindra:
+    - text: >
+          Dr. Rathod Ravindra Ramkishan is an Assistant Professor in the IT Department.
+          His areas of expertise include Geographical Information System, Data Mining,
+          Theoretical Computer Science, and Data Science.
+          He became a part of the department on 11th January 2004 and is a regular faculty member.
+
+  utter_about_faculty_Dr_Chavan_Umesh:
+    - text: >
+          Dr. Chavan Umesh Balkrushna is an Assistant Professor in the IT Department.
+          His research interests include High Performance Computing, Artificial Intelligence,
+          Machine Learning, and Image Processing.
+          He joined the department on 29th April 2009 and is a regular faculty member.
+
+  utter_about_faculty_Shirodkar_Bharati:
+    - text: >
+          Mrs. Shirodkar Bharati Devidas is an Assistant Professor in the IT Department.
+          Her areas of expertise cover Data Structures, Wireless Networks, Soft Computing,
+          and Distributed Computing.
+          She started her tenure on 9th January 2009 and is a regular faculty member.
+
+  utter_about_faculty_Dr_Kharat_Prashant:
+    - text: >
+          Dr. Kharat Prashant Krishnarao is an Assistant Professor in the IT Department.
+          His research interests include Internet Protocol Technology, Wireless Networks,
+          and Internet of Things.
+          He joined the department on 1st January 1900 and is a regular faculty member.
+
+  utter_about_faculty_Mr_Narnaware_Manish:
+    - text: >
+          Mr. Narnaware Manish Balaji is an Assistant Professor in the IT Department.
+          His areas of expertise include Machine Learning, Artificial Intelligence, and Data Structures.
+          He became a faculty member on 21st April 2014 and is a regular faculty member.
+
+  utter_about_faculty_Mr_Mayur_Rathi:
+    - text: >
+          Mr. Mayur G Rathi is an Assistant Professor in the IT Department.
+          His research interests encompass Cloud Computing, Computer Networks,
+          and Software Engineering.
+          He is currently on a contract and is contributing as a faculty member.
+
+  utter_about_faculty_Mrs_Manisha_Dabade:
+    - text: >
+          Mrs. Manisha.S. Dabade is an Assistant Professor in the IT Department.
+          Her expertise lies in Machine Learning, Natural Language Processing,
+          and Software Testing.
+          She is also on a contract and is serving as a faculty member.
+  
+
   utter_response_IT_Faculty:
     - text: |
         * Faculty Members in the IT Department:
@@ -421,7 +518,85 @@ responses:
          B. Tech(Electronics) (1986) Intake - 60
          M. Tech(Electronics) (1986) Intake - 30
          You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
+##Testing
 
+  utter_about_faculty_Dr_BG_Patil:
+    - text: >
+        Dr. B. G. Patil is an Associate Professor in Electronics.
+        His degrees include M.E. in Electronics and Ph.D. in Electronics.
+        His research area includes Digital Image processing and Biomedical Signal Processing.
+
+  utter_about_faculty_Mr_SB_Dhaigude:
+    - text: >
+        Mr. S. B. Dhaigude is an Associate Professor in Electronics.
+        He holds a degree in M.E. in Electronics.
+        His research area is focused on Image Processing.
+
+  utter_about_faculty_Mr_NV_Marathe:
+    - text: >
+        Mr. N. V. Marathe is an Associate Professor in Electronics.
+        He holds a degree in M.E. in Electronics.
+        His research interests include Scheduling in Wireless Networks and Signals and Systems.
+
+  utter_about_faculty_Dr_Mrs_AA_Agashe:
+    - text: >
+        Dr. Mrs. A. A. Agashe is an Associate Professor in Electronics.
+        Her degrees include M.E. in Electronics and Ph.D. in Electronics.
+        Her research area is focused on Wireless Sensor Networks.
+
+  utter_about_faculty_Mr_SK_Parchandekar:
+    - text: >
+        Mr. S. K. Parchandekar is an Associate Professor in Electronics.
+        He holds a degree in M.E. in Electronics.
+        His research area includes VLSI Design and Power Electronics.
+
+  utter_about_faculty_Dr_SD_Ruikar:
+    - text: >
+        Dr. S. D. Ruikar is an Associate Professor in Electronics.
+        His degrees include M.E. in E&TC and Ph.D. in Electronics.
+        His research area encompasses Image processing, Signal Processing, and Machine Vision.
+
+  utter_about_faculty_Dr_SG_Tamhankar:
+    - text: >
+        Dr. S. G. Tamhankar is an Assistant Professor in Electronics.
+        His degrees include M.E. in Electronics and Ph.D. in Electronics.
+        His research interests are in Computer Networks, Cyber Physical Systems, and IoT.
+
+  utter_about_faculty_Mr_RG_Mevekari:
+    - text: >
+        Mr. R. G. Mevekari is an Assistant Professor in Electronics.
+        He holds a degree in M.E. in Electronics.
+        His research area includes Digital VLSI and Embedded System.
+
+  utter_about_faculty_Dr_Mrs_MM_Patil:
+    - text: >
+        Dr. Mrs. M. M. Patil is an Associate Professor in Electronics.
+        Her degrees include M.E. in Electronics and Ph.D. in Electronics.
+        Her research area encompasses Biomedical Image Processing and Embedded Systems.
+
+  utter_about_faculty_Mrs_MR_Khare:
+    - text: >
+        Mrs. M. R. Khare is an Assistant Professor in Electronics.
+        She holds a degree in M. Tech. in Electronics.
+        Her research interests include Biomedical Image Processing and Wireless Sensor Network.
+
+  utter_about_faculty_Ms_SU_Patil:
+    - text: >
+        Ms. S. U. Patil is an Assistant Professor in Electronics.
+        She holds a degree in M. Tech. in Electronics.
+        Her research area includes Pattern Recognition and Image Analysis, as well as Reinforcement Learning.
+
+  utter_about_faculty_Mr_SR_Khedkar:
+    - text: >
+        Mr. S. R. Khedkar is an Assistant Professor in Electronics.
+        He holds a degree in M. Tech. in Electronics.
+        His research area covers Embedded System Design and Digital Electronics.
+
+  utter_about_faculty_Mrs_NS_Babar:
+    - text: >
+        Mrs. N. S. Babar is an Assistant Professor in Electronics.
+        She holds a degree in M. Tech. in Electronics-Digital System.
+        Her research interests include Computer Vision and Deep Learning.
   utter_ETC_Faculty:
     - text: |
         * Dr. B. G. Patil
