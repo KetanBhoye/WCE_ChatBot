@@ -20,7 +20,6 @@ intents:
 
   - CSE_Dept
   - CSE_programs
-  - CSE_vision_mission
   - CSE_syllabus
   - CSE_faculty
   - CSE_hod
@@ -83,6 +82,7 @@ intents:
   - Admission_fee_structure
   - Admission_location
   - Admission_document
+  - Admission_process_date
   - Scholarships
 
   - Library_info
@@ -103,7 +103,6 @@ intents:
   - Organogram_Chart
 
 
-  - Examination_Section
  ##IT faculty
   - IT_faculty_Dr_Kulkarni_Dinesh
   - IT_faculty_Dr_Sonavane_Shefali
@@ -1437,6 +1436,8 @@ responses:
   utter_Entreprenureship_info:
     - text: |
         Walchand College of Engineering College has IEEE cell for Entreprenureship oportunities for students.
+        Click(Here)to know more about IEE Cell(https://project-wce.dreamkasper.com/pages/iee-cell)
+        
 
 
 # Institution Details

@@ -313,7 +313,6 @@ nlu:
     - Introduce me to Dr. Kulkarni Dinesh Balkrushna
     - Who teaches as Dr. Kulkarni Dinesh Balkrushna
     - Dr. Kulkarni Dinesh Balkrushna's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Kulkarni Dinesh Balkrushna
     - kulkarni dinesh
     - Dinesh Balkrushna
@@ -336,7 +335,6 @@ nlu:
     - Introduce me to Dr. Sonavane Shefali Pratap
     - Who teaches as Dr. Sonavane Shefali Pratap
     - Dr. Sonavane Shefali Pratap's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Sonavane Shefali Pratap
     - sonavane shefali
     - Shefali Pratap
@@ -359,7 +357,6 @@ nlu:
     - Introduce me to Dr. Umbarkar Anantkumar Janardan
     - Who teaches as Dr. Umbarkar Anantkumar Janardan
     - Dr. Umbarkar Anantkumar Janardan's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Umbarkar Anantkumar Janardan
     - umbarkar anantkumar
     - Anantkumar Janardan
@@ -382,7 +379,6 @@ nlu:
     - Introduce me to Dr. Rathod Ravindra Ramkishan
     - Who teaches as Dr. Rathod Ravindra Ramkishan
     - Dr. Rathod Ravindra Ramkishan's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Rathod Ravindra Ramkishan
     - rathod ravindra
     - Ravindra Ramkishan
@@ -407,7 +403,6 @@ nlu:
     - Introduce me to Dr. Chavan Umesh Balkrushna
     - Who teaches as Dr. Chavan Umesh Balkrushna
     - Dr. Chavan Umesh Balkrushna's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Chavan Umesh Balkrushna
     - chavan umesh
     - Umesh Balkrushna
@@ -416,7 +411,7 @@ nlu:
 
 - intent: IT_faculty_Shirodkar_Bharati
   examples: |
-    - Who is Mrs. Shirodkar Bharati Devidas
+    - Who is Mrs. Shirodkar Bharati Devidasr
     - Tell me about Mrs. Shirodkar Bharati Devidas
     - Mrs. Shirodkar Bharati Devidas
     - Who is Mrs. Shirodkar Bharati
@@ -431,7 +426,6 @@ nlu:
     - Introduce me to Mrs. Shirodkar Bharati Devidas
     - Who teaches as Mrs. Shirodkar Bharati Devidas
     - Mrs. Shirodkar Bharati Devidas's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Shirodkar Bharati Devidas
     - shirodkar bharati
     - Bharati Devidas
@@ -454,7 +448,6 @@ nlu:
     - Introduce me to Dr. Kharat Prashant Krishnarao
     - Who teaches as Dr. Kharat Prashant Krishnarao
     - Dr. Kharat Prashant Krishnarao's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Kharat Prashant Krishnarao
     - kharat prashant
     - Prashant Krishnarao
@@ -478,7 +471,6 @@ nlu:
     - Introduce me to Mr. Narnaware Manish Balaji
     - Who teaches as Mr. Narnaware Manish Balaji
     - Mr. Narnaware Manish Balaji's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Narnaware Manish Balaji
     - narnaware manish
     - Manish Balaji
@@ -502,7 +494,6 @@ nlu:
     - Introduce me to Mr. Mayur G Rathi
     - Who teaches as Mr. Mayur G Rathi
     - Mr. Mayur G Rathi's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Mayur G Rathi
     - mayur rathi
     - Mayur Rathi
@@ -525,7 +516,6 @@ nlu:
     - Introduce me to Mrs. Manisha.S. Dabade
     - Who teaches as Mrs. Manisha.S. Dabade
     - Mrs. Manisha.S. Dabade's expertise
-    # Add variations without prefix, in lowercase, and using first/last name
     - Manisha.S. Dabade
     - manisha dabade
     - Manisha Dabade
@@ -616,7 +606,7 @@ nlu:
     - Tell me about Dr. B. G. Patil.
     - What can you tell me about Dr. B. G. Patil?
     - Dr. Patil's research area.
-    - What are Dr. Patil's degrees?
+    - What are Dr. BG Patil's degrees?
     - B. G. Patil biography.
     - Give me information about Dr. Patil in electronics faculty.
     - Share details on Dr. B. G. Patil's academic background.
@@ -752,7 +742,7 @@ nlu:
     - Tell me about Dr. Mrs. M. M. Patil.
     - What can you tell me about Dr. Mrs. M. M. Patil?
     - Dr. Patil's research interests.
-    - What are Dr. Patil's degrees?
+    - What are Dr. MM Patil's degrees?
     - M. M. Patil biography.
     - Give me information about Dr. Mrs. M. M. Patil in electronics faculty.
     - Share details on Dr. Mrs. M. M. Patil's academic background.
@@ -1070,8 +1060,8 @@ nlu:
     - Who is Dr. D. R. Patil?
     - Tell me about Dr. D. R. Patil.
     - What can you tell me about Dr. D. R. Patil?
-    - Dr. Patil's research area.
-    - What are Dr. Patil's degrees?
+    - Dr. DR Patil's research area.
+    - What are Dr. DR Patil's degrees?
     - D. R. Patil biography.
     - Give me information about Dr. D. R. Patil in electrical faculty.
     - Share details on Dr. D. R. Patil's academic background.
@@ -1390,7 +1380,8 @@ nlu:
     - how to take pg admission in wce?
     - wce admissions pg
     - admissions post graduate in wce 
-    - college admissions ug
+    - college admissions PG
+    - admission pg
     - admissions of postgraduate college
     - clg admission details of pg
 
@@ -1508,6 +1499,7 @@ nlu:
     - placements of 22 23 batch
     - placement info of academic year 2023
     - placement record 
+    - placement 2023
     - placement details 2023
     - placement details 22 23
     - How was the overall placement rate in 2023?
@@ -1612,7 +1604,6 @@ nlu:
     - Placements in 2020?
     - Any notable placements in 2020?
     - What can you tell me about 2020 placements?
-     
 
 #  Entreprenureship
 

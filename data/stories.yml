@@ -299,37 +299,94 @@ stories:
 # Add more stories for other faculty members as needed
 
 # electrical dept
+- story: User asks about Dr. D. S. More
+  steps:
+    - intent: Electrical_faculty_Dr_DS_More
+    - action: utter_about_faculty_Dr_DS_More
+
+- story: User asks about Dr. A. P. Vaidya
+  steps:
+    - intent: Electrical_faculty_Dr_AP_Vaidya
+    - action: utter_about_faculty_Dr_AP_Vaidya
+
+- story: User asks about Mr. A. B. Patil
+  steps:
+    - intent: Electrical_faculty_Mr_AB_Patil
+    - action: utter_about_faculty_Mr_AB_Patil
+
+- story: User asks about Mr. N. V. Patel
+  steps:
+    - intent: Electrical_faculty_Mr_NV_Patel
+    - action: utter_about_faculty_Mr_NV_Patel
+
+- story: User asks about Dr. M. M. Waware
+  steps:
+    - intent: Electrical_faculty_Dr_MM_Waware
+    - action: utter_about_faculty_Dr_MM_Waware
+
+- story: User asks about Mrs. S. L. Shaikh
+  steps:
+    - intent: Electrical_faculty_Mrs_SL_Shaikh
+    - action: utter_about_faculty_Mrs_SL_Shaikh
+
+- story: User asks about Dr. R. P. Hasabe
+  steps:
+    - intent: Electrical_faculty_Dr_RP_Hasabe
+    - action: utter_about_faculty_Dr_RP_Hasabe
+
+- story: User asks about Mrs. S. P. Diwan
+  steps:
+    - intent: Electrical_faculty_Mrs_SP_Diwan
+    - action: utter_about_faculty_Mrs_SP_Diwan
+
+- story: User asks about Mr. S. S. Karvekar
+  steps:
+    - intent: Electrical_faculty_Mr_SS_Karvekar
+    - action: utter_about_faculty_Mr_SS_Karvekar
+
+- story: User asks about Mr. V. P. Mohale
+  steps:
+    - intent: Electrical_faculty_Mr_VP_Mohale
+    - action: utter_about_faculty_Mr_VP_Mohale
+
+
+- story: User asks about Dr. D. R. Patil
+  steps:
+    - intent: Electrical_faculty_Dr_DR_Patil
+    - action: utter_about_faculty_Dr_DR_Patil
+
+- story: User asks about Mr. K. A. Mhaskar
+  steps:
+    - intent: Electrical_faculty_Mr_KA_Mhaskar
+    - action: utter_about_faculty_Mr_KA_Mhaskar
+
+- story: User asks about Mrs. A. S. Karvekar
+  steps:
+    - intent: Electrical_faculty_Mrs_AS_Karvekar
+    - action: utter_about_faculty_Mrs_AS_Karvekar
+
+- story: User asks about Mrs. A. A. Dhamangaonkar
+  steps:
+    - intent: Electrical_faculty_Mrs_AA_Dhamangaonkar
+    - action: utter_about_faculty_Mrs_AA_Dhamangaonkar
+
+- story: User asks about Mr. R. G. Datar
+  steps:
+    - intent: Electrical_faculty_Mr_RG_Datar
+    - action: utter_about_faculty_Mr_RG_Datar
+
+- story: User asks about Ms. M. M. Tahmankar
+  steps:
+    - intent: Electrical_faculty_Ms_MM_Tahmankar
+    - action: utter_about_faculty_Ms_MM_Tahmankar
+
+- story: User asks about Mr. M. S. Mahagaonkar
+  steps:
+    - intent: Electrical_faculty_Mr_MS_Mahagaonkar
+    - action: utter_about_faculty_Mr_MS_Mahagaonkar
+
 
 ##Testing
-- story: Electrical_faculty_Mr_KA_Mhaskar
-  steps:
-  - intent: Electrical_faculty_Mr_KA_Mhaskar
-  - action: action_provide_faculty_info
-
-- story: Electrical_faculty_Mrs_AS_Karvekar
-  steps:
-  - intent: Electrical_faculty_Mrs_AS_Karvekar
-  - action: action_provide_faculty_info
-
-- story: Electrical_faculty_Mrs_AA_Dhamangaonkar
-  steps:
-  - intent: Electrical_faculty_Mrs_AA_Dhamangaonkar
-  - action: action_provide_faculty_info
-
-- story: Electrical_faculty_Mr_RG_Datar
-  steps:
-  - intent: Electrical_faculty_Mr_RG_Datar
-  - action: action_provide_faculty_info
-
-- story: Electrical_faculty_Ms_MM_Tahmankar
-  steps:
-  - intent: Electrical_faculty_Ms_MM_Tahmankar
-  - action: action_provide_faculty_info
-
-- story: Electrical_faculty_Mr_MS_Mahagaonkar
-  steps:
-  - intent: Electrical_faculty_Mr_MS_Mahagaonkar
-  - action: action_provide_faculty_info
 
 
 
