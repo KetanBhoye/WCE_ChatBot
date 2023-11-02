@@ -149,6 +149,18 @@ nlu:
       - ways to reach college
       - what are travelling options to reach college.
 
+  - intent: clg_contact_us
+    examples: |
+      - what is college contact us?
+      - what is college mo number?
+      - Can you tell me the contact info of the college?
+      - What's the college contact info?
+      - Give me contact of college
+      - Give me email of college
+      - contact us clg
+      - Wce contact info
+
+
   - intent: CSE_Dept
     examples: |
       - CSE Department?
@@ -2093,6 +2105,34 @@ nlu:
       - exam section
       - examination section
       - exam cell
+
+  - intent: Examination_Staff
+    examples: |
+      - give information about examination section staff
+      - where is exam staff
+      - staff of exam section
+      - examination section workers
+      - exam cell faculty
+      - staff exam cell
+
+  - intent: Examination_rules
+    examples: |
+      - give information about examination rules
+      - what are exam rules
+      - rules of exam 
+      - examination section rules and regulations
+      - exam cell r&r decipline
+      - ethics of exam 
+
+  - intent: Examination_team
+    examples: |
+      - give info about examination team
+      - what are exam committee
+      - team of exam section
+      - examination section committee
+      - exam cell committee
+      - team of exam cell
+      - examination committee
   
 
   # Library Info
@@ -2283,3 +2323,47 @@ nlu:
       - Organization chart
       - org chart
       - authority chart
+      
+
+# Infrastructure
+
+  - intent: College_infrastructure
+    examples: |
+      - college area
+      - college campus area
+      - college acers
+      - how many acers in which college have.
+      - Where is the principal's office located?
+      - Can you tell me the location of the administrative block?
+      - Where is the staff room situated?
+      - Tell me about the administrative block.
+      - What's in the principal's office?
+      - Describe the staff room facilities.
+      - Can you provide information about the common room?
+      - Tell me about the canteen on campus.
+      - Describe the auditorium facilities.
+      - What about internet facilities on campus?
+      - Share details about medical facilities.
+      - How are the transport facilities at the college?
+      - Any other facilities on campus?
+      - Could you provide the location of the common room for students?
+      - Where can I find the canteen on the campus?
+      - Tell me the exact location of the college auditorium.
+      - Where are the internet facilities available for students and staff?
+      - Can you specify the location of the medical facilities provided by the college?
+      - Where can I access the transport facilities within the college?
+      - Can you provide information about other essential locations or facilities within the college campus?
+      - What is the total land area available for the college?
+      - Is the land registered in the name of the college?
+      - How many classrooms are there, and what is the total covered area in square feet?
+      - How many laboratories are available, and what is the total covered area in square feet?
+      - Tell me about the central library, including its total carpet area and the availability of a reading room.
+      - Are there departmental libraries available, and if so, can you provide details?
+      - How many hostel rooms are there, and how many students do they accommodate for both men and women?
+      - Can you provide information about various facilities, such as administrative block, principal's office, staff room, common room, canteen, auditorium, internet facilities, medical facilities, transport facilities, and others?
+      - What sports facilities are available, including indoor/outdoor facilities, playgrounds, fitness equipment, and sports coaches?
+      - How many buildings are there on the campus, and what is the total covered area in square feet?
+      - Is the college website available and regularly updated, and if so, what is the website address?
+      - College area in acres?
+      - Campus area in acres?
+      

@@ -16,6 +16,7 @@ intents:
   - College_reach_options
   - college_missions
   - college_visions
+  - clg_contact_us
 
 
   - CSE_Dept
@@ -95,12 +96,18 @@ intents:
   - Placement_2021
   - Placement_2020
 
+  - Examination_team
   - Examination_Section
+  - Examination_Staff
+  - Examination_rules
+
 
   - Entreprenureship_info
 
   - Director_info
   - Organogram_Chart
+
+  - College_infrastructure
 
 
  ##IT faculty
@@ -206,6 +213,16 @@ responses:
 
   utter_clg_name:
     - text: "The college name is Walchand College of Engineering, Sangli, and it is commonly referred to as WCE for short."
+
+  utter_clg_contact_us:
+    - text: |
+        Contact info :
+        
+        Walchand College of Engineering
+        Vishrambag, Sangli - 416415 Maharashtra, India
+        Tel.No. : +91-233-2300383
+        Fax : +91-233-2300831
+        
 
   utter_clg_degrees:
     - text: |
@@ -1545,27 +1562,74 @@ responses:
         A course teacher shall show the evaluated answer books after ISE, MSE and ESE examination to the students before finalization of the grades.
         The Examination Section is established with the aim of establishing and enhancing the examination systems, so as to ensure the conduct of all examinations with fairness, sanctity, transparency, and with a systematic approach. The Examination Section shall ensure, smooth and organized conduct of examinations and related activities. Controller of Examinations will head the Examination Section and propose examination reforms and innovative assessment methods as and when needed so as to improve the examination system.
 
+  utter_Examination_Staff:
+    - text: |
+        Supporting Staff :
+        
+        1. Mr. Sachin M. Jadhav
+        2. Mr. Madhu Garate
+        3. Mr. Raju Vader
+        4. Mr. Rahul Shirote
+        5. Mrs. Pallavi Shirote
+        6. Mrs. Surabhi Patil
+        7. Mrs. Shruti Bandgar
+        8. Mr. Akshay Vanjari
+        9. Mr. Sarang Manjarekar
+        10.Mr. Bhikaji Kamble
+
+  utter_Examination_rules:
+    - text: |
+        Here Are the Examination Rules (Click)(https://images.dreamkasper.com/walchandsangli/documents/Academic%20and%20Examination%20RRs%20AY%2022-231678857391785.pdf)
+
+  utter_Examination_team:
+    - text: |
+        Examination Control Team:
+  
+        Dr. P. G. Sonavane - Director Chief Controller of Examination
+        Dr. S. P. Sonavane - Dean Academics
+        Dr. Prashant K. Kharat - Controller of Examination
+        Dr. U. V. Pise - Controller of Examination, GCE Karad
+        Dr. D. S. More - P. G. Coordinator
+        Mr. C. H. Wagh - Deputy Controller of Examination, Civil Engineering
+        Dr. B. N. Naik - Deputy Controller of Examination, Mechanical Engineering
+        Mr. S. S. Karvekar - Deputy Controller of Examination, Electrical Engineering
+        Mr. R. G. Mevekari - Deputy Controller of Examination, Electronics Engineering
+        Ms. A. S. Pawar - Deputy Controller of Examination, Computer Science and Engineering
+        Mr. U. B. Chavan - Deputy Controller of Examination, Information Technology
+        Dr. B. N. Jamadar - Deputy Controller of Examination, First Year
 # Placements
 
   utter_Placement_2023:
     - text: |
         Placements details are as follows :
-        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+        2020 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
+        2021 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
+        2022 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+        2023 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
 
   utter_Placement_2022:
     - text: |
         Placements details are as follows :
-        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+        2020 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
+        2021 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
+        2022 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+        2023 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
 
   utter_Placement_2021:
     - text: |
         Placements details are as follows :
-        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pdf)
+        2020 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
+        2021 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
+        2022 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+        2023 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
 
   utter_Placement_2020:
     - text: |
         Placements details are as follows :
-        (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
+        2020 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
+        2021 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
+        2022 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+        2023 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
 
   utter_Entreprenureship_info:
     - text: |
@@ -1583,6 +1647,14 @@ responses:
   utter_Organogram_Chart:
     - text: |
         Here is the Organogram Chart(Click)(https://project-wce.dreamkasper.com/pages/wce-organogram)
+
+
+# Infrastructure Details
+
+  utter_College_infrastructure:
+    - text: |
+        Here are the details of College Infrastructure. (Click) (file:///E:/WCE/TY/MP/Website%20Data/Tandesir_Infrastructure/IV-%20Infrastructure%20facility.pdf)
+        
 
 session_config:
   session_expiration_time: 60

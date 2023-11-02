@@ -49,6 +49,10 @@ stories:
   - action: utter_response_college_visions
   - intent: college_missions
   - action: utter_response_college_missions
+  - intent: clg_contact_us
+  - action: utter_clg_contact_us
+
+
 
 
 - story: college_founders
@@ -628,8 +632,12 @@ stories:
   steps:
     - intent: Examination_Section
     - action: utter_Examination_Section
-
-
+    - intent: Examination_Staff
+    - action: utter_Examination_Staff
+    - intent: Examination_rules
+    - action: utter_Examination_rules
+    - intent: Examination_team
+    - action: utter_Examination_team
 
 
 
@@ -677,3 +685,11 @@ stories:
     - action: utter_Director_info
     - intent: Organogram_Chart
     - action: utter_Organogram_Chart
+
+
+# Infrastructure Details
+
+- story: Infrastructure_Details
+  steps:
+    - intent: College_infrastructure
+    - action: utter_College_infrastructure
