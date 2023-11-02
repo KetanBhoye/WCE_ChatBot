@@ -686,6 +686,78 @@ stories:
     - intent: Organogram_Chart
     - action: utter_Organogram_Chart
 
+##Gymkhana
+
+- story: Gymkhana Inquiry
+  steps:
+    - intent: ask_about_gymkhana
+    - action: utter_ask_about_gymkhana
+
+- story: Sports Facilities Inquiry
+  steps:
+    - intent: ask_about_sports_facilities
+    - action: utter_ask_about_sports_facilities
+
+- story: Sports Events Inquiry
+  steps:
+    - intent: ask_about_sports_events
+    - action: utter_ask_about_sports_events
+
+- story: Contact Information Inquiry
+  steps:
+    - intent: ask_about_contact_information
+    - action: utter_ask_about_contact_information
+
+- story: Gymkhana Objectives Inquiry
+  steps:
+    - intent: ask_about_objectives
+    - action: utter_ask_about_objectives
+
+- story: Gymkhana Achievements Inquiry
+  steps:
+    - intent: ask_about_achievements
+    - action: utter_ask_about_achievements
+
+- story: Gymkhana Equipment Inquiry
+  steps:
+    - intent: ask_about_gymkhana_equipment
+    - action: utter_ask_about_gymkhana_equipment
+
+- story: Gymkhana Membership Inquiry
+  steps:
+    - intent: ask_about_membership
+    - action: utter_ask_about_membership
+
+- story: Help Request
+  steps:
+    - intent: ask_for_help
+    - action: utter_ask_for_help
+
+- story: Positive Feedback
+  steps:
+    - intent: give_feedback
+    - action: utter_give_feedback
+
+- story: Location Inquiry
+  steps:
+    - intent: ask_for_location
+    - action: utter_ask_for_location
+
+- story: Training Inquiry
+  steps:
+    - intent: ask_about_training
+    - action: utter_ask_about_training
+
+- story: Events Schedule Inquiry
+  steps:
+    - intent: ask_about_events_schedule
+    - action: utter_ask_about_events_schedule
+
+- story: Health and Safety Inquiry
+  steps:
+    - intent: ask_about_health_and_safety
+    - action: utter_ask_about_health_and_safety
+
 
 # Infrastructure Details
 

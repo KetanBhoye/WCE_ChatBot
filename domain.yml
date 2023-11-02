@@ -191,6 +191,21 @@ intents:
   - Mechanical_faculty_Prof_AS_Patil
 
 
+##Gymkhana
+  - ask_about_gymkhana
+  - ask_about_sports_facilities
+  - ask_about_sports_events
+  - ask_about_contact_information
+  - ask_about_objectives
+  - ask_about_achievements
+  - ask_about_gymkhana_equipment
+  - ask_about_membership
+  - ask_for_help
+  - give_feedback
+  - ask_for_location
+  - ask_about_training
+  - ask_about_events_schedule
+  - ask_about_health_and_safety
 responses:
   utter_greet:
     - text: "Hey! How are you?"
@@ -213,6 +228,7 @@ responses:
 
   utter_clg_name:
     - text: "The college name is Walchand College of Engineering, Sangli, and it is commonly referred to as WCE for short."
+      image: "https://gumlet.assettype.com/theceo%2Fimport%2F2017%2F05%2FMain-Administrative-Building-of-Walchand-College-of-Engi-1.jpg?auto=format%2Ccompress&fit=max&w=768&dpr=1.3"
 
   utter_clg_contact_us:
     - text: |
@@ -235,7 +251,8 @@ responses:
     - text: "For academic details, you can visit [here](https://www.walchandsangli.ac.in/academics2324.asp)."
 
   utter_response_about_college:
-    - text: |
+    - image: "https://gumlet.assettype.com/theceo%2Fimport%2F2017%2F05%2FMain-Administrative-Building-of-Walchand-College-of-Engi-1.jpg?auto=format%2Ccompress&fit=max&w=768&dpr=1.3"
+      text: |
         * Walchand College of Engineering (WCE), situated in Sangli, Maharashtra, India, was established in 1947.
         * It offers a wide range of undergraduate and postgraduate engineering programs in branches such as Civil Engineering, Computer Science and Engineering, Electrical Engineering, Electronics Engineering, Information Technology, and Mechanical Engineering.
         * With a sprawling 90-acre campus known for its greenery and wildlife, modern facilities, and notable alumni, WCE continues to be a leading institution dedicated to delivering quality engineering education.
@@ -326,6 +343,7 @@ responses:
         * Her leadership plays a crucial role in the department's academic and research endeavors.
         * Office: 0233-2303115
         * More information can be found on the department's website at Department of Computer Science and Engineering.
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1594382795416.jpg"
 
   utter_response_CSE_faculty_BF_Momin:
     - text: |
@@ -333,29 +351,36 @@ responses:
           - Qualifications: Ph.D. in CSE, M.E. in CSE
           - Research Area: Pattern Recognition, Soft Computing, Data Mining, AI & Machine Learning, IoT.
 
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1594379441535.png"
+
   utter_response_CSE_faculty_AR_Surve:
     - text: |
         * Mr. A.R. Surve (Assistant Professor)
           - Qualifications: Pursuing Ph.D. in CSE, M.E. in CSE
           - Research Area: Focuses on IoT-enabled Context-Aware Smart Computing.
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1595658072168.png"
+
 
   utter_response_CSE_Faculty_MA_Shah:
     - text: |
         * Dr. M. A. Shah (H.O.D. CSE)
           - Qualifications: Ph.D. in CSE, M.E. in CSE
           - Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking.
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1594379441535.png"
 
   utter_response_CSE_Faculty_NL_Gavankar:
     - text: |
         * Dr. N. L. Gavankar (Assistant Professor)
           - Qualifications: Ph.D., M.E. in CSE
           - Research Area: Specializes in Image Processing, Remote Sensing, and GIS.
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1596390175386.jpg"
 
   utter_response_CSE_Faculty_MK_Chavan:
     - text: |
         * Mr. M. K. Chavan (Assistant Professor)
           - Qualifications: M.E. in CSE
           - Research Area: Focused on Cryptography and Network Security, as well as Computer Network.
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1594383140665.jpg"
 
   utter_response_CSE_missions:
     - text: |
@@ -1579,7 +1604,7 @@ responses:
 
   utter_Examination_rules:
     - text: |
-        Here Are the Examination Rules (Click)(https://images.dreamkasper.com/walchandsangli/documents/Academic%20and%20Examination%20RRs%20AY%2022-231678857391785.pdf)
+        Here Are the Examination Rules [Click here](https://images.dreamkasper.com/walchandsangli/documents/Academic%20and%20Examination%20RRs%20AY%2022-231678857391785.pdf)
 
   utter_Examination_team:
     - text: |
@@ -1638,24 +1663,72 @@ responses:
         
 
 
+##Gymkahana
+
+  utter_ask_about_gymkhana:
+    - text: "The Gymkhana department is responsible for managing all sports and extracurricular activities in the college. It offers a variety of sports facilities and organizes numerous events throughout the year."
+
+  utter_ask_about_sports_facilities:
+    - text: "We have a wide range of sports facilities including basketball courts, tennis courts, a football field, and a fully equipped gymnasium."
+
+  utter_ask_about_sports_events:
+    - text: "We organize various sports events and competitions throughout the year. Students can participate in inter-collegiate tournaments, athletics meets, and intramural sports."
+
+  utter_ask_about_contact_information:
+    - text: "You can contact the Gymkhana department via email at gymkhana@college.edu or by phone at +1234567890. The chairman of the Students Extra-curricular Activity Committee is Mr. John Doe."
+
+  utter_ask_about_objectives:
+    - text: "The main objective of the Gymkhana department is to promote physical fitness and teamwork among students. We aim to develop various skills such as leadership, discipline, and perseverance through sports and extracurricular activities."
+
+  utter_ask_about_achievements:
+    - text: "Our students have achieved great success in various sports at the national and international levels. Last year, our football team won the inter-collegiate championship, and several of our athletes qualified for national level tournaments."
+
+  utter_ask_about_gymkhana_equipment:
+    - text: "The Gymkhana gym is fully equipped with a variety of machines and equipment for strength training, cardiovascular exercises, and flexibility workouts."
+
+  utter_ask_about_membership:
+    - text: "You can become a member of the Gymkhana by filling out a registration form and paying the membership fee. The fees for accessing the sports facilities are very nominal."
+
+  utter_ask_for_help:
+    - text: "If you need help with sports registration or have any queries about joining a sports team, feel free to contact the Gymkhana department or visit us during office hours."
+
+  utter_give_feedback:
+    - text: "Thank you for your positive feedback! We are glad to hear that you had a great experience. We continuously strive to improve our facilities and coaching to provide the best experience to all students."
+
+  utter_ask_for_location:
+    - text: "The Gymkhana department is located near the sports ground. You can follow the signs on campus or ask any staff member for directions."
+
+  utter_ask_about_training:
+    - text: "We offer training sessions for beginners in various sports. You can get coaching for badminton and other sports by enrolling in our training programs."
+
+  utter_ask_about_events_schedule:
+    - text: "You can check the sports events calendar on our college website for the schedule of upcoming matches and tournaments. The next cricket match is scheduled for next Saturday at 10 AM."
+
+  utter_ask_about_health_and_safety:
+    - text: "Safety is our top priority during all sports activities. We have implemented various safety measures and protocols to ensure the well-being of all participants. There is also a first aid kit available on the sports ground for any emergencies."
+
+
 # Institution Details
 
   utter_Director_info:
     - text: |
-        Prof. Dr. Uday A. Dabade (Click Here)(https://project-wce.dreamkasper.com/pages/Director)
+        Prof. Dr. Uday A. Dabade [Click here](https://project-wce.dreamkasper.com/pages/Director)
 
   utter_Organogram_Chart:
     - text: |
-        Here is the Organogram Chart(Click)(https://project-wce.dreamkasper.com/pages/wce-organogram)
+        Here is the Organogram Chart[Click here](https://project-wce.dreamkasper.com/pages/wce-organogram)
 
 
 # Infrastructure Details
 
   utter_College_infrastructure:
     - text: |
-        Here are the details of College Infrastructure. (Click) (file:///E:/WCE/TY/MP/Website%20Data/Tandesir_Infrastructure/IV-%20Infrastructure%20facility.pdf)
+        Here are the details of College Infrastructure. [Click here] (https://project-wce.dreamkasper.com/pages/department-infrastructure)
         
 
+
+actions:
+  - action_default_fallback
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

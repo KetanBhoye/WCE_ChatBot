@@ -186,45 +186,113 @@ nlu:
 
   #CSE Faculty Section.
 
-  - intent: CSE_faculty
+  - intent: CSE_Faculty
     examples: |
-      - who are cse faculties
-      - CSE faculties
+      - Who are CSE faculties?
+      - cse faculties
       - CSE Faculty
-
+      - List of CSE professors
+      - Tell me about computer science faculty
+      - Computer science teachers
+      - Faculty members in CSE department
+      - Name the professors in CSE
+      - Who teaches computer science?
+      - Show CSE lecturers
+      - CSE department staff
+      - Faculty information for CSE
+      - Computer science educators
+      - Give me CSE faculty details
+      - Academic staff in computer science
 
   - intent: CSE_faculty_BF_Momin
     examples: |
-      - Who is B.F Momin
+      - Who is B.F Momin?
       - B.F Momin
-      - Who is Dr B.F Momin
+      - Who is Dr B.F Momin?
+      - About B.F Momin
+      - Professor Momin in CSE
+      - Information on B.F Momin
+      - CSE teacher B.F Momin
+      - Tell me about Dr Momin
+      - B.F Momin details
+      - Dr B.F Momin in CSE
+      - Faculty member B.F Momin
+      - CSE lecturer B.F Momin
+      - Professor in computer science B.F Momin
+      - B.F Momin's role in CSE
+      - Educator B.F Momin
 
   - intent: CSE_faculty_AR_Surve
     examples: |
-      - Who is A.R Surve
-      - A.R surve
-      - who is AR Surve
-      - who is Mr A.R Surve
+      - Who is A.R Surve?
+      - A.R Surve
+      - Who is AR Surve?
+      - Who is Mr A.R Surve?
+      - About A.R Surve
+      - Tell me about Dr. A.R Surve
+      - A.R Surve in CSE
+      - Dr A.R Surve details
+      - A.R Surve's role in the department
+      - Professor A.R Surve
+      - CSE faculty member AR Surve
+      - A.R Surve's work in computer science
+      - Educator A.R Surve
+      - CSE lecturer A.R Surve
+      - A.R Surve's background in CSE
 
   - intent: CSE_Faculty_MA_Shah
     examples: |
-      - Who is M.A Shah
-      - Who is Dr M.A Shah
+      - Who is M.A Shah?
+      - Who is Dr M.A Shah?
       - M.A Shah
+      - Professor M.A Shah
+      - About M.A Shah
+      - Tell me about Dr. M.A Shah
+      - M.A Shah in CSE
+      - Dr M.A Shah details
+      - M.A Shah's role in the department
+      - CSE faculty member M.A Shah
+      - M.A Shah's work in computer science
+      - Educator M.A Shah
+      - CSE lecturer M.A Shah
+      - M.A Shah's background in CSE
+      - Professor in computer science M.A Shah
 
   - intent: CSE_Faculty_NL_Gavankar
     examples: |
-      - Who is N.L Gavankar
-      - Who is Dr N.L Gavankar
+      - Who is N.L Gavankar?
+      - Who is Dr N.L Gavankar?
       - N.L Gavankar
-      - CSE Academics Head
+      - About N.L Gavankar
+      - Tell me about Dr. N.L Gavankar
+      - N.L Gavankar in CSE
+      - Dr N.L Gavankar details
+      - N.L Gavankar's role in the department
+      - CSE faculty member N.L Gavankar
+      - N.L Gavankar's work in computer science
+      - Educator N.L Gavankar
+      - CSE lecturer N.L Gavankar
+      - N.L Gavankar's background in CSE
+      - Professor in computer science N.L Gavankar
+      - Information on N.L Gavankar
 
   - intent: CSE_Faculty_MK_Chavan
     examples: |
-      - Who is M.K Chavan
+      - Who is M.K Chavan?
       - M.K Chavan
-      - Who is Mr. M.K Chavan
-
+      - Who is Mr. M.K Chavan?
+      - About M.K Chavan
+      - Tell me about Dr. M.K Chavan
+      - M.K Chavan in CSE
+      - Dr M.K Chavan details
+      - M.K Chavan's role in the department
+      - CSE faculty member M.K Chavan
+      - M.K Chavan's work in computer science
+      - Educator M.K Chavan
+      - CSE lecturer M.K Chavan
+      - M.K Chavan's background in CSE
+      - Professor in computer science M.K Chavan
+      - Information on M.K Chavan
 
 
   - intent: CSE_hod
@@ -265,7 +333,7 @@ nlu:
       - laboratories of cse dept
       - laborateries of cse department
       - how many labs in cse dept
-  
+
   #IT Department.
 
   - intent: IT_info
@@ -2048,6 +2116,8 @@ nlu:
       - Where I can get the Fee Structure?
       - How to get the Fee Structure of Walchand?
       - [Ff]ee [Ss]tructure.
+      - fee
+      - fee details
       - fee structure of walchand college of engineering?
       - how to get the fee structure of walchand?
       - where I can find the fee structure?
@@ -2323,6 +2393,214 @@ nlu:
       - Organization chart
       - org chart
       - authority chart
+
+ ##Gymkhana
+  - intent: ask_about_gymkhana
+    examples: |
+      - Can you tell me about Gymkhana?
+      - What is Gymkhana?
+      - I want to know about Gymkhana.
+      - What does the Gymkhana department do?
+      - gymkhana details?
+      - info on gymkhana
+      - gym
+      - college gym
+      - tell about gymkhana
+      - gymkhana activities?
+      - functions of gymkhana?
+      - what's gymkhana?
+      - tell me more about Gymkhana
+      - Gymkhana details
+      - info about Gymkhana
+      - what's Gymkhana?
+      - purpose of Gymkhana
+
+  - intent: ask_about_sports_facilities
+    examples: |
+      - What sports facilities are available?
+      - Can you tell me about the sports infrastructure?
+      - What indoor games are provided?
+      - What outdoor games can I play?
+      - Are there any gymnasiums?
+      - sports facilities available?
+      - sports infrastructure?
+      - indoor outdoor games?
+      - gym facilities?
+      - list sports equipment
+      - types of sports facilities
+      - sports amenities
+      - facilities for sports
+      - sports infrastructure details
+      - info on sports facilities
+
+  - intent: ask_about_sports_events
+    examples: |
+      - What sport events are organized?
+      - Can you tell me about the sports competitions?
+      - How can I participate in sports events?
+      - Are there any inter-collegiate tournaments?
+      - upcoming sports events?
+      - sports competitions?
+      - participate sports events?
+      - inter-collegiate sports?
+      - sports tournaments?
+      - athletics events?
+      - What sports events are held here?
+      - Can you list the sports competitions organized?
+      - How can I participate in sports events?
+      - Are there inter-collegiate sports tournaments?
+      - Information on sports meets, please.
+
+  - intent: ask_about_contact_information
+    examples: |
+      - How can I contact the Gymkhana department?
+      - What is the email address of the Gymkhana incharge?
+      - Can you provide me with the phone number of the Gymkhana department?
+      - Who is the chairman of the Students Extra-curricular Activity Committee?
+      - gymkhana contact?
+      - gymkhana email?
+      - gymkhana phone number?
+      - incharge of gymkhana?
+      - chairman students committee?
+      - Gymkhana contact info
+      - Gymkhana email
+      - Gymkhana phone number
+      - Students Extra-curricular Activity Committee chairman
+      - Gymkhana department contact
+
+  - intent: ask_about_objectives
+    examples: |
+      - What are the objectives of the Gymkhana department?
+      - How does Gymkhana contribute to student development?
+      - What skills do you aim to develop in students through sports?
+      - objectives of gymkhana?
+      - gymkhana's goals?
+      - gymkhana student development?
+      - skills development through sports?
+      - gymkhana's mission?
+      - What are the goals of the Gymkhana department?
+      - How does Gymkhana help in student development?
+      - What skills does Gymkhana aim to develop in students?
+
+  - intent: ask_about_achievements
+    examples: |
+      - Can you tell me about the achievements of the Gymkhana department?
+      - What were the notable accomplishments in sports last year?
+      - Have any students participated in national level tournaments?
+      - gymkhana achievements?
+      - sports accomplishments?
+      - students national level?
+      - gymkhana's successes?
+      - sports achievements?
+      - Can you share some achievements of the Gymkhana department?
+      - What are the notable accomplishments in sports last year?
+      - Have any students participated in national level tournaments?
+
+  - intent: ask_about_gymkhana_equipment
+    examples: |
+      - What equipment is available in the Gymkhana gym?
+      - Can you list the machines in the fitness center?
+      - What facilities are there for strength training?
+      - gym  equipment?
+      - fitness center machines?
+      - strength training facilities?
+      - gym equipment facilities?
+      - gymkhana gym equipment?
+      - What equipment is available in the Gymkhana gym?
+      - Can you list the machines in the fitness center?
+      - What facilities are there for strength training?
+
+  - intent: ask_about_membership
+    examples: |
+      - How can I join the Gymkhana?
+      - What is the procedure to become a member?
+      - Are there any fees for joining the sports facilities?
+      - join gymkhana?
+      - gymkhana membership?
+      - fees for sports facilities?
+      - becoming a member?
+      - membership procedure?
+      - How do I join the Gymkhana?
+      - What is the procedure for membership?
+      - Are there any fees for the sports facilities?
+
+  - intent: ask_for_help
+    examples: |
+      - I need help with sports registration.
+      - Can you guide me on how to join the cricket team?
+      - I am interested in athletics, whom should I contact?
+      - help with sports registration?
+      - join cricket team?
+      - interested in athletics?
+      - guidance on sports?
+      - sports registration help?
+      - I need assistance with sports registration.
+      - Can you guide me on joining the cricket team?
+
+  - intent: give_feedback
+    examples: |
+      - I had a great time at the sports event, thank you!
+      - The facilities in the gym are excellent.
+      - I think the sports department is doing a great job.
+      - The coaches are very helpful and knowledgeable.
+      - great time at sports event
+      - gym facilities excellent
+      - sports department great job
+      - coaches helpful knowledgeable
+      - positive sports experience
+      - I had a great experience at the sports event, thanks!
+
+  - intent: ask_for_location
+    examples: |
+      - Where is the Gymkhana department located?
+      - Can you give me directions to the sports ground?
+      - How do I get to the gym?
+      - gymkhana location?
+      - where is gymkhana?
+      - directions to sports ground?
+      - how to get to gym?
+      - find gymkhana department?
+      - sports facilities location?
+      - Where is the Gymkhana department situated?
+      - Can you direct me to the sports ground?
+
+  - intent: ask_about_training
+    examples: |
+      - Are there any training sessions for beginners?
+      - Can I get coaching for badminton?
+      - Who is the coach for the football team?
+      - training sessions beginners?
+      - coaching for badminton?
+      - coach for football team?
+      - start sports training?
+      - training programs?
+      - Are there beginner training sessions?
+      - Can I receive coaching for badminton?
+
+  - intent: ask_about_events_schedule
+    examples: |
+      - When is the next cricket match?
+      - Can you provide the schedule for the basketball tournament?
+      - What time does the athletics event start?
+      - next cricket match?
+      - schedule for basketball tournament?
+      - athletics event start time?
+      - sports events calendar?
+      - When is the upcoming cricket match?
+      - Can you share the basketball tournament schedule?
+
+  - intent: ask_about_health_and_safety
+    examples: |
+      - What safety measures are in place during sports activities?
+      - Are there any health guidelines for using the gym facilities?
+      - Is there a first aid kit available on the sports ground?
+      - safety measures sports?
+      - health guidelines gym?
+      - first aid sports ground?
+      - sports safety protocols?
+      - gym safety measures?
+      - What safety measures are implemented during sports activities?
+      - Are there health guidelines for the gym?
       
 
 # Infrastructure

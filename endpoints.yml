@@ -34,6 +34,8 @@
 
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/event-brokers
+action_endpoint:
+  url: "http://localhost:5055/webhook"
 
 #event_broker:
 #  url: localhost
