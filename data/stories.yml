@@ -765,3 +765,40 @@ stories:
   steps:
     - intent: College_infrastructure
     - action: utter_College_infrastructure
+
+# Hostel Details
+
+- story: Overall Hostel Details Path
+  steps:
+  - intent: ask_hostel_overall_details
+  - action: utter_ask_hostel_overall_details
+
+- story: Hostel Capacity Inquiry
+  steps:
+  - intent: ask_hostel_capacity
+  - action: utter_ask_hostel_capacity
+
+- story: Hostel Facilities Inquiry
+  steps:
+  - intent: ask_hostel_facilities
+  - action: utter_ask_hostel_facilities
+
+- story: Hostel Rules Inquiry
+  steps:
+  - intent: ask_hostel_rules
+  - action: utter_ask_hostel_rules
+
+- story: Hostel Administration Inquiry
+  steps:
+  - intent: ask_hostel_administration
+  - action: utter_ask_hostel_administration
+
+- story: Hostel Security Inquiry
+  steps:
+  - intent: ask_hostel_security
+  - action: utter_ask_hostel_security
+
+- story: Hostel Health Facilities Inquiry
+  steps:
+  - intent: ask_hostel_health_facilities
+  - action: utter_ask_hostel_health_facilities

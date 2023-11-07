@@ -2367,7 +2367,7 @@ nlu:
       - Student Entreprenureship details 
       - Entreprenureship details 
       - Entreprenureship info
-      - IEEE cell ?
+      - IIE cell ?
       - Incubation cell ?
       - startups for students ?
       - start ups 
@@ -2645,3 +2645,41 @@ nlu:
       - College area in acres?
       - Campus area in acres?
       
+#Hostel 
+
+  - intent: ask_hostel_overall_details
+    examples: |
+      - Can I get some information about the hostel facilities?
+      - I want to know about the hostels.
+      - Tell me about the hostel details.
+
+  - intent: ask_hostel_capacity
+    examples: |
+      - How many students can stay in the hostels?
+      - Hostel capacity
+      - What's the accommodation capacity for the boys' and girls' hostels?
+
+  - intent: ask_hostel_facilities
+    examples: |
+      - Can you list the hostel facilities?
+      - What amenities do the hostels offer?
+
+  - intent: ask_hostel_rules
+    examples: |
+      - Are there any specific rules for hostel admission?
+      - How are hostel admissions determined?
+
+  - intent: ask_hostel_administration
+    examples: |
+      - Who oversees the hostel management?
+      - What's the structure of the hostel administration?
+
+  - intent: ask_hostel_security
+    examples: |
+      - What security measures are in place at the hostels?
+      - How is the hostel secured?
+
+  - intent: ask_hostel_health_facilities
+    examples: |
+      - Are there medical facilities available in the hostel?
+      - What kind of health care is provided to hostel residents?
