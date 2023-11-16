@@ -2099,6 +2099,10 @@ nlu:
       - college admissions ug
       - admissions of undergraduate college
       - clg admission details of ug
+      - Dsy admission details and seats 
+      - DSY admission
+      - dsy admission details
+      - admission of dsy students
 
   - intent: Admission_PG_info
     examples: |
@@ -2645,3 +2649,79 @@ nlu:
       - College area in acres?
       - Campus area in acres?
       
+
+# General Questions
+
+  - intent: Dream_companies
+    examples: |
+      - what are dream companies of clg ?
+      - what are dream company of wce ?
+      - What companies are considered dream employers for college graduates?
+      - Which companies do students at WCE aspire to work for after graduation?
+      - Can you list the top dream companies for recent college graduates?
+      - What are the most sought-after companies for students from engineering colleges?
+      - Which organizations are dream companies for students at liberal arts colleges?
+      - What dream companies are known for their graduate programs and internships?
+      - Are there specific dream companies that recruit heavily from business schools?
+      - Which dream companies are popular among students for their work culture and opportunities?
+      - What are the dream companies for students specializing in fields like AI and data science?
+      - Which dream companies do students from West Coast Engineering College aim to join?
+      - Top graduate employers?
+      - WCE dream firms?
+      - Ideal tech companies?
+      - Dream finance employers?
+      - Best creative companies?
+      - Ideal startups?
+      - Popular media giants?
+      - Sought-after consultancies?
+      - Leading biotech companies?
+
+  - intent: Famous_places
+    examples: |
+      - what are Famous places in clg ?
+      - what are Famous places in wce ?
+      - Chill places in wce
+
+  - intent: JEE_addmission
+    examples: |
+      - Does jee student can take admission?
+      - jee admission
+      - jee can admit
+      - jee student can take admission?
+      - admission for jee student.
+      - can jee student take?
+      
+  - intent: Repeated_companies
+    examples: |
+      - Repeatedly visited companies
+      - Repeatedly visited companies of wce
+      - Common companies who visit to clg
+      - Companies who visit every year for placements
+      - Company which came for hiring every year
+
+  - intent: Extra_curricular
+    examples: |
+      - What are extra curriculum activities
+      - Extracurricular activities of college 
+      - Activities other than Academics
+      - Events of College
+      - What are events in college ?
+
+  - intent: Student_section_contact
+    examples: |
+      - Student section contact
+      - Student section contact details
+      - Student section details
+      - Mo no of student section
+      - Mobile no of student section
+      - Email of student section
+      - Mo no of student facility center
+      - email of student facility center
+      
+  - intent: College_Club_Details
+    examples: |
+      - Which clubs are available in college
+      - clubs available in college
+      - how many clubs are there in wce
+      - clubs in wce
+      - clubs in the walchand

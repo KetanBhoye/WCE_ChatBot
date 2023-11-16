@@ -765,3 +765,23 @@ stories:
   steps:
     - intent: College_infrastructure
     - action: utter_College_infrastructure
+
+
+# General Purpose
+
+- story: General_Purpose
+  steps:
+    - intent: Dream_companies
+    - action: utter_Dream_companies
+    - intent: Famous_places
+    - action: utter_Famous_places
+    - intent: JEE_addmission
+    - action: utter_JEE_addmission
+    - intent: Repeated_companies
+    - action: utter_Repeated_companies
+    - intent: Extra_curricular
+    - action: utter_Extra_curricular
+    - intent: Student_section_contact
+    - action: utter_Student_section_contact
+    - intent: College_Club_Details
+    - action: utter_College_Club_Details

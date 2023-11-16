@@ -154,6 +154,7 @@ intents:
   - Electrical_faculty_Mr_RG_Datar
   - Electrical_faculty_Ms_MM_Tahmankar
   - Electrical_faculty_Mr_MS_Mahagaonkar
+
 ##Civil Faculty
   - Civil_faculty_Dr_PG_Sonavane
   - Civil_faculty_Dr_SN_Tande
@@ -206,6 +207,17 @@ intents:
   - ask_about_training
   - ask_about_events_schedule
   - ask_about_health_and_safety
+
+# General Purpose
+  - College_Club_Details
+  - Student_section_contact
+  - Extra_curricular
+  - Repeated_companies
+  - JEE_addmission
+  - Famous_places
+  - Dream_companies
+
+
 responses:
   utter_greet:
     - text: "Hey! How are you?"
@@ -1725,7 +1737,62 @@ responses:
     - text: |
         Here are the details of College Infrastructure. [Click here] (https://project-wce.dreamkasper.com/pages/department-infrastructure)
         
+#General Purpose
+  utter_Dream_companies:
+    - text: |
+        * Dream companies for college graduates typically include multinational technology firms like Google and Apple,
+        top-tier consulting firms such as McKinsey and Bain, and financial powerhouses like Goldman Sachs and Morgan Stanley.
+        * At Walchand College of Engineering (WCE), students often aim for innovative tech companies, including cutting-edge startups in
+        Silicon Valley, established firms like Microsoft, and emerging leaders in renewable energy and robotics.
 
+  utter_Famous_places:
+    - text: |
+        Here are some famous places in WCE :
+          1. Sarswati Statue
+          2. Ganpati Mandir
+          3. Thinking Tree
+          4. WCE Library
+          5. Ground Track
+          6. Open Air Theatre
+          7. Tea stall (Known as Lipton)
+          8. Canteen Katta
+
+  utter_JEE_addmission:
+    - text: |
+        Yes, But it depends on college, if student has good score then you may try through ACAP.
+
+  utter_Repeated_companies:
+    - text: |
+        Mostly Visited Companies :
+          * Druva Softwares
+          * Nvidia
+          * Pubmatic
+          * Thoughtworks
+          * Siemens
+        For more info visit :
+          2020 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
+          2021 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
+          2022 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+          2023 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+
+  utter_Extra_curricular:
+    - text: |
+        In college, a wide array of extracurricular activities are available for students to engage in. These include significant
+        events such as college gatherings, as well as a variety of club events. For instance, the Acses club organizes an event 
+        known as 'Techumen,' which is one of the many opportunities for students to participate and showcase their talents outside of the traditional academic setting.
+        
+  utter_Student_section_contact:
+    - text: |
+        Student Section Contact info :
+            Mob No : 2332300243
+
+  utter_College_Club_Details:
+    - text: |
+        There are Many clubs in the college. Like Acses, WlUG, ACM, Codechef, Art Circle, For more info visit college site. 
+        
+        
+        
+        
 
 actions:
   - action_default_fallback
