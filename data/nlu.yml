@@ -169,6 +169,7 @@ nlu:
       - cse info
       - tell me about cse dept
 
+#Workin fine
 
 
   - intent: CSE_programs
@@ -186,7 +187,7 @@ nlu:
 
   #CSE Faculty Section.
 
-  - intent: CSE_Faculty
+  - intent: CSE_faculty
     examples: |
       - Who are CSE faculties?
       - cse faculties

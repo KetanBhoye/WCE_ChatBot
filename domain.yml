@@ -357,13 +357,18 @@ responses:
 
   utter_response_CSE_hod:
     - text: |
-        * Dr. Medha A. Shah serves as the Head of the Department of Computer Science and Engineering at Walchand College of Engineering, Sangli.
-        * Contact: 9423872296
-        * Email: medha.shah@walchandsangli.ac.in
-        * Her leadership plays a crucial role in the department's academic and research endeavors.
-        * Office: 0233-2303115
-        * More information can be found on the department's website at Department of Computer Science and Engineering.
+       * Dr. Medha A. Shah serves as the Head of the Department of Computer Science and Engineering at Walchand College of Engineering, Sangli.
+       * Contact: 9423872296
+       * Email: medha.shah@walchandsangli.ac.in
+       * Her leadership plays a crucial role in the department's academic and research endeavors.
+       * Office: 0233-2303115
+       * More information can be found on the department's website at Department of Computer Science and Engineering.
       image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1594382795416.jpg"
+      buttons:
+        - title: "See All CSE Faculty?"
+          payload: "/CSE_faculty"
+
+
 
   utter_response_CSE_faculty_BF_Momin:
     - text: |
@@ -386,7 +391,8 @@ responses:
         * Dr. M. A. Shah (H.O.D. CSE)
           - Qualifications: Ph.D. in CSE, M.E. in CSE
           - Research Area: Expertise lies in High-Performance Computing, Cloud computing, and Networking.
-      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1594379441535.png"
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1594382795416.jpg
+      "
 
   utter_response_CSE_Faculty_NL_Gavankar:
     - text: |
