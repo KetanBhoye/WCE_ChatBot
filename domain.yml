@@ -101,14 +101,12 @@ intents:
   - Examination_Staff
   - Examination_rules
 
-
   - Entreprenureship_info
 
   - Director_info
   - Organogram_Chart
 
   - College_infrastructure
-
 
  ##IT faculty
   - IT_faculty_Dr_Kulkarni_Dinesh
@@ -217,6 +215,16 @@ intents:
   - Famous_places
   - Dream_companies
 
+
+
+#Hostel
+  - ask_hostel_overall_details
+  - ask_hostel_capacity
+  - ask_hostel_facilities
+  - ask_hostel_rules
+  - ask_hostel_administration
+  - ask_hostel_security
+  - ask_hostel_health_facilities
 
 responses:
   utter_greet:
@@ -1736,7 +1744,7 @@ responses:
   utter_College_infrastructure:
     - text: |
         Here are the details of College Infrastructure. [Click here] (https://project-wce.dreamkasper.com/pages/department-infrastructure)
-        
+
 #General Purpose
   utter_Dream_companies:
     - text: |
@@ -1745,6 +1753,14 @@ responses:
         * At Walchand College of Engineering (WCE), students often aim for innovative tech companies, including cutting-edge startups in
         Silicon Valley, established firms like Microsoft, and emerging leaders in renewable energy and robotics.
 
+#Hostel Details
+
+  utter_ask_hostel_overall_details:
+    - text: |
+        * The college hostel, spanning 18 acres, offers separate accommodation for 334 boys and 612 girls. Admissions are merit-based with reserved category seats.
+        * Facilities include messes with stainless-steel utensils, furnished rooms with vitrified flooring, Wi-Fi, and purified water. Each room is equipped with geysers and solar equipment. The administration committee, led by the Honorable Director, ensures the well-being of residents with a 24-hour security system, CCTV surveillance, and a house-dispensary for health care. Additionally, there are playgrounds and gymnasiums for students.
+        * For a glimpse of the hostel, visit these link - [Click here](https://images.dreamkasper.com/walchandsangli/documents/Academic%20and%20Examination%20RRs%20AY%2022-231678857391785.pdf)
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1689246996904.png"
   utter_Famous_places:
     - text: |
         Here are some famous places in WCE :
@@ -1756,6 +1772,29 @@ responses:
           6. Open Air Theatre
           7. Tea stall (Known as Lipton)
           8. Canteen Katta
+
+  utter_ask_hostel_capacity:
+    - text: The boys' hostel can accommodate 334 students, while the girls' hostel has a capacity for 612 students. For more details, check out the hostel images.For a glimpse of the hostel, visit these link - [Click here](https://images.dreamkasper.com/walchandsangli/documents/Academic%20and%20Examination%20RRs%20AY%2022-231678857391785.pdf)
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1689246996904.png"
+
+  utter_ask_hostel_facilities:
+    - text: Hostels offer a mess with hygienic stainless-steel utensils, Wi-Fi and wired internet, purified water, and furnished rooms. More information can be found in the images.For a glimpse of the hostel, visit these link - [Click here](https://images.dreamkasper.com/walchandsangli/documents/Academic%20and%20Examination%20RRs%20AY%2022-231678857391785.pdf)
+      image: "https://www.collegebatch.com/static/clg-gallery/walchand-college-of-engineering-sangli-249263.jpg"
+
+  utter_ask_hostel_rules:
+    - text: Hostel admissions are merit-based with reserved seats for certain categories. An anti-ragging squad ensures compliance with government regulations.For a glimpse of the hostel, visit these link - [Click here](https://images.dreamkasper.com/walchandsangli/documents/Academic%20and%20Examination%20RRs%20AY%2022-231678857391785.pdf)
+
+  utter_ask_hostel_administration:
+    - text: The Hostel Administration Committee, including the Chief Rector and Wardens, is chaired by the Honorable Director.
+
+  utter_ask_hostel_security:
+    - text: The hostels are secured with CCTV surveillance and separate 24-hour security for boys’ and girls’ hostels. Each student is issued a hostel ID card for access.
+
+  utter_ask_hostel_health_facilities:
+    - text: A house-dispensary is on campus, with a doctor available for sick students, providing free medications and maintaining hygienic conditions.For a glimpse of the hostel, visit these link - [Click here](https://images.dreamkasper.com/walchandsangli/documents/Academic%20and%20Examination%20RRs%20AY%2022-231678857391785.pdf)
+
+
+
 
   utter_JEE_addmission:
     - text: |
@@ -1780,7 +1819,7 @@ responses:
         In college, a wide array of extracurricular activities are available for students to engage in. These include significant
         events such as college gatherings, as well as a variety of club events. For instance, the Acses club organizes an event 
         known as 'Techumen,' which is one of the many opportunities for students to participate and showcase their talents outside of the traditional academic setting.
-        
+
   utter_Student_section_contact:
     - text: |
         Student Section Contact info :
