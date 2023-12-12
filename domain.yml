@@ -85,7 +85,6 @@ intents:
   - Admission_document
   - Admission_process_date
   - Scholarships
-  - CET_admission
 
   - Library_info
   - Library_librarian
