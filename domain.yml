@@ -213,6 +213,7 @@ intents:
   - Extra_curricular
   - Repeated_companies
   - JEE_addmission
+  - CET_addmission
   - Famous_places
   - Dream_companies
 
@@ -229,7 +230,7 @@ intents:
 
 responses:
   utter_greet:
-    - text: "Hey! How are you?"
+    - text: "Hey! How can i assist you?"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -242,10 +243,10 @@ responses:
     - text: "Great, carry on!"
 
   utter_goodbye:
-    - text: "Bye"
+    - text: "Bye, if you want to ask anything I am here for you"
 
   utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
+    - text: "I am a WCE chatbot powered by Rasa, Here to resolve your queries."
 
   utter_clg_name:
     - text: "The college name is Walchand College of Engineering, Sangli, and it is commonly referred to as WCE for short."
@@ -302,6 +303,7 @@ responses:
           - A. K. Dani, a dedicated leader
         * Their shared vision of promoting education and technical skills led to the establishment of the college in 1947.
         * Today, the institution continues to honor their legacy by providing high-quality education and contributing to the advancement of technical education in India.
+      image: "https://images.moneycontrol.com/static-mcnews/2022/05/Seth-Walchand-Hirachand-Doshi.jpg?impolicy=website&width=770&height=431"
 
   utter_response_college_reach:
     - text: |
@@ -319,6 +321,7 @@ responses:
         * Additionally, it serves as a recognized research center for doctoral programs and has received grants from government agencies such as AICTE, DST, and DRDO since 1986.
         * You can visit the website for more info [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering).
 
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1594367727372.jpg"
   utter_response_CSE_programs:
     - text: |
         * The Department of Computer Science and Engineering at Walchand College of Engineering offers two main programs:
@@ -328,8 +331,15 @@ responses:
 
   utter_response_CSE_syllabus:
     - text: | 
-        Syllabus of CSE: Third Year B.Tech. Computer Science and Engineering 
-        * [here](https://images.dreamkasper.com/walchandsangli/documents/Computer%20Sc1679307350555.pdf)
+        Syllabus of CSE:
+        First Year B.Tech Computer Science and Engineering
+        [here](http://www.walchandsangli.ac.in/documents/Academics/2324/UG%20CC/5.%20CSE_FY%20BTech%20_Syllabus_AY%2023-24%20Updated_compressed.pdf)
+        Second Year B.Tech Computer Science and Engineering
+        [here](http://www.walchandsangli.ac.in/documents/Academics/2223/UG%20CC/SY_BTech_CSE_Syllabus_2022-23.pdf)
+        Third Year B.Tech. Computer Science and Engineering 
+        [here](http://www.walchandsangli.ac.in/documents/Academics/2324/UG%20CC/5.%20CSE_TY_Syllabus%20AY%2023-24.pdf)
+        Third Year B.Tech. Computer Science and Engineering 
+        [Final Year B.Tech](http://www.walchandsangli.ac.in/documents/Academics/2223/UG%20CC/Final_Year_BTech_CSE_Syllabus_2022-23.pdf)
 
   utter_response_CSE_faculty:
     - text: |
@@ -421,15 +431,15 @@ responses:
 
   utter_response_CSE_labs:
     - text:  | 
-        1 Innovation and Project Laboratory (CCF Phase - I)
-        2 Networking and IoT Laboratory
-        3 Artificial Intelligence and Machine Learning Laboratory (CCF Phase - I)
-        4 Database Engineering Laboratory
-        5 Image Processing and Computer Vision Laboratory
-        6 Advanced Software Engineering Laboratory
-        7 Programming Laboratory
-        8 PG Computing Laboratory
-        9 PG Research Laboratory
+        1 Innovation and Project Laboratory (CCF Phase - I)[here](https://images.dreamkasper.com/walchandsangli/tinyMNC/1602573983177.jpg)
+        2 Networking and IoT Laboratory[here](https://images.dreamkasper.com/walchandsangli/tinyMNC/1602574677528.jpg)
+        3 Artificial Intelligence and Machine Learning Laboratory (CCF Phase - I)[here](https://images.dreamkasper.com/walchandsangli/tinyMNC/1602579841933.jpg)
+        4 Database Engineering Laboratory[here](https://images.dreamkasper.com/walchandsangli/tinyMNC/1602580749714.jpg)
+        5 Image Processing and Computer Vision Laboratory[here](https://project-wce.dreamkasper.com/pages/CSE_LAB_IPCVLab)
+        6 Advanced Software Engineering Laboratory[here](https://project-wce.dreamkasper.com/pages/CSE_LAB_ASELab)
+        7 Programming Laboratory[here](https://images.dreamkasper.com/walchandsangli/tinyMNC/1602590213695.jpg)
+        8 PG Computing Laboratory[here](https://images.dreamkasper.com/walchandsangli/tinyMNC/1602590772046.jpg)
+        9 PG Research Laboratory[here](https://images.dreamkasper.com/walchandsangli/tinyMNC/1602591182991.jpg)
         * You can visit [here](https://project-wce.dreamkasper.com/pages/computer-science-engineering)"
 
 #IT Department
@@ -451,7 +461,7 @@ responses:
           - Honor Courses: IT System and Management (ITSM), Blockchain Technology (BCT), and Software Product Management (SPM)
           - Minor Courses: Artificial Intelligence – Machine Learning (AI-ML) and Web Development (WD)
           - for more info visit [here](https://project-wce.dreamkasper.com/pages/information-engineering)
-
+      image: https://images.dreamkasper.com/walchandsangli/documents/IT_slider11596028436589.jpg
   utter_response_IT_Labs:
     - text: |
         * Laboratories: 
@@ -588,7 +598,7 @@ responses:
              - [Vidwan Profile](https://vidwan.inflibnet.ac.in/profile/139348)
           9. Bio-sketch:
              - Dr. Ravindra R. Rathod: Head of IT Department with 16 years UG, 6 years PG teaching experience, 1 patent, 6 research papers, and active in international journal and conference roles.
-
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1595748885790.png"
 
   utter_response_IT_Mission:
     - text: |
@@ -622,7 +632,7 @@ responses:
         and Signal Processing, Embedded Systems and VLSI, Instrumentation and Control Systems.
         
         * You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)
-
+      image: "https://images.dreamkasper.com/walchandsangli/documents/electronics_Slider11596029211209.jpg"
   utter_response_ETC_hod:
     - text: | 
         * Dr.S. D. Ruikar (HOD & Associate Professor)  Ph.D. (Electronics Engineering).
@@ -641,7 +651,7 @@ responses:
         Website: http://www.walchandsangli.ac.in
         Office: 0233 2300383
         You can visit [here](https://project-wce.dreamkasper.com/pages/en_sdr)
-
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1602483081555.png"
   utter_response_ETC_programs:
     - text: |
          B. Tech(Electronics) (1986) Intake - 60
@@ -831,7 +841,7 @@ responses:
         * The indigenously developed laboratory setups are attracting the attention of various institutes nearby.
         * The department is always enthusiastic about conducting various courses and workshops for the faculty and students to permeate advances in technology. All undergraduate, postgraduate, and Ph.D. students thereby get a full opportunity to participate in co-curricular and extra-curricular activities leading to holistic personality development.
         * You can visit [here](https://project-wce.dreamkasper.com/pages/electrical-engineering)."
-
+      image: "https://images.dreamkasper.com/walchandsangli/documents/electrical Dept1596026131031.png"
   utter_response_ELE_hod:
     - text: |
         * Dr. Ramchandra P. Hasbe
@@ -846,7 +856,7 @@ responses:
           - Website: [https://images.dreamkasper.com:8087/pages/el_rps](https://images.dreamkasper.com:8087/pages/el_rps)
           - Office: 0233-2300933
         * You can visit [here](https://project-wce.dreamkasper.com/pages/el_rph).
-
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1599474454146.jpg"
 ##Faculty
 
   utter_about_faculty_Dr_DS_More:
@@ -1074,7 +1084,7 @@ responses:
             3 Power Quality and Harmonics Lab
             4 Siemens Automation and Drives Lab
             
-            You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)"
+            You can visit [here](https://project-wce.dreamkasper.com/pages/electronics-engineering)
 
 
   #Civil Dept
@@ -1087,7 +1097,7 @@ responses:
           * Faculty members of the department are dedicated to imparting the knowledge and skills necessary for students to become accomplished civil engineers.
           * As a result, the department has become a cradle for engineers in South Maharashtra, providing industry-ready graduates.
           * You can visit [here](https://project-wce.dreamkasper.com/pages/civil-engineering)."
-
+        image: "https://images.dreamkasper.com/walchandsangli/documents/Civildept1596027389694.jpg"
   utter_response_CE_hod:
       - text: |
             name: Prof. (Dr.) S. N. Tande
@@ -1096,7 +1106,7 @@ responses:
             fax: 0233-2300831
             mobile: +91-9422613886
             email: hod.civil@walchandsangli.ac.in
-
+        image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1604041293767.jpg"
   utter_response_CE_programs:
       - text: |
           * B. Tech(Civil) (1947)
@@ -1228,7 +1238,7 @@ responses:
         * The department has been selected for the AICTE’s National Doctoral Fellowship (NDF) Scheme.
         * The department has modern infrastructure with well-equipped laboratories and computational facilities with up-to-date hardware and software resources.
         * The undergraduate program of Mechanical Engineering Department is NBA accredited up to 2022.
-
+      image: "https://images.dreamkasper.com/walchandsangli/documents/Mechanical_slider11596029714482.jpg"
   utter_response_ME_hod:
     - text: |
         * Dr. S. U. Sapkal
@@ -1236,7 +1246,7 @@ responses:
         * Academic Qualification - Ph.D. (Mechanical)
         * Research Area -
              Manufacturing and Industrial Engineering
-
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1595828442214.jpg"
   utter_response_ME_programs:
     - text: |
         * 1. Undergraduate Program:
@@ -1487,7 +1497,7 @@ responses:
         Additional Seats: Five seats for Seth Walchand Hirachand Memorial Trust and two seats for D.D. Daruwala Memorial Trust.
         
         Visit for more info (https://project-wce.dreamkasper.com/pages/ug_admission)
-                
+
   utter_response_Admission_PG_info:
       - text: |
           Postgraduate Programs:
@@ -1531,19 +1541,20 @@ responses:
 
   utter_response_Admission_fee_structure:
         - text: |
-            Visit for more info (https://project-wce.dreamkasper.com/pages/ug_admission#)
+            Visit for more info [here](https://project-wce.dreamkasper.com/pages/ug_admission#)
 
   utter_admission_document:
-    - text: "Visit for more info (https://project-wce.dreamkasper.com/pages/ug_admission)"
+    - text: |
+            Visit for more info [here](https://project-wce.dreamkasper.com/pages/ug_admission)
 
   utter_admission_process_date:
     - text: "Visit for more info (https://project-wce.dreamkasper.com/pages/ug_admission)"
 
   utter_admission_location:
     - text: The admission is going on in tilak hall. If you want to know the location click on the below google map link
-        (https://www.google.com/maps/place/16.844411100312666,74.60121807395183)
+        [here](https://www.google.com/maps/place/16.844411100312666,74.60121807395183)
   utter_scholarships:
-    - text: For more info visit (https://project-wce.dreamkasper.com/pages/scholarships)
+    - text: For more info visit [here](https://project-wce.dreamkasper.com/pages/scholarships)
 
   utter_Library_info:
     - text: A New state of art Library worth 4,680 sq.mt. Constructed is a generous donation received from “Walchand Hirachand Memorial Trust”
@@ -1552,7 +1563,7 @@ responses:
             accumulated over last six decades. It subscribes to 90 Technical, 8 Science and 7 General Journal / Magazines. This library is member
             of INDEST under which we receive 36390  Online journals including IEEE(464), IEEE Conference(19407),  ASCE(36), ASME (30), Science Direct(275)
             and  nlist.inflibnet.ac.in (6000) and 2325 e-books and nlist.inflibnet.ac.in (3135000).
-
+      image: "https://www.collegebatch.com/static/clg-gallery/walchand-college-of-engineering-sangli-249259.jpg"
   utter_Library_librarian:
     - text: Mr. S. B. Agawane
 
@@ -1654,34 +1665,23 @@ responses:
   utter_Placement_2023:
     - text: |
         Placements details are as follows :
-        2020 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
-        2021 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
-        2022 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
-        2023 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+        2023 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
 
   utter_Placement_2022:
     - text: |
         Placements details are as follows :
-        2020 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
-        2021 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
-        2022 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
-        2023 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+        2022 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+       
 
   utter_Placement_2021:
     - text: |
         Placements details are as follows :
-        2020 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
-        2021 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
-        2022 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
-        2023 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+        2021 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
 
   utter_Placement_2020:
     - text: |
         Placements details are as follows :
-        2020 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
-        2021 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
-        2022 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
-        2023 : (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+        2020 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
 
   utter_Entreprenureship_info:
     - text: |
@@ -1751,6 +1751,7 @@ responses:
   utter_College_infrastructure:
     - text: |
         Here are the details of College Infrastructure. [Click here] (https://project-wce.dreamkasper.com/pages/department-infrastructure)
+        [PlayVideo](https://www.youtube.com/watch?v=1osWfayuAyg)
 
 #General Purpose
   utter_Dream_companies:
@@ -1807,6 +1808,10 @@ responses:
     - text: |
         Yes, But it depends on college, if student has good score then you may try through ACAP.
 
+  utter_CET_Admission:
+    - text: |
+        Yes, Students with good cet percentile can get admission in WCE, they're needed to go through ACAP process.
+
   utter_Repeated_companies:
     - text: |
         Mostly Visited Companies :
@@ -1834,7 +1839,7 @@ responses:
 
   utter_College_Club_Details:
     - text: |
-        There are Many clubs in the college. Like Acses, WlUG, ACM, Codechef, Art Circle, For more info visit college site. 
+        There are Many clubs in the college. Like Acses, WlUG, ACM, Codechef, Art Circle, For more info visit college site.
   utter_CET_admission:
     - text: |
         Walchand College of Engineering Sangli admissions are provided to candidates who meet the eligibility criteria determined by the college.

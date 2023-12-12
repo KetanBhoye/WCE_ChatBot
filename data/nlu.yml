@@ -7,8 +7,7 @@ nlu:
       - hello
       - hi
       - hii
-      - hiii
-      - hieee
+      - hiiiiiiiiiiiiiiii
       - hello there
       - good morning
       - good evening
@@ -37,6 +36,9 @@ nlu:
     examples: |
       - yes
       - y
+      - ok
+      - okay
+      - good
       - indeed
       - of course
       - that sounds good
@@ -89,6 +91,7 @@ nlu:
   - intent: bot_challenge
     examples: |
       - are you a bot?
+      - who are you
       - are you a human?
       - am I talking to a bot?
       - am I talking to a human?
@@ -107,7 +110,6 @@ nlu:
       - What degree programs does this college offer?
       - What are the options for degrees at this institution?
       - Could you list the different degree types offered by this college?
-      - cse programs
       - cse courses
 
   - intent: clg_academic
@@ -120,6 +122,8 @@ nlu:
     examples: |
       - Tell me about Walchand College of Engineering.
       - WCE
+      - college info
+      - college information
       - What can you tell me about this college?
       - Describe the college.
 
@@ -177,8 +181,9 @@ nlu:
 
   - intent: CSE_programs
     examples: |
-      -what programs offered by CSE Department
-      -programs offered by cse department
+      - what programs offered by CSE Department
+      - programs offered by cse department
+      - cse programs
 
   - intent: CSE_syllabus
     examples: |
@@ -2261,7 +2266,9 @@ nlu:
       - placement record of 22-23
       - placements of 22 23 batch
       - placement info of academic year 2023
-      - placement record 
+      - placement record
+      - placement
+      - wce placement
       - placement 2023
       - placement details 2023
       - placement details 22 23
@@ -2412,6 +2419,7 @@ nlu:
       - gymkhana details?
       - info on gymkhana
       - gym
+      - gymkhana
       - college gym
       - tell about gymkhana
       - gymkhana activities?
@@ -2434,6 +2442,7 @@ nlu:
       - sports infrastructure?
       - indoor outdoor games?
       - gym facilities?
+      - sports dept
       - list sports equipment
       - types of sports facilities
       - sports amenities
@@ -2652,7 +2661,7 @@ nlu:
       - Is the college website available and regularly updated, and if so, what is the website address?
       - College area in acres?
       - Campus area in acres?
-      
+
 #Hostel
 
   - intent: ask_hostel_overall_details
@@ -2660,6 +2669,7 @@ nlu:
       - Can I get some information about the hostel facilities?
       - I want to know about the hostels.
       - Tell me about the hostel details.
+      - hostel information
 
   - intent: ask_hostel_capacity
     examples: |
@@ -2724,17 +2734,6 @@ nlu:
       - what are Famous places in wce ?
       - Chill places in wce
 
-
-  - intent: CET_admission
-    examples: |
-      - Does CET student can take admission?
-      - CET students
-      - Admission of CET students
-      - 12th std studnet admission
-      - cet exam admission
-      - can 12th complete student take admission?
-      - CET admission
-
   - intent: JEE_addmission
     examples: |
       - Does jee student can take admission?
@@ -2743,6 +2742,17 @@ nlu:
       - jee student can take admission?
       - admission for jee student.
       - can jee student take?
+
+  - intent: CET_addmission
+    examples: |
+      - Does CET student can take admission?
+      - CET admission
+      - CET can admit
+      - cet admission
+      - cet entrance
+      - CET student can take admission?
+      - admission for CET student.
+      - can CET student take?
 
   - intent: Repeated_companies
     examples: |
