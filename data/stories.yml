@@ -627,8 +627,7 @@ stories:
     - action: utter_admission_location
     - intent: Scholarships
     - action: utter_scholarships
-    - intent: CET_admission
-    - action: utter_CET_admission
+
 
 - story: Examination_Section
   steps:

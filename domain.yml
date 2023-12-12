@@ -1807,10 +1807,6 @@ responses:
     - text: |
         Yes, But it depends on college, if student has good score then you may try through ACAP.
 
-  utter_CET_Admission:
-    - text: |
-        Yes, Students with good cet percentile can get admission in WCE, they're needed to go through ACAP process.
-
   utter_Repeated_companies:
     - text: |
         Mostly Visited Companies :
@@ -1839,7 +1835,7 @@ responses:
   utter_College_Club_Details:
     - text: |
         There are Many clubs in the college. Like Acses, WlUG, ACM, Codechef, Art Circle, For more info visit college site.
-  utter_CET_admission:
+  utter_CET_Admission:
     - text: |
         Walchand College of Engineering Sangli admissions are provided to candidates who meet the eligibility criteria determined by the college.
         The institute accepts MHT CET and JEE Main scores for admission to the B. Tech programme
