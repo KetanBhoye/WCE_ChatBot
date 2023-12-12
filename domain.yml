@@ -85,6 +85,7 @@ intents:
   - Admission_document
   - Admission_process_date
   - Scholarships
+  - CET_admission
 
   - Library_info
   - Library_librarian
@@ -1834,7 +1835,13 @@ responses:
   utter_College_Club_Details:
     - text: |
         There are Many clubs in the college. Like Acses, WlUG, ACM, Codechef, Art Circle, For more info visit college site. 
-        
+  utter_CET_admission:
+    - text: |
+        Walchand College of Engineering Sangli admissions are provided to candidates who meet the eligibility criteria determined by the college.
+        The institute accepts MHT CET and JEE Main scores for admission to the B. Tech programme
+        Candidate should obtain non zero positive score in JEE Main Paper I or the candidate should have appeared in all the subjects in 
+        CET and should obtain non zero score in CET conducted by the Competent Authority. However, preference shall be given to the candidate
+        obtaining non zero positive score in JEE (Main) Paper I over the candidates who obtained non zero score in CET.
         
         
         

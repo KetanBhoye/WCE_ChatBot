@@ -6,6 +6,9 @@ nlu:
       - hey
       - hello
       - hi
+      - hii
+      - hiii
+      - hieee
       - hello there
       - good morning
       - good evening
@@ -2720,6 +2723,17 @@ nlu:
       - what are Famous places in clg ?
       - what are Famous places in wce ?
       - Chill places in wce
+
+
+  - intent: CET_admission
+    examples: |
+      - Does CET student can take admission?
+      - CET students
+      - Admission of CET students
+      - 12th std studnet admission
+      - cet exam admission
+      - can 12th complete student take admission?
+      - CET admission
 
   - intent: JEE_addmission
     examples: |
