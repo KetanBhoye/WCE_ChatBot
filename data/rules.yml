@@ -11,3 +11,9 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Ask GPT-4 fallback
+  steps:
+    - intent: nlu_fallback
+    - action: action_cohere_fallback
+

@@ -28,6 +28,7 @@ intents:
   - CSE_faculty_AR_Surve
   - CSE_Faculty_MA_Shah
   - CSE_Faculty_NL_Gavankar
+  - CSE_Faculty_PD_Mundada
   - CSE_Faculty_MK_Chavan
   - CSE_missions
   - CSE_visions
@@ -226,6 +227,7 @@ intents:
   - ask_hostel_administration
   - ask_hostel_security
   - ask_hostel_health_facilities
+  - dean
 
 responses:
   utter_greet:
@@ -411,6 +413,16 @@ responses:
           - Research Area: Specializes in Image Processing, Remote Sensing, and GIS.
       image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1596390175386.jpg"
 
+  utter_response_CSE_Faculty_PD_Mundada:
+    - text: |
+          Name: Miss Pooja D Mundada
+          Designation: Assistant Professor (Contractual)
+          Qualification: M.Tech (CSE), B.Tech (CSE)
+          Contact:
+          Email: poojamundada5@gmail.com, pooja.mundada@walchandsangli.ac.in
+          Phone: 7083818238
+          Research Focus: Image Processing, AI, Deep Learning; Skills in Computer Graphics and Networks.
+      image: "https://images.dreamkasper.com/walchandsangli/tinyMNC/1594385910613.jpg"
   utter_response_CSE_Faculty_MK_Chavan:
     - text: |
         * Mr. M. K. Chavan (Assistant Professor)
@@ -665,10 +677,16 @@ responses:
         His research area includes Digital Image processing and Biomedical Signal Processing.
 
   utter_about_faculty_Mr_SB_Dhaigude:
-    - text: >
-        Mr. S. B. Dhaigude is an Associate Professor in Electronics.
-        He holds a degree in M.E. in Electronics.
-        His research area is focused on Image Processing.
+    - text: |
+        Name: Prof. Sanjay B. Dhaigude
+        Designation: Dean (Corporate Relations, Alumni and Student Careers)
+        Contact:
+          Email:
+              tpo@walchandsangli.ac.in
+              deancas@walchandsangli.ac.in
+              sanjay.walchand@gmail.com
+          Mobile: 9422615070, 9158357070
+      image: "http://www.walchandsangli.ac.in/TrainingandPlacement/sbd140923.jpg"
 
   utter_about_faculty_Mr_NV_Marathe:
     - text: >
@@ -1665,21 +1683,31 @@ responses:
     - text: |
         Placements details are as follows :
         2023 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
-
+        2022 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+        2021 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pdf)
+        2020 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
   utter_Placement_2022:
     - text: |
         Placements details are as follows :
+        2023 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
         2022 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+        2021 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pdf)
+        2020 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
        
 
   utter_Placement_2021:
     - text: |
         Placements details are as follows :
-        2021 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pd
-
+        2023 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+        2022 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+        2021 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pdf)
+        2020 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
   utter_Placement_2020:
     - text: |
         Placements details are as follows :
+        2023 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placement%202022-23%20(7th%20July%20-%2016th%20March%202023).pdf)
+        2022 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE%20Placements%202021-22.pdf)
+        2021 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2020-21.pdf)
         2020 (Here)(http://www.walchandsangli.ac.in/TrainingandPlacement/WCE-PLACEMENT-2019-20.pdf)
 
   utter_Entreprenureship_info:
@@ -1687,7 +1715,17 @@ responses:
         Walchand College of Engineering College has IEEE cell for Entreprenureship oportunities for students.
         Click(Here)to know more about IEE Cell(https://project-wce.dreamkasper.com/pages/iee-cell)
         
-
+  utter_dean:
+    - text: |
+        Name: Prof. Sanjay B. Dhaigude
+        Designation: Dean (Corporate Relations, Alumni and Student Careers)
+        Contact:
+          Email:
+              tpo@walchandsangli.ac.in
+              deancas@walchandsangli.ac.in
+              sanjay.walchand@gmail.com
+          Mobile: 9422615070, 9158357070
+      image: "http://www.walchandsangli.ac.in/TrainingandPlacement/sbd140923.jpg"
 
 ##Gymkahana
 
@@ -1844,10 +1882,10 @@ responses:
         obtaining non zero positive score in JEE (Main) Paper I over the candidates who obtained non zero score in CET.
         
         
-        
-
 actions:
-  - action_default_fallback
+  - action_cohere_fallback
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -119,6 +119,11 @@ stories:
     - intent: CSE_Faculty_NL_Gavankar
     - action: utter_response_CSE_Faculty_NL_Gavankar
 
+- story: CSE_Faculty_PD_Mundada_story
+  steps:
+    - intent: CSE_Faculty_PD_Mundada
+    - action: utter_response_CSE_Faculty_PD_Mundada
+
 - story: CSE_Faculty_MK_Chavan_story
   steps:
     - intent: CSE_Faculty_MK_Chavan
@@ -667,6 +672,8 @@ stories:
     - action: utter_Placement_2021
     - intent: Placement_2020
     - action: utter_Placement_2020
+    - intent: dean
+    - action: utter_dean
 
 # Entreprenureship
 
