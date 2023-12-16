@@ -1,0 +1,5 @@
+ python -m http.server
+ 
+ rasa run -m models --enable-api --cors "*" --debug
+ 
+rasa run --enable-api -p 5055
