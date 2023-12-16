@@ -10,7 +10,8 @@ WCE Quick Assist is an AI-driven chatbot tailored for college website navigation
 - *Multi-platform Integration*: Easily integrates with different digital platforms.
 
 ## System Architecture
-![System Architecture](![image](https://github.com/KetanBhoye/WCE_ChatBot/assets/77838645/497fe203-38e0-44ee-8e68-676fc957d00f)
+![image](https://github.com/KetanBhoye/WCE_ChatBot/assets/77838645/497fe203-38e0-44ee-8e68-676fc957d00f)
+
 )
 
 ## Technology Stack
@@ -22,7 +23,9 @@ WCE Quick Assist is an AI-driven chatbot tailored for college website navigation
 
 ## Installation
 
-```bash
+## Installation
+
+
 git clone [repository-link](https://github.com/KetanBhoye/WCE_ChatBot/)
 pip install rasa
 # Create and activate a virtual environment.
@@ -31,6 +34,7 @@ rasa shell # To run and test the model.
 rasa run -m models --enable-api --cors "*" --debug # Start REST API server
 
 # Go to the GUI directory and update the URL in the Post request with your request opened in localhost.
+
 
 ##Demo
 ![image](https://github.com/KetanBhoye/WCE_ChatBot/assets/77838645/5f61c613-6af7-45ea-9b7d-1e224de46950)
