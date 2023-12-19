@@ -37,6 +37,13 @@
 action_endpoint:
   url: "http://localhost:5055/webhook"
 
+# Use NGINX as a reverse proxy to manage CORS
+models:
+  url: "https://wcequickassist.me/models/default"
+  # Your other configurations here
+
+# You'll need to configure your NGINX server to proxy requests to Rasa
+
 #event_broker:
 #  url: localhost
 #  username: username
