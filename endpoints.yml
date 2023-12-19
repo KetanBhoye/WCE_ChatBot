@@ -35,13 +35,8 @@
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/event-brokers
 action_endpoint:
-  url: "https://64.227.142.116:5005/webhooks/rest/webhook"
+  url: "http://localhost:5055/webhook"
 
-
-cors:
-  enabled: true
-  allow_origins:
-    - "https://wce-quick-assist-gui.vercel.app/"  # Replace this with your frontend's domain
 #event_broker:
 #  url: localhost
 #  username: username
